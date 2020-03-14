@@ -1,0 +1,235 @@
+{
+    "name": "MessinaCombatEvents",
+    "CardType": "",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [""],
+    "Speakers": [
+                  {
+                    "name": "Messina",
+                    "postName": "",
+                    "SpeakerType": "Monster"
+                  }
+                ],
+    "EventText": [        
+					  {
+						"NameOfScene": "Electrified",
+						"theScene":["ChangeMonsterArousal",
+								"75",
+								"ChangeImageLayer", "Expression", "ShyBlush", 
+								"FocusedSpeaks",
+								"SwapLineIf", "Random",
+								"'Ah...♥ C-could you hold back, please?♥'",
+                                "'Kyaah!♥ I- I didn't know heroes used electric magic...♥'",
+                                "'Ah..!♥ N-no more- kya-!♥'",
+								"endSwap"
+                                  ]
+					  },
+					  {
+						"NameOfScene": "VortexFinger",
+						"theScene":["SkipPlayerAttack",
+										"You move in to finger Messina but the swirling mass of her tentacles makes it impossible to reach her pussy!",
+								"ChangeImageLayer", "Expression", "Embarrassed", 
+								"FocusedSpeaks",
+								"SwapLineIf", "Random",
+								"'Hehe...♥ Are you lost..?♥'",
+                                "'These tentacles... are my shield...♥'",
+                                "'You won't... find a way in... that easily...'",
+								"endSwap"										 
+                                  ]
+					  },
+					  {
+						"NameOfScene": "VortexDildo",
+						"theScene":["SkipPlayerAttack",
+										"You move in to use the dildo on Messina but the swirling mass of her tentacles makes it impossible to reach her pussy!",
+								"ChangeImageLayer", "Expression", "Embarrassed", 
+								"FocusedSpeaks",
+								"SwapLineIf", "Random",
+								"'Hehe...♥ Are you lost..?♥'",
+                                "'These tentacles... are my shield...♥'",
+                                "'You won't... find a way in... that easily...'",
+								"endSwap"										 
+                                  ]
+					  },
+					  {
+						"NameOfScene": "VortexAnal",
+						"theScene":["SkipPlayerAttack",
+						
+									"IfMonsterHasStatusEffect",
+                                    "Restrain",
+                                    "InsertAnalStillFail",
+                                    "IfMonsterHasStatusEffect",
+                                    "Sleep",
+                                    "InsertAnalStillFail",
+                                    "IfMonsterHasStatusEffect",
+                                    "Stun",
+                                    "InsertAnalStillFail",
+						
+								"You move in to penetrate Messina's ass but the swirling mass of her tentacles makes it impossible to reach her anus!",
+								"ChangeImageLayer", "Expression", "Embarrassed", 
+								"FocusedSpeaks",
+								"SwapLineIf", "Random",
+								"'Hehe...♥ Are you lost..?♥'",
+                                "'These tentacles... are my shield...♥'",
+                                "'You won't... find a way in... that easily...'",
+								"endSwap"										 
+                                  ]
+					  },
+					  {
+						"NameOfScene": "InsertAnalStillFail",
+						"theScene":["You try to take advantage of Messina's vulnerable state and move in to penetrate her ass...",
+											"But nothing comes of it as you are fumbled by her uncontrollable tentacles!",
+											"Falling back you note that her pussy looked easier to access..."
+                                  ]
+					  },
+					  {
+						"NameOfScene": "SumataCounter",
+						"theScene":["SkipPlayerAttack",
+						
+									"IfMonsterHasStatusEffect",
+                                    "Restrain",
+                                    "Insert!",
+                                    "IfMonsterHasStatusEffect",
+                                    "Sleep",
+                                    "Insert!",
+                                    "IfMonsterHasStatusEffect",
+                                    "Stun",
+                                    "Insert!",
+                                    "IfMonsterHasStatusEffect",
+                                    "Charm",
+                                    "InsertCharmed!",
+						
+										"You move to penetrate Messina but the swirling mass of her tentacles makes it impossible to reach her pussy!",
+										"Fumbled in your attempts you move to get away, but Messina's tentacles swipe your legs from under you!",
+										"ApplyStatusEffectQuietly",   "Messinas Drop Stun",
+										"Air knocked out of you chest by the fall you struggle to get up but the mass of Messina's squiggly tentacles descends on you!",
+										"ApplyStatusEffect",   "Messinas Tentacle Restrain",
+										"Thoroughly restraining you with her tentacles Messina gracefully hops on your crotch and traps your stiff erection between her plump thighs!",
+										"ApplyStance", "Thighjob",
+										"With a practiced motion she grinds her thighs together, almost squeezing a load out of you on the spot!",
+                                         "HitPlayerWith", "Scylla's Sumata",
+								"ChangeImageLayer", "Expression", "HappyBlush", 
+								"FocusedSpeaksSkill",
+								"SwapLineIf", "Random",
+								"'Hehe...♥ A c-combo counterattack, huh..?♥'",
+                                "'W-was that too much..?♥'",
+                                "'Huh, I am pretty... good...♥'",
+								"endSwap"										 
+                                  ]
+					  },
+					  {
+						"NameOfScene": "Insert!",
+						"theScene":[
+										"You take advantage of Messina's state and plunge balls-deep in her inviting pussy!",
+										"ApplyStance",
+                                            "Sex",
+                                           "HitMonsterWith", "Thrust",
+								"ChangeImageLayer", "Expression", "Erotic", 
+								"FocusedSpeaks",
+								"SwapLineIf", "Random",
+								"'Ooohh...♥'",
+                                "'Ahh..♥'",
+                                "'S-sex...♥'",
+								"endSwap"
+                                  ]
+					  },
+					  {
+						"NameOfScene": "InsertCharmed!",
+						"theScene":[
+										"You move to penetrate Messina but the swirling mass of her tentacles desperately tries to keep you away from her pussy!",
+										"ChangeImageLayer", "Expression", "AvertBlush", 
+										"Panting with arousal she does her best to look away from your hard cock...",
+										"ChangeImageLayer", "Expression", "Erotic", 
+										"Speaks",
+										"C-can't hold back...♥",
+										"Just as you're about to give up the Scylla finally shivers, her tentacles grabbing a hold of your hips and plunging your dick deep into her inviting pussy!",
+										"ApplyStance",
+                                            "Sex",
+                                           "HitMonsterWith", "Thrust",
+										   "While you've managed to penetrate her, you discover that her insides feel overwhelmingly incredible, threatening to make you spurt right away!",
+										   "HitPlayerWith", "Cilia Vortex",
+										   "To make matters worse, her tentacles keep coiling around you until you are completely restrained!",
+										"ApplyStatusEffect",   "Messinas Tentacle Restrain",
+								"FocusedSpeaks",
+								"SwapLineIf", "Random",
+								"'Finally... penis... inside of me...♥'",
+                                "'Hurry and... {i}seed{/i} me..♥'",
+                                "'S-sex..! Cum inside..!♥'",
+								"endSwap"
+                                  ]
+					  },
+					  {
+						"NameOfScene": "BreakFree",
+						"theScene":["ClearStances",
+										"You finally overcome the innumerable coiling tentacles and push Messina away, your dick still aching sweetly from her thighjob!"
+                                  ]
+					  },
+					  {
+						"NameOfScene": "MouthCounter",
+						"theScene":["SkipPlayerAttack",						
+						
+									"IfMonsterHasStatusEffect",
+                                    "Restrain",
+                                    "Chu!",
+                                    "IfMonsterHasStatusEffect",
+                                    "Sleep",
+                                    "Chu!",
+                                    "IfMonsterHasStatusEffect",
+                                    "Stun",
+                                    "Chu!",
+                                    "IfMonsterHasStatusEffect",
+                                    "Charm",
+                                    "ChuCharm!",
+						
+									"ChangeImageLayer", "Expression", "AvertBlush", 
+									"With you moving in to kiss her, Messina's eyes dart around worriedly as she freezes up unsure what to do...",
+									"JumpToRandomScene",
+									"SuckOnThis",
+									"DoNothing",
+								"EndRandom"
+                                  ]
+					  },
+					  {
+						"NameOfScene": "SuckOnThis",
+						"theScene":[
+										"ChangeImageLayer", "Expression", "ShyBlush", 
+										"Speaks",
+										"N-noo!",
+										"HitPlayerWith", "Tentacle In Mouth",
+										"ApplyStance", "Tentacle In Mouth",
+										"Messina panics and stuffs her tentacle in {thePlayerName}'s mouth!",
+										"ChangeImageLayer", "Expression", "WorryBlush", 										
+										"Speaks",
+										"Ah, umm... I am sorry..!",
+										"ClearStanceFromMonsterAndPlayer", "Tentacle In Mouth",
+										"Messina removes her tentacle and pulls away, fidgeting awkwardly."
+                                  ]
+					  },
+					  {
+						"NameOfScene": "Chu!",
+						"theScene":[
+										"Taking advantage of Messina's vulnerable state you begin kissing her deeply!",
+										"ApplyStance", "Making Out",
+										"HitMonsterWith", "Deep Kiss"
+                                  ]
+					  },
+					  {
+						"NameOfScene": "ChuCharm!",
+						"theScene":["ChangeImageLayer", "Expression", "Embarrassed", 
+										"With you moving in to kiss her, Messina's already blushing face gets even more flushed...",
+										"ChangeImageLayer", "Expression", "Erotic", 
+										"HitPlayerWith", "Loving Kiss"
+                                  ]
+					  },
+					  {
+						"NameOfScene": "DoNothing",
+						"theScene":[
+										"Still frozen with uncertainty Messina does absolutely nothing, allowing you to kiss her deeply!",
+										"ApplyStance", "Making Out",
+										"HitMonsterWith", "Deep Kiss",
+										"ChangeImageLayer", "Expression", "Erotic", 			
+										"Stiff at first, Messina quickly melts in your embrace and begins to return your kisses timidly."
+                                  ]
+					  }
+                ]
+}

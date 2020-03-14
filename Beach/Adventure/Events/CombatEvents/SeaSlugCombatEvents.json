@@ -1,0 +1,335 @@
+{
+    "name": "SeaSlugCombatEvents",
+    "CardType": "",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [""],
+    "Speakers": [
+                  {
+                    "name": "Sea Slug",
+                    "postName": "",
+                    "SpeakerType": "Monster"
+                  }
+                ],
+    "EventText": [        
+					  {
+						"NameOfScene": "Electrified",
+						"theScene":["ChangeMonsterArousal",
+								"70",
+                                          "ChangeImageLayer", "Base", "BaseBlush",
+								"ChangeImageLayer", "Expression", "BiteLip", 
+								"SwapLineIf", "Random",
+								"'A-aa-aaah!♥ I'm all slimy so this feels really intense!♥'",
+                                "'AHHH!♥ A-auntie may be in trouble...♥'",
+                                "'OOOH!♥ Ahaha... could you go easy on auntie..?♥'",
+								"endSwap"
+                                  ]
+					  },
+					  {
+						"NameOfScene": "BreastCaressCounter",
+						"theScene":["JumpToRandomScene",
+							"BreastSlipTouch",
+											"DoNothing",
+											"DoNothing",
+											  "EndRandom"
+                                  ]
+					  },
+					  {
+						"NameOfScene": "BreastMassageCounter",
+						"theScene":["JumpToRandomScene",
+											"BreastSlipTouch",
+											"DoNothing",
+											"DoNothing",
+											  "EndRandom"
+                                  ]
+					  },
+					  {
+						"NameOfScene": "SuckleCounter",
+						"theScene":["JumpToRandomScene",
+											"BreastSlipSuck",
+											"SuckleSuccess",
+											"SuckleSuccess",
+											  "EndRandom"
+                                  ]
+					  },
+					  {
+						"NameOfScene": "HeadpatCounter",
+						"theScene":["SkipPlayerAttack",
+						"You move in for a headpat, but the Sea Slug is too tall for you to reach her head...",
+						"ChangeImageLayer", "Expression", "Wat", 
+						"FocusedSpeaks",
+						"N..?",
+						"You pull back, not doing anything in the end."
+                                  ]
+					  },
+					  {
+						"NameOfScene": "PinchNipplesCounter",
+						"theScene":["JumpToRandomScene",
+											"BreastSlipPinch",
+											"BreastSlipPinch",
+											"PinchSuccess",
+											  "EndRandom"
+                                  ]
+					  },
+					  {
+						"NameOfScene": "BreastSlipTouch",
+						"theScene":["SkipPlayerAttack",
+									"You try to grasp the slug's expansive breasts but your hands slip right off from the excessive mucus! It is difficult to grasp her slimy body.",
+                                          "ChangeImageLayer", "Base", "BaseBlush",
+								"ChangeImageLayer", "Expression", "Base", 
+						"FocusedSpeaks",
+								"SwapLineIf", "Random",
+								"'Ah-ah-ah...♥ You can't touch them that easily...'",
+                                "'Naughty boys don't get to touch me that easily.♥'",
+                                "'Hehehe...♥ I'm sure you'll get them if you try again...♥'",
+								"endSwap"
+									
+                                  ]
+					  },
+					  {
+						"NameOfScene": "BreastSlipSuck",
+						"theScene":["SkipPlayerAttack",
+									"You try to plant your lips unto the slug's expansive breasts but your mouth slides right off from the excessive mucus! It is difficult to suckle her slimy boobs.",
+                                          "ChangeImageLayer", "Base", "BaseBlush",
+								"ChangeImageLayer", "Expression", "Base", 
+						"FocusedSpeaks",
+								"SwapLineIf", "Random",
+								"'Ah-ah-ah...♥ You can't just suck on them that easily...'",
+                                "'Naughty boys don't get to suck them that easily.♥'",
+                                "'Hehehe...♥ I'm sure you'll get them if you try again...♥'",
+								"endSwap"
+                                  ]
+					  },
+					  {
+						"NameOfScene": "BreastSlipPinch",
+						"theScene":["SkipPlayerAttack",
+									"You try to pinch the slug's expansive breasts but your fingers slide right off from the excessive mucus! It is difficult to touch her slimy boobs.",
+                                          "ChangeImageLayer", "Base", "BaseBlush",
+								"ChangeImageLayer", "Expression", "Pout", 
+						"FocusedSpeaks",
+								"SwapLineIf", "Random",
+								"'Hey, what were you trying to do..?'",
+                                "'Naughty...'",
+                                "'No pinching!'",
+								"endSwap"
+                                  ]
+					  },
+					  {
+						"NameOfScene": "SuckleSuccess",
+						"theScene":["SkipPlayerAttack",
+                                          "ChangeImageLayer", "Base", "BaseBlush",
+								"ChangeImageLayer", "Expression", "BiteLip", 
+								"Despite the slug's apparent lack of nipples, you manage to latch unto her breasts and suck. The attack appears surprisingly effective as the slug blushes harder.",
+								"HitMonsterWith", "Suckle",
+						"FocusedSpeaks",
+								"SwapLineIf", "Random",
+								"'Umm, hey... There's nothing to suck on there...♥'{damageToEnemy}",
+                                "'There's nothing to suck on, silly...♥'{damageToEnemy}",
+                                "'Aww, you're so silly..!♥'{damageToEnemy}",
+								"endSwap"
+                                  ]
+					  },
+					  {
+						"NameOfScene": "PinchSuccess",
+						"theScene":["SkipPlayerAttack",
+                                          "ChangeImageLayer", "Base", "BaseBlush",
+								"ChangeImageLayer", "Expression", "Aroused", 
+								"Despite the slug's apparent lack of nipples, you manage to pinch the tip of her breasts and squeeze. The attack appears surprisingly effective as the slug moans and blushes harder.",
+								"HitMonsterWith", "Pinch Nipples",
+						"FocusedSpeaks",
+								"SwapLineIf", "Random",
+								"'Owww... D-dont pinch them..♥'{damageToEnemy}",
+                                "'W-whyyy...♥ I don't even have nipples..!♥'{damageToEnemy}",
+                                "'N-nooo, don't squeeze..!♥'{damageToEnemy}",
+								"endSwap"
+                                  ]
+					  },
+					  {
+						"NameOfScene": "DoNothing",
+						"theScene":[
+                                  ]
+					  },
+					  {
+						"NameOfScene": "NoAnal",
+						"theScene":["SkipPlayerAttack",
+								"You move in to anally penetrate the slug but fail to locate an anus and pull back. The slug regards you lazily, having failed to react in time to do anything."
+                                  ]
+					  },
+					  {
+						"NameOfScene": "NoKiss",
+						"theScene":["SkipPlayerAttack",
+						"You attempt to kiss the slug, but it seems impossible to reach her lips as the woman stands towering over you."
+                                  ]
+					  },
+					  {
+						"NameOfScene": "NoMakeOut",
+						"theScene":["SkipPlayerAttack",
+						"You attempt to make out with the slug, but it seems impossible to reach her lips as the woman stands towering over you."
+                                  ]
+					  },
+					  {
+						"NameOfScene": "SlipperyTittyfucking",
+						"theScene":[
+                                          "ChangeImageLayer", "Base", "BaseBlush",
+								"ChangeImageLayer", "Expression", "Lewd", 
+						"HitPlayerWith", "Slippery Breast Stroke",
+						"The slug bounces her massive tits up and down, effortlessly sliding the wonderfully soft orbs over you length!{damageToPlayer}",
+						
+						"JumpToRandomScene",
+						"StrokeFollowUp",
+						"StrokeFollowUp",
+						"DoNothing",
+						"EndRandom"
+                                  ]
+					  },
+					  {
+						"NameOfScene": "StrokeFollowUp",
+						"theScene":[
+						"HitPlayerWith", "Slippery Breast Stroke",
+								"SwapLineIf", "Random",
+								"The slimy breasts just keep dragging up and down around your dick, the excess mucus making them unstoppable!{damageToPlayer}",
+								"Her heavy tits just keep mashing against your crotch, the abundant slime making the movements excessively easy and pleasurable!{damageToPlayer}",
+								"Unceasingly, her slippery tits keep rubbing your pleasantly aching cock, the repeated movements feeling like they may never ever stop!{damageToPlayer}",
+								"endSwap",
+						"JumpToRandomScene",
+						"StrokeFollowUp",
+						"DoNothing",
+						"DoNothing",
+						"EndRandom"
+                                  ]
+					  },
+					  {
+						"NameOfScene": "MammothSmothering",
+						"theScene":["The slug begins to rise slowly, her already massive body looking even larger as she props herself upright on her lower half. On the brink of falling over, she towers menacingly over you, her arms spread wide...",
+						"Menu",
+						"Try to hold her up! (Power)",
+						"Try to dodge! (Technique)",
+						"See what happens...",
+						"EndMenu"
+                                  ]
+					  },
+					  {
+						"NameOfScene": "Try to hold her up! (Power)",
+						"theScene":["The Sea Slug falls over on you, her descent stopped by your arms in your attempts to hold her up!",
+						"StatCheck",
+                                                "Power",
+                                                "15",
+                                                "PushedOff!",
+                                                "Fail",
+                                                "SmotheredPower!"
+                                  ]
+					  },
+					  {
+						"NameOfScene": "PushedOff!",
+						"theScene":["Straining your arms, you manage to push away the slug, her massive body jiggling and quivering as she falls back with a soft giggle.",
+						
+                                "ChangeImageLayer", "Base", "BaseBlush",
+								"ChangeImageLayer", "Expression", "Lewd", 
+								"FocusedSpeaks",
+								"'My, my, so strong...♥'"
+                                  ]
+					  },
+					  {
+						"NameOfScene": "SmotheredPower!",
+						"theScene":["Straining your arms, you manage to momentary stop her descent, but her body proves too heavy and slimy to hold back!",
+								"Your hands slip to the sides of her body and the slug falls heavily on you, knocking you off your feet and trapping your body underneath her!",
+								"With her expansive bosom now dominating your vision as it presses into your face, you also feel her warm and tight pussy welcoming your erection with a soft squeeze!",
+								"ApplyStance", "Sex",
+								"ApplyStance", "Breast Smother",
+								"ApplyStatusEffect", "Sea Slugs Smother",
+                                "ChangeImageLayer", "Base", "BaseBlush",
+								"ChangeImageLayer", "Expression", "Lewd", 
+								"FocusedSpeaks",
+								"'Fufu, you're all mine...♥ Now relax and let auntie pamper you...♥'"
+                                  ]
+					  },
+					  {
+						"NameOfScene": "Try to dodge! (Technique)",
+						"theScene":["As the Sea Slug starts to fall over, you try to dodge to the side!",
+						"StatCheck",
+                                                "Technique",
+                                                "15",
+                                                "Dodged!",
+                                                "Fail",
+                                                "SmotheredTech!"
+                                  ]
+					  },
+					  {
+						"NameOfScene": "Dodged!",
+						"theScene":["You managed to roll away quickly enough and the slug crashes into the sand heavily, splattering the surroundings with her mucus.",
+								"She doesn't get up right away, seemingly confused and dizzied by her fall.",
+								"ApplyStatusEffectToMonster", "Spank",
+                                "ChangeImageLayer", "Base", "BaseBlush",
+								"ChangeImageLayer", "Expression", "Worry", 
+								"FocusedSpeaks",
+								"'O-oh...♥ Auntie crashed too hard...♥'"
+                                  ]
+					  },
+					  {
+						"NameOfScene": "SmotheredTech!",
+						"theScene":["You fail to dodge the quickly falling mass of jiggling slug and the monster's body knocks you off your feet, trapping your body underneath her!",
+								"With her expansive bosom now dominating your vision as it presses into your face, you also feel her warm and tight pussy welcoming your erection with a soft squeeze!",
+								"ApplyStance", "Sex",
+								"ApplyStance", "Breast Smother",
+								"ApplyStatusEffect", "Sea Slugs Smother",
+                                "ChangeImageLayer", "Base", "BaseBlush",
+								"ChangeImageLayer", "Expression", "Lewd", 
+								"FocusedSpeaks",
+								"'Fufu, you're all mine...♥ Now relax and let auntie pamper you...♥'"
+                                  ]
+					  },
+					  {
+						"NameOfScene": "See what happens...",
+						"theScene":["You stand still and observe the rising monster figure until she falls over on you with a giggle. You are instantly knocked off your feet and pressed into the soft sand by her large body!",
+								"With her expansive bosom now dominating your vision as it presses into your face, you also feel her warm and tight pussy welcoming your erection with a soft squeeze!",
+								"ApplyStance", "Sex",
+								"ApplyStance", "Breast Smother",
+								"ApplyStatusEffect", "Sea Slugs Smother",
+                                "ChangeImageLayer", "Base", "BaseBlush",
+								"ChangeImageLayer", "Expression", "Lewd", 
+								"FocusedSpeaks",
+								"'Fufu, good boy...♥ Now relax and let auntie pamper you...♥'"
+                                  ]
+					  },
+					  {
+						"NameOfScene": "BreakFree",
+						"theScene":["You manage to lift the heavy sea slug momentary, but with your dick lodged deep inside her, slipping out from beneath her is difficult. You resort to rolling her off to the side, the desperate pirouette landing you on top of her, your cock still squeezed tightly in her pussy.",
+							"ClearStanceFromMonsterAndPlayer", "Breast Smother",
+                                "ChangeImageLayer", "Base", "BaseBlush",
+								"ChangeImageLayer", "Expression", "Lewd", 
+								"FocusedSpeaks",
+								"'M-my...♥ You wanted to be on top so much..?♥'"
+                                  ]
+					  },
+					  {
+						"NameOfScene": "RollOver",
+						"theScene":["As you're thrusting from above into her receptive pussy, the slug suddenly locks her arms around you and effortlessly rolls to the side!",
+								"All of a sudden you are trapped underneath her, the massive tits in your face making it difficult to see or breathe.",
+								"ApplyStance", "Breast Smother",
+								"ApplyStatusEffect", "Sea Slugs Smother",
+                                "ChangeImageLayer", "Base", "BaseBlush",
+								"ChangeImageLayer", "Expression", "Lewd", 
+								"FocusedSpeaks",
+								"'Fufu, caught you...♥ Now be a good boy and let auntie pamper you...♥'"
+                                  ]
+					  },
+					  {
+						"NameOfScene": "SlugRam",
+						"theScene":["The slug woman perks up for a moment before ludging forward, pressing herself against your body with a loud smack, the impact knocking the air out of your lungs. She smiles and giggles, rubbing her soft breasts and tummy against you up and down, making indecently sticky sounds...",
+						"You manage to step back, but not before your entire front was slathered in sticky mucus. As you feel your muscles relaxing and dick growing harder, the effects of the mucus are becoming apparent.",
+								"ApplyStatusEffect", "Sea Slugs MucusDef",
+								"ApplyStatusEffect", "Sea Slugs MucusAttack",
+								
+                                "ChangeImageLayer", "Base", "BaseBlush",
+								"ChangeImageLayer", "Expression", "Lewd", 
+								
+								"FocusedSpeaks",
+								"SwapLineIf", "Random",
+								"'Hehe, now you're all slimy too.♥'",
+                                "'Don't you want to give auntie a hug..?♥'",
+                                "'Ah...♥ I hope I slimed you up nicely...♥'",
+								"endSwap"
+                                  ]
+					  }
+                ]
+}

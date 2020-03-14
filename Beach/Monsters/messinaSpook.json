@@ -1,0 +1,205 @@
+{
+    "name": "MessinaSpook",
+    "IDname": "MessinaSpook",
+    "species": "Cephalopod",
+    "gender": "female",
+    "description": "A gloomy-looking Scylla masquarading as a corpse.",
+    "encyclopedia": "",
+    "tags": "none",
+    "generic": "False",
+    "requires": [""],
+    "skillList": [],
+    "perks": [],
+    "stats": {"lvl": "40",
+              "Exp":"300",
+              "max_hp":"500",
+              "max_ep":"10",
+              "max_sp": "1",
+              "Power": "15",
+              "Technique": "60",
+              "Willpower": "15",
+              "Allure": "15",
+              "Luck": "5"
+    },
+    "Fetishes": [""],
+    "BodySensitivity": {"Sex": "100",
+              "Ass":"100",
+              "Breasts":"110",
+              "Mouth":"100",
+              "Seduction": "110",
+              "Magic": "150",
+              "Pain": "50",
+              "Holy": "100",
+              "Unholy": "100"
+    },
+    "resistancesStatusEffects": {
+              "Stun": "0",
+              "Charm":"0",
+              "Aphrodisiac":"0",
+              "Restraints":"30",
+              "Sleep":"0",
+              "Trance": "0",
+              "Paralysis": "0"
+    },
+    "moneyDropped": "50",
+    "ItemDropList": [
+                      {
+                        "name": "Ugli Herb",
+                        "dropChance": "25"
+                      }
+                    ],
+    "lossScenes": [
+                    {
+                        "NameOfScene": "Blank",
+                        "move": "",
+                        "stance": "",
+                        "includes": ["Messina"],
+                        "theScene":[""
+                                  ],
+                        "picture":""
+                    }
+                  ],
+    "combatDialogue": [
+                        {
+                            "lineTrigger":"hitWith",
+                            "move": "Spank",
+                            "theText":[""
+                                        ]
+                        },
+                        {
+                            "lineTrigger":"usesMove",
+                            "move": "",
+                            "theText":["''"]
+                        },
+                        {
+                            "lineTrigger":"lowHealth",
+                            "move": "",
+                            "theText":["''"]
+                        },
+                        {
+                            "lineTrigger":"playerLowHealth",
+                            "move": "",
+                            "theText":["''"]
+                        },
+                        {
+                            "lineTrigger":"onPlayerOrgasm",
+                            "move": "",
+                            "theText":[""
+                                      ]
+                        },
+                        {
+                            "lineTrigger":"onOrgasm",
+                            "move": "",
+                            "theText":[""
+                                      ]
+                        },
+                        {
+                            "lineTrigger":"onSurrender",
+                            "move": "",
+                            "theText":[""]
+                        }
+                      ],
+  "victoryScenes": [
+            {
+                "NameOfScene": "",
+                "move": "",
+                "stance": "",
+                "includes": [""],
+                "theScene":[""
+                          ],
+                "picture":""
+            }
+        ],
+        "pictures": [
+				{
+                          "Name":"Base",
+                          "StartOn": "1",
+                          "AlwaysOn": "1",
+                          "IsScene": "0",
+                          "TheBody": "1",
+                          "Overlay": "No",
+                          "setXalign": "0.0",
+                          "setYalign": "0.352",
+                          "Images":[
+							  {  
+								  "Name":"Base",
+								  "File": "../../ModLoader/mods/Beach/Images/Messina/Messina_Body_Submerged_Spooky.png",
+								  "setXalign": "0.0",
+								  "setYalign": "0.0"
+							  },
+							  {				  
+								  "Name":"Spooky Tentacles",
+								  "File": "../../ModLoader/mods/Beach/Images/Messina/Messina_Body_Submerged_Spooky_Tentacles.png",
+								  "setXalign": "0.0",
+								  "setYalign": "0.0"
+							  },
+							  {				  
+								  "Name":"Submerged",
+								  "File": "../../ModLoader/mods/Beach/Images/Messina/Messina_Body_Submerged_Tentacles.png",
+								  "setXalign": "0.0",
+								  "setYalign": "0.0"
+							  }
+                ]
+				},
+				{
+                          "Name":"Expression",
+                          "StartOn": "1",
+                          "AlwaysOn": "1",
+                          "IsScene": "0",
+                          "TheBody": "0",
+                          "Overlay": "No",
+                          "setXalign": "0.0",
+                          "setYalign": "0.0",
+                          "Images":[
+                  {
+                      "Name":"Base",
+                      "File": "../../ModLoader/mods/Beach/Images/Messina/Messina_Expression_Corpse.png",
+                      "setXalign": "0.0",
+                      "setYalign": "0.0"
+                  },         
+                  {
+                      "Name":"Crooked",
+                      "File": "../../ModLoader/mods/Beach/Images/Messina/Messina_Expression_Spooky.png",
+                      "setXalign": "0.0",
+                      "setYalign": "0.0"
+                  },    
+                  {
+                      "Name":"Base_Submerged",
+                      "File": "../../ModLoader/mods/Beach/Images/Messina/Messina_Expression_Smile.png",
+                      "setXalign": "0.0",
+                      "setYalign": "0.0"
+                  },    
+                  {
+                      "Name":"Embarrassed_Submerged",
+                      "File": "../../ModLoader/mods/Beach/Images/Messina/Messina_Expression_Embarrassed.png",
+                      "setXalign": "0.0",
+                      "setYalign": "0.0"
+                  },    
+                  {
+                      "Name":"HappySubmerged",
+                      "File": "../../ModLoader/mods/Beach/Images/Messina/Messina_Expression_Happy.png",
+                      "setXalign": "0.0",
+                      "setYalign": "0.0"
+                  },    
+                  {
+                      "Name":"HappyBlushSubmerged",
+                      "File": "../../ModLoader/mods/Beach/Images/Messina/Messina_Expression_HappyBlush.png",
+                      "setXalign": "0.0",
+                      "setYalign": "0.0"
+                  },    
+                  {
+                      "Name":"PanicSubmerged",
+                      "File": "../../ModLoader/mods/Beach/Images/Messina/Messina_Expression_Panic.png",
+                      "setXalign": "0.0",
+                      "setYalign": "0.0"
+                  },
+                  {
+                      "Name":"WorrySubmerged",
+                      "File": "../../ModLoader/mods/Beach/Images/Messina/Messina_Expression_Worry.png",
+                      "setXalign": "0.0",
+                      "setYalign": "0.0"
+                  } 
+						  ]
+						 }
+				]
+}

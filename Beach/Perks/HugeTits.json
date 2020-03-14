@@ -1,0 +1,14 @@
+{
+    "name": "Huge Tits",
+    "description": "Increases breast type attacks damage by 15%.",
+
+    "LevelReq": "0",
+    "PerkReq": [""],
+    "StatReq": [""],
+    "StatReqAmount": ["0"],
+
+    "PerkType": ["Breast Use Boost"],
+    "EffectPower": ["15"],
+
+    "PlayerCanPurchase": "No"
+}

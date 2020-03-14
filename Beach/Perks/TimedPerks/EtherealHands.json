@@ -1,0 +1,14 @@
+{
+    "name": "Ethereal Hands",
+    "description": "Your cock is constantly and endlessly teased by magical projections of Cetuspeanna's hands. Removed at the end of combat.",
+
+    "LevelReq": "0",
+    "PerkReq": [ ""],
+    "StatReq": [ ""],
+    "StatReqAmount": [ "0"],
+
+    "PerkType": [  "Status Icon"  ],
+    "EffectPower": [ "../../ModLoader/mods/Beach/Images/StatusIcons/EtherealHands.png"],
+
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Slippery",
+    "description": "Additional 5% chance to dodge attacks and avoid status effects when not in a stance.",
+
+    "LevelReq": "0",
+    "PerkReq": [""],
+    "StatReq": [""],
+    "StatReqAmount": ["0"],
+
+    "PerkType": ["Out Of Stance Evade"],
+    "EffectPower": ["5"],
+
+    "PlayerCanPurchase": "No"
+}

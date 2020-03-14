@@ -1,0 +1,76 @@
+{
+    "name": "Beach Resort",
+    "exploreTitle": "Beach Resort",
+    "MusicList": ["music/Relaxing/umi.mp3"],
+    "mapIcon": "../../../ModLoader/mods/Beach/Images/MGD_Map_Icon_Beach",
+    "mapIconXpos": "0",
+    "mapIconYpos": "0",
+    "mapIconZorder": "1",
+    "mapClouds": "",
+    "mapCloudsXpos": "0",
+    "mapCloudsYpos": "0",
+    "requires": [""],
+    "FullyUnlockedBy": ["Speedo"],
+    "MinimumDeckSize": "3",
+    "MaximumMonsterDeck": "4",
+    "MaximumEventDeck": "2",
+    "Monsters": ["Mermaid", "Bikini Elf", "Bikini Imp", "Nereid", "Sea Slug"],
+    "MonsterGroups": [
+                  {
+                      "Monsters": ["Bikini Elf"]
+                  },
+                  {
+                      "Monsters": ["Bikini Elf"]
+                  },
+                  {
+                      "Monsters": ["Bikini Imp"]
+                  },
+                  {
+                      "Monsters": ["Bikini Imp"]
+                  },
+                  {
+                      "Monsters": ["Mermaid"]
+                  },
+                  {
+                      "Monsters": ["Mermaid"]
+                  },
+                  {
+                      "Monsters": ["Nereid"]
+                  },
+                  {
+                      "Monsters": ["Nereid"]
+                  },
+                  {
+                      "Monsters": ["Sea Slug"]
+                  },
+                  {
+                      "Monsters": ["Sea Slug"]
+                  }
+                ],
+    "Events": ["Underwater Cave", "Succubus Lifeguard", "Resort Owner Felicia"],
+    "Quests": ["Meet the Sea Dragon!", "Tina Quest!"],
+    "Adventures": ["Beach Trip"],
+    "Treasure": [
+                {
+                    "Common": ["Calming Potion", "Anaph Herb", "Ugli Herb"]
+                },
+                {
+                    "Uncommon": ["Calming Potion", "Energy Potion", "Unbound Rune", "Anaph Rune", "Nature Rune", "Soothing Potion"]
+                },
+                {
+                    "Rare": ["Anaph Rune", "Indomitable Rune", "Nature Rune", "Stoic Rune", "Unbound Rune", "Circlet of Ardor", "Amulet of Vitality", "Ring of Allure"]
+                }
+              ],
+    "Eros": [
+                {
+                    "Common": "25"
+                },
+                {
+                    "Uncommon": "50"
+                },
+                {
+                    "Rare": "150"
+                }
+              ],
+    "picture": "../../ModLoader/mods/Beach/Images/beach.png"
+}

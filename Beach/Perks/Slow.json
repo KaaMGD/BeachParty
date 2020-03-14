@@ -1,0 +1,14 @@
+{
+    "name": "Slow",
+    "description": "You are slow and clumsy, or perhaps! Lose 100 inititive!",
+
+    "LevelReq": "0",
+    "PerkReq": [""],
+    "StatReq": [""],
+    "StatReqAmount": ["0"],
+
+    "PerkType": ["Initiative Bonus"],
+    "EffectPower": ["-100"],
+
+    "PlayerCanPurchase": "No"
+}

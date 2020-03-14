@@ -1,0 +1,345 @@
+{
+    "name": "Tina",
+    "IDname": "Tina",
+    "species": "Demon",
+    "gender": "female",
+    "description": "",
+    "encyclopedia": "",
+    "tags": "none",
+    "generic": "False",
+    "requires": [""],
+    "skillList": [""],
+    "perks": [""],
+    "stats": {"lvl": "100",
+              "Exp":"10",
+              "max_hp":"2000",
+              "max_ep":"10",
+              "max_sp": "1",
+              "Power": "35",
+              "Technique": "65",
+              "Willpower": "35",
+              "Allure": "65",
+              "Luck": "35"
+    },
+    "Fetishes": [""],
+    "BodySensitivity": {"Sex": "90",
+              "Ass":"100",
+              "Breasts":"115",
+              "Mouth":"100",
+              "Seduction": "75",
+              "Magic": "75",
+              "Pain": "75",
+              "Holy": "100",
+              "Unholy": "75"
+    },
+    "resistancesStatusEffects": {
+              "Stun": "0",
+              "Charm":"0",
+              "Aphrodisiac":"0",
+              "Restraints":"0",
+              "Sleep":"0",
+              "Trance": "0",
+              "Paralysis": "0",
+              "Debuff": "0"
+    },
+    "moneyDropped": "0",
+    "ItemDropList": [
+                      {
+                        "name": "Anaph Herb",
+                        "dropChance": "75"
+                      }
+                    ],
+    "lossScenes": [
+                    {
+                        "NameOfScene": "",
+                        "move": "",
+                        "stance": "",
+                        "includes": [""],
+                        "theScene":[""
+                                  ],
+                        "picture":""
+                    }
+                  ],
+    "combatDialogue": [
+                        {
+                            "lineTrigger":"hitWith",
+                            "move": "Spank",
+                            "theText":[""
+                                        ]
+                        },
+                        {
+                            "lineTrigger":"usesMove",
+                            "move": "",
+                            "theText":["''"]
+                        },
+                        {
+                            "lineTrigger":"lowHealth",
+                            "move": "",
+                            "theText":["''"]
+                        },
+                        {
+                            "lineTrigger":"playerLowHealth",
+                            "move": "",
+                            "theText":["''"]
+                        },
+                        {
+                            "lineTrigger":"onPlayerOrgasm",
+                            "move": "",
+                            "theText":[""
+                                      ]
+                        },
+                        {
+                            "lineTrigger":"onOrgasm",
+                            "move": "",
+                            "theText":[""
+                                      ]
+                        },
+                        {
+                            "lineTrigger":"onSurrender",
+                            "move": "",
+                            "theText":[""]
+                        }
+                      ],
+  "victoryScenes": [
+            {
+                "NameOfScene": "",
+                "move": "",
+                "stance": "",
+                "includes": [""],
+                "theScene":[""
+                          ],
+                "picture":""
+            }
+        ],
+    "pictures": [
+                      {
+                          "Name":"Base",
+                          "StartOn": "1",
+                          "AlwaysOn": "1",
+                          "IsScene": "0",
+                          "TheBody": "1",
+                          "Overlay": "No",
+                          "setXalign": "0.0",
+                          "setYalign": "0.152",
+                          "Images":[
+                  {
+                      "Name":"Base",
+                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Base.png",
+                      "setXalign": "0.0",
+                      "setYalign": "0.0"
+                  },
+                  {
+                      "Name":"Blush",
+                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Base_Blush.png",
+                      "setXalign": "0.0",
+                      "setYalign": "0.0"
+                  },
+                  {
+                      "Name":"Flush",
+                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Base_LightBlush.png",
+                      "setXalign": "0.0",
+                      "setYalign": "0.0"
+                  },
+                  {
+                      "Name":"BlushAlt",
+                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Base_AltBlush.png",
+                      "setXalign": "0.0",
+                      "setYalign": "0.0"
+                  },
+                  {
+                      "Name":"Smol1",
+                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Base_Smol1.png",
+                      "setXalign": "0.3",
+                      "setYalign": "0.0"
+                  },
+                  {
+                      "Name":"Smol2",
+                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Base_Smol2.png",
+                      "setXalign": "0.3",
+                      "setYalign": "0.0"
+                  }
+                ]
+				},
+                      {
+                          "Name":"BodyPart",
+                          "StartOn": "1",
+                          "AlwaysOn": "1",
+                          "IsScene": "0",
+                          "TheBody": "0",
+                          "Overlay": "No",
+                          "setXalign": "0.0",
+                          "setYalign": "0.0",
+                          "Images":[
+                  {
+                      "Name":"TitsBikini",
+                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Tits_Bikini.png",
+                      "setXalign": "0.0",
+                      "setYalign": "0.0"
+                  },
+                  {
+                      "Name":"TitsNaked",
+                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Tits_Base.png",
+                      "setXalign": "0.0",
+                      "setYalign": "0.0"
+                  },
+                  {
+                      "Name":"Empty",
+                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Bikini_Empty.png",
+                      "setXalign": "0.0",
+                      "setYalign": "0.0"
+                  }
+              ]
+			  },
+                      {
+                          "Name":"Extra",
+                          "StartOn": "1",
+                          "AlwaysOn": "0",
+                          "IsScene": "0",
+                          "TheBody": "0",
+                          "Overlay": "No",
+                          "setXalign": "0.0",
+                          "setYalign": "0.0",
+                          "Images":[
+				{
+                    "Name":"BikiniBottom",
+                     "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Bikini_Bottom.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+				{
+                    "Name":"BikiniBottomEmpty",
+                     "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Bikini_Empty.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+			},
+
+                      {
+                          "Name":"Expression",
+                          "StartOn": "1",
+                          "AlwaysOn": "1",
+                          "IsScene": "0",
+                          "TheBody": "0",
+                          "Overlay": "No",
+                          "setXalign": "0.0",
+                          "setYalign": "0.0",
+                          "Images":[
+                  {
+                      "Name":"Base",
+                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Expression_Base.png",
+                      "setXalign": "0.0",
+                      "setYalign": "0.0"
+                  },
+                  {
+                      "Name":"Empty",
+                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Bikini_Empty.png",
+                      "setXalign": "0.0",
+                      "setYalign": "0.0"
+                  },
+                  {
+                      "Name":"Ahegao",
+                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Expression_Ahegao.png",
+                      "setXalign": "0.0",
+                      "setYalign": "0.0"
+                  },
+                  {
+                      "Name":"Angery",
+                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Expression_Angery.png",
+                      "setXalign": "0.0",
+                      "setYalign": "0.0"
+                  },
+                  {
+                      "Name":"Awkward",
+                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Expression_Awkward.png",
+                      "setXalign": "0.0",
+                      "setYalign": "0.0"
+                  },
+                  {
+                      "Name":"Beg",
+                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Expression_Beg.png",
+                      "setXalign": "0.0",
+                      "setYalign": "0.0"
+                  },
+                  {
+                      "Name":"Cheeky",
+                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Expression_Cheeky.png",
+                      "setXalign": "0.0",
+                      "setYalign": "0.0"
+                  },
+                  {
+                      "Name":"Drool",
+                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Expression_Drool.png",
+                      "setXalign": "0.0",
+                      "setYalign": "0.0"
+                  },
+                  {
+                      "Name":"Flash",
+                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Expression_Flash.png",
+                      "setXalign": "0.0",
+                      "setYalign": "0.0"
+                  },
+                  {
+                      "Name":"Focused",
+                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Expression_Focused.png",
+                      "setXalign": "0.0",
+                      "setYalign": "0.0"
+                  },
+                  {
+                      "Name":"Grin",
+                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Expression_Grin.png",
+                      "setXalign": "0.0",
+                      "setYalign": "0.0"
+                  },
+                  {
+                      "Name":"Happy",
+                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Expression_Happy.png",
+                      "setXalign": "0.0",
+                      "setYalign": "0.0"
+                  },
+                  {
+                      "Name":"Horny",
+                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Expression_Horny.png",
+                      "setXalign": "0.0",
+                      "setYalign": "0.0"
+                  },
+                  {
+                      "Name":"Naughty",
+                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Expression_Naughty.png",
+                      "setXalign": "0.0",
+                      "setYalign": "0.0"
+                  },
+                  {
+                      "Name":"Thoughtful",
+                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Expression_Thoughtful.png",
+                      "setXalign": "0.0",
+                      "setYalign": "0.0"
+                  }	,
+                  {
+                      "Name":"Wow",
+                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Expression_Wow.png",
+                      "setXalign": "0.0",
+                      "setYalign": "0.0"
+                  }		,
+                  {
+                      "Name":"IntenseKissing",
+                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Expression_IntenseKissing.png",
+                      "setXalign": "0.0",
+                      "setYalign": "0.0"
+                  }		,
+                  {
+                      "Name":"SuddenAhe",
+                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Expression_SuddenAhe.png",
+                      "setXalign": "0.0",
+                      "setYalign": "0.0"
+                  }		,
+                  {
+                      "Name":"DroolAhe",
+                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Expression_DroolAhe.png",
+                      "setXalign": "0.0",
+                      "setYalign": "0.0"
+                  }
+                        ]
+                      }
+                    ]
+}

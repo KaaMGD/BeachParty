@@ -1,0 +1,767 @@
+{
+    "name": "Bikini Imp",
+    "IDname": "Bikini Imp",
+    "species": "Demon",
+    "gender": "female",
+    "description": "A young looking woman with small demonic horns sprouting from the sides of her head and an almost evil looking grin on her face, but these features are contrasted by her pale pink hair and bright blue mischievous eyes, making her look like a trickster than anything else. Small bat wings sprout from her back and a thick spaded tail sways from her rear. Her breasts are rather small, a pert A cup that are barely covered by a few straps of frilly pink cloth. Her very short skirt is made of an identical material, showing off far more than they conceal, and a tight black choker is around her neck.",
+    "encyclopedia": "Low ranking demons who rely on numbers, magic, and/or trickery to capture men. Imps are usually more mischievous than outright malicious, and enjoy playing pranks on anyone and everyone they can.\n\nAny men they do capture are often shared amongst groups of imps living in a dwelling to sate everyone's hunger for spiritual energy, not just kept for the individual or individuals that managed to subdue the male.\n\nDue to their low standing in the demonic hierarchy, they can subsist on normal foods to survive, they will just not be happy about it. Similarly due to their low standing and weak willed nature, they are easily bullied into doing work by higher ranking demons, but the promise of eros and/or men is enough to entice them to stick around more often than not.\n\nAs with many demons, their vaginal fluids have an aphrodisiac effect if consumed.\n\nSome imps leave their dens, traveling the surrounding lands in small groups and trying to have fun wherever they go.",
+    "tags": "none",
+    "generic": "True",
+    "requires": [ "Sigil Of Allure"],
+    "skillList": [ "Sensitize", "Imp Binding Magic", "Nipple Tease", "Pinch Nipples", "Teasing Seduction", "Teasing Seduction", "Impish Blowjob", "Impish Blowjob", "Double Blowjob", "Playful Tease", "Glans Teasing", "Mischievous Suction", "Triple Blowjob", "Ravenous Blowjob Assault", "Naughty Oral Synergy", "Impish Cock Worship", "Imp Pussy Altar", "Imp Pussy Altar", "Impish Face Grind", "Impish Insert",  "Impish Insert", "Playful Grind", "Mischievous Tighten", "Imp Reverse Spitroast",  "Impish Reverse Spitroast", "Impish Encouragement", "Impish Encouragement"],
+    "perks": [ "Semen Eater"],
+    "stats": { "lvl": "4",
+              "Exp": "25",
+              "max_hp": "95",
+              "max_ep": "10",
+              "max_sp": "1",
+              "Power": "2",
+              "Technique": "5",
+              "Willpower": "5",
+              "Allure": "8",
+              "Luck": "5"
+    },
+    "Fetishes": [ ""],
+    "BodySensitivity": { "Sex": "90",
+              "Ass": "90",
+              "Breasts": "100",
+              "Mouth": "90",
+              "Seduction": "100",
+              "Magic": "100",
+              "Pain": "200",
+              "Holy": "250",
+              "Unholy": "25"
+    },
+    "resistancesStatusEffects": {
+              "Stun": "0",
+              "Charm": "0",
+              "Aphrodisiac": "0",
+              "Restraints": "0",
+              "Sleep": "0",
+              "Trance": "0",
+              "Paralysis": "0"
+    },
+    "moneyDropped": "50",
+    "ItemDropList": [
+                        {
+                          "name": "Insomnia Potion",
+                          "dropChance": "40"
+                        },
+                        {
+                          "name": "Energy Potion",
+                          "dropChance": "15"
+                        },
+                        {
+                          "name": "Rune Of Action",
+                          "dropChance": "15"
+                        }
+
+
+                    ],
+    "lossScenes": [
+      {
+          "NameOfScene": "DuoLoss",
+          "move": "",
+          "stance": "",
+          "includes": [ "Bikini Imp", "Bikini Imp"],
+          "theScene": [
+                      "ChangeImageFor", "1", "Dominant",
+                      "ChangeImageFor", "2", "Dominant",
+                      "You collapse to the ground exhausted, and the two impish bikini-clad women exchange meaningful glaces and giggle ominously.",
+                      "This shouldn't run in v3 so yeah. Sorry"
+                    ],
+          "picture": ""
+      },
+      {
+          "NameOfScene": "Loss",
+          "move": "",
+          "stance": "",
+          "includes": [ "Bikini Imp"],
+          "theScene": [
+                    "ChangeImageFor", "1", "Dominant",
+                    "You collapse to the ground exhausted, and the impish bikini-clad woman giggles ominously, looming above you.",
+                    "Speaks", "Kyahaha, of course you couldn't resist my sexy bikini!",
+                    "ChangeImageFor", "1", "Smug",
+                    "Speaks", "The big sis succubus said I could have any men if I wore this. I guess she was right, huh?",
+                    "The imp hops down on your crotch, your semi-hard dick resting snugly against her naked tummy.",
+                    "ChangeImageFor", "1", "Dominant",
+                    "Speaks", "Come on, get hard for your sexy imp mistress.",
+                    "She poses provocatively, pulling at her bikini's strap and revealing her perky nipple. You gulp down, cock throbbing with desire and filling out to its full mast again.",
+                    "Speaks", "Yay.♥",
+                    "The imp raises her hips, shifting aside her tiny bikini bottom and plunges down, hilting your entire cock in her tight and wet imp pussy.",
+                    "Speaks", "So big...♥",
+                    "She starts bouncing up and down, her little butt smacking on your crotch as your dick is squeezed tightly by her snatch playfully.",
+                    "Speaks", "Such a big cock, and all mine.♥ Haa, these bikini sure are amazing.♥ I couldn't get a man like you normally.♥",
+                    "The imp picks up the pace, riding your cock with all she can, her tail swishing to the sides as she starts moaning, clearly enjoying your cock stirring up her insides.",
+                    "ChangeImageFor", "1", "Submissive",
+                    "Speaks", "C-come on, don't make me do all the work, big boy. Grab my hips and start knocking!",
+                    "Driven by lust you accept her command, gripping her impish hips and thrusting upwards, your cock knocking into her womb. The imp emits a pleasured whine, mashing her hips harder into yours, eager to get impaled on your cock deeper and harder.",
+                    "Her pussy us drooling a lot of juices, which splatter everywhere around you from the wild coupling. The imp is panting hard, doing her best to keep the feverish mating pace.",
+                    "Speaks", "Haa, harder, harder!♥",
+                    "Your cock throbs powerfully, ready to unleash a huge load into the imp's tight pussy. You grit your teeth and start thrusting your hips as fast as you can, causing the imp to moan and pant in a humorous fashion from the rapid bouncing.",
+                    "ChangeImageFor", "1", "Cheerful",
+                    "Speaks", "Ha- hya- hahaha! I sound so funny!",
+                    "ChangeImageFor", "1", "Submissive",
+                    "Speaks", "Oh, oh, oh I'm gonna... gonna cum!♥",
+                    "The two of you orgasm in unison, your hot seed rushing out and flooding her tight pussy as she screams in pleasure, never stopping her rocking hips.",
+                    "Speaks", "So much cumm!♥ I looove iiit~~!♥",
+                    "Your cum blasts powerfully from her over-filled pussy, the imp's small body never having a chance to contain all of your semen. The imp pants and collapses on top of you, breathing heavily. Your breathing heavy, you start fading away, squeezed completely dry.",
+                    "Nuzzling into your chest the imp murmurs something affectionate, but you can't quite hear what...",
+                    "ChangeSensitivity", "Sex", "5"
+                    ],
+          "picture": ""
+      }
+                  ],
+    "combatDialogue": [
+                        {
+                          "lineTrigger": "StartOfCombat",
+                          "move": "",
+                          "theText": [ "|f|CallEventThenScene|/|ImpCombatEvent|/|Intro|n|"]
+                        },
+
+                        {
+                          "lineTrigger": "StartOfRound",
+                          "move": "",
+                          "theText": [ "|f|CallEventThenScene|/|ImpCombatEvent|/|StartOfRound"]
+                        },
+                        {
+                          "lineTrigger": "EndOfRound",
+                          "move": "",
+                          "theText": [ "|f|CallEventThenScene|/|ImpCombatEvent|/|EndOfRound"]
+                        },
+
+
+                        {
+                            "lineTrigger": "hitWith",
+                            "move": "Spank",
+                            "theText": [ "|f|ChangeImageFor|/|Panic|n|'EEEK!♥'",
+                                        "|f|ChangeImageFor|/|Panic|n|'H-Hey! D-Don't bully me!'",
+                                        "|f|ChangeImageFor|/|Submissive|n|'J-Just because you're stronger-♥'"
+                                        ]
+                        },
+                        {
+                            "lineTrigger": "hitWith",
+                            "move": "Whip",
+                            "theText": [ "|f|ChangeImageFor|/|Panic|n|'EEEK!♥'",
+                                        "|f|ChangeImageFor|/|Panic|n|'H-Hey! D-Don't bully me!'",
+                                        "|f|ChangeImageFor|/|Submissive|n|'J-Just because you're stronger-♥'"
+                                        ]
+                        },
+                        {
+                          "lineTrigger": "hitWith",
+                          "move": "Demon Layer",
+                          "theText": [ "|f|ChangeImageFor|/|Panic|n|'EEEK!♥'",
+                                    "|f|ChangeImageFor|/|Panic|n|'EEEK!♥'",
+                                      "|f|ChangeImageFor|/|Panic|n|'H-Hey! D-Don't bully me!'",
+                                      "|f|ChangeImageFor|/|Submissive|n|'Ahhhhh!♥'",
+                                      "|f|ChangeImageFor|/|Submissive|n|'J-Just because you're stronger-♥'",
+                                      "|f|ChangeImageFor|/|Submissive|n|'H-Holy magic from a whip- Th-That's not fair...♥'"]
+                        },
+                        {
+                          "lineTrigger": "hitWith",
+                          "move": "Holy Headpat",
+                          "theText": [ "|f|ChangeImageFor|/|Panic|n|'Wh-Wha- H-Hey cut that out!'",
+                                    "|f|ChangeImageFor|/|Panic|n|'Y-You're making fun of me aren't you...'",
+                                    "|f|ChangeImageFor|/|Panic|n|'Th-This is {i}so{/i} embarrassing...'" ]
+                        },
+                        {
+                          "lineTrigger": "hitWith",
+                          "move": "Bondage Net",
+                          "theText": [ "|f|ChangeImageFor|/|Panic|n|'H-Hold on a sec!'",
+                                     "|f|ChangeImageFor|/|Panic|n|'Uhm, ah... H-Help? Anyone?'",
+                                     "|f|ChangeImageFor|/|Panic|n|'Ah-Ahaha, m-mercy?'"]
+                        },
+                        {
+                          "lineTrigger": "hitWith",
+                          "move": "Magical Binding",
+                          "theText": [ "|f|ChangeImageFor|/|Panic|n|'H-Hold on a sec!'",
+                                     "|f|ChangeImageFor|/|Panic|n|'Uhm, ah... H-Help? Anyone?'",
+                                     "|f|ChangeImageFor|/|Panic|n|'Ah-Ahaha, m-mercy?'"]
+                        },
+                        {
+                          "lineTrigger": "hitWith",
+                          "move": "Sleep",
+                          "theText": [ "|f|ChangeImageFor|/|Panic|n|She yawns, staggering to the side as she shakes her head, trying to stave off her inevitable slumber.",
+                                      "|f|ChangeImageFor|/|Panic|n|'I-If you're going to do stuff to me, at least let me be awake for it!"
+                                      ]
+                        },
+                        {
+                          "lineTrigger": "hitWith",
+                          "move": "Lewd Bottle",
+                          "theText": [ "|f|ChangeImageFor|/|Panic|n|'I-I really didn't need to be more aroused!'",
+                                     "|f|ChangeImageFor|/|Tease|n|'Ahhh, that just made me really hungry!'"]
+                        },
+                        {
+                            "lineTrigger": "hitWith",
+                            "move": "Electrify",
+                            "theText": [ "|f|ChangeImageFor|/|Submissive|n|'Wh-What kind of magic was that?!♥'",
+                                      "|f|ChangeImageFor|/|Panic|n|'I-I'm going to make y-you pay for this!♥'",
+                                      "|f|ChangeImageFor|/|Panic|n|'W-Whaaaa-EEEEEE?!♥'"]
+                        },
+                        {
+                            "lineTrigger": "hitWith",
+                            "move": "Penetrate",
+                            "theText": [ "|f|CallEventThenScene|/|ImpCombatEvent|/|Penetrate|n|"]
+                        },
+                        {
+                          "lineTrigger": "hitWith",
+                          "move": "Thrust",
+                          "theText": [ "|f|CallEventThenScene|/|ImpCombatEvent|/|Thrust|n|"]
+                        },
+                        {
+                          "lineTrigger": "hitWith",
+                          "move": "Pound",
+                          "theText": [ "|f|ChangeImageFor|/|Submissive|n|'Haah!?♥ I'm gonna cum if this keeps up!♥'",
+                                      "|f|ChangeImageFor|/|Panic|n|'Y-You're being too rough!♥",
+                                      "|f|ChangeImageFor|/|Panic|n|'I-I'm going to pay you back ten times over for this!♥"]
+                        },
+                        {
+                          "lineTrigger": "hitWith",
+                          "move": "Multi Thrust",
+                          "theText": [ "|f|ChangeImageFor|/|Submissive|n|'Haah!?♥ I'm gonna cum if this keeps up!♥'",
+                                      "|f|ChangeImageFor|/|Submissive|n|'Y-You're going too fast!♥",
+                                      "|f|ChangeImageFor|/|Panic|n|'I-I'm going to pay you back ten times over for this!♥"]
+                        },
+                        {
+                          "lineTrigger": "hitWith",
+                          "move": "Empowered Thrust",
+                          "theText": [ "|f|ChangeImageFor|/|Submissive|n|'Haah!?♥ I'm gonna cum if this keeps up!♥'",
+                                      "|f|ChangeImageFor|/|Submissive|n|'Th-This isn't fair!♥",
+                                      "|f|ChangeImageFor|/|Panic|n|'I-I'm going to pay you back ten times over for this!♥"]
+                        },
+                        {
+                          "lineTrigger": "hitWith",
+                          "move": "Tantric Thrust",
+                          "theText": [ "|f|ChangeImageFor|/|Tease|n|'Haah! At this rate I just might cum!♥'",
+                                      "|f|ChangeImageFor|/|Tease|n|'C'mon, you can do it!♥'",
+                                      "|f|ChangeImageFor|/|Tease|n|'Hehehe, you must be a real weakling to be this gentle!'"]
+                        },
+                        {
+                            "lineTrigger": "hitWith",
+                            "move": "Anal Penetration",
+                            "theText": [ "|f|CallEventThenScene|/|ImpCombatEvent|/|PenetrateA|n|"]
+                        },
+                        {
+                          "lineTrigger": "hitWithA",
+                          "move": "Thrust",
+                          "theText": [ "|f|CallEventThenScene|/|ImpCombatEvent|/|Thrust|n|"]
+                        },
+                        {
+                          "lineTrigger": "hitWithA",
+                          "move": "Pound",
+                          "theText": [ "|f|ChangeImageFor|/|Panic|n|'W-Wait, sl-slow down!♥'",
+                                      "|f|ChangeImageFor|/|Submissive|n|'N-Not f-fair!♥'",
+                                      "|f|ChangeImageFor|/|Submissive|n|'T-This is bad!♥"]
+                        },
+                        {
+                          "lineTrigger": "hitWithA",
+                          "move": "Multi Thrust",
+                          "theText": [ "|f|ChangeImageFor|/|Panic|n|'W-Wait, sl-slow down!♥'",
+                                      "|f|ChangeImageFor|/|Submissive|n|'N-Not f-fair!♥'",
+                                      "|f|ChangeImageFor|/|Submissive|n|'T-This is bad!♥"]
+                        },
+                        {
+                          "lineTrigger": "hitWithA",
+                          "move": "Empowered Thrust",
+                          "theText": [ "|f|ChangeImageFor|/|Panic|n|'W-Wait, sl-slow down!♥'",
+                                      "|f|ChangeImageFor|/|Submissive|n|'N-Not f-fair!♥'",
+                                      "|f|ChangeImageFor|/|Submissive|n|'T-This is bad!♥"]
+                        },
+                        {
+                          "lineTrigger": "hitWithA",
+                          "move": "Tantric Thrust",
+                          "theText": [ "|f|ChangeImageFor|/|Panic|n|'St-Stop being so gentle, you're making me feel weird!♥'",
+                                      "|f|ChangeImageFor|/|Submissive|n|'N-Not f-fair!♥'",
+                                      "|f|ChangeImageFor|/|Submissive|n|'T-This is bad!♥",
+                                      "|f|ChangeImageFor|/|Submissive|n|'S-So big!♥'"]
+                        },
+                        {
+                            "lineTrigger": "hitWith",
+                            "move": "Face Fuck",
+                            "theText": [ "|f|CallEventThenScene|/|ImpCombatEvent|/|FaceFuck|n|"]
+                        },
+                        {
+                            "lineTrigger": "hitWith",
+                            "move": "Pin",
+                            "theText": [ "|f|ChangeImageFor|/|Panic|n|'Eh?! G-Get off!'",
+                                        "|f|ChangeImageFor|/|Panic|n|'H-Hold on a sec!'",
+                                        "|f|ChangeImageFor|/|Panic|n|'W-Wouldn't you rather have a nice blowjob instead?'"]
+                        },
+                        {
+                            "lineTrigger": "hitWith",
+                            "move": "Pinch Nipples",
+                            "theText": [ "|f|ChangeImageFor|/|Panic|n|'EEK!♥ C-Careful!'",
+                                        "|f|ChangeImageFor|/|Submissive|n|'MMM!♥'",
+                                        "|f|ChangeImageFor|/|Panic|n|'K-Knock it off.♥'"]
+                        },
+                        {
+                            "lineTrigger": "hitWith",
+                            "move": "Grope Ass",
+                            "theText": [ "|f|CallEventThenScene|/|ImpCombatEvent|/|GropeAss|n|"]
+                        },
+                        {
+                          "lineTrigger": "hitWith",
+                          "move": "Breast Caress",
+                          "theText": [ "|f|CallEventThenScene|/|ImpCombatEvent|/|Breasts|n|"]
+                        },
+                        {
+                          "lineTrigger": "hitWith",
+                          "move": "Breast Massage",
+                          "theText": [ "|f|CallEventThenScene|/|ImpCombatEvent|/|Breasts|n|"]
+                        },
+                        {
+                          "lineTrigger": "hitWith",
+                          "move": "Suckle",
+                          "theText": [ "|f|CallEventThenScene|/|ImpCombatEvent|/|Breasts|n|"]
+                        },
+                        {
+                          "lineTrigger": "hitWith",
+                          "move": "Finger",
+                          "theText": [ "|f|ChangeImageFor|/|Submissive|n|'MMmmm♥.'",
+                                      "|f|ChangeImageFor|/|Submissive|n|'...Ah...'"]
+                        },
+                        {
+                          "lineTrigger": "hitWith",
+                          "move": "Pussy Worship",
+                          "theText": [ "|f|CallEventThenScene|/|ImpCombatEvent|/|PussyWorship|n|"]
+                        },
+                        {
+                          "lineTrigger": "hitWith",
+                          "move": "Dildo",
+                          "theText": [ "|f|ChangeImageFor|/|Submissive|n|'MMmmm♥.'",
+                                      "|f|ChangeImageFor|/|Smug|n|'If only it could feed me...'"]
+                        },
+
+
+                        {
+                            "lineTrigger": "usesMove",
+                            "move": "Sensitize",
+                            "theText": [ "|f|ChangeImageFor|/|Smug|n|'You're going to start feeling even better now!♥'",
+                                       "|f|ChangeImageFor|/|Base|n|'You're going to feel so good!♥'",
+                                       "|f|ChangeImageFor|/|Smug|n|'Ehehe, what's wrong? Wanna cum?♥'"]
+                        },
+                        {
+                            "lineTrigger": "usesMove",
+                            "move": "Imp Binding Magic",
+                            "theText": [ "|f|ChangeImageFor|/|Smug|n|'Hold still so I can milk out your cum!'",
+                                       "|f|ChangeImageFor|/|Smug|n|'Ehehe, Are these tight enough?'♥",
+                                       "|f|ChangeImageFor|/|Smug|n|'Now hold still!'"]
+                        },
+                        {
+                            "lineTrigger": "usesMove",
+                            "move": "Pinch Nipples",
+                            "theText": [ "|f|ChangeImageFor|/|Smug|n|'Hey hey, are you a masochist?♥'",
+                                       "|f|ChangeImageFor|/|Base|n|'Ehehe!♥'",
+                                       "|f|ChangeImageFor|/|Base|n|'Wouldn't it be great if your whole body was sensitive?♥'",
+                                       "|f|ChangeImageFor|/|Smug|n|'You like this, don't you?♥'"]
+                        },
+                        {
+                            "lineTrigger": "usesMove",
+                            "move": "Nipple Tease",
+                            "theText": [ "|f|ChangeImageFor|/|Smug|n|'We're going to tease you all over.♥'",
+                                       "|f|ChangeImageFor|/|Base|n|'Ehehe!♥'",
+                                       "|f|ChangeImageFor|/|Base|n|'Does it feel good?♥'",
+                                       "|f|ChangeImageFor|/|Smug|n|'Ehehe, we're gonna turn you into a pervert.♥"]
+                        },
+
+
+
+                        {
+                            "lineTrigger": "usesMove",
+                            "move": "Double Blowjob",
+                            "theText": [ "|f|ChangeImageFor|/|Smug|n|'C'mon, become our pet!♥'",
+                                      "|f|ChangeImageFor|/|Tease|n|'You can't resist us forever!♥",
+                                      "|f|ChangeImageFor|/|Tease|n|'Mmmph.♥' 'Ehehe!♥'",
+                                      "|f|ChangeImageFor|/|Tease|n|'Let us drink all of your cum!♥'",
+                                      "|f|ChangeImageFor|/|Tease|n|One of them nibbles on the tip of your cock while the other licks and fondles your aching balls."]
+                        },
+                        {
+                            "lineTrigger": "usesMove",
+                            "move": "Triple Blowjob",
+                            "theText": [ "|f|ChangeImageFor|/|Smug|n|'C'mon, become our pet!♥'",
+                                      "|f|ChangeImageFor|/|Tease|n|'You can't hold out much more!♥",
+                                      "|f|ChangeImageFor|/|Tease|n|'Mmmph.♥' 'Ehehe!♥' 'Mmmm.♥'",
+                                      "|f|ChangeImageFor|/|Tease|n|'Let us drink every drop of your cum!♥'",
+                                      "|f|ChangeImageFor|/|Smug|n|'If you don't give in soon, we might just break you!♥"]
+                        },
+                        {
+                            "lineTrigger": "usesMove",
+                            "move": "Imp Pussy Altar",
+                            "theText": [ "|f|ChangeImageFor|/|Smug|n|'Got you now, human!'",
+                                      "|f|ChangeImageFor|/|Tease|n|'I'm not letting you get away!'",
+                                      "|f|ChangeImageFor|/|Tease|n|'You're going to get hooked on imp pussy!♥'",
+                                      "|f|ChangeImageFor|/|Smug|n|'You look so thirsty.♥'"]
+                        },
+                        {
+                            "lineTrigger": "usesMove",
+                            "move": "Impish Face Grind",
+                            "theText": [ "|f|ChangeImageFor|/|Tease|n|'Mmm♥ His tongue feels great!'",
+                                      "|f|ChangeImageFor|/|Tease|n|'You're going to get hooked on imp pussy!♥'",
+                                      "|f|ChangeImageFor|/|Smug|n|'You must be so thirsty.♥'",
+                                      "|f|ChangeImageFor|/|Submissive|n|'I hope I'm not getting carried away...'"]
+                        },
+                        {
+                            "lineTrigger": "usesMove",
+                            "move": "Imp Reverse Spitroast",
+                            "theText": [ "|f|ChangeImageFor|/|Base|n|'C'mon human! Let yourself go!♥'",
+                                      "|f|ChangeImageFor|/|Tease|n|'You have a lot of work ahead of you, stud!'",
+                                      "|f|ChangeImageFor|/|Smug|n|'Ehehe! I think his mind's breaking!♥'",
+                                      "|f|ChangeImageFor|/|Tease|n|'Ahhh!♥ This is the best!'"]
+                        },
+                        {
+                            "lineTrigger": "usesMove",
+                            "move": "Impish Reverse Spitroast",
+                            "theText": [ "|f|ChangeImageFor|/|Base|n|'C'mon human! Let yourself go!♥'",
+                                      "|f|ChangeImageFor|/|Tease|n|'You have a lot of work ahead of you, stud!'",
+                                      "|f|ChangeImageFor|/|Smug|n|'Ehehe! I think his mind's breaking!♥'",
+                                      "|f|ChangeImageFor|/|Tease|n|'Ahhh!♥ This is the best!'"]
+                        },
+                        {
+                            "lineTrigger": "usesMove",
+                            "move": "Impish Encouragement",
+                            "theText": [ "|f|ChangeImageFor|/|Smug|n|'C'mon! Fuck him till he breaks!♥'",
+                                      "|f|ChangeImageFor|/|Smug|n|'Get him hooked on imp pussy!♥'",
+                                      "|f|ChangeImageFor|/|Smug|n|'Hurry up and fuck him senseless so I can get a turn!♥'",
+                                      "|f|ChangeImageFor|/|Base|n|'He can't hold out much longer!♥'",
+                                      "|f|ChangeImageFor|/|Smug|n|'Let's make him into our pleasure slave!♥"]
+                        },
+                        {
+                            "lineTrigger": "usesMoveA",
+                            "move": "Grind",
+                            "theText": [ "|f|ChangeImageFor|/|Tease|n|'Mmm♥ I {i}really{/i} don't wanna share this dick.♥'",
+                                      "|f|ChangeImageFor|/|Tease|n|'Hey, my ass is so hungry for your cum.♥'",
+                                      "|f|ChangeImageFor|/|Tease|n|Her ass tightly clings to your cock."]
+                        },
+                        {
+                            "lineTrigger": "usesMoveA",
+                            "move": "Imp Reverse Spitroast",
+                            "theText": [ "|f|ChangeImageFor|/|Base|n|'C'mon human! Let yourself go!♥'",
+                                      "|f|ChangeImageFor|/|Tease|n|'You have a lot of work ahead of you, stud!'",
+                                      "|f|ChangeImageFor|/|Smug|n|'Ehehe! I think his mind's breaking!♥'",
+                                      "|f|ChangeImageFor|/|Tease|n|'Ahhh!♥ This is the best!'"]
+                        },
+                        {
+                            "lineTrigger": "usesMoveA",
+                            "move": "Impish Reverse Spitroast",
+                            "theText": [ "|f|ChangeImageFor|/|Base|n|'C'mon human! Let yourself go!♥'",
+                                      "|f|ChangeImageFor|/|Tease|n|'You have a lot of work ahead of you, stud!'",
+                                      "|f|ChangeImageFor|/|Smug|n|'Ehehe! I think his mind's breaking!♥'",
+                                      "|f|ChangeImageFor|/|Tease|n|'Ahhh!♥ This is the best!'"]
+                        },
+                        {
+                            "lineTrigger": "usesMoveA",
+                            "move": "Impish Encouragement",
+                            "theText": [ "|f|ChangeImageFor|/|Smug|n|'C'mon! Fuck him till he breaks!♥'",
+                                      "|f|ChangeImageFor|/|Smug|n|'Get him hooked on imp ass!♥'",
+                                      "|f|ChangeImageFor|/|Smug|n|'Hurry up and fuck him senseless so I can get a turn!♥'",
+                                      "|f|ChangeImageFor|/|Base|n|'He can't hold out much longer!♥'",
+                                      "|f|ChangeImageFor|/|Smug|n|'Let's make him into our pleasure slave!♥"]
+                        },
+                        {
+
+                            "lineTrigger": "lowHealth",
+                            "move": "",
+                            "theText": [ "|f|ChangeImageFor|/|Submissive|n|'Ghh...♥ I can't hold out for much longer...'",
+                                       "|f|ChangeImageFor|/|Submissive|n|'M-My whole body is tingling!♥'",
+                                       "|f|ChangeImageFor|/|Submissive|n|'D-Damn h-human making me feel good!♥'",
+                                       "|f|ChangeImageFor|/|Panic|n|'D-Don't underestimate imps!",
+                                       "|f|ChangeImageFor|/|Submissive|n|'I-I can't think straight..."]
+                        },
+                        {
+                            "lineTrigger": "playerLowHealth",
+                            "move": "",
+                            "theText": [ "|f|ChangeImageFor|/|Tease|n|'He's getting ready to cum!♥'",
+                                       "|f|ChangeImageFor|/|Base|n|'I wonder how many imps you can feed.♥'",
+                                       "|f|ChangeImageFor|/|Smug|n|'You can't hold out much longer, can you?♥'",
+                                       "|f|ChangeImageFor|/|Tease|n|'Ehehe, gonna cum?♥",
+                                       "|f|ChangeImageFor|/|Base|n|'Don't hold back! Cum like a fountain!♥"]
+                        },
+                        {
+                            "lineTrigger": "onPlayerOrgasm",
+                            "move": "Impish Cock Worship ",
+                            "theText": [ "|f|CallEventThenScene|/|ImpCombatEvent|/|MultiOralOrgasm|n|"
+                                      ]
+                        },
+                        {
+                            "lineTrigger": "onPlayerOrgasm",
+                            "move": "Ravenous Blowjob Assault",
+                            "theText": [ "|f|CallEventThenScene|/|ImpCombatEvent|/|MultiOralOrgasm|n|"
+                                      ]
+                        },
+                        {
+                            "lineTrigger": "onPlayerOrgasm",
+                            "move": "Naughty Oral Synergy",
+                            "theText": [ "|f|CallEventThenScene|/|ImpCombatEvent|/|MultiOralOrgasm|n|"
+                                      ]
+                        },
+                        {
+                            "lineTrigger": "onPlayerOrgasm",
+                            "move": "Triple Blowjob",
+                            "theText": [ "|f|ChangeImageFor|/|Tease|n|The three imps suck, lick, and nibble on your shaft, leaving you a barely coherent mess as the incessant pleasure cascades through your body. Soon enough, you are ejaculating for them as they each take their fair share of your twitching orgasm, drinking your cum down directly from the tip your cock.",
+                                        "|f|ChangeImageFor|/|Tease|n|Your cock is not left alone as three mouths constantly tease and suck its full length. A shuddering orgasm runs through your body, and one of the imps catches your thick load in her mouth before proceeding to share it with her two allies with kisses. They turn back to you with a hungry gaze after drinking down your seed."
+                                      ]
+                        },
+                        {
+                            "lineTrigger": "onPlayerOrgasm",
+                            "move": "Double Blowjob",
+                            "theText": [ "|f|ChangeImageFor|/|Tease|n|The two imps work your shaft in unison, both of their tongues licking and teasing the full length of your cock. As an orgasm begins to blow through you, one of the imps captures your tip in her mouth, drinking down a large load of your cum before quickly passing your still twitching shaft to her ally, who drinks down the second half of your spurting semen with a rapturous expression on her face.",
+                                        "|f|ChangeImageFor|/|Tease|n|One of the imps is sucking and licking your aching balls while the other deepthroats your throbbing shaft. Soon you begin to be overtaken with orgasmic pleasure and the imp sucking your cock pulls away to keep as much cum as she can in her mouth, and after your orgasm subsides she pulls away and kisses her ally, sharing her delicious reward."
+                                      ]
+                        },
+                        {
+                            "lineTrigger": "onPlayerOrgasm",
+                            "move": "Sex",
+                            "theText": [ "|f|ChangeImageFor|/|Tease|n|'Ehehe♥ I can feel you throbbing like crazy inside me!' With a moan, you ejaculate into the imp's tight pussy as it undulates around you in almost gulping motions.",
+                                        "|f|ChangeImageFor|/|Smug|n|The imp slowly grinds her hips against yours and you feel orgasmic bliss approaching, but she keeps you teetering on the edge. 'Say you want to cum!♥' You try to ignore her, but every thought in your brain keeps getting replaced with pleasure and the need to cum. You cry out your desire to cum, and she happily obliges as she forces you over the edge and her pussy milks your shaft for every last drop.",
+                                        "|f|ChangeImageFor|/|Tease|n|She rides your cock faster and faster, pleasure rising higher and higher in your groin until your cock eventually erupts into orgasmic bliss, feeding her hungry pussy load after load of your cum as she grinds her hips against you, trying to milk out as much as she can from your rigid manhood."
+                                      ]
+                        },
+                        {
+                            "lineTrigger": "onPlayerOrgasm",
+                            "move": "Anal",
+                            "theText": [ "|f|ChangeImageFor|/|Tease|n|'Ehehe♥ I can feel you throbbing like crazy inside me!' With a moan, you ejaculate into the imp's tight ass as it undulates around you in almost gulping motions.",
+                                        "|f|ChangeImageFor|/|Smug|n|The imp slowly grinds her hips against yours and you feel orgasmic bliss approaching, but she keeps you teetering on the edge. 'Say you want to cum!♥' You try to ignore her, but every thought in your brain keeps getting replaced with pleasure and the need to cum. You cry out your desire to cum, and she happily obliges as she forces you over the edge and her ass milks your shaft for every last drop.",
+                                        "|f|ChangeImageFor|/|Tease|n|She rides your cock faster and faster, pleasure rising higher and higher in your groin until your cock eventually erupts into orgasmic bliss, feeding her hungry asshole load after load of your cum as she grinds her hips against you, trying to milk out as much as she can from your rigid manhood."
+                                      ]
+                        },
+                        {
+                            "lineTrigger": "onPlayerOrgasm",
+                            "move": "Blowjob",
+                            "theText": [ "|f|ChangeImageFor|/|Tease|n|The imp skillfully licks and sucks on your shaft, making you groan as pulses of orgasmic bliss emanate from your groin until you cum, feeding the horny imp the semen she so desperately desires. The imp makes some very pleased, if muffled, sounds.",
+                                       "|f|ChangeImageFor|/|Tease|n|Your cock throbs and twitches in pleasure as you unload cum into the hungry imp's mouth. She pulls away from your cock with a lewd pop before gulping down your load with a satisfied sigh. She turns to you before opening her mouth wide to show her she drank down all of your semen. 'Ehehe, you've got more for me, right?'",
+                                       "|f|ChangeImageFor|/|Tease|n|As your aching balls are massaged by the imp's skillful hands while her mouth unrelentingly sucks your cock, your shaft begins to convulse in pleasure as you ejaculate into her hungry mouth. She gulps down your entire load without ever taking your cock out of her mouth and quickly resumes her blowjob.",
+                                        "|f|ChangeImageFor|/|Tease|n|Your manhood can't take any more of the imp's soft lips and teasing tongue, and as she takes the full length of your shaft into her mouth before slowly pulling away, you are thrown into a long, drawn out orgasm, shooting ropes of cum into her lewd mouth. She loudly gulps down every single one of your loads as her piercing blue eyes stare into yours."
+                                      ]
+                        },
+                        {
+                            "lineTrigger": "onPlayerOrgasm",
+                            "move": "",
+                            "theText": [ "|f|ChangeImageFor|/|Tease|n|You succumb to the pleasure coursing through your body and ejaculate onto the imp. 'Hey! That's just wasteful!'",
+                                      "|f|ChangeImageFor|/|Tease|n|'Hey, you're gonna cum, right? Righhht?' As if on cue, your cock erupts into orgasm and the imp catches as much as she can in her mouth."
+                                      ]
+                        },
+                        {
+                            "lineTrigger": "onOrgasm",
+                            "move": "",
+                            "theText": [ "|f|ChangeImageFor|/|Submissive|n|AHH!♥ I-Incredible!♥|f|CallEventThenScene|/|ImpCombatEvent|/|HordeDefeatCheck|n|",
+                                        "|f|ChangeImageFor|/|Submissive|n|I-I'm cumming!♥|f|CallEventThenScene|/|ImpCombatEvent|/|HordeDefeatCheck|n|",
+                                        "|f|ChangeImageFor|/|Submissive|n|MMM!♥ Amazing!♥|f|CallEventThenScene|/|ImpCombatEvent|/|HordeDefeatCheck|n|",
+                                        "|f|ChangeImageFor|/|Submissive|n|M-My head's going blank!♥|f|CallEventThenScene|/|ImpCombatEvent|/|HordeDefeatCheck|n|"
+                                      ]
+                        },
+                        {
+                            "lineTrigger": "onSurrender",
+                            "move": "",
+                            "theText": [ "|f|ChangeImageFor|/|Smug|n|Ehehe, this is going to be fun.♥",
+                                       "|f|ChangeImageFor|/|Smug|n|Oh I'll be happy to tease you senseless!♥",
+                                       "|f|ChangeImageFor|/|Smug|n|Now what do I do with you?♥",
+                                       "|f|ChangeImageFor|/|Smug|n|Your cock will never be left alone ever again.♥",
+                                       "|f|ChangeImageFor|/|Tease|n|Ehehe♥ I can't wait to taste your semen.♥",
+                                       "|f|ChangeImageFor|/|Base|n|Eh? You want to be an imp's sex slave? Awesome!♥"]
+                        },
+                        {
+                            "lineTrigger": "stanceStruggle",
+                            "move": "Sex",
+                            "theText": [ "{thePlayerName} tries to pull out of {attackerName}'s tight pussy..."]
+                        },
+                        {
+                            "lineTrigger": "stanceStruggleFail",
+                            "move": "Sex",
+                            "theText": [ "But {attackerName} refuses to be dislodged from your cock and continues to ride your shaft!",
+                                        "But with surprising force, {attackerName} slams her hips back into yours!",
+                                        "But as you grab her hips to pull out, she firmly grabs your balls making you lose your momentum, keeping your cock snug inside of her!",
+                                        "But {attackerName} briefly sensitizes your body with magic, making you shudder and moan as she stops your escape attempt in its tracks!"]
+                        },
+                        {
+                            "lineTrigger": "stanceStruggleComment",
+                            "move": "Sex",
+                            "theText": [ "|f|CallEventThenScene|/|ImpCombatEvent|/|StanceStrugglePen" ]
+                        },
+                        {
+                            "lineTrigger": "stanceStruggleFree",
+                            "move": "Sex",
+                            "theText": [ "And manage to pull your cock out of her tight slit!"]
+                        },
+                        {
+                            "lineTrigger": "stanceStruggleFreeComment",
+                            "move": "Sex",
+                            "theText": [
+                                      "|f|CallEventThenScene|/|ImpCombatEvent|/|StanceEscapePen"]
+                        },
+                        {
+                            "lineTrigger": "stanceStruggle",
+                            "move": "Anal",
+                            "theText": [ "{thePlayerName} tries to pull out of {attackerName}'s tight ass..."]
+                        },
+                        {
+                            "lineTrigger": "stanceStruggleFail",
+                            "move": "Anal",
+                            "theText": [ "But {attackerName} refuses to be dislodged from your cock and continues to ride your shaft!",
+                                        "But with surprising force, {attackerName} slams her hips back into yours!",
+                                        "But as you grab her hips to pull out, she firmly grabs your balls making you lose your momentum. Keeping you snug inside of her!",
+                                        "But {attackerName} briefly sensitizes your body with magic, making you shudder and moan as she stops your escape attempt in its tracks!"]
+                        },
+                        {
+                            "lineTrigger": "stanceStruggleComment",
+                            "move": "Anal",
+                            "theText": [ "|f|CallEventThenScene|/|ImpCombatEvent|/|StanceStrugglePen"
+                                         ]
+                        },
+                        {
+                            "lineTrigger": "stanceStruggleFree",
+                            "move": "Anal",
+                            "theText": [ "And manage to pull your cock out of her tight rear!"]
+                        },
+                        {
+                            "lineTrigger": "stanceStruggleFreeComment",
+                            "move": "Anal",
+                            "theText": [ "|f|CallEventThenScene|/|ImpCombatEvent|/|StanceEscapePen"
+                                         ]
+                        },
+                        {
+                            "lineTrigger": "stanceStruggle",
+                            "move": "Face Sit",
+                            "theText": [ "{thePlayerName} tries to push {attackerName}'s round ass off {targetHisOrHer} face..."]
+                        },
+                        {
+                            "lineTrigger": "stanceStruggleFail",
+                            "move": "Face Sit",
+                            "theText": [ "But she firmly grinds her rear back down into your face!",
+                                        "But as you start to push her off, she grabs your arms and throws them to your sides as she proceeds to plop her firm rear back onto your face!"]
+                        },
+                        {
+                            "lineTrigger": "stanceStruggleComment",
+                            "move": "Face Sit",
+                            "theText": [ "",
+                                        "|f|ChangeImageFor|/|Tease|n|'Enjoying my pussy juices?♥'",
+                                        "|f|ChangeImageFor|/|Smug|n|'What's wrong? Is your head blanking out?♥'",
+                                        "|f|ChangeImageFor|/|Smug|n|'You're not getting away!♥",
+                                        "|f|ChangeImageFor|/|Smug|n|'Just give up! You know you want to!♥'"]
+                        },
+                        {
+                            "lineTrigger": "stanceStruggleFree",
+                            "move": "Face Sit",
+                            "theText": [ "And manage to push {attackerName}'s shapely rear away!",
+                                      "And as you free yourself from {attackerName}'s firm behind, you gasp for some air!"]
+                        },
+                        {
+                            "lineTrigger": "stanceStruggleFreeComment",
+                            "move": "Face Sit",
+                            "theText": [ "|f|ChangeImageFor|/|Panic|n|'Can't you just give up already?'",
+                                        "|f|ChangeImageFor|/|Panic|n|'Ugh, stop struggling!'",
+                                        "|f|ChangeImageFor|/|Panic|n|'Uwa?! Crap, you might actually be pretty strong...'",
+                                        "|f|ChangeImageFor|/|Smug|n|'Hehe, I bet you already want more of my juices!♥'"]
+                        },
+                        {
+                            "lineTrigger": "stanceStruggle",
+                            "move": "Blowjob",
+                            "theText": [ "{thePlayerName} tries to push {attackerName}'s mouth away from {targetHisOrHer} rigid shaft..."]
+                        },
+                        {
+                            "lineTrigger": "stanceStruggleFail",
+                            "move": "Blowjob",
+                            "theText": [ "But she lightly bites down on your cock, stopping you immediately as she glares up at you for even thinking about trying to get away before she resumes pleasantly teasing your manhood!",
+                                        "But as you grab her head to push her away, she wraps her arms around you hips and starts to deepthroat your shaft! Every time you try to push her away from your shaft, she just takes it back to the hilt!",
+                                        "But the imp deftly moves in and starts to lick and tease your balls, and as she looks up at you she squeezes one of your balls in her hands, you realize that trying to push her off right now probably wouldn't end well.",
+                                        "But the imp keeps her mouth tightly sealed around your shaft and continues to suck and lick to her heart's content!"]
+                        },
+                        {
+                            "lineTrigger": "stanceStruggleComment",
+                            "move": "Blowjob",
+                            "theText": [ "|f|CallEventThenScene|/|ImpCombatEvent|/|StanceStruggleOral"]
+                        },
+                        {
+                            "lineTrigger": "stanceStruggleFree",
+                            "move": "Blowjob",
+                            "theText": [ "And manage to get her greedy mouth away from your cock!",
+                                        "And manage to pull away from her hungry mouth!"]
+                        },
+                        {
+                            "lineTrigger": "stanceStruggleFreeComment",
+                            "move": "Blowjob",
+                            "theText": [ "|f|CallEventThenScene|/|ImpCombatEvent|/|StanceEscapeOral"]
+                        },
+                        {
+                            "lineTrigger": "stanceStruggle",
+                            "move": "Making Out",
+                            "theText": [ "{thePlayerName} tries to break the deep kiss with {attackerName}..."]
+                        },
+                        {
+                            "lineTrigger": "stanceStruggleFail",
+                            "move": "Making Out",
+                            "theText": [ "But she keeps a tight hold on {thePlayerName}, and he stays locked in a deep kiss!",
+                                        "But as you start to push her away she wraps an arm around the back of your head, deepening the kiss while she gazes lustfully into your eyes."]
+                        },
+                        {
+                            "lineTrigger": "stanceStruggleComment",
+                            "move": "Making Out",
+                            "theText": [ "|f|CallEventThenScene|/|ImpCombatEvent|/|StanceStruggleKiss"
+                                        ]
+                        },
+                        {
+                            "lineTrigger": "stanceStruggleFree",
+                            "move": "Making Out",
+                            "theText": [ "And free your mouth from {attackerName}'s soft lips!"]
+                        },
+                        {
+                            "lineTrigger": "stanceStruggleFreeComment",
+                            "move": "Making Out",
+                            "theText": [ "|f|CallEventThenScene|/|ImpCombatEvent|/|StanceEscapeKiss"]
+                        }
+                      ],
+        "victoryScenes": [
+          {
+              "NameOfScene": "",
+              "move": "",
+              "stance": "",
+              "includes": [""],
+              "theScene":[""
+                        ],
+              "picture":""
+          }
+          ],
+        "pictures": [
+                      {
+                          "Name": "Base",
+                          "StartOn": "1",
+                          "AlwaysOn": "1",
+                          "IsScene": "0",
+                          "TheBody": "1",
+                          "Overlay": "No",
+                          "setXalign": "0.0",
+                          "setYalign": "0.15",
+                          "Images": [
+                            {
+                                "Name": "Base",
+                                "File": "../../ModLoader/mods/Beach/Images/Bikini Imp/Bikini_Imp_cheerfull.png",
+                                "setXalign": "0.0",
+                                "setYalign": "0.0"
+                            },
+                            {
+                                "Name": "Tease",
+                                "File": "../../ModLoader/mods/Beach/Images/Bikini Imp/Bikini_Imp_dominant.png",
+                                "setXalign": "0.0",
+                                "setYalign": "0.0"
+                            },
+                            {
+                                "Name": "Panic",
+                                "File": "../../ModLoader/mods/Beach/Images/Bikini Imp/Bikini_Imp_panic.png",
+                                "setXalign": "0.0",
+                                "setYalign": "0.0"
+                            },
+                            {
+                                "Name": "Smug",
+                                "File": "../../ModLoader/mods/Beach/Images/Bikini Imp/Bikini_Imp_smug.png",
+                                "setXalign": "0.0",
+                                "setYalign": "0.0"
+                            },
+                            {
+                                "Name": "Submissive",
+                                "File": "../../ModLoader/mods/Beach/Images/Bikini Imp/Bikini_Imp_submissive.png",
+                                "setXalign": "0.0",
+                                "setYalign": "0.0"
+                            }
+                        ]
+                      }
+                    ]
+}

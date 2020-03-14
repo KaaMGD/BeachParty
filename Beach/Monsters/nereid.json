@@ -1,0 +1,676 @@
+{
+    "name": "Nereid",
+    "IDname": "Nereid",
+    "species": "Fish",
+    "gender": "female",
+    "description": "A slender woman with blue skin and several fish-like qualities like fins and a large tail. Her hands have long, webbed fingers that absent-mindedly caress her body. The woman's dark purple eyes scan the surroundings calmly, her facial expression placid and relaxed. She is wearing nothing at all, and her smooth skin is glistening with sea water.",
+    "encyclopedia": "A cool, laid back race of water-dwelling fish folk that live underneath the sea, sometimes coming up on surface in search of mates. Nereids are calm and collected individuals, but at times may be consumed by lust and become wild like a sea storm. Nevertheless, even when searching for mates Nereids remain peaceful and polite.\n\n.Even in combat they prefer to take on a passive role and simply endure until their opponent tires themselves out. Use of quick, rash tactics is not advised, so make sure to pace yourself properly.",
+    "tags": "none",
+    "generic": "True",
+    "requires": [""],
+    "skillList": ["Moan", "Moan", "Encourage", "Encourage", "Tighten", "Tighten", "Grind", "Kiss"],
+    "perks": ["Undeniable Pleasure", "Pacing"],
+    "stats": {"lvl": "4",
+              "Exp":"30",
+              "max_hp":"220",
+              "max_ep":"10",
+              "max_sp": "2",
+              "Power": "4",
+              "Technique": "4",
+              "Willpower": "8",
+              "Allure": "8",
+              "Luck": "4"
+    },
+    "Fetishes": [],
+    "BodySensitivity": {"Sex": "70",
+              "Ass":"60",
+              "Breasts":"60",
+              "Mouth":"60",
+              "Seduction": "60",
+              "Magic": "75",
+              "Pain": "75",
+              "Holy": "75",
+              "Unholy": "60"
+    },
+    "resistancesStatusEffects": {
+              "Stun": "15",
+              "Charm":"15",
+              "Aphrodisiac":"15",
+              "Restraints":"0",
+              "Sleep":"15",
+              "Trance": "15",
+              "Paralysis": "15"
+    },
+    "moneyDropped": "100",
+    "ItemDropList": [
+                      {
+                        "name": "Calming Potion",
+                        "dropChance": "50"
+                      },
+                      {
+                        "name": "Stoic Rune",
+                        "dropChance": "5"
+                      }
+                    ],
+    "lossScenes": [
+                    {
+                        "NameOfScene": "Thigh Trick",
+                        "move": "",
+                        "stance": "Sex",
+                        "includes": ["Nereid"],
+                        "theScene":["Having exhausted yourself you collapse against the Nereid, your cock still lodged deep inside her wet pussy, heaving for breath. She sighs and cups your cheeks with her hands, lifting your face to face her.",
+                                    "ChangeImageLayer", "Expression", "1", "Calm",
+									"Speaks",
+									"All done then? Hmm...",
+                                    "ChangeImageLayer", "Expression", "1", "Calm Blush",
+									"Her pussy squeezes on your still hard dick and she humms as you gasp and moan.",
+									"Speaks",
+									"Or maybe not quite yet, mm? But you're too tired, and I don't feel like taking charge... Whatever shall we do?",
+									"You only manage a groan in response and the cold fish woman lets out a quiet giggle. Pushing on the ground with her tail she rolls over, pulling your dick out of her pussy in process and putting you snugly beside her.",
+									"She moves closer, pressing her damp body against yours. Shifting lower, she presses her crotch against yours and your dick is enveloped in slick softness again.",
+									"Speaks",
+									"There, now this is more comfortable. It was a little heavy with you on top.",
+									"Wet, rhytmical contractions begin massaging your dick slowly, gently. You sigh at the pleasant sensations and bury your face in her chest.",
+									"The sensation is slow, gentle, and a little different from how it felt during the fight, but still unbearably pleasant.",
+                                    "The Nereid caresses your head, encouraging you to rub against her chest as she coos and eggs you on.",
+                                    "Speaks",
+									"There, there... This is good enough for you, right? Even if we don't go at it too eagerly.",
+									"You manage a muffled affirmative response and involuntary buckle your hips as you feel your orgasm approaching already.",
+                                    "ChangeImageLayer", "Expression", "1", "Calm Blush",
+                                    "Speaks",
+									"Good, good... Whenever you feel like it, go ahead and cum. It feels soo good, so you want to cum for me, right?",
+									"Just as she says you shudder and orgasm, slowly spilling out your seed inside the Nereid, ushered on by her whispering encouragement.",
+                                    "Speaks",
+									"Shoot out everything... shoot out your thick semen in my wet, naughty pussy... It feels soo good that you just can't seem to stop... And you just keep cumming until my womb is filled to the brim with your hot, sticky seed...",
+									"As if obeying her gentle words your dick just keeps cumming, intent on expelling everything in one go and filling your lover completely.",
+									"Finally your orgasm winds down and as exhaustion settles in, the bright sunny surroundings of the beach are growing dim.",
+									"The Nereid pulls away then, a wet, squelching sound accompanying her and making her giggle.",
+									"Speaks",
+									"Fufu, what a mess... and it made such an unsightly sound too.♥",
+									"The lean fish woman stands up on her webbed feet, looking down on you. As world grows darker, you note all your semen seems to drip down from her thighs...",
+                                    "ChangeImageLayer", "Expression", "1", "Calm Blush",
+									"Speaks",
+									"Fufu, so you noticed? That's right, I just gave you a thighjob.♥ Are you disappointed? Well, you seemed to enjoy yourself so it's all good, right?",
+                                    "Speaks",
+									"Good job obediently leaking everything out on my legs. Have a good nap now.♥",
+									"The last thing you see are her pale thighs thoroughly smeared with your cum as you slip into unconsciousness.",
+                                    "ChangeSensitivity",
+                                    "Sex",
+                                    "3"
+                                  ],
+                        "picture":""
+                    },
+                    {
+                        "NameOfScene": "Thigh Trick - nonsex",
+                        "move": "",
+                        "stance": "",
+                        "includes": ["Nereid"],
+                        "theScene":["Having exhausted yourself you collapse on the warm sands, heaving for air.",
+                                    "ChangeImageLayer", "Expression", "1", "Calm",
+									"Speaks",
+									"All done then? Hmm...",
+                                    "ChangeImageLayer", "Expression", "1", "Calm Blush",
+									"She glances over your still hard dick and humms, getting closer to you.",
+									"Speaks",
+									"Or maybe not quite yet, mm? But you're too tired, and I don't feel like taking charge... Whatever shall we do?",
+									"You only manage a groan in response and the cold fish woman lets out a quiet giggle. Getting on the ground next to you she pulls you closer, putting you snugly beside her.",
+									"Pressing her damp body against yours she shifts lower, until her crotch lines up against yours and your dick is enveloped in slick softness.",
+									"Speaks",
+									"There, now isn't this comfortable? Now we can do something about your hard, naughty erection...",
+									"Wet, rhytmical contractions begin massaging your dick slowly, gently. You sigh at the pleasant sensations and bury your face in her chest.",
+									"The sensation is slow, gentle, and a little different from what you'd expect, but still unbearably pleasant.",
+                                    "The Nereid caresses your head, encouraging you to rub against her chest as she coos and eggs you on.",
+                                    "Speaks",
+									"There, there... This is good enough for you, right? Even if we don't go at it too eagerly.",
+									"You manage a muffled affirmative response and involuntary buckle your hips as you feel your orgasm approaching already.",
+                                    "ChangeImageLayer", "Expression", "1", "Calm Blush",
+                                    "Speaks",
+									"Good, good... Whenever you feel like it, go ahead and cum. It feels soo good, so you want to cum for me, right?",
+									"Just as she says you shudder and orgasm, slowly spilling out your seed inside the Nereid, ushered on by her whispering encouragement.",
+                                    "Speaks",
+									"Shoot out everything... shoot out your thick semen in my wet, naughty pussy... It feels soo good that you just can't seem to stop... And you just keep cumming until my womb is filled to the brim with your hot, sticky seed...",
+									"As if obeying her gentle words your dick just keeps cumming, intent on expelling everything in one go and filling your lover completely.",
+									"Finally your orgasm winds down and as exhaustion settles in, the bright sunny surroundings of the beach are growing dim.",
+									"The Nereid pulls away then, a wet, squelching sound accompanying her and making her giggle.",
+									"Speaks",
+									"Fufu, what a mess... and it made such an unsightly sound too.♥",
+									"The lean fish woman stands up on her webbed feet, looking down on you. As world grows darker, you note all your semen seems to drip down from her thighs...",
+                                    "ChangeImageLayer", "Expression", "1", "Calm Blush",
+									"Speaks",
+									"Fufu, so you noticed? That's right, I just gave you a thighjob.♥ Are you disappointed? Well, you seemed to enjoy yourself so it's all good, right?",
+                                    "Speaks",
+									"Good job obediently leaking everything out on my legs. Have a good nap now.♥",
+									"The last thing you see are her pale thighs thoroughly smeared with your cum as you slip into unconsciousness.",
+                                    "ChangeSensitivity",
+                                    "Sex",
+                                    "3"
+                                  ],
+                        "picture":""
+                    }
+
+                  ],
+    "combatDialogue": [
+						{
+                            "lineTrigger":"EndOfRound",
+                            "move": "",
+                            "theText":["|f|CallEventThenScene|/|NereidCombatEvents|/|EndOfRound|n|"]
+                        },
+                        {
+                            "lineTrigger":"hitWith",
+                            "move": "Spank",
+                            "theText":["|f|ChangeImageLayer|/|Expression|/|Calm|n|'...'",
+                                        "|f|ChangeImageLayer|/|Expression|/|Calm|n|'Is it fun?'",
+                                        "|f|ChangeImageLayer|/|Expression|/|Calm|n|'That felt... nevermind.'"]
+                        },
+                        {
+                          "lineTrigger":"hitWith",
+                          "move": "Whip",
+                          "theText":["|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'...Mmh.'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'That's...'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Umm... Do try something else.'"]
+                        },
+                        {
+                          "lineTrigger":"hitWith",
+                          "move": "Demon Layer",
+                          "theText":["|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'I-... Oh?!♥'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'That's...♥",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Ah!♥'" ]
+                        },
+                        {
+                          "lineTrigger":"AutoCounter",
+                          "move": "Holy Headpat",
+                          "theText":["|f|CallEventThenScene|/|NereidCombatEvents|/|HeadpatCounter|n|"]
+                        },
+                        {
+                          "lineTrigger":"hitWith",
+                          "move": "Bondage Net",
+                          "theText":["|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Mmh! I am not a mermaid, you know..?'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Oh... I wasn't doing much anyway.'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Why?'"]
+                        },
+                        {
+                          "lineTrigger":"hitWith",
+                          "move": "Magical Binding",
+                          "theText":["|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Mmh! I am not a mermaid, you know..?'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Oh... I wasn't doing much anyway.'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Why?'"]
+                        },
+                        {
+                          "lineTrigger":"hitWith",
+                          "move": "Lewd Bottle",
+                          "theText":["|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Oh? Well, alright...♥'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Mm, this might be...'"]
+                        },
+                        {
+                            "lineTrigger":"hitWith",
+                            "move": "Electrify",
+							"theText":["|f|CallEventThenScene|/|NereidCombatEvents|/|Electrified|n|"]
+                        },
+                        {
+                          "lineTrigger":"hitWith",
+                          "move": "Finger",
+                          "theText":["|f|ChangeImageLayer|/|Expression|/|Calm|n|'Ah yes, go ahead...'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm|n|'Maybe if you use something else..?'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm|n|'...'"]
+                        },
+                        {
+                          "lineTrigger":"hitWith",
+                          "move": "Breast Caress",
+                          "theText":["|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'They're not very big...'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Do you prefer small ones?♥'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm|n|'Yes, go ahead...'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm|n|'They're a little slippery.'"]
+                        },
+                        {
+                          "lineTrigger":"hitWith",
+                          "move": "Breast Massage",
+                          "theText":["|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Mm... maybe they'll get a little bigger...'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Do you prefer small ones?♥'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm|n|'Yes, go ahead...'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm|n|'They're a little slippery.'"]
+                        },
+                        {
+                          "lineTrigger":"hitWith",
+                          "move": "Suckle",
+                          "theText":["|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Ah, but I am a little salty...'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm|n|'Sure, go ahead and suck on them.'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm|n|'...'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'...Cute.'"]
+                        },
+                        {
+                          "lineTrigger":"hitWith",
+                          "move": "Dildo",
+                          "theText":["|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'You don't want to use your penis?'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Maybe if you use something else..?'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'...Nn.'"]
+                        },
+                        {
+                            "lineTrigger":"hitWith",
+                            "move": "Penetrate",
+                            "theText":["|f|ChangeImageLayer|/|Expression|/|Calm|n|'Aaah~ It's so big!' Her voice is pretty monotone...",
+                                        "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Mmm.♥'",
+                                        "|f|ChangeImageLayer|/|Expression|/|Calm|n|'Don't hold back now...'"]
+                        },
+                        {
+                          "lineTrigger":"hitWith",
+                          "move": "Thrust",
+                          "theText":["|f|ChangeImageLayer|/|Expression|/|Calm|n|'Mmh...'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm|n|'Go ahead, keep thrusting...'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm|n|'Mm, such a lively penis..."]
+                        },
+                        {
+                          "lineTrigger":"hitWith",
+                          "move": "Pound",
+                          "theText":["|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Ahh...♥'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'O-oh...♥ This is...♥'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Mm!♥ Harder!♥'"]
+                        },
+                        {
+                          "lineTrigger":"hitWith",
+                          "move": "Multi Thrust",
+                          "theText":["|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Ahh...♥'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'O-oh...♥ This is...♥'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Mm!♥ Faster!♥'"]
+                        },
+                        {
+                          "lineTrigger":"hitWith",
+                          "move": "Empowered Thrust",
+                          "theText":["|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Mmm...♥ This might be..!♥'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Oh, oooh!♥'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'More!♥ Don't stop now!♥'"]
+                        },
+                        {
+                          "lineTrigger":"hitWith",
+                          "move": "Tantric Thrust",
+                          "theText":["|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Mmh...♥'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'This is quite nice...♥'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Mm, such a naughty penis...♥"]
+                        },
+                        {
+                            "lineTrigger":"hitWith",
+                            "move": "Anal Penetration",
+                            "theText":["|f|ChangeImageLayer|/|Expression|/|Calm|n|'Mm? You want to do it there? Sure, I don't mind.'",
+                                        "|f|ChangeImageLayer|/|Expression|/|Calm|n|'Anal? Sure, go ahead.'"]
+                        },
+                        {
+                          "lineTrigger":"hitWithA",
+                          "move": "Thrust",
+                          "theText":["|f|ChangeImageLayer|/|Expression|/|Calm|n|'Mmh... You can go harder.'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm|n|'Go ahead, keep thrusting...'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm|n|'Mm, don't hold back, my ass can take it."]
+                        },
+                        {
+                          "lineTrigger":"hitWithA",
+                          "move": "Pound",
+                          "theText":["|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Ahh...'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'O-oh...♥ This is... almost...'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Mm! Yes, harder!'"]
+                        },
+                        {
+                          "lineTrigger":"hitWithA",
+                          "move": "Multi Thrust",
+                          "theText":["|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Ahh...♥'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'O-oh...♥ This is...♥'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Mm!♥ Faster!♥'"]
+                        },
+                        {
+                          "lineTrigger":"hitWithA",
+                          "move": "Empowered Thrust",
+                          "theText":["|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Mmm...♥ This might be..!♥'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Oh, oooh!♥'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'More!♥ Don't stop now!♥'"]
+                        },
+                        {
+                          "lineTrigger":"hitWithA",
+                          "move": "Tantric Thrust",
+                          "theText":["|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Mmh...♥'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'This is quite nice...♥'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Mm, such a naughty penis...♥"]
+                        },
+                        {
+                            "lineTrigger":"hitWith",
+                            "move": "Ear Tease",
+                            "theText":["|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Trying everything you can..?♥'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'...'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'That won't really work either...♥"]
+                        },
+                        {
+                            "lineTrigger":"hitWith",
+                            "move": "Make Out",
+                            "theText":["|f|ChangeImageLayer|/|Expression|/|Calm|n|'Mm... Mwah...'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm|n|'...'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm|n|'Chu...'"]
+                        },
+                        {
+                            "lineTrigger":"hitWith",
+                            "move": "Charm",
+                            "theText":["'Ahh♥... Mm, you shouldn't do such things...♥'",
+									"'I- I don't...♥ Ah, you may end up overwhelmed, you know...♥'"
+                                        ]
+                        },
+                        {
+                          "lineTrigger":"hitWith",
+                          "move": "Sleep",
+                          "theText":["|f|ChangeImageLayer|/|Expression|/|Calm|n|'...' She yawns cutely.",
+										"|f|ChangeImageLayer|/|Expression|/|Calm|n|'Mm... I'll nap, you go on ahead and fuck me...'"
+                                      ]
+                        },
+                        {
+                          "lineTrigger":"hitWith",
+                          "move": "Seduce",
+                          "theText":["|f|ChangeImageLayer|/|Expression|/|Calm|n|'Yeah. Go on ahead.'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm|n|She nods and opens her arms invitingly.",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'She smiles briefly at your words.",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Yes, I'd be glad to.♥'"]
+                        },
+                        {
+                            "lineTrigger":"usesMove",
+                            "move": "Moan",
+                            "theText":["|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Ah... Ahh!'",
+                                        "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Mmmh, ooh...'",
+                                        "|f|ChangeImageLayer|/|Expression|/|Calm|n|'Mmmmh... Yes, more!' Despite the moans her face remains oddly composed.",
+                                        "|f|ChangeImageLayer|/|Expression|/|Calm|n|The moans she lets out are pretty unconvincing..."]
+                        },
+                        {
+                            "lineTrigger":"usesMove",
+                            "move": "Encourage",
+                            "theText":["|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Ah, yes, thrust harder!♥'",
+                                        "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Show me your love!'",
+                                        "|f|ChangeImageLayer|/|Expression|/|Calm|n|'You can thrust harder.'",
+                                        "|f|ChangeImageLayer|/|Expression|/|Calm|n|'Keep going, love.'"]
+                        },
+                        {
+                            "lineTrigger":"usesMove",
+                            "move": "Kiss",
+                            "theText":["|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Chu...♥'",
+                                        "|f|ChangeImageLayer|/|Expression|/|Calm|n|'Mwah...'"]
+                        },
+                        {
+                            "lineTrigger":"usesMove",
+                            "move": "Grind",
+                            "theText":["|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Mm here, let me help...'",
+                                        "|f|ChangeImageLayer|/|Expression|/|Calm|n|'You should give up...'",
+                                        "|f|ChangeImageLayer|/|Expression|/|Calm|n|'Seems like I have to...'"]
+                        },
+                        {
+                            "lineTrigger":"usesMove",
+                            "move": "Tighten",
+                            "theText":["|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'How's this?♥'",
+                                        "|f|ChangeImageLayer|/|Expression|/|Calm|n|'Don't hold back and cum, okay?'",
+                                        "|f|ChangeImageLayer|/|Expression|/|Calm|n|'I wonder if you'll last...'"]
+                        },
+                        {
+                            "lineTrigger":"usesMove",
+                            "move": "Extreme Tightening",
+                            "theText":["|f|ChangeImageLayer|/|Expression|/|Disdain|n||f|ChangeImageLayer|/|Base|/|Disdain|n|'Hurry up and cum.'",
+                                        "|f|ChangeImageLayer|/|Expression|/|Disdain|n||f|ChangeImageLayer|/|Base|/|Disdain|n|'Let loose and leak.'",
+                                        "|f|ChangeImageLayer|/|Expression|/|Disdain|n||f|ChangeImageLayer|/|Base|/|Disdain|n|'Don't hold back and fill me now.'"]
+                        },
+                        {
+                            "lineTrigger":"usesMoveA",
+                            "move": "Grind",
+                            "theText":["|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Mm here, let me help...'",
+                                        "|f|ChangeImageLayer|/|Expression|/|Calm|n|'You should give up...'",
+                                        "|f|ChangeImageLayer|/|Expression|/|Calm|n|'Seems like I have to...'"]
+                        },
+                        {
+                            "lineTrigger":"usesMoveA",
+                            "move": "Tighten",
+                            "theText":["|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'How's this?♥'",
+                                        "|f|ChangeImageLayer|/|Expression|/|Calm|n|'Don't hold back and cum, okay?'",
+                                        "|f|ChangeImageLayer|/|Expression|/|Calm|n|'I wonder if you'll last...'"]
+                        },
+                        {
+                            "lineTrigger":"lowHealth",
+                            "move": "",
+                            "theText":["|f|CallEventThenScene|/|NereidCombatEvents|/|Lust Mad|n|",
+							"",
+							""]
+                        },
+                        {
+                            "lineTrigger":"playerLowHealth",
+                            "move": "",
+                            "theText":["|f|CallEventThenScene|/|NereidCombatEvents|/|DisdainCheck|n|"]
+                        },
+                        {
+                            "lineTrigger":"onPlayerOrgasm",
+                            "move": "Sex",
+                            "theText":["|f|CallEventThenScene|/|NereidCombatEvents|/|PlayerOrgasmSex|n||c|"
+                                      ]
+                        },
+                        {
+                            "lineTrigger":"onPlayerOrgasm",
+                            "move": "Anal",
+                            "theText":["|f|CallEventThenScene|/|NereidCombatEvents|/|PlayerOrgasmAnal|n||c|"
+                                      ]
+                        },
+                        {
+                            "lineTrigger":"onPlayerOrgasm",
+                            "move": "",
+                            "theText":["|f|CallEventThenScene|/|NereidCombatEvents|/|PlayerOrgasm|n||c|"
+                                      ]
+                        },
+                        {
+                            "lineTrigger":"onOrgasm",
+                            "move": "",
+                            "theText":["|f|CallEventThenScene|/|NereidCombatEvents|/|Orgasm|n||c|"
+                                      ]
+                        },
+                        {
+                            "lineTrigger":"onSurrender",
+                            "move": "",
+                            "theText":["|f|ChangeImageLayer|/|Expression|/|Disdain|n||f|ChangeImageLayer|/|Base|/|Disdain|n|'Oh...'",
+                                        "|f|ChangeImageLayer|/|Expression|/|Disdain|n||f|ChangeImageLayer|/|Base|/|Disdain|n|'I shouldn't have expected much.'",
+                                        "|f|ChangeImageLayer|/|Expression|/|Calm|n|'...'"]
+                        },
+                        {
+                            "lineTrigger":"stanceStruggle",
+                            "move": "Sex",
+                            "theText":["{thePlayerName} tries to pull out of the {attackerName}'s slick pussy..."]
+                        },
+                        {
+                            "lineTrigger":"stanceStruggleFail",
+                            "move": "Sex",
+                            "theText":["But the Nereid squeezes tightly, preventing you from pulling out!",
+                                        "But the Nereid locks her legs around you, forcing you back inside!",
+                                        "But with surprising quickness the Nereid chases your hips with hers, flowing like water!",
+                                        "But the Nereid shoots you a disappointed look and you thrust back inside wildly."]
+                        },
+                        {
+                            "lineTrigger":"stanceStruggleComment",
+                            "move": "Sex",
+                            "theText":["",
+                                        "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Please keep trying.'",
+                                        "|f|ChangeImageLayer|/|Expression|/|Calm|n|'You won't have better chances elsewhere.'",
+                                        "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Noo, keep going!♥'"]
+                        },
+                        {
+                            "lineTrigger":"stanceStruggleFree",
+                            "move": "Sex",
+                            "theText":["And manage to pull your cock out of her slick fishy slit!"]
+                        },
+                        {
+                            "lineTrigger":"stanceStruggleFreeComment",
+                            "move": "Sex",
+                            "theText":["|f|ChangeImageLayer|/|Expression|/|Calm|n|'What's wrong? Lost confidence?'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Where next?♥'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Disdain|n||f|ChangeImageLayer|/|Base|/|Disdain|n|'Not feeling up to the task?'",
+                                      ""]
+                        },
+                        {
+                            "lineTrigger":"stanceStruggle",
+                            "move": "Anal",
+                            "theText":["{thePlayerName} tries to pull out of the {attackerName}'s tight ass..."]
+                        },
+                        {
+                            "lineTrigger":"stanceStruggleFail",
+                            "move": "Anal",
+                            "theText":["But the Nereid squeezes tightly, preventing you from pulling out!",
+                                        "But the Nereid locks her legs around you, forcing you back inside!",
+                                        "But the Nereid shoots you a disappointed look and you thrust back inside wildly."]
+                        },
+                        {
+                            "lineTrigger":"stanceStruggleComment",
+                            "move": "Anal",
+                            "theText":["",
+                                        "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Please keep trying.'",
+                                        "|f|ChangeImageLayer|/|Expression|/|Calm|n|'You won't have better chances elsewhere.'",
+                                        "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Noo, keep going!♥'"]
+                        },
+                        {
+                            "lineTrigger":"stanceStruggleFree",
+                            "move": "Anal",
+                            "theText":["And manage to pull your cock out of her tight fishy rear!"]
+                        },
+                        {
+                            "lineTrigger":"stanceStruggleFreeComment",
+                            "move": "Anal",
+                            "theText":["|f|ChangeImageLayer|/|Expression|/|Calm|n|'What's wrong? Lost confidence?'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Where next?♥'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Disdain|n||f|ChangeImageLayer|/|Base|/|Disdain|n|'Not feeling up to the task?'",
+                                      ""]
+                        },
+                        {
+                            "lineTrigger":"stanceStruggle",
+                            "move": "Making Out",
+                            "theText":["{thePlayerName} tries to break the deep kiss with the Nereid..."]
+                        },
+                        {
+                            "lineTrigger":"stanceStruggleFail",
+                            "move": "Making Out",
+                            "theText":["|f|ChangeImageLayer|/|Expression|/|Calm|n|But she keeps a tight hold on {thePlayerName}, and he stays locked in a deep, suffocating kiss!",
+                                        "|f|ChangeImageLayer|/|Expression|/|Calm|n|But as you start to push her away she wraps an arm around the back of your head, deepening the kiss while she gazes calmly into your eyes."]
+                        },
+                        {
+                            "lineTrigger":"stanceStruggleComment",
+                            "move": "Making Out",
+                            "theText":["",
+                                      "",
+                                        "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Don't you want to kiss more?'",
+                                        "|f|ChangeImageLayer|/|Expression|/|Calm|n|'Kiss me more.'"]
+                        },
+                        {
+                            "lineTrigger":"stanceStruggleFree",
+                            "move": "Making Out",
+                            "theText":["And manage to push the insistent Nereid away!",
+                                      "And free your mouth from the Nereid's wet smooches!"]
+                        },
+                        {
+                            "lineTrigger":"stanceStruggleFreeComment",
+                            "move": "Making Out",
+                            "theText":["|f|ChangeImageLayer|/|Expression|/|Calm|n|'Changed your mind?'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm|n|'...'",
+                                      "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n||f|ChangeImageLayer|/|Base|/|Blush|n|'You don't want to...?'"]
+                        }
+
+                      ],
+  "victoryScenes": [
+            {
+                "NameOfScene": "",
+                "move": "",
+                "stance": "",
+                "includes": [""],
+                "theScene":[""
+                          ],
+                "picture":""
+            }
+        ],
+     "pictures": [
+				{
+                          "Name":"Base",
+                          "StartOn": "1",
+                          "AlwaysOn": "1",
+                          "IsScene": "0",
+                          "TheBody": "1",
+                          "Overlay": "No",
+                          "setXalign": "0.0",
+                          "setYalign": "0.25",
+                          "Images":[
+								{
+									"Name":"Base",
+										"File": "../../ModLoader/mods/Beach/Images/Nereid/Nereid_Body_Base.png",
+										"setXalign": "0.0",
+										"setYalign": "0.0"
+								},
+								{
+									"Name":"Blush",
+										"File": "../../ModLoader/mods/Beach/Images/Nereid/Nereid_Body_Blush.png",
+										"setXalign": "0.0",
+										"setYalign": "0.0"
+								},
+								{
+									"Name":"Disdain",
+										"File": "../../ModLoader/mods/Beach/Images/Nereid/Nereid_Body_Disdain.png",
+										"setXalign": "0.0",
+										"setYalign": "0.0"
+								},
+								{
+									"Name":"Manic",
+										"File": "../../ModLoader/mods/Beach/Images/Nereid/Nereid_Body_Manic.png",
+										"setXalign": "0.0",
+										"setYalign": "0.0"
+								},
+								{
+									"Name":"Smol",
+										"File": "../../ModLoader/mods/Beach/Images/Nereid/Nereid_Body_Smol.png",
+										"setXalign": "0.0",
+										"setYalign": "0.0"
+								}
+						  ]
+			  },
+				{
+                          "Name":"Expression",
+                          "StartOn": "1",
+                          "AlwaysOn": "0",
+                          "IsScene": "0",
+                          "TheBody": "0",
+                          "Overlay": "No",
+                          "setXalign": "0.0",
+                          "setYalign": "0.0",
+                          "Images":[
+							{
+								"Name":"Calm",
+								"File": "../../ModLoader/mods/Beach/Images/Nereid/Nereid_Expression_Calm.png",
+								"setXalign": "0.0",
+								"setYalign": "0.0"
+							},
+							{
+								"Name":"Hurt",
+								"File": "../../ModLoader/mods/Beach/Images/Nereid/Nereid_Expression_Hurt.png",
+								"setXalign": "0.0",
+								"setYalign": "0.0"
+							},
+							{
+								"Name":"Calm Blush",
+								"File": "../../ModLoader/mods/Beach/Images/Nereid/Nereid_Expression_CalmBlush.png",
+								"setXalign": "0.0",
+								"setYalign": "0.0"
+							},
+							{
+								"Name":"Orgasm",
+								"File": "../../ModLoader/mods/Beach/Images/Nereid/Nereid_Expression_Orgasm.png",
+								"setXalign": "0.0",
+								"setYalign": "0.0"
+							},
+							{
+								"Name":"Manic",
+								"File": "../../ModLoader/mods/Beach/Images/Nereid/Nereid_Expression_Manic.png",
+								"setXalign": "0.0",
+								"setYalign": "0.0"
+							},
+							{
+								"Name":"Disdain",
+								"File": "../../ModLoader/mods/Beach/Images/Nereid/Nereid_Expression_Disdain.png",
+								"setXalign": "0.0",
+								"setYalign": "0.0"
+							},
+							{
+								"Name":"Snooze",
+								"File": "../../ModLoader/mods/Beach/Images/Nereid/Nereid_Expression_Snooze.png",
+								"setXalign": "0.0",
+								"setYalign": "0.0"
+							}
+						  ]
+						 }
+				]
+}

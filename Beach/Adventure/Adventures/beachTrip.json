@@ -1,0 +1,57 @@
+{
+    "name": "Beach Trip",
+    "Description": "It is said there is a monter resort located on this beach. It may be worth exploring!",
+    "requires": [""],
+    "MusicList": [""],
+    "Deck": [ "Event", "Succubus Lifeguard",
+              "Monster", "Mermaid", "EndEncounter",
+              "Monster", "Bikini Elf", "EndEncounter",
+              "BreakSpot",
+              "Event", "Underwater Cave",		
+              "BreakSpot",	  
+              "Monster", "Nereid", "EndEncounter"],
+    "RandomEvents": [""],
+    "RandomMonsters": ["Mermaid", "Nereid", "Bikini Elf"],
+    "MonsterGroups": [
+                  {
+                      "Monsters": ["Mermaid"]
+                  },
+                  {
+                      "Monsters": ["Mermaid"]
+                  },
+                  {
+                    "Monsters": ["Nereid"]
+                  },
+                  {
+                    "Monsters": ["Nereid"]
+                  },
+                  {
+                    "Monsters": ["Bikini Elf"]
+                  },
+                  {
+                    "Monsters": ["Bikini Elf"]
+                  }
+                ],
+    "Treasure": [
+                {
+                    "Common": ["Calming Potion", "Anaph Herb", "Ugli Herb"]
+                },
+                {
+                    "Uncommon": ["Calming Potion", "Energy Potion", "Unbound Rune", "Anaph Rune", "Nature Rune", "Soothing Potion"]
+                },
+                {
+                    "Rare": ["Anaph Rune", "Indomitable Rune", "Nature Rune", "Stoic Rune", "Unbound Rune", "Circlet of Ardor", "Amulet of Vitality", "Ring of Allure"]
+                }
+              ],
+    "Eros": [
+                  {
+                      "Common": "25"
+                  },
+                  {
+                      "Uncommon": "50"
+                  },
+                  {
+                      "Rare": "100"
+                  }
+              ]
+}

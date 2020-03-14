@@ -1,0 +1,246 @@
+{
+    "name": "MermaidCombatEvents",
+    "CardType": "",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [""],
+    "Speakers": [
+                  {
+                    "name": "Mermaid",
+                    "postName": "",
+                    "SpeakerType": "Monster"
+                  }
+                ],
+    "EventText": [        
+					  {
+						"NameOfScene": "Electrified",
+						"theScene":["ChangeMonsterArousal",
+								"50",
+                                          "ChangeImageLayer", "Base", "BaseBlush",
+								"ChangeImageLayer", "Expression", "Submissive", 
+								"SwapLineIf", "Random",
+								"'Ow!♥ D-don't use that again, I'm all wet!♥'",
+                                "'AHHH!♥ H-have mercy, Hero!♥'",
+                                "'OOOH!♥ N-no more- AHHHH!♥'",
+								"endSwap"
+                                  ]
+					  },	
+					  {
+						"NameOfScene": "Mermaid Quatrain",
+						"theScene":[
+						 "ChangeImageLayer", "BodyPart", "ArmReach",
+						 "The mermaid opens her mouth and takes a deep breath. She is about to start singing!",
+                                      "Menu",
+                                        "Cover your ears.",
+										"Shut her up with a kiss.",
+										"Shut her up with your penis.",
+                                        "Keep listening...",
+                                      "EndMenu"
+                                  ]
+					  },
+					  {
+						"NameOfScene": "Cover your ears.",
+						"theScene":["IfFetishLevelEqualOrGreater", "Oral", "3", "OralFetishDistraction",
+									"IfFetishLevelEqualOrGreater", "Kissing", "3", "OralFetishDistraction",
+                                    "StatCheck",
+                                      "Technique",
+                                      "15",
+                                      "Covered!",
+                                      "Fail",
+                                      "CoveredHalf!"
+                                  ]
+					  },
+					  {
+						"NameOfScene": "OralFetishDistraction",
+						"theScene":["You intend to cover your ears but can't stop looking at her open mouth, your gaze glued to her plump lips and pink tongue...",
+									"JumpToScene",
+									"CoveredHalf!"
+                                  ]
+					  },
+					  {
+						"NameOfScene": "Covered!",
+						"theScene":["You manage to cover your ears before she starts singing!",
+                                          "ChangeImageLayer", "Base", "Base",
+								"ChangeImageLayer", "Expression", "Singing", 
+									"The mermaid sings anyway, but you don't hear any of it.\nNothing happens.",
+						 "ChangeImageLayer", "BodyPart", "ArmRest"
+                                  ]
+					  },
+					  {
+						"NameOfScene": "CoveredHalf!",
+						"theScene":[
+                                          "ChangeImageLayer", "Base", "Base",
+								"ChangeImageLayer", "Expression", "Singing", 
+								"FocusedSpeaks",
+                                    "La la-♪",
+                                    "HitPlayerWith", "Mermaid's Couplet",
+									"You moved to cover your ears but not before she started her song!{damageToPlayer}",
+									"She keeps singing, but you avoid hearing any more of the song...",
+						 "ChangeImageLayer", "BodyPart", "ArmRest"
+                                  ]
+					  },
+					  {
+						"NameOfScene": "Shut her up with a kiss.",
+						"theScene":["StatCheck",
+                                      "Technique",
+                                      "20",
+                                      "ShutupKiss!",
+                                      "Fail",
+                                      "HalfKiss!"
+                                  ]
+					  },
+					  {
+						"NameOfScene": "ShutupKiss!",
+						"theScene":[
+                                          "ChangeImageLayer", "Base", "BaseBlush",
+								"ChangeImageLayer", "Expression", "Submissive", 
+								"FocusedSpeaks",
+                                    "Mmph-♪",
+									"You plant a firm kiss on her wet lips before she manages to sing!",
+									"ApplyStance",
+									"Making Out",
+                                          "ChangeImageLayer", "Base", "BaseBlush",
+								"ChangeImageLayer", "Expression", "Seductive", 
+									"The mermaid looks taken aback but soon begins to return your kisses...",
+						 "ChangeImageLayer", "BodyPart", "ArmRest"
+                                  ]
+					  },
+					  {
+						"NameOfScene": "HalfKiss!",
+						"theScene":[
+                                          "ChangeImageLayer", "Base", "Base",
+								"ChangeImageLayer", "Expression", "Singing", 
+								"FocusedSpeaks",
+                                    "La la- Mmph-♪",
+                                    "HitPlayerWith", "Mermaid's Couplet",
+									"You planted a firm kiss on her wet lips but not before she started her song!{damageToPlayer}",
+									"ApplyStance",
+									"Making Out",
+									"The mermaid looks taken aback but soon begins to return your kisses...",
+						 "ChangeImageLayer", "BodyPart", "ArmRest"
+                                  ]
+					  },
+					  {
+						"NameOfScene": "Shut her up with your penis.",
+						"theScene":["StatCheck",
+                                      "Technique",
+                                      "25",
+                                      "ShutupPenis!",
+                                      "Fail",
+                                      "HalfPenis!"
+                                  ]
+					  },
+					  {
+						"NameOfScene": "ShutupPenis!",
+						"theScene":[
+                                          "ChangeImageLayer", "Base", "Base",
+								"ChangeImageLayer", "Expression", "Singing", 
+								"You deftly stick your cock in her open mouth before she starts singing!",
+									"FocusedSpeaks",
+                                    "Mmph-♪",
+                                          "ChangeImageLayer", "Base", "BaseBlush",
+								"ChangeImageLayer", "Expression", "Submissive", 
+									"ApplyStance",
+									"Blowjob",
+                                          "ChangeImageLayer", "Base", "BaseBlush",
+								"ChangeImageLayer", "Expression", "Seductive", 
+									"The mermaid looks taken aback but then giggles and begins to slowly suck on your penis...",
+						 "ChangeImageLayer", "BodyPart", "ArmRest"
+                                  ]
+					  },
+					  {
+						"NameOfScene": "HalfPenis!",
+						"theScene":[
+                                          "ChangeImageLayer", "Base", "Base",
+								"ChangeImageLayer", "Expression", "Singing", 
+						"FocusedSpeaks",
+                                    "La la- Mmph-♪",
+                                    "HitPlayerWith", "Mermaid's Couplet",
+									"You deftly stuck your cock in her open mouth but not before she started her song!{damageToPlayer}",
+									"ApplyStance",
+									"Blowjob",
+									"The mermaid looks taken aback but then giggles and begins to slowly suck on your penis...",
+						 "ChangeImageLayer", "BodyPart", "ArmRest"
+                                  ]
+					  },
+					  {
+						"NameOfScene": "Keep listening...",
+						"theScene":[
+                                          "ChangeImageLayer", "Base", "Base",
+								"ChangeImageLayer", "Expression", "Singing", 
+						"FocusedSpeaks",
+                                    "La la la~♪",
+                                    "HitPlayerWith", "Mermaid's Couplet",
+									"The mermaid sings a quick couplet in her pretty voice, distracting you from the fight...{damageToPlayer}",
+									"FocusedSpeaks",
+                                    "La la la~♫",
+                                    "HitPlayerWith", "Mermaid's Couplet",
+									"Your inaction allowed her to keep singing...{damageToPlayer}",
+						 "ChangeImageLayer", "BodyPart", "ArmRest"
+                                  ]
+					  },
+					  {
+                        "NameOfScene": "Mouth Invitation",
+                        "theScene":[
+                                          "ChangeImageLayer", "Base", "BaseBlush",
+								"ChangeImageLayer", "Expression", "Seductive", 
+								"The mermaid opens her mouth widely, but instead of singing she holds still and looks at you expectedly.",
+                                      "HitPlayerWith", "Seduce",
+									  "A naughty expression on her face, she flicks her tongue in an inviting manner. {damageToPlayer}.",
+                                      "FocusedSpeaks",
+                                      "Come here, hero.♥",
+                                      "IfFetishLevelEqualOrGreater", "Oral", "10", "MaxFetishTemptationOral",
+                                      "IfPlayerHasStatusEffect", "Charm", "CharmedTemptation",
+                                      "Menu",
+                                        "Approach.",
+                                        "Ignore.",
+                                      "EndMenu"
+                                  ]
+                      },
+					  {
+						"NameOfScene": "MaxFetishTemptationOral",
+						"theScene":["Her plump lips, completely drenched in saliva that she spreads around so sloppily with her long tongue is too much...",
+									  "Menu",
+                                      "Stick it in.♥",
+                                      "Stick it in.♥",
+                                      "Stick it in.♥",
+									  "EndMenu"
+                                  ]
+					  },
+					  {
+						"NameOfScene": "CharmedTemptation",
+						"theScene":["The tempting display proves too much for your bewitched mind, and you obediently present your cock to her face...",
+									  "JumpToScene",
+									  "BlowjobStart"
+                                  ]
+					  },
+					  {
+						"NameOfScene": "Stick it in.",
+						"theScene":["Completely enamored with her lewd display, you obediently present your cock to her face...",
+									  "JumpToScene",
+									  "BlowjobStart"
+                                  ]
+					  },
+					  {
+						"NameOfScene": "Approach.",
+						"theScene":["Against all better judgement you obediently present your cock to her face...",
+									  "JumpToScene",
+									  "BlowjobStart"
+                                  ]
+					  },
+					  {
+						"NameOfScene": "Ignore.",
+						"theScene":["You manage to ignore the temptation..."
+                                  ]
+					  },
+					  {
+						"NameOfScene": "BlowjobStart.",
+						"theScene":["She smiles seductively and slowly swallows your stiff manhood, easily sliding your entire length deep in her throat with a satisfied moan.",
+									"ApplyStance",
+									"Blowjob",
+                                    "HitPlayerWith", "Deepthroat",
+									"Lodged deep inside her throat your cock throbs in arousal. {damageToPlayer}."
+                                  ]
+					  }
+                ]
+}

@@ -1,0 +1,404 @@
+{
+    "name": "Felicia",
+    "IDname": "Felicia",
+    "species": "Beast",
+    "gender": "female",
+    "description": "Sexy fat cat tats baps cats pats i dont know how to keep doing this",
+    "encyclopedia": "",
+    "tags": "none",
+    "generic": "False",
+    "requires": [""],
+    "skillList": [""],
+    "perks": [""],
+    "stats": {"lvl": "1",
+              "Exp":"10",
+              "max_hp":"100",
+              "max_ep":"10",
+              "max_sp": "1",
+              "Power": "5",
+              "Technique": "5",
+              "Willpower": "5",
+              "Allure": "5",
+              "Luck": "5"
+    },
+    "Fetishes": [""],
+    "BodySensitivity": {"Sex": "100",
+              "Ass":"100",
+              "Breasts":"100",
+              "Mouth":"100",
+              "Seduction": "100",
+              "Magic": "100",
+              "Pain": "100",
+              "Holy": "100",
+              "Unholy": "100"
+    },
+    "resistancesStatusEffects": {
+              "Stun": "0",
+              "Charm":"0",
+              "Aphrodisiac":"0",
+              "Restraints":"0",
+              "Sleep":"0",
+              "Trance": "0",
+              "Paralysis": "0",
+              "Debuff": "0"
+    },
+    "moneyDropped": "0",
+    "ItemDropList": [
+                      {
+                        "name": "Anaph Herb",
+                        "dropChance": "75"
+                      }
+                    ],
+    "lossScenes": [
+                    {
+                        "NameOfScene": "",
+                        "move": "",
+                        "stance": "",
+                        "includes": [""],
+                        "theScene":[""
+                                  ],
+                        "picture":""
+                    }
+                  ],
+    "combatDialogue": [
+                        {
+                            "lineTrigger":"hitWith",
+                            "move": "Spank",
+                            "theText":[""
+                                        ]
+                        },
+                        {
+                            "lineTrigger":"usesMove",
+                            "move": "",
+                            "theText":["''"]
+                        },
+                        {
+                            "lineTrigger":"lowHealth",
+                            "move": "",
+                            "theText":["''"]
+                        },
+                        {
+                            "lineTrigger":"playerLowHealth",
+                            "move": "",
+                            "theText":["''"]
+                        },
+                        {
+                            "lineTrigger":"onPlayerOrgasm",
+                            "move": "",
+                            "theText":[""
+                                      ]
+                        },
+                        {
+                            "lineTrigger":"onOrgasm",
+                            "move": "",
+                            "theText":[""
+                                      ]
+                        },
+                        {
+                            "lineTrigger":"onSurrender",
+                            "move": "",
+                            "theText":[""]
+                        }
+                      ],
+  "victoryScenes": [
+            {
+                "NameOfScene": "",
+                "move": "",
+                "stance": "",
+                "includes": [""],
+                "theScene":[""
+                          ],
+                "picture":""
+            }
+        ],
+    "pictures": [
+       {
+                         "Name":"Base",
+                         "StartOn": "1",
+                         "AlwaysOn": "1",
+                         "IsScene": "0",
+                         "TheBody": "1",
+                         "Overlay": "No",
+                         "setXalign": "0.0",
+                         "setYalign": "0.15",
+                         "Images":[
+               {
+                 "Name":"Base",
+                   "File": "../../ModLoader/mods/Beach/Images/Felicia/Felicia_Body_Base.png",
+                   "setXalign": "0.0",
+                   "setYalign": "0.0"
+               },
+               {
+                 "Name":"BaseBlush",
+                   "File": "../../ModLoader/mods/Beach/Images/Felicia/Felicia_Body_BaseBlush.png",
+                   "setXalign": "0.0",
+                   "setYalign": "0.0"
+               },
+               {
+                 "Name":"BaseFlush",
+                   "File": "../../ModLoader/mods/Beach/Images/Felicia/Felicia_Body_BaseFlush.png",
+                   "setXalign": "0.0",
+                   "setYalign": "0.0"
+               },
+               {
+                 "Name":"BaseCute",
+                   "File": "../../ModLoader/mods/Beach/Images/Felicia/Felicia_Body_BaseCute.png",
+                   "setXalign": "0.0",
+                   "setYalign": "0.0"
+               }
+             ]
+       },
+       {
+                         "Name":"BikiniLayer",
+                         "StartOn": "1",
+                         "AlwaysOn": "0",
+                         "IsScene": "0",
+                         "TheBody": "0",
+                         "Overlay": "No",
+                         "setXalign": "0.0",
+                         "setYalign": "0.0",
+                         "Images":[
+                           {
+                           "Name":"Bikini",
+                           "File": "../../ModLoader/mods/Beach/Images/Felicia/Felicia_Bikini.png",
+                           "setXalign": "0.0",
+                           "setYalign": "0.0"
+                         },
+                         {
+                         "Name":"Naked",
+                         "File": "../../ModLoader/mods/Beach/Images/Felicia/Felicia_Bikini_Naked.png",
+                         "setXalign": "0.0",
+                         "setYalign": "0.0"
+                       }
+           ]
+       },
+       {
+                         "Name":"Expression",
+                         "StartOn": "1",
+                         "AlwaysOn": "1",
+                         "IsScene": "0",
+                         "TheBody": "0",
+                         "Overlay": "No",
+                         "setXalign": "0.0",
+                         "setYalign": "0.0",
+                         "Images":[
+               {
+                 "Name":"Smile",
+                 "File": "../../ModLoader/mods/Beach/Images/Felicia/Felicia_Expression_Smile.png",
+                 "setXalign": "0.0",
+                 "setYalign": "0.0"
+               },
+               {
+                 "Name":"Seductive",
+                 "File": "../../ModLoader/mods/Beach/Images/Felicia/Felicia_Expression_Seductive.png",
+                 "setXalign": "0.0",
+                 "setYalign": "0.0"
+               },
+               {
+                 "Name":"InvitingSmile",
+                 "File": "../../ModLoader/mods/Beach/Images/Felicia/Felicia_Expression_InvitingSmile.png",
+                 "setXalign": "0.0",
+                 "setYalign": "0.0"
+               },
+               {
+                 "Name":"SoftSmile",
+                 "File": "../../ModLoader/mods/Beach/Images/Felicia/Felicia_Expression_InvitingSmile.png",
+                 "setXalign": "0.0",
+                 "setYalign": "0.0"
+               },
+               {
+                 "Name":"Confus",
+                 "File": "../../ModLoader/mods/Beach/Images/Felicia/Felicia_Expression_Confus.png",
+                 "setXalign": "0.0",
+                 "setYalign": "0.0"
+               },
+               {
+                 "Name":"Thinking",
+                 "File": "../../ModLoader/mods/Beach/Images/Felicia/Felicia_Expression_Thinking.png",
+                 "setXalign": "0.0",
+                 "setYalign": "0.0"
+               },
+               {
+                 "Name":"Smug",
+                 "File": "../../ModLoader/mods/Beach/Images/Felicia/Felicia_Expression_Smug.png",
+                 "setXalign": "0.0",
+                 "setYalign": "0.0"
+               },
+               {
+                 "Name":"SmugTongue",
+                 "File": "../../ModLoader/mods/Beach/Images/Felicia/Felicia_Expression_SmugTongue.png",
+                 "setXalign": "0.0",
+                 "setYalign": "0.0"
+               },
+               {
+                 "Name":"SmugClosedEyes",
+                 "File": "../../ModLoader/mods/Beach/Images/Felicia/Felicia_Expression_SmugClosedEyes.png",
+                 "setXalign": "0.0",
+                 "setYalign": "0.0"
+               },
+               {
+                 "Name":"TongueOutWink",
+                 "File": "../../ModLoader/mods/Beach/Images/Felicia/Felicia_Expression_TongueOutWink.png",
+                 "setXalign": "0.0",
+                 "setYalign": "0.0"
+               },
+               {
+                 "Name":"Apologetic",
+                 "File": "../../ModLoader/mods/Beach/Images/Felicia/Felicia_Expression_Apologetic.png",
+                 "setXalign": "0.0",
+                 "setYalign": "0.0"
+               },
+               {
+                 "Name":"Pout",
+                 "File": "../../ModLoader/mods/Beach/Images/Felicia/Felicia_Expression_Pout.png",
+                 "setXalign": "0.0",
+                 "setYalign": "0.0"
+               },
+               {
+                 "Name":"Laugh",
+                 "File": "../../ModLoader/mods/Beach/Images/Felicia/Felicia_Expression_Laugh.png",
+                 "setXalign": "0.0",
+                 "setYalign": "0.0"
+               },
+               {
+                 "Name":"Happy",
+                 "File": "../../ModLoader/mods/Beach/Images/Felicia/Felicia_Expression_Happy.png",
+                 "setXalign": "0.0",
+                 "setYalign": "0.0"
+               },
+               {
+                 "Name":"Predatory",
+                 "File": "../../ModLoader/mods/Beach/Images/Felicia/Felicia_Expression_Predatory.png",
+                 "setXalign": "0.0",
+                 "setYalign": "0.0"
+               },
+               {
+                 "Name":"PredatoryLewd",
+                 "File": "../../ModLoader/mods/Beach/Images/Felicia/Felicia_Expression_PredatoryLewd.png",
+                 "setXalign": "0.0",
+                 "setYalign": "0.0"
+               },
+               {
+                 "Name":"Sleeping",
+                 "File": "../../ModLoader/mods/Beach/Images/Felicia/Felicia_Expression_Sleeping.png",
+                 "setXalign": "0.0",
+                 "setYalign": "0.0"
+               },
+               {
+                 "Name":"SleepyLewd",
+                 "File": "../../ModLoader/mods/Beach/Images/Felicia/Felicia_Expression_SleepyLewd.png",
+                 "setXalign": "0.0",
+                 "setYalign": "0.0"
+               },
+               {
+                 "Name":"Pleasured",
+                 "File": "../../ModLoader/mods/Beach/Images/Felicia/Felicia_Expression_Pleasured.png",
+                 "setXalign": "0.0",
+                 "setYalign": "0.0"
+               },
+               {
+                 "Name":"KissSloppy",
+                 "File": "../../ModLoader/mods/Beach/Images/Felicia/Felicia_Expression_KissSloppy.png",
+                 "setXalign": "0.0",
+                 "setYalign": "0.0"
+               },
+               {
+                 "Name":"NeedyHorny",
+                 "File": "../../ModLoader/mods/Beach/Images/Felicia/Felicia_Expression_NeedyHorny.png",
+                 "setXalign": "0.0",
+                 "setYalign": "0.0"
+               },
+               {
+                 "Name":"Spent",
+                 "File": "../../ModLoader/mods/Beach/Images/Felicia/Felicia_Expression_Spent.png",
+                 "setXalign": "0.0",
+                 "setYalign": "0.0"
+               },
+               {
+                 "Name":"Loving",
+                 "File": "../../ModLoader/mods/Beach/Images/Felicia/Felicia_Expression_Loving.png",
+                 "setXalign": "0.0",
+                 "setYalign": "0.0"
+               },
+               {
+                 "Name":"BiteLip",
+                 "File": "../../ModLoader/mods/Beach/Images/Felicia/Felicia_Expression_BiteLip.png",
+                 "setXalign": "0.0",
+                 "setYalign": "0.0"
+               },
+               {
+                 "Name":"KissDommy",
+                 "File": "../../ModLoader/mods/Beach/Images/Felicia/Felicia_Expression_KissDommy.png",
+                 "setXalign": "0.0",
+                 "setYalign": "0.0"
+               },
+               {
+                 "Name":"PlayfulLewd",
+                 "File": "../../ModLoader/mods/Beach/Images/Felicia/Felicia_Expression_PlayfulLewd.png",
+                 "setXalign": "0.0",
+                 "setYalign": "0.0"
+               },
+               {
+                 "Name":"BigCums",
+                 "File": "../../ModLoader/mods/Beach/Images/Felicia/Felicia_Expression_BigCums.png",
+                 "setXalign": "0.0",
+                 "setYalign": "0.0"
+               },
+               {
+                 "Name":"Bored",
+                 "File": "../../ModLoader/mods/Beach/Images/Felicia/Felicia_Expression_Bored.png",
+                 "setXalign": "0.0",
+                 "setYalign": "0.0"
+               },
+               {
+                 "Name":"Amused",
+                 "File": "../../ModLoader/mods/Beach/Images/Felicia/Felicia_Expression_Amused.png",
+                 "setXalign": "0.0",
+                 "setYalign": "0.0"
+               },
+               {
+                 "Name":"RollEye",
+                 "File": "../../ModLoader/mods/Beach/Images/Felicia/Felicia_Expression_RollEye.png",
+                 "setXalign": "0.0",
+                 "setYalign": "0.0"
+               },
+               {
+                 "Name":"Startled",
+                 "File": "../../ModLoader/mods/Beach/Images/Felicia/Felicia_Expression_Startled.png",
+                 "setXalign": "0.0",
+                 "setYalign": "0.0"
+               }
+             ]
+           },
+            {
+                              "Name":"GlassesLayer",
+                              "StartOn": "0",
+                              "AlwaysOn": "0",
+                              "IsScene": "0",
+                              "TheBody": "0",
+                              "Overlay": "No",
+                              "setXalign": "0.0",
+                              "setYalign": "0.0",
+                              "Images":[
+                                {
+                                "Name":"GlassesFace",
+                                "File": "../../ModLoader/mods/Beach/Images/Felicia/Felicia_Glasses_Face.png",
+                                "setXalign": "0.0",
+                                "setYalign": "0.0"
+                              },
+                              {
+                              "Name":"GlassesNose",
+                              "File": "../../ModLoader/mods/Beach/Images/Felicia/Felicia_Glasses_Nose.png",
+                              "setXalign": "0.0",
+                              "setYalign": "0.0"
+                            },
+                            {
+                            "Name":"GlassesNone",
+                            "File": "../../ModLoader/mods/Beach/Images/Felicia/Felicia_Empty.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                          }
+                ]
+            }
+       ]
+}

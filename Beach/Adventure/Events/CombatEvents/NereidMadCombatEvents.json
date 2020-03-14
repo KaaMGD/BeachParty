@@ -1,0 +1,42 @@
+{
+    "name": "NereidMadCombatEvents",
+    "CardType": "",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [""],
+    "Speakers": [
+                  {
+                    "name": "Nereid",
+                    "postName": "",
+                    "SpeakerType": "Monster"
+                  }
+                ],
+    "EventText": [              
+					{
+						"NameOfScene": "Electrified",
+						"theScene":["ChangeMonsterArousal",						
+								"30",
+								"ChangeImageLayer", "Expression", "Manic Orgasm", 
+								"SwapLineIf", "Random",
+									"'Ahahahaha!♥ MORE!'",
+									"'AAAAH YESSSS!♥'",
+								"endSwap"
+                                  ]
+					  },		
+					  {
+						"NameOfScene": "EndOfRound",
+						"theScene":["IfMonsterHasStatusEffect", "Charm", "CharmRefresh"
+                                  ]
+					  },		
+					  {
+						"NameOfScene": "CharmRefresh",
+						"theScene":[
+								"ApplyStatusEffectToMonster", "Charm"
+                                  ]
+					  },			  
+					  {
+						"NameOfScene": "DoNothing",
+						"theScene":[""]
+					  }
+                ]
+}
