@@ -536,6 +536,7 @@
               "SwapLineIf", "OtherEventsChoice", "Meet the Sea Dragon!",
                 "1", "DragonHid", "What? You met her and she ran away? Tell me more about that later!",
                 "1", "DragonUnhid", "But you met her already, of course. A great gal isn't she? If a little shy.",
+                "1", "", "",
               "endSwap",
 							"ChangeImageLayer", "Base", "1", "Base",
 							"ChangeImageLayer", "Expression", "1", "Base",

@@ -96,7 +96,7 @@
                     "ChangeImageFor", "1", "Submissive",
                     "Speaks", "C-come on, don't make me do all the work, big boy. Grab my hips and start knocking!",
                     "Driven by lust you accept her command, gripping her impish hips and thrusting upwards, your cock knocking into her womb. The imp emits a pleasured whine, mashing her hips harder into yours, eager to get impaled on your cock deeper and harder.",
-                    "Her pussy us drooling a lot of juices, which splatter everywhere around you from the wild coupling. The imp is panting hard, doing her best to keep the feverish mating pace.",
+                    "Her pussy is drooling a lot of juices, which splatter everywhere around you from the wild coupling. The imp is panting hard, doing her best to keep the feverish mating pace.",
                     "Speaks", "Haa, harder, harder!♥",
                     "Your cock throbs powerfully, ready to unleash a huge load into the imp's tight pussy. You grit your teeth and start thrusting your hips as fast as you can, causing the imp to moan and pant in a humorous fashion from the rapid bouncing.",
                     "ChangeImageFor", "1", "Cheerful",
@@ -105,8 +105,8 @@
                     "Speaks", "Oh, oh, oh I'm gonna... gonna cum!♥",
                     "The two of you orgasm in unison, your hot seed rushing out and flooding her tight pussy as she screams in pleasure, never stopping her rocking hips.",
                     "Speaks", "So much cumm!♥ I looove iiit~~!♥",
-                    "Your cum blasts powerfully from her over-filled pussy, the imp's small body never having a chance to contain all of your semen. The imp pants and collapses on top of you, breathing heavily. Your breathing heavy, you start fading away, squeezed completely dry.",
-                    "Nuzzling into your chest the imp murmurs something affectionate, but you can't quite hear what...",
+                    "Your cum blasts powerfully from her over-filled pussy, the imp's small body never having a chance to contain all of your semen. The imp pants and collapses on top of you, breathing heavily. Your chest heaving, you start fading away, squeezed completely dry.",
+                    "Nuzzling her face into your chest, the imp murmurs something affectionate, but you can't quite hear what...",
                     "ChangeSensitivity", "Sex", "5"
                     ],
           "picture": ""
@@ -739,6 +739,12 @@
                             },
                             {
                                 "Name": "Tease",
+                                "File": "../../ModLoader/mods/Beach/Images/Bikini Imp/Bikini_Imp_dominant.png",
+                                "setXalign": "0.0",
+                                "setYalign": "0.0"
+                            },
+                            {
+                                "Name": "Dominant",
                                 "File": "../../ModLoader/mods/Beach/Images/Bikini Imp/Bikini_Imp_dominant.png",
                                 "setXalign": "0.0",
                                 "setYalign": "0.0"

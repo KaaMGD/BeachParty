@@ -367,6 +367,12 @@
                  "File": "../../ModLoader/mods/Beach/Images/Felicia/Felicia_Expression_Startled.png",
                  "setXalign": "0.0",
                  "setYalign": "0.0"
+               },
+               {
+                 "Name":"Flash",
+                 "File": "../../ModLoader/mods/Beach/Images/Felicia/Felicia_Expression_Flash.png",
+                 "setXalign": "0.0",
+                 "setYalign": "0.0"
                }
              ]
            },
