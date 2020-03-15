@@ -49,6 +49,7 @@
                     						"ChangeImageLayer", "BodyPart", "ArmsSpread",
                     						"ChangeImageLayer", "Expression", "Solemn",
                     						"Speaks6", "Come, gather round, my congregation!",
+                                "RemovePerkQuietly", "Ethereal Hands",
                     						"DisplayCharacters", "2","3","4","5","6", "1", "End",
                     						"ChangeImageLayer", "Expression", "6", "Haughty",
 
