@@ -281,8 +281,8 @@
               "theScene": ["SkipPlayerAttack",
                 "ChangeImageLayer", "Base", "BaseBlush",
                 "ChangeImageLayer", "Expression", "Hurt",
-                "The spell's magic fizzles out against the dragon's resistance, but the eletric currents raging through her moist body make Cetuspeanna flinch and pant.",
-                "ChangeMonsterArousal", "75",
+                "ChangeMonsterArousal", "90",
+                "The spell's magic fizzles out against the dragon's resistance, but the eletric currents raging through her moist body make Cetuspeanna flinch and pant. Cetuspeanna takes 90 damage!",
 								"FocusedSpeaks",
 								"SwapLineIf", "Random",
 								          "'Haa...♥ N-not bad...♥'",
@@ -581,8 +581,8 @@
                           "She is fumbling and making cute noises. It is all she manages to do.{damageToEnemy}",
                           "Face flushed a deep purple, her eyelashes flutter desperately and she looks like she may faint...{damageToEnemy}",
                 "endSwap",
-                "ChangeMonsterArousal", "200",
-                "The move looks surprisingly effective..."
+                "ChangeMonsterArousal", "100",
+                "The move looks surprisingly effective... Cetuspeanna takes additional 100 damage!"
               ]
             },
             {
