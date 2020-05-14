@@ -30,7 +30,7 @@
     "statusResistedBy": "",
     "statusText": "",
     "descrip": "Fuck! Just don't get carried away.",
-    "outcome": "|f|CallEventThenScene|/|SeaSlugCombatEvents|/|RollOver|n|",
+    "outcome": "|f|CallCombatEventAndScene|/|SeaSlugCombatEvents|/|RollOver|n|",
     "miss": "",
     "statusOutcome": "",
     "statusMiss": "",

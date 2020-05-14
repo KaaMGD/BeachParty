@@ -12,8 +12,8 @@
     "requires": [""],
     "FullyUnlockedBy": ["Speedo"],
     "MinimumDeckSize": "3",
-    "MaximumMonsterDeck": "4",
-    "MaximumEventDeck": "2",
+    "MaximumMonsterDeck": "6",
+    "MaximumEventDeck": "3",
     "Monsters": ["Mermaid", "Bikini Elf", "Bikini Imp", "Nereid", "Sea Slug"],
     "MonsterGroups": [
                   {

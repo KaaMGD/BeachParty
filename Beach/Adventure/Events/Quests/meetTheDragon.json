@@ -56,7 +56,7 @@
       									  "A lone Nereid stands still in the distance, overlooking the island. She notices you and gives a little wave before sitting flat on her ass and pointing to you, then to the island.",
       									  "Is she planning to spectate?",
       									  "With a shrug, you enter the sea, enjoying the pleasantly cool water caressing your body. You'd go for a swim more often, but getting swarmed by Mermaids does not match with your plans most of the time.",
-      									  "DisplayCharacters", "2", "3", "End",
+      									  "DisplayCharacters", "2", "3", "EndLoop",
 					                "StopBGM",
       									  "...Like this.",
 					                "ChangeImageLayer", "Expression", "1", "Seductive",
@@ -65,7 +65,7 @@
       									  "PlayerSpeaks", "Alright... Wait, Divine?",
       									  "Speaks3", "That's right, our veritable Dragon Goddess resides there.♥ I am sure you'll understand when you see her for yourself.♥",
       									  "You nod and resume swimming, still feeling a little concerned over the mermaids as you go.",
-      										"DisplayCharacters", "4", "End",
+      										"DisplayCharacters", "4", "EndLoop",
       									  "However, they are keeping their distance as promised, and seem to disappear into the water quietly when you safely arrive at the island.",
                           "ChangeBG", "../../ModLoader/mods/Beach/Images/altar.png",
 					                "ChangeBGM", "../ModLoader/mods/Beach/Music/PerituneMaterial_Starry_loop.mp3",
@@ -78,7 +78,7 @@
                           "ChangeBGM", "../ModLoader/mods/Beach/Music/PerituneMaterial_Shizima2.mp3",
       									  "All of a sudden, night falls. The blazing sun disappears almost instantaneously, a gigantic moon replacing it in the skies.",
       									  "As you're still trying to gather your bearings over the sudden change, something rises from behind the altar...!",
-                          "DisplayCharacters", "1", "End",
+                          "DisplayCharacters", "1", "EndLoop",
                           "ChangeImageLayer", "Overlay", "1", "Moonlight",
                           "ChangeImageLayer", "Expression", "1", "Solemn",
                           "The strange-looking dragoness is huge, her human half easily twice as tall as you, to say nothing of the rest of her gargantuan body.",
@@ -92,7 +92,7 @@
                           "ChangeImageLayer", "ArmsTop", "1", "",
       									  "ChangeImageLayer", "Expression", "1", "Flustered",
                           "Speaks4", "...H-how han-... awawa-!",
-                          "DisplayCharacters", "4", "End",
+                          "DisplayCharacters", "4", "EndLoop",
       									  "With a loud splash, she disappears underwater as suddenly as she appeared.",
       									  "StopBGM",
                           "TimeBecomesNormal",
@@ -101,7 +101,7 @@
       									  "The weather normalizes as well, the mystical night fading without a trace, giving place to the familiar oppressive heat of the beach.",
       									  "Baffled by what has just transpired you look around for support or a possible explanation.",
       									  "You hear muffled giggles from behind and turn around to see several mermaids in the water, with one of them clumsily climbing unto the land, while the others are pushing her from behind.",
-      									  "DisplayCharacters", "2", "End",
+      									  "DisplayCharacters", "2", "EndLoop",
       									  "ChangeImageLayer", "Base", "1", "BaseBlush",
       									  "ChangeImageLayer", "Expression", "1", "Submissive",
       									  "Finally plopping upon the land, she hurriedly pulls herself closer to you, addressing you in a panicked manner.",
@@ -129,7 +129,7 @@
                     "...",
                     "ChangeBG", "../../ModLoader/mods/Beach/Images/altar.png",
                     "ChangeBGM", "music/Forest/nandesuto.mp3",
-									  "DisplayCharacters", "1", "5", "End",
+									  "DisplayCharacters", "1", "5", "EndLoop",
                     "ChangeImageLayer", "Overlay", "1", "Moonlight",
                     "ChangeImageLayer", "Base", "1", "BaseBlush",
 									  "ChangeImageLayer", "Expression", "1", "Shy",
@@ -139,7 +139,7 @@
 									  "ChangeImageLayer", "Expression", "2", "Empty",
 										"You arrive to the island a little later than Tina and see her already talking to the Dragon, who, upon seeing you, flushes crimson and looks like she's about to run away again.",
 										"To avoid scaring her off you halt your advance and try to listen in from a distance. You also notice a number of curious Nereids and Mermaids peeking from the waters.",
-										"Speaks5", "Cetty! Are you listening? You can't just run off because {thePlayerName}- *unintelligible*. Mrs. Felicia wouldn't- *unintelligible*. Have some confidence, your combat moves are incredibly l- *unintelligible*... I am sure he will f- *unintelligible* you when he sees them.",
+										"Speaks5", "Cetty! Are you listening? You can't just run off because {ThePlayerName}- *unintelligible*. Mrs. Felicia wouldn't- *unintelligible*. Have some confidence, your combat moves are incredibly l- *unintelligible*... I am sure he will f- *unintelligible* you when he sees them.",
                     "ChangeImageLayer", "Expression", "1", "Rules",
 										"Speaks4", "Okay... I'll do it... I'll fight him! Just... just give me a moment to prepare, then send him in, okay?",
 									  "ChangeImageLayer", "Base", "2", "Smol2",
@@ -147,12 +147,12 @@
 									  "ChangeImageLayer", "Base", "2", "Smol1",
 										"Speaks5", "But I am staying here, and if you run off again, I am telling Mrs. Felicia! She'll set you straight for sure.",
 										"Speaks4", "N-no need! No need to bother Mrs. Felicia. I'll do just fine, I promise.",
-										"DisplayCharacters", "5", "End",
+										"DisplayCharacters", "5", "EndLoop",
                     "ChangeBGM", "../ModLoader/mods/Beach/Music/PerituneMaterial_Starry_loop.mp3",
 										"The dragonness retreats underwater for the moment and Tina walks over to you.",
 									  "ChangeImageLayer", "Base", "1", "BlushAlt",
 									  "ChangeImageLayer", "Expression", "1", "Beg",
-										"Speaks5", "I am so, so sorry that she is like this, {thePlayerName}. She asked for a moment to prepare, so let's wait for a bit.",
+										"Speaks5", "I am so, so sorry that she is like this, {ThePlayerName}. She asked for a moment to prepare, so let's wait for a bit.",
 										"You inquire about what was the problem in the first place.",
 										"ChangeImageLayer", "Expression", "1", "Grin",
 										"Speaks5", "Heehee... girls' secret. I can't tell you that I'm afraid.♥",
@@ -167,10 +167,10 @@
 										"Speaks5", "Ohh, looks like she's ready! I love it when she does this trick, that moon is so ridiculously big and pretty!",
 										"ChangeImageLayer", "Expression", "1", "Base",
 										"Speaks5", "Okay, I'll get out of the way, good luck there!",
-										"DisplayCharacters", "4", "End",
+										"DisplayCharacters", "4", "EndLoop",
 										"She hops some distance away with a little wave.",
 										"You take a deep breath to prepare yourself for the fight and approach the altar.",
-										"DisplayCharacters", "1", "End",
+										"DisplayCharacters", "1", "EndLoop",
                     "ChangeImageLayer", "Overlay", "1", "Moonlight",
                     "ChangeImageLayer", "Expression", "1", "Solemn",
 										"As you approach, the sea dragoness rises slowly from the water, looking far more composed than before.",
@@ -189,7 +189,7 @@
             "theScene": [
               "SetProgress", "3",
               "RemovePerkQuietly", "Ethereal Hands",
-              "DisplayCharacters", "1", "End",
+              "DisplayCharacters", "1", "EndLoop",
               "ChangeImageLayer", "Overlay", "1", "Moonlight",
               "ChangeImageLayer", "Expression", "1", "EyesClosed",
               "Overwhelmed by the rampant magic spell, Cetuspeanna lays motionless in the shallow waters...",
@@ -198,7 +198,7 @@
               "ChangeBG", "../../ModLoader/mods/Beach/Images/altar.png",
               "ChangeBGM", "../ModLoader/mods/Beach/Music/PerituneMaterial_Starry_loop.mp3",
               "The magical night fades away quickly, giving way to the usual sunny ambience.",
-              "DisplayCharacters", "2", "1", "3", "End",
+              "DisplayCharacters", "2", "1", "3", "EndLoop",
               "ChangeImageLayer", "Expression", "1", "Submissive",
               "ChangeImageLayer", "Expression", "2", "EyesClosed",
               "ChangeImageLayer", "Expression", "3", "Submissive",
@@ -215,7 +215,7 @@
               "The mermaid procurs an expertly-crafted whistle made of coral from the dragoness' unconscious body and hands it to you.",
               "Speaks3", "When the season is right, you can use this to travel to far, deep places. You'll know it when the time comes.",
               "Leaving behind that cryptic message, the Mermaids begin bustling around their unconscious goddess, trying to move her.",
-              "DisplayCharacters", "End",
+              "DisplayCharacters", "EndLoop",
               "More Mermaids emerge from water, splashing around and helping their sisters to drag the giant dragoness underwater before disappearing from view...",
               "You shrug and decide to return to town, hoping Cetuspeanna is not too upset about this loss.",
               "GiveItem", "1", "Coral Whistle",
@@ -232,7 +232,7 @@
               "ChangeImageLayer", "Overlay", "1", "",
               "ChangeBGM", "../ModLoader/mods/Beach/Music/PerituneMaterial_Shizima2.mp3",
               "ChangeBG", "../../ModLoader/mods/Beach/Images/altar.png",
-              "DisplayCharacters", "1", "End",
+              "DisplayCharacters", "1", "EndLoop",
               "ChangeImageLayer", "Expression", "1", "MildlyAroused",
               "Panting heavily Cetuspeanna retreats farther into water, signaling that the fight is over.",
               "Speaks", "Haa... Good job, Hero. You may be the first adventurer to defeat me here, as a part of the resort team.",
@@ -242,7 +242,7 @@
               "Speaks", "When the season is right, this will help you travel to far, deep places. You will know how to use it when the time comes.",
               "Leaving behind that cryptic message she draws back further into the water and gives you a little wave.",
               "Speaks", "Now, I would love to get to know my subjugator better, but I must report my loss right away. It's part of the contract. So come see me later sometime, okay?",
-              "DisplayCharacters", "End",
+              "DisplayCharacters", "EndLoop",
               "The giant dragoness waves one last time and dives underwater with a loud splash, disappearing from view... You look around and don't see anyone else, figuring Tina and the spectating locals already left.",
               "You pocket the whistle and decide to return to town, still feeling a little pumped from the intense and beautiful fight.",
               "GiveItem", "1", "Coral Whistle",
@@ -259,7 +259,7 @@
               "TimeBecomesNight",
               "ChangeBG", "../../ModLoader/mods/Beach/Images/altarNight.png",
               "Just like the last time, night falls over the sea suddenly.",
-              "DisplayCharacters", "1", "End",
+              "DisplayCharacters", "1", "EndLoop",
               "ChangeImageLayer", "Overlay", "1", "Moonlight",
               "ChangeImageLayer", "Expression", "1", "Solemn",
               "As you approach closer, the sea dragoness rises slowly from the water.",
@@ -280,9 +280,9 @@
             "IfChoice", "2", "FaintedFirstFight", "FaintIntro",
             "You return to Cetuspeanna's island and sit down on the altar, waiting for her arrival. Hopefully the dragoness is not too far.",
             "As if alleviating your concerns, Cetuspeanna emerges from the water gracefully.",
-            "DisplayCharacters", "1", "End",
+            "DisplayCharacters", "1", "EndLoop",
             "ChangeImageLayer", "Expression", "1", "SoftSmile",
-            "Speaks", "Hello again, {thePlayerName}.",
+            "Speaks", "Hello again, {ThePlayerName}.",
             "Slithering unto land, she wraps her long tail around the altar, propping up her upper body across from you, perhaps a little too closely.",
             "ChangeImageLayer", "Expression", "1", "Happy",
             "Speaks", "So, what did you want to do today?",
@@ -294,10 +294,10 @@
             "theScene": [
             "You return to Cetuspeanna's island and sit down on the altar, waiting for her arrival. Hopefully the dragoness is not too far, and not too upset about the magic fiasco from the last time.",
             "Cetuspeanna emerges from the water, flushed in the face but not looking too angry.",
-            "DisplayCharacters", "1", "End",
+            "DisplayCharacters", "1", "EndLoop",
             "ChangeImageLayer", "Base", "1", "BaseBlush",
             "ChangeImageLayer", "Expression", "1", "Shy",
-            "Speaks", "Hello again, {thePlayerName}... Umm... About the last time...",
+            "Speaks", "Hello again, {ThePlayerName}... Umm... About the last time...",
             "You start to apologize for what happened, but she interrupts you.",
             "Speaks", "N-no no, the fault is my own... I just ask that you... Don't tell anyone about that, okay?",
             "You nod in agreement, not sure if that's gonna help because the Mermaids probably told everyone by now, but she visibly relaxes nonetheless.",
@@ -314,7 +314,7 @@
             "NameOfScene": "MainHub",
             "theScene": [
               "ChangeBGM", "../ModLoader/mods/Beach/Music/PerituneMaterial_Starry_loop.mp3",
-              "DisplayCharacters", "1", "End",
+              "DisplayCharacters", "1", "EndLoop",
               "ChangeImageLayer", "Expression", "1", "SoftSmile",
               "Menu",
                 "Talk.",
@@ -324,7 +324,7 @@
                 "RequiresChoice", "7", "SexOpen",
                 "Sex.",
                 "Leave.",
-              "EndMenu"
+              "EndLoop"
             ]
           },
           {
@@ -338,7 +338,7 @@
                 "RequiresChoice", "3", "NameNotAsked",
                   "'How do you know my name?'",
                 "Done talking.",
-              "EndMenu"
+              "EndLoop"
             ]
           },
           {
@@ -353,7 +353,7 @@
                 "RequiresChoice", "6", "TailPussyNotLooked",
                   "Tail pussy...",
                 "Return.",
-              "EndMenu"
+              "EndLoop"
             ]
           },
           {
@@ -495,7 +495,7 @@
                 "Ask her about the locals.",
                 "Talk about her work.",
                 "Return.",
-              "EndMenu"
+              "EndLoop"
             ]
           },
           {
@@ -512,7 +512,7 @@
               "Speaks", "SwapLineIf", "Choice",
                 "5", "NotAGod", "For some reason they've taken a real liking to me, the whole 'goddess' thing was their idea. Maybe it's a cultural thing for them?",
                 "5", "God", "For some reason they've taken a real liking to me. I haven't told you yet, but the whole 'goddess' thing is actually something they came up with. Maybe it's a cultural thing for them?",
-              "endSwap",
+              "EndLoop",
               "ChangeImageLayer", "Expression", "Smile",
               "Speaks", "Lastly, there is a small group of sea slug ladies visiting the resort often. They're getting on in years, so they must be looking for husbands...",
               "ChangeImageLayer", "Expression", "Panic",
@@ -635,7 +635,7 @@
           {
             "NameOfScene": "CetuspeannaFaintedSpar",
               "theScene": [
-                "DisplayCharacters", "1", "End",
+                "DisplayCharacters", "1", "EndLoop",
                 "ChangeImageLayer", "Expression", "1", "EyesClosed",
                 "RemovePerkQuietly", "Ethereal Hands",
                 "Overwhelmed by the rampant magic spell, Cetuspeanna lays motionless in the shallow waters...",
@@ -667,7 +667,7 @@
                 "SwapLineIf", "Choice",
                   "2", "NotFaintedBefore", "W-what happened? Did I faint from our fight? No way!",
                   "2", "Fainted", "Nn-noo, did I faint again?! S-soo embarrassing! Aaah!",
-                "endSwap",
+                "EndLoop",
                 "You apologize and try to calm her down. She is still fuming from embarrassment, refusing to look you in the eyes.",
                 "ChangeImageLayer", "Base", "1", "BaseBlush",
                 "ChangeImageLayer", "BodyPart", "1", "ArmsRest",
@@ -677,7 +677,7 @@
                 "SwapLineIf", "Choice",
                   "2", "NotFaintedBefore", "Haaaa... I can't believe I let magic overcome me like this. Absolutely shameful...",
                   "2", "Fainted", "Haaaa... I can't believe I let this happen again. Absolutely shameful...",
-                "endSwap",
+                "EndLoop",
                 "ChangeImageLayer", "Expression", "ShyNonAvert",
                 "She looks back to you, still clearly embarrassed from her loss.",
                 "Speaks", "L-lets do something else, I need a distraction...",
@@ -690,11 +690,11 @@
             "NameOfScene": "CetuspeannaBeatenSpar",
             "theScene": [
               "ChangeBGM", "../ModLoader/mods/Beach/Music/PerituneMaterial_Shizima2.mp3",
-              "DisplayCharacters", "1", "End",
+              "DisplayCharacters", "1", "EndLoop",
               "ChangeImageLayer", "Expression", "1", "MildlyAroused",
               "RemovePerkQuietly", "Ethereal Hands",
               "Panting heavily Cetuspeanna retreats farther into water, signaling that the fight is over.",
-              "Speaks", "Haa... Good job, {thePlayerName}. This was fun.",
+              "Speaks", "Haa... Good job, {ThePlayerName}. This was fun.",
               "ChangeImageLayer", "Expression", "1", "SoftSmile",
               "TimeBecomesNormal",
               "ChangeImageLayer", "Overlay", "1", "",
@@ -758,7 +758,7 @@
                 "Rimjob.",
                 "RequiresChoice", "8", "SexSuggestionsAsked",
                 "Cunnilingus.",
-              "EndMenu"
+              "EndLoop"
             ]
           },
           {
@@ -894,11 +894,11 @@
               "SwapLineIf", "Choice",
                 "9", "TailPussyNotFucked", "I was being completely honest when I said it may be too much. Your recall stone will definitely activate, and there will be lasting consequences...",
                 "9", "TailPussyFucked", "You remember how it ended last time... This time likely won't be different.",
-              "endSwap",
+              "EndLoop",
               "Menu",
                 "Want to try...",
                 "...Maybe later.",
-              "EndMenu"
+              "EndLoop"
             ]
           },
           {
@@ -929,7 +929,7 @@
               "SwapLineIf", "Choice",
                 "9", "TailPussyNotFucked", "Ah, so you noticed? That's right, this isn't just lubrication. A mere drop of it makes your penis really sensitive.♥ That is why you will orgasm an amazing lot, and not just because my tail pussy feels really good.",
                 "9", "TailPussyFucked", "Fufu, you know your cock defenses are all softened up already... You know how amazing it will be to stuff your cock in my tight tail pussy... And you can't get enough of the thought.♥",
-              "endSwap",
+              "EndLoop",
               "Cetuspeanna strokes your hair as she speaks, her teasing tail pussy still denying you the sweet insertion as it bobs to the sides of your engorged erection.",
               "Speaks", "You want to cum so much... Leak everything into my tail, everything that you have, and more. More than you thought you had.♥",
               "Speaks", "Well that's alright... I love honest boys who want nothing more than to cum for me...♥",
@@ -1069,7 +1069,7 @@
               "Your face gets splattered by even more of her juices, as you're flooding your speedo with a massive load, knees shaking from her amazingly slick tentacles prancing around your orgasming cock. You keep licking absent-mindedly, too focused on the task to even get distracted by your orgasm, each lick eliciting a lustful gasp from the dragoness.",
                 "ChangeImageLayer", "Expression", "1", "Torogao",
               "Finally your orgasms wind down and you fall to the side, a little exhausted. She softly pushes you up with her strong tail, cuddling you closer as she is still gasping for air, completely out of breath.",
-              "Speaks", "Haa, haa...♥ Oh {thePlayerName}, that was amazing...♥",
+              "Speaks", "Haa, haa...♥ Oh {ThePlayerName}, that was amazing...♥",
               "You can only nod, face still drenched with her sticky honey as you cuddle closer to her delightfully large body, already drifting away from exhaustion...",
               "...",
               "ChangeImageLayer", "Base", "1", "BaseBlush",
@@ -1089,8 +1089,8 @@
               "ChangeImageLayer", "Base", "1", "BaseFlush",
               "ChangeImageLayer", "BodyPart", "1", "ArmsRest",
               "ChangeImageLayer", "Expression", "Smile",
-              "Speaks", "Very well. It was good seeing you again, {thePlayerName}.",
-              "DisplayCharacters", "End",
+              "Speaks", "Very well. It was good seeing you again, {ThePlayerName}.",
+              "DisplayCharacters", "EndLoop",
               "With a little wave Cetuspeanna disappears into the water and you backtrack through the resort towards town."
             ]
           }

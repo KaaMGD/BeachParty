@@ -22,7 +22,7 @@
 								"'A-aa-aaah!♥ I'm all slimy so this feels really intense!♥'",
                                 "'AHHH!♥ A-auntie may be in trouble...♥'",
                                 "'OOOH!♥ Ahaha... could you go easy on auntie..?♥'",
-								"endSwap"
+								"EndLoop"
                                   ]
 					  },
 					  {
@@ -31,7 +31,7 @@
 							"BreastSlipTouch",
 											"DoNothing",
 											"DoNothing",
-											  "EndRandom"
+											  "EndLoop"
                                   ]
 					  },
 					  {
@@ -40,7 +40,7 @@
 											"BreastSlipTouch",
 											"DoNothing",
 											"DoNothing",
-											  "EndRandom"
+											  "EndLoop"
                                   ]
 					  },
 					  {
@@ -49,7 +49,7 @@
 											"BreastSlipSuck",
 											"SuckleSuccess",
 											"SuckleSuccess",
-											  "EndRandom"
+											  "EndLoop"
                                   ]
 					  },
 					  {
@@ -68,7 +68,7 @@
 											"BreastSlipPinch",
 											"BreastSlipPinch",
 											"PinchSuccess",
-											  "EndRandom"
+											  "EndLoop"
                                   ]
 					  },
 					  {
@@ -82,7 +82,7 @@
 								"'Ah-ah-ah...♥ You can't touch them that easily...'",
                                 "'Naughty boys don't get to touch me that easily.♥'",
                                 "'Hehehe...♥ I'm sure you'll get them if you try again...♥'",
-								"endSwap"
+								"EndLoop"
 									
                                   ]
 					  },
@@ -97,7 +97,7 @@
 								"'Ah-ah-ah...♥ You can't just suck on them that easily...'",
                                 "'Naughty boys don't get to suck them that easily.♥'",
                                 "'Hehehe...♥ I'm sure you'll get them if you try again...♥'",
-								"endSwap"
+								"EndLoop"
                                   ]
 					  },
 					  {
@@ -111,7 +111,7 @@
 								"'Hey, what were you trying to do..?'",
                                 "'Naughty...'",
                                 "'No pinching!'",
-								"endSwap"
+								"EndLoop"
                                   ]
 					  },
 					  {
@@ -123,10 +123,10 @@
 								"HitMonsterWith", "Suckle",
 						"FocusedSpeaks",
 								"SwapLineIf", "Random",
-								"'Umm, hey... There's nothing to suck on there...♥'{damageToEnemy}",
-                                "'There's nothing to suck on, silly...♥'{damageToEnemy}",
-                                "'Aww, you're so silly..!♥'{damageToEnemy}",
-								"endSwap"
+								"'Umm, hey... There's nothing to suck on there...♥'{DamageToEnemy}",
+                                "'There's nothing to suck on, silly...♥'{DamageToEnemy}",
+                                "'Aww, you're so silly..!♥'{DamageToEnemy}",
+								"EndLoop"
                                   ]
 					  },
 					  {
@@ -138,10 +138,10 @@
 								"HitMonsterWith", "Pinch Nipples",
 						"FocusedSpeaks",
 								"SwapLineIf", "Random",
-								"'Owww... D-dont pinch them..♥'{damageToEnemy}",
-                                "'W-whyyy...♥ I don't even have nipples..!♥'{damageToEnemy}",
-                                "'N-nooo, don't squeeze..!♥'{damageToEnemy}",
-								"endSwap"
+								"'Owww... D-dont pinch them..♥'{DamageToEnemy}",
+                                "'W-whyyy...♥ I don't even have nipples..!♥'{DamageToEnemy}",
+                                "'N-nooo, don't squeeze..!♥'{DamageToEnemy}",
+								"EndLoop"
                                   ]
 					  },
 					  {
@@ -173,13 +173,13 @@
                                           "ChangeImageLayer", "Base", "BaseBlush",
 								"ChangeImageLayer", "Expression", "Lewd", 
 						"HitPlayerWith", "Slippery Breast Stroke",
-						"The slug bounces her massive tits up and down, effortlessly sliding the wonderfully soft orbs over you length!{damageToPlayer}",
+						"The slug bounces her massive tits up and down, effortlessly sliding the wonderfully soft orbs over you length!{DamageToPlayer}",
 						
 						"JumpToRandomScene",
 						"StrokeFollowUp",
 						"StrokeFollowUp",
 						"DoNothing",
-						"EndRandom"
+						"EndLoop"
                                   ]
 					  },
 					  {
@@ -187,15 +187,15 @@
 						"theScene":[
 						"HitPlayerWith", "Slippery Breast Stroke",
 								"SwapLineIf", "Random",
-								"The slimy breasts just keep dragging up and down around your dick, the excess mucus making them unstoppable!{damageToPlayer}",
-								"Her heavy tits just keep mashing against your crotch, the abundant slime making the movements excessively easy and pleasurable!{damageToPlayer}",
-								"Unceasingly, her slippery tits keep rubbing your pleasantly aching cock, the repeated movements feeling like they may never ever stop!{damageToPlayer}",
-								"endSwap",
+								"The slimy breasts just keep dragging up and down around your dick, the excess mucus making them unstoppable!{DamageToPlayer}",
+								"Her heavy tits just keep mashing against your crotch, the abundant slime making the movements excessively easy and pleasurable!{DamageToPlayer}",
+								"Unceasingly, her slippery tits keep rubbing your pleasantly aching cock, the repeated movements feeling like they may never ever stop!{DamageToPlayer}",
+								"EndLoop",
 						"JumpToRandomScene",
 						"StrokeFollowUp",
 						"DoNothing",
 						"DoNothing",
-						"EndRandom"
+						"EndLoop"
                                   ]
 					  },
 					  {
@@ -205,7 +205,7 @@
 						"Try to hold her up! (Power)",
 						"Try to dodge! (Technique)",
 						"See what happens...",
-						"EndMenu"
+						"EndLoop"
                                   ]
 					  },
 					  {
@@ -328,7 +328,7 @@
 								"'Hehe, now you're all slimy too.♥'",
                                 "'Don't you want to give auntie a hug..?♥'",
                                 "'Ah...♥ I hope I slimed you up nicely...♥'",
-								"endSwap"
+								"EndLoop"
                                   ]
 					  }
                 ]

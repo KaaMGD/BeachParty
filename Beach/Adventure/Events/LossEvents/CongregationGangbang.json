@@ -40,7 +40,7 @@
                  {
       					  "NameOfScene": "CongregationReverseGangbang",
       					  "theScene": [
-                                "DisplayCharacters", "6", "End",
+                                "DisplayCharacters", "6", "EndLoop",
                     						"ChangeImageLayer", "Base", "1", "Base",
                     						"ChangeImageLayer", "BodyPart", "1", "ArmsRest",
                     						"ChangeImageLayer", "Magic", "1", "MagicNone",
@@ -50,7 +50,7 @@
                     						"ChangeImageLayer", "Expression", "Solemn",
                     						"Speaks6", "Come, gather round, my congregation!",
                                 "RemovePerkQuietly", "Ethereal Hands",
-                    						"DisplayCharacters", "2","3","4","5","6", "1", "End",
+                    						"DisplayCharacters", "2","3","4","5","6", "1", "EndLoop",
                     						"ChangeImageLayer", "Expression", "6", "Haughty",
 
                 								"ChangeImageLayer", "Base", "1", "Base",

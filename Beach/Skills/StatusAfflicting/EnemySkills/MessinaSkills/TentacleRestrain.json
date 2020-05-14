@@ -32,10 +32,10 @@
     "descrip": "",
     "outcome": "",
     "miss": "",
-    "statusOutcome": "{attackerName} sends out {attackerHisOrHer} numerous tentacles, and they wrap around and restrain {targetYouOrMonsterName}!",
-    "statusMiss": "{attackerName} sends out {attackerHisOrHer} numerous tentacles, but {targetYouOrMonsterName} manage to keep them off!",
-    "restraintStruggle": "{targetName} struggles against {attackerName}'s sticky tentacles...",
-    "restraintStruggleCharmed": "{targetName} squirms against {attackerName}'s tentacles, barely resisting the urge to settle into the restraints...",
-    "restraintEscaped": "{targetName} manages to tear off the restraining tentacles!",
-    "restraintEscapedFail": "But {targetName} remains bound by the sticky tentacles!"
+    "statusOutcome": "{AttackerName} sends out {AttackerHisOrHer} numerous tentacles, and they wrap around and restrain {TargetYouOrMonsterName}!",
+    "statusMiss": "{AttackerName} sends out {AttackerHisOrHer} numerous tentacles, but {TargetYouOrMonsterName} manage to keep them off!",
+    "restraintStruggle": "{TargetName} struggles against {AttackerName}'s sticky tentacles...",
+    "restraintStruggleCharmed": "{TargetName} squirms against {AttackerName}'s tentacles, barely resisting the urge to settle into the restraints...",
+    "restraintEscaped": "{TargetName} manages to tear off the restraining tentacles!",
+    "restraintEscapedFail": "But {TargetName} remains bound by the sticky tentacles!"
 }

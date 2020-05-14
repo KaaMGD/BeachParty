@@ -7,7 +7,7 @@
     "StatReq": [""],
     "StatReqAmount": ["0"],
 
-    "PerkType": ["Out Of Stance Evade"],
+    "PerkType": ["OutOfStanceEvade"],
     "EffectPower": ["5"],
 
     "PlayerCanPurchase": "No"

@@ -7,7 +7,7 @@
     "StatReq": [""],
     "StatReqAmount": ["0"],
 
-    "PerkType": ["Initiative Bonus"],
+    "PerkType": ["InitiativeBonus"],
     "EffectPower": ["-100"],
 
     "PlayerCanPurchase": "No"

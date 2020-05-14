@@ -145,7 +145,7 @@
                                       "'Please do it slowly.♥'",
                                       "'Please tease my tip.♥'",
                                       "'Please swallow it.♥'",
-                                    "EndMenu"
+                                    "EndLoop"
                                   ],
                         "picture":""
                     },
@@ -226,87 +226,87 @@
                   ],
     "combatDialogue": [
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Arouse",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Fufu.♥ Nice try, Hero.'",
                                       "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'That kind of magic won't work on me.♫'",
                                       "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'You may want to try again.♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Arousara",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Fufu.♥ Nice try, Hero.'",
                                       "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'That kind of magic won't work on me.♫'",
                                       "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'You may want to try again.♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Electrify",
-                          "theText":["|f|CallEventThenScene|/|MermaidCombatEvents|/|Electrified|n|"]
+                          "theText":["|f|CallCombatEventAndScene|/|MermaidCombatEvents|/|Electrified|n|"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Finger",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|Base|n|'Mmm, do you like my pussy?♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Base|n||f|ChangeImageLayer|/|Base|/|Base|n|'Wouldn't you rather put something else in there?♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Base|n||f|ChangeImageLayer|/|Base|/|Base|n|'Mmh, a gentleman would use his penis instead.♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Dildo",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Base|n||f|ChangeImageLayer|/|Base|/|Base|n|'Wouldn't you rather put something else in there?♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Base|n||f|ChangeImageLayer|/|Base|/|Base|n|'Mmh, a gentleman would use his penis instead.♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Spank",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Pout|n||f|ChangeImageLayer|/|Base|/|Base|n|'Oh! Uhm... I don't dislike such things, but...'",
                                       "|f|ChangeImageLayer|/|Expression|/|Pout|n||f|ChangeImageLayer|/|Base|/|Base|n|'Oh... Would a real gentleman do that, I wonder?'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Whip",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Pout|n||f|ChangeImageLayer|/|Base|/|Base|n|'Mmh..! That's not how you treat a lady...'",
                                       "|f|ChangeImageLayer|/|Expression|/|Pout|n||f|ChangeImageLayer|/|Base|/|Base|n|'Oh..! Would a real gentleman do that, I wonder?'",
                                       "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|Base|n|'Wouldn't you rather listen to my song?'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Lewd Bottle",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Pout|n||f|ChangeImageLayer|/|Base|/|Base|n|'Not nice...'",
                                       "|f|ChangeImageLayer|/|Expression|/|Pout|n||f|ChangeImageLayer|/|Base|/|Base|n|'A real gentleman wouldn't drug his lady...'",
                                       "|f|ChangeImageLayer|/|Expression|/|Pout|n||f|ChangeImageLayer|/|Base|/|Base|n|'That is improper conduct...'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Pinch Nipples",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Pout|n||f|ChangeImageLayer|/|Base|/|Base|n|'Mmh..! That's not how you treat a lady...'",
                                       "|f|ChangeImageLayer|/|Expression|/|Pout|n||f|ChangeImageLayer|/|Base|/|Base|n|'Ow..! Would a real gentleman do that, I wonder?'",
                                       "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|Base|n|'Wouldn't you rather listen to my song?'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Bondage Net",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|Base|n|'Ah?! Are you a fisherman now, Hero? Fufu.♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|Base|n|'Mnn, you shouldn't use nets to fish, you know?♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|Base|n|'Mhhh... Ah, this is a bit...'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Magical Binding",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|Base|n|'Ah?! Are you a fisherman now, Hero? Fufu.♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|Base|n|'Mnn, you shouldn't use nets to fish, you know?♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|Base|n|'Mhhh... Ah, this is a bit...'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Sleep",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Humming|n||f|ChangeImageLayer|/|Base|/|Base|n|'Mmm I'd rather sing.♫'",
                                       "|f|ChangeImageLayer|/|Expression|/|Humming|n||f|ChangeImageLayer|/|Base|/|Base|n|'Not really sleepy...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Humming|n||f|ChangeImageLayer|/|Base|/|Base|n|'But I want to sing instead!♪'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Demon Layer",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Submissive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Owie... You shouldn't use such things, you know?♥''",
                                       "|f|ChangeImageLayer|/|Expression|/|Pout|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Mmmm!♥ A real gentleman would not use those kinds of things...'",
@@ -314,201 +314,201 @@
                                       "|f|ChangeImageLayer|/|Expression|/|Submissive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'AHH!♥ Hero, you shouldn't!♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Holy Headpat",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Pout|n||f|ChangeImageLayer|/|Base|/|Base|n|'This is not very... romantic now, is it?'",
                                     "|f|ChangeImageLayer|/|Expression|/|Humming|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Hmmm...♥'" ]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Breast Caress",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Mm...♥ Fufu, do you like them?♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Submissive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'My... That is rather forward of you, don't you think?♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Base|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Mmm.♥ A bold gentleman... I don't dislike it.♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Breast Massage",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Submissive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Oh!♥ Bold, and so skilled...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Submissive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Mmm.♥ You're quite skillfull.♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Submissive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'This is...♥ Really good...♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Suckle",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Submissive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Mm!♥ That is rather forward of you...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Submissive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Do you like my nipples, Hero?♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Submissive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Fufu...♥ This is unbecoming of a gentleman, but...♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Grope Ass",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Submissive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Mm!♥ That is rather forward of you...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Submissive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'T-that's not where you touch a lady..!♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Submissive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'O-oh...♥ This is...♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Penetrate",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Base|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|She shifts and wraps her arms around you, helping you penetrate her fish body.",
                                       "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Mm...♥ So manly...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Base|n||f|ChangeImageLayer|/|Base|/|Base|n|'Let us enjoy ourselves.♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Anal Penetration",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Submissive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|She stiffles a moan and shivers, her hands panickedly trying to push you away.",
                                       "|f|ChangeImageLayer|/|Expression|/|Submissive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'N-noo...♥ Anal sex is unbecomin- hiii~♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Submissive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Aaah! Noo, H-hero, you sh-shouldn't..!♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Thrust",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Mmm♥ That's it. Doesn't it feel wonderful, my Hero?♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Love me, oh Hero.♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Ah♥, show me your passion.♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Pound",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Ahn♥ I can feel your love!♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'That's it.♥ Give me everything without holding back.♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Mmh♥... So powerful, my Hero...♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Multi Thrust",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Ahn♥ I can feel your love!♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'That's it.♥ Give me everything without holding back.♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Mmh♥... So skilled, my Hero...♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Tantric Thrust",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Ahh.♥ Mmmmm♥ Such a gentleman...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Ahn.♥ I can feel your passion!♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Mmm.♥ Oohh, my darling Hero!♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Empowered Thrust",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Mmm♥ That's it. Doesn't it feel wonderful, my Hero?♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Love me, oh Hero.♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Ah♥, show me your passion.♥'"]
                         },
                         {
-                          "lineTrigger":"hitWithA",
+                          "lineTrigger":"HitWithA",
                           "move": "Thrust",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Submissive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Ah-♥' She bites her lip, doing her best to stiffle her moan.",
                                       "|f|ChangeImageLayer|/|Expression|/|Submissive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'A-anal...♥ we really shouldn't...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Submissive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'AAAAHH!♥' She moans loudly then covers her face in embarrassment."]
                         },
                         {
-                          "lineTrigger":"hitWithA",
+                          "lineTrigger":"HitWithA",
                           "move": "Pound",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Submissive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Oh♥ OOOH♥ Not so hard, I beg you!♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Submissive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'NOO- OOOOH!♥ My ass, my ass is breaking!♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Submissive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Ahiii♥ Nooo, you're going to ruin my ass!'"]
                         },
                         {
-                          "lineTrigger":"hitWithA",
+                          "lineTrigger":"HitWithA",
                           "move": "Multi Thrust",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Submissive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Oh♥ OOOH♥ Not so fast, I beg you!♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Submissive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'NOO- OOOOH!♥ My ass, my ass is breaking!♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Submissive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Ahhh♥ Nooo, you're going to ruin my ass!'"]
                         },
                         {
-                          "lineTrigger":"hitWithA",
+                          "lineTrigger":"HitWithA",
                           "move": "Tantric Thrust",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Ahh♥ I-I... Ahhh♥' She tries to say something but keeps moaning instead.",
                                       "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Nooo-♥ not like this..!♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|She is moaning incoherently."]
                         },
                         {
-                          "lineTrigger":"hitWithA",
+                          "lineTrigger":"HitWithA",
                           "move": "Empowered Thrust",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Submissive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Ah-♥' She bites her lip, doing her best to stiffle her moan.",
                                       "|f|ChangeImageLayer|/|Expression|/|Submissive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'A-anal...♥ we really shouldn't...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Submissive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'AAAAHH!♥' She moans loudly then covers her face in embarrassment."]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Charm",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Fufu, of course...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Oh my... Fufufu, you're quite the charmer.♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|She smiles and opens her mouth invitingly 'Go on then, aaah~♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Deep Kiss",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|She kisses back enthusiastically.",
                                       "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Fufu♥ Should we elope?'",
                                       "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Have you finally fallen for me, my dear Hero?♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Kiss",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|She kisses back quickly.",
                                       "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Fufu♥ Should we elope?'",
                                       "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Have you finally fallen for me, my dear Hero?♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Face Fuck",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|She confidently matches your rough pace, sliding her wet lips over your length smoothly.",
                                       "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Mmph!♥' She looks up at you seductively despite the rough treatment.",
                                       "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'*Slurp slurp*♥' She continues her sloppy fellatio, completely unphased by the rough treatment."]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Seduce",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Fufu, of course...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Oh my... Fufufu, you're quite the charmer.♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|She smiles and opens her mouth invitingly 'Go on then, aaah~♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Ear Tease",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Mm!♥ That is rather... bold of you...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'T-that's not where you touch a lady easily...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'O-oh my...♥ This is...♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Distract",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Pout|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'I-I... Y-you shouldn't trick a lady like that!'",
                                       "|f|ChangeImageLayer|/|Expression|/|Pout|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'A-a real gentleman wouldn't stoop to such lowly tricks!'"]
                         },
                         {
-                            "lineTrigger":"usesMove",
+                            "lineTrigger":"UsesMove",
                             "move": "Mermaid's Couplet",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Singing|n||f|ChangeImageLayer|/|Base|/|Base|n|'La la la~♫'",
                               "|f|ChangeImageLayer|/|Expression|/|Singing|n||f|ChangeImageLayer|/|Base|/|Base|n|'Laaaa~♪'",
                               "|f|ChangeImageLayer|/|Expression|/|Singing|n||f|ChangeImageLayer|/|Base|/|Base|n|'Aaaa~♪'"]
                         },
                         {
-                            "lineTrigger":"usesMove",
+                            "lineTrigger":"UsesMove",
                             "move": "Mermaid's Tail Strike",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Pout|n||f|ChangeImageLayer|/|Base|/|Base|n|'Haa!'",
                               "|f|ChangeImageLayer|/|Expression|/|Pout|n||f|ChangeImageLayer|/|Base|/|Base|n|'Take that!'",
                               "|f|ChangeImageLayer|/|Expression|/|Pout|n||f|ChangeImageLayer|/|Base|/|Base|n|'There!'"]
                         },
                         {
-                            "lineTrigger":"usesMove",
+                            "lineTrigger":"UsesMove",
                             "move": "Fishy Sex",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|Base|n|'Mmm.♥ There, isn't that snug and nice?♥'",
                               "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Fufu.♥ How does my fish pussy feel?'",
                               "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|Base|n|'Let us enjoy ourselves.♥'"]
                         },
                         {
-                            "lineTrigger":"usesMove",
+                            "lineTrigger":"UsesMove",
                             "move": "Underwater Mating",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|Base|n|'Mmmm, I can feel your cock throbbing inside me.♥'",
                               "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|Base|n|'Don't be shy now, my hero.♥ Thrust back as hard as you want.♥'",
                               "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|Base|n|'Doesn't it feel much better under water?♥'"]
                         },
                         {
-                            "lineTrigger":"usesMove",
+                            "lineTrigger":"UsesMove",
                             "move": "Slick Tighten",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|Base|n|'Mmmm♥, fufu, your penis is throbbing helplessly inside me.♥'",
                               "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|Base|n|'Mmm...♥ It would feel much better underwater, you know?♥'",
@@ -516,38 +516,38 @@
                               "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|Base|n|'Sooo harrrd...♥'"]
                         },
                         {
-                            "lineTrigger":"usesMove",
+                            "lineTrigger":"UsesMove",
                             "move": "Mermaid's Blowjob Melody",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|Base|n|'Hm hmm hmmm♪'",
                               "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|Base|n|'Mmm hmm♪'"]
                         },
                         {
-                            "lineTrigger":"usesMove",
+                            "lineTrigger":"UsesMove",
                             "move": "Wet Blowjob",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|Base|n|She pulls her lips off your dick with a naughty smack. 'Mwah♥, a true lady knows how to pleasure her lover.♥'",
                               "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|Base|n|'*Slurp, slurp*♥'"]
                         },
                         {
-                            "lineTrigger":"usesMove",
+                            "lineTrigger":"UsesMove",
                             "move": "Sensitizing Smooch",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Cockeating|n||f|ChangeImageLayer|/|Base|/|Base|n|She licks her lips and smiles briefly before moving in for a kiss. 'Mwah♥'",
                               "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|BaseBlush|/|Base|n|'Smooch~♥'"]
                         },
                         {
-                            "lineTrigger":"lowHealth",
+                            "lineTrigger":"LowHealth",
                             "move": "",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Submissive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'M-my, I seem to be in a pickle...'",
                                         "|f|ChangeImageLayer|/|Expression|/|Submissive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Ah, have mercy, my Hero...'"]
                         },
                         {
-                            "lineTrigger":"playerLowHealth",
+                            "lineTrigger":"PlayerLowHealth",
                             "move": "",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Fufu, don't hold back. A gentleman should be honest with his feelings.♥'",
                                         "|f|ChangeImageLayer|/|Expression|/|Cockeating|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Are you just about to come? Give everything to me!♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Hold nothing back, darling Hero.♥'"]
                         },
                         {
-                            "lineTrigger":"onPlayerOrgasm",
+                            "lineTrigger":"OnPlayerOrgasm",
                             "move": "Sex",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Cockeating|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|Clenching your jaw, you try to fight back your impending orgasm. 'Go on, fill me with your hot semen, darling!♥' Her drooling slit insistently massages your shaft, drawing out a hot load of semen, milking it out down to the last drop.",
                                         "|f|ChangeImageLayer|/|Expression|/|Submissive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Fill me darling, make me yours!♥' Brought over the edge by her words, you thrust deep inside her tight canal and moan as your seed floods her insides. 'Ahh, yesss...♥'",
@@ -555,7 +555,7 @@
                                       ]
                         },
                         {
-                            "lineTrigger":"onPlayerOrgasm",
+                            "lineTrigger":"OnPlayerOrgasm",
                             "move": "Blowjob",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Cockeating|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|Her slippery blowjob technique proves too much and you spurt inside her warm mouth. 'Mmh!♥' She gleefully gulps down your thick load, her tongue continuously teasing your sensitive tip throughout.",
                                         "|f|ChangeImageLayer|/|Expression|/|Cockeating|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|You are brought to the edge of an orgasm by her slimy fellatio when she suddenly pulls her lips off your dick. 'Now cum for me, Hero.♥ Chu.♥' The gentle kiss puts you over the edge, making you splatter her flushed face with your heavy load as she moans and keeps planting kisses at the tip.",
@@ -563,14 +563,14 @@
                                       ]
                         },
                         {
-                            "lineTrigger":"onPlayerOrgasm",
+                            "lineTrigger":"OnPlayerOrgasm",
                             "move": "Making Out",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Cockeating|n||f|ChangeImageLayer|/|Base|/|Base|n|The mermaid holds you by the shoulders as she intertwines tongues with you, your bodies pressed together closely. Between the slippery lips assaulting your mouth and the smooth tummy pressing against your dick, you find yourself overwhelmed with desire and moan weakly as your seed comes rushing out, staining the mermaid's smooth midsection.",
                                         "|f|ChangeImageLayer|/|Expression|/|Cockeating|n||f|ChangeImageLayer|/|Base|/|Base|n|You try to pull away from the breath-taking mermaid kiss, but she grabs your head with both hands and keeps you close. On the brink of an orgasm, your cock is drooling precum everywhere as she keeps overwhelming your tongue with hers. She moans and pushes herself closer, trapping your cock between your bodies, finally making it twitch, spasm, and unload your seed on her."
                                       ]
                         },
                         {
-                            "lineTrigger":"onPlayerOrgasm",
+                            "lineTrigger":"OnPlayerOrgasm",
                             "move": "",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|Base|n|Unable to hold back anymore you groan and spill your load. 'Fufu♥ so much thick seed.♥'",
                                         "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|Base|n|'Don't hold back, shoot it all out.♥' Unable to resist any longer, you shower the naughty mermaid with your cum."
@@ -584,7 +584,7 @@
                                       ]
                         },
                         {
-                            "lineTrigger":"onSurrender",
+                            "lineTrigger":"OnSurrender",
                             "move": "",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|Base|n|'Oh? So you want to be pampered by a real lady? I don't dislike honest men.♥'",
                                         "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|Base|n|'Haha, you're finally being honest then.♥'",
@@ -592,19 +592,19 @@
                                       ]
                         },
                         {
-                            "lineTrigger":"stanceStruggle",
+                            "lineTrigger":"StanceStruggle",
                             "move": "Sex",
-                            "theText":["{thePlayerName} tries to pull out from the mermaid's slimy pussy..."]
+                            "theText":["{ThePlayerName} tries to pull out from the mermaid's slimy pussy..."]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFail",
+                            "lineTrigger":"StanceStruggleFail",
                             "move": "Sex",
-                            "theText":["But she forces her hips back on {thePlayerName}, pushing {targetHisOrHer} shaft back inside her!",
+                            "theText":["But she forces her hips back on {ThePlayerName}, pushing {TargetHisOrHer} shaft back inside her!",
                                         "But as you get away, the mermaid hums and your heart skips a beat, making you needily thrust back into her!",
                                         "But you shiver as her slippery vaginal canal squeezes you tightly and lose the strength to pull out!"]
                         },
                         {
-                            "lineTrigger":"stanceStruggleComment",
+                            "lineTrigger":"StanceStruggleComment",
                             "move": "Sex",
                             "theText":["",
                                       "",
@@ -613,13 +613,13 @@
                                         "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|Base|n|'Mmmm... don't be in a hurry now, keep thrusting.♥'"]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFree",
+                            "lineTrigger":"StanceStruggleFree",
                             "move": "Sex",
                             "theText":["And manage to pull free from the mermaid's dripping slit!",
                                       "And free yourself from the mermaid's sex!"]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFreeComment",
+                            "lineTrigger":"StanceStruggleFreeComment",
                             "move": "Sex",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|Base|n|'Ah, but you will be back.♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'To part... is so tragic... Won't you come back for me?♥'",
@@ -627,18 +627,18 @@
                                       ""]
                         },
                         {
-                            "lineTrigger":"stanceStruggle",
+                            "lineTrigger":"StanceStruggle",
                             "move": "Anal",
-                            "theText":["{thePlayerName} tries to pull out of the {attackerName}'s tight ass..."]
+                            "theText":["{ThePlayerName} tries to pull out of the {AttackerName}'s tight ass..."]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFail",
+                            "lineTrigger":"StanceStruggleFail",
                             "move": "Anal",
                             "theText":[ "But as you are sliding outside, the mermaid gasps and clenches her tight anus, keeping you inside!",
                                         "But her thrashing tail forces you back inside!"]
                         },
                         {
-                            "lineTrigger":"stanceStruggleComment",
+                            "lineTrigger":"StanceStruggleComment",
                             "move": "Anal",
                             "theText":["",
                                       "",
@@ -646,31 +646,31 @@
                                         "|f|ChangeImageLayer|/|Expression|/|Submissive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'W-whyyy..!♥'"]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFree",
+                            "lineTrigger":"StanceStruggleFree",
                             "move": "Anal",
                             "theText":["And manage to pull your cock out of her tight rear, leaving her gasping!"]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFreeComment",
+                            "lineTrigger":"StanceStruggleFreeComment",
                             "move": "Anal",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Submissive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Ohh... t-that was close.♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Submissive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'P-please don't do that again darling.♥ Not before marriage...♥'",
                                       ""]
                         },
                         {
-                            "lineTrigger":"stanceStruggle",
+                            "lineTrigger":"StanceStruggle",
                             "move": "Making Out",
-                            "theText":["{thePlayerName} tries to pull away from the mermaid's suffocating kiss..."]
+                            "theText":["{ThePlayerName} tries to pull away from the mermaid's suffocating kiss..."]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFail",
+                            "lineTrigger":"StanceStruggleFail",
                             "move": "Making Out",
-                            "theText":["But she keeps her arms on {thePlayerName}'s shoulders, keeping {targetHimOrHer} in a sloppy, saliva-soaked make out session!",
+                            "theText":["But she keeps her arms on {ThePlayerName}'s shoulders, keeping {TargetHimOrHer} in a sloppy, saliva-soaked make out session!",
                                         "But as you pull away and gasp for air, the mermaid forces her kiss back on you!",
                                         "But as you start to pull away, the mermaid hums, making your heart skip a beat and allowing her to keep kissing you."]
                         },
                         {
-                            "lineTrigger":"stanceStruggleComment",
+                            "lineTrigger":"StanceStruggleComment",
                             "move": "Making Out",
                             "theText":["",
                                       "",
@@ -678,44 +678,44 @@
                                         "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Mmmm... You're not getting away now, Hero.♥'"]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFree",
+                            "lineTrigger":"StanceStruggleFree",
                             "move": "Making Out",
                             "theText":["And manage to pull free from the mermaid's sloppy mouth!",
                                       "And free yourself from the mermaid's suffocating kisses!"]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFreeComment",
+                            "lineTrigger":"StanceStruggleFreeComment",
                             "move": "Making Out",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'To part... is so tragic... Won't you come back for me?♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Mmh, I just love men with resolve.♥'",
                                       ""]
                         },
                         {
-                            "lineTrigger":"stanceStruggle",
+                            "lineTrigger":"StanceStruggle",
                             "move": "Blowjob",
-                            "theText":["{thePlayerName} tries to push {attackerName}'s drooling mouth away from {targetHisOrHer} rigid shaft..."]
+                            "theText":["{ThePlayerName} tries to push {AttackerName}'s drooling mouth away from {TargetHisOrHer} rigid shaft..."]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFail",
+                            "lineTrigger":"StanceStruggleFail",
                             "move": "Blowjob",
                             "theText":["But as you pull her off the length of your cock, her slippery lips slide right back, engulfing you even further in her warm mouth.",
                                         "|f|ChangeImageLayer|/|Expression|/|Humming|n|But as you grab her hair to pull her away, she hums a magical song, charming you. Momentarily bewitched you push your dick deep in her throat, making her moan in delight.",
                                         "She obediently pulls off, but surprises you with a magical song! Momentarily bewitched you stuff your dick deep in her throat, interrupting her song and making her moan in delight."]
                         },
                         {
-                            "lineTrigger":"stanceStruggleComment",
+                            "lineTrigger":"StanceStruggleComment",
                             "move": "Blowjob",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Mmmm♥, you're mine...'",
                                         "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Don't fight.♥ Lose yourself in my mouth.♥'",
                                         "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'You can't resist a lady's blowjob.♥'"]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFree",
+                            "lineTrigger":"StanceStruggleFree",
                             "move": "Blowjob",
                             "theText":["And manage to get her sloppy mouth away from your cock!"]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFreeComment",
+                            "lineTrigger":"StanceStruggleFreeComment",
                             "move": "Blowjob",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'To part... is so tragic... Won't you come back for me?♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Mm..♥ You'll be back... I just need to open my mouth again...♥'",

@@ -30,7 +30,7 @@
     "statusResistedBy": "Willpower",
     "statusText": "",
     "descrip": "",
-    "outcome": "|f|CallEventThenScene|/|SeaSlugCombatEvents|/|SlugRam|n|",
+    "outcome": "|f|CallCombatEventAndScene|/|SeaSlugCombatEvents|/|SlugRam|n|",
     "miss": "",
     "statusOutcome": "",
     "statusMiss": "",

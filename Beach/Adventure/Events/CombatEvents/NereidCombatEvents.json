@@ -23,7 +23,7 @@
 									"'O-ow... You really shouldn't use that on ocean dwellers, you know?'",
 									"'N-noo!♥'",
 									"'Please, not this...'",
-								"endSwap"
+								"EndLoop"
                                   ]
 					  },
 					  {
@@ -34,10 +34,10 @@
 						"HitMonsterWith", "Holy Headpat",
 						"FocusedSpeaks",
 								"SwapLineIf", "Random",
-									"'Nn... What are you..?'{damageToEnemy}",
-									"'...?'{damageToEnemy}",
-									"'This is... nice...'{damageToEnemy}",
-								"endSwap",
+									"'Nn... What are you..?'{DamageToEnemy}",
+									"'...?'{DamageToEnemy}",
+									"'This is... nice...'{DamageToEnemy}",
+								"EndLoop",
 						"ChangeImageLayer", "Expression", "Snooze",
 						"ApplyStatusEffectToMonster", "Sleep",
 						"The Nereid relaxes and becomes sleepy!"
@@ -64,7 +64,7 @@
 									"DoNothing",
 									"DoNothing",
 									"DoNothing",
-								"EndRandom"
+								"EndLoop"
                                   ]
 					  },
 					  {
@@ -78,7 +78,7 @@
 									"'Ohh...♥ Now I am really in the mood.♥♥'",
 									"'Ah! Finally, a real man...♥♥'",
 									"'Mmmh♥♥ Prepare yourself now...♥'",
-								"endSwap"
+								"EndLoop"
                                   ]
 					  },
 					  {
@@ -92,7 +92,7 @@
 									"'Ahh♥ yes! You're making me cuUUMM!♥'",
 									"'O-Oh!♥ Yes yess!♥ Cumming!!♥'",
 									"'Aaahn~♥ c-cumming!♥ G-good job!♥♥♥'",
-								"endSwap"
+								"EndLoop"
                                   ]
 					  },
 					  {
@@ -106,7 +106,7 @@
 									"'Ahh...♥ OOOH!..♥ Hahah, NOW I am really in the mood.♥♥'",
 									"'Ah..! UOOH~!♥ Finally, a real man...♥♥'",
 									"'Aaah~♥♥ cumming! Mmmh♥♥ Prepare yourself now...♥'",
-								"endSwap",
+								"EndLoop",
 								"ChangeImageLayer", "Expression", "Manic"
                                   ]
 					  },
@@ -117,7 +117,7 @@
 								"JumpToRandomScene",
 									"LustMadOrgasm",
 									"NormalOrgasm",
-								"EndRandom"
+								"EndLoop"
                                   ]
 					  },
 					  {
@@ -172,7 +172,7 @@
 									"'If it's too much you should just cum...'",
                                       "'I should just finish you off...'",
                                       "'Hmph... Prepare yourself.'",
-										"endSwap"
+										"EndLoop"
                                   ]
 					  },
 
@@ -189,7 +189,7 @@
 									"'Im so close to cumming, why dont you just stick it in?'",
 									"'Are you going to cum without even fucking me?'",
 									"'Figures you would cum without even trying...'",
-								"endSwap",
+								"EndLoop",
 									"IfPlayerArousalOverPercentOfMax", "80", "Stickitinfuck",
 									"IfPlayerHasStatusEffectChangeNextStatCheckDifficulty", "Charm", "5",
 									"IfFetishLevelEqualOrGreaterChangeNextStatCheckDifficulty", "Sex", "3", "2",
@@ -242,9 +242,9 @@
 								"ChangeImageLayer", "Expression", "Disdain",
 									 "FocusedSpeaks",
 									"SwapLineIf", "Random",
-									"Unable to hold back any longer, your shaft shoots out thick ropes of cum, making the Nereid sneer. 'Such a shameful ejaculation.'{playerOrgasmLine}",
-                                        "'Ah, are you done already?' You can't take any more stimulation and cum, showering the giggling ocean dweller with your hot semen.{playerOrgasmLine}",
-										"endSwap",
+									"Unable to hold back any longer, your shaft shoots out thick ropes of cum, making the Nereid sneer. 'Such a shameful ejaculation.'{PlayerOrgasmLine}",
+                                        "'Ah, are you done already?' You can't take any more stimulation and cum, showering the giggling ocean dweller with your hot semen.{PlayerOrgasmLine}",
+										"EndLoop",
 								"JumpToScene",
 								"RemoveTighten"
                                   ]
@@ -256,11 +256,11 @@
 								"ChangeImageLayer", "Expression", "Disdain",
 									 "FocusedSpeaks",
 									"SwapLineIf", "Random",
-									"You groan and grit your teeth as you feel your orgasm approaching despite your best efforts to pleasure the Nereid. Her seemingly endless composure sows seeds of doubt and frustration in your mind and for a moment you consider simply giving up. The thought sends you over the edge and your over-stimulated cock throbs desperately and finally unloads its sticky goo inside the cold fish woman's tight snatch. You moan and collapse helplessly against her, still trapped inside her squirming pussy.|n|'...Mmm, well alright...'{playerOrgasmLine}",
-                                        "On the edge of release you desperately keep thrusting inside the receptive fish girl in hopes of making her finish first. She rolls her eyes and starts bouncing her hips against yours methodically and slowly. 'Just finish now.'|n|Spurred on by the provocation you begin thrusting even harder, but your efforts are met with a tight squeeze of her pussy and a smug laugh. With a gasp you finally squirt your load deep inside the cunning Nereid as she locks her slippery legs behind your waist, preventing escape.'{playerOrgasmLine}",
-                                        "Suddenly, the Nereid's wet honeypot grips you tight as she vigorously starts to gyrate her hips against yours.|n|The unexpected assault from your largely passive opponent takes you aback and you try to pull away. The fish woman grabs your wrists in her cold hands, forcefully pulling you back inside and simultaneously bringing you over the edge. With a powerful throb your cock floods her insides with warm semen as they continue to methodically squeeze and tease your pleasantly aching dick.{playerOrgasmLine}",
-                                        "Tired, overstimulated and balls-deep inside a tight pussy you helplessly moan as you realize that there is no victory in sight. The Nereid shoots you a cold, disappointed glance and the best you can do is a few weak humps before collapsing on the damp woman and cumming, hard. As your cum floods her insides, her slippery pussy keeps bullying your length and she shrugs and sighs dejectedly.|n|'Ah well, figures...'{playerOrgasmLine}",
-										"endSwap",
+									"You groan and grit your teeth as you feel your orgasm approaching despite your best efforts to pleasure the Nereid. Her seemingly endless composure sows seeds of doubt and frustration in your mind and for a moment you consider simply giving up. The thought sends you over the edge and your over-stimulated cock throbs desperately and finally unloads its sticky goo inside the cold fish woman's tight snatch. You moan and collapse helplessly against her, still trapped inside her squirming pussy.|n|'...Mmm, well alright...'{PlayerOrgasmLine}",
+                                        "On the edge of release you desperately keep thrusting inside the receptive fish girl in hopes of making her finish first. She rolls her eyes and starts bouncing her hips against yours methodically and slowly. 'Just finish now.'|n|Spurred on by the provocation you begin thrusting even harder, but your efforts are met with a tight squeeze of her pussy and a smug laugh. With a gasp you finally squirt your load deep inside the cunning Nereid as she locks her slippery legs behind your waist, preventing escape.'{PlayerOrgasmLine}",
+                                        "Suddenly, the Nereid's wet honeypot grips you tight as she vigorously starts to gyrate her hips against yours.|n|The unexpected assault from your largely passive opponent takes you aback and you try to pull away. The fish woman grabs your wrists in her cold hands, forcefully pulling you back inside and simultaneously bringing you over the edge. With a powerful throb your cock floods her insides with warm semen as they continue to methodically squeeze and tease your pleasantly aching dick.{PlayerOrgasmLine}",
+                                        "Tired, overstimulated and balls-deep inside a tight pussy you helplessly moan as you realize that there is no victory in sight. The Nereid shoots you a cold, disappointed glance and the best you can do is a few weak humps before collapsing on the damp woman and cumming, hard. As your cum floods her insides, her slippery pussy keeps bullying your length and she shrugs and sighs dejectedly.|n|'Ah well, figures...'{PlayerOrgasmLine}",
+										"EndLoop",
 								"JumpToScene",
 								"RemoveTighten"
                                   ]
@@ -272,11 +272,11 @@
 								"ChangeImageLayer", "Expression", "Disdain",
 									 "FocusedSpeaks",
 									"SwapLineIf", "Random",
-									"You groan and grit your teeth as you feel your orgasm approaching despite your best efforts to pleasure the Nereid. Her seemingly endless composure sows seeds of doubt and frustration in your mind and for a moment you consider simply giving up. The thought sends you over the edge and your over-stimulated cock throbs desperately and finally unloads its sticky goo inside the cold fish woman's tight rear. You moan and collapse helplessly against her, still trapped inside her plump ass.|n|'...Mmm, well alright...'{playerOrgasmLine}",
-                                        "On the edge of release you desperately keep thrusting inside the receptive fish girl's ass in hopes of making her finish first. She rolls her eyes and starts bouncing her round butt against your crotch methodically and slowly. 'Just finish now.'|n|Spurred on by the provocation you begin thrusting even harder, but your efforts are met with a tight squeeze of her anus and a smug laugh. With a gasp you finally squirt your load deep inside the cunning Nereid as she locks her slippery legs behind your waist, preventing escape.'{playerOrgasmLine}",
-                                        "Suddenly, the Nereid's soft butthole grips you tight as she vigorously starts to gyrate her hips against yours.|n|The unexpected assault from your largely passive opponent takes you aback and you try to pull away. The fish woman grabs your wrists in her cold hands, forcefully pulling you back inside, simultaneously bringing you over the edge. With a powerful throb your cock floods her colon with warm semen as it continues to methodically squeeze and tease your pleasantly aching dick.{playerOrgasmLine}",
-                                        "Tired, overstimulated and balls-deep inside a tight ass you helplessly moan as you realize that there is no victory in sight. The Nereid shoots you a cold, disappointed glance and the best you can do is a few weak humps before collapsing on the damp woman and cumming, hard. As your cum floods her intestines, her tight anus keeps bullying your length and she shrugs and sighs dejectedly.|n|'Ah well, figures...'{playerOrgasmLine}",
-										"endSwap",
+									"You groan and grit your teeth as you feel your orgasm approaching despite your best efforts to pleasure the Nereid. Her seemingly endless composure sows seeds of doubt and frustration in your mind and for a moment you consider simply giving up. The thought sends you over the edge and your over-stimulated cock throbs desperately and finally unloads its sticky goo inside the cold fish woman's tight rear. You moan and collapse helplessly against her, still trapped inside her plump ass.|n|'...Mmm, well alright...'{PlayerOrgasmLine}",
+                                        "On the edge of release you desperately keep thrusting inside the receptive fish girl's ass in hopes of making her finish first. She rolls her eyes and starts bouncing her round butt against your crotch methodically and slowly. 'Just finish now.'|n|Spurred on by the provocation you begin thrusting even harder, but your efforts are met with a tight squeeze of her anus and a smug laugh. With a gasp you finally squirt your load deep inside the cunning Nereid as she locks her slippery legs behind your waist, preventing escape.'{PlayerOrgasmLine}",
+                                        "Suddenly, the Nereid's soft butthole grips you tight as she vigorously starts to gyrate her hips against yours.|n|The unexpected assault from your largely passive opponent takes you aback and you try to pull away. The fish woman grabs your wrists in her cold hands, forcefully pulling you back inside, simultaneously bringing you over the edge. With a powerful throb your cock floods her colon with warm semen as it continues to methodically squeeze and tease your pleasantly aching dick.{PlayerOrgasmLine}",
+                                        "Tired, overstimulated and balls-deep inside a tight ass you helplessly moan as you realize that there is no victory in sight. The Nereid shoots you a cold, disappointed glance and the best you can do is a few weak humps before collapsing on the damp woman and cumming, hard. As your cum floods her intestines, her tight anus keeps bullying your length and she shrugs and sighs dejectedly.|n|'Ah well, figures...'{PlayerOrgasmLine}",
+										"EndLoop",
 								"JumpToScene",
 								"RemoveTighten"
                                   ]

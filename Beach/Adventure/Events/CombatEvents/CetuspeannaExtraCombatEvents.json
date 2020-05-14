@@ -1,0 +1,1050 @@
+{
+    "name": "CetuspeannaExtraCombatEvents",
+    "CardType": "",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [""],
+    "Speakers": [
+                  {
+                    "name": "CetuspeannaEXTRA",
+                    "postName": "",
+                    "SpeakerType": "Monster"
+                  }
+                ],
+    "EventText": [
+            {
+              "NameOfScene": "CombatInit",
+              "theScene": [
+                "SetProgress", "0",
+                "SetChoice", "1", "NereidFlag",
+                "SetChoice", "2", "MermaidFlag",
+                "SetChoice", "3", "FaintFlag",
+                "SetChoice", "4", "SkillFlag"
+              ]
+            },
+            {
+              "NameOfScene": "SOREXTRA",
+              "theScene": ["IfMonsterHasStatusEffect", "Charm", "Indulge",
+                "IfChoice", "4", "SkillLocked", "NormalSkillsExtra"
+              ]
+            },
+            {
+              "NameOfScene": "Indulge",
+              "theScene": [
+                "ChangeImageLayer", "Base", "BaseBlush",
+                "ChangeImageLayer", "Expression", "Charmed",
+                  "Cetuspeanna is completely infatuated with you and doesn't seem to mind!",
+                  "JumpToScene", "CharmedSkillsExtra"
+              ]
+            },
+            {
+              "NameOfScene": "CharmedSkillsExtra",
+              "theScene": [
+                "ClearMonsterSkillList",
+                         "GiveSkillToMonster",            "Lover's Lunge",
+                         "GiveSkillToMonster",            "Lovey-dovey Sea Dragon Sex",
+                         "GiveSkillToMonster",            "Lovey-dovey Sea Dragon Sex",
+                         "GiveSkillToMonster",            "Lovey-dovey Sea Dragon Sex",
+                         "GiveSkillToMonster",            "Lovey-dovey Sea Dragon Sex",
+                         "GiveSkillToMonster",            "Lovey-dovey Sea Dragon Sex",
+                         "GiveSkillToMonster",            "Lovey-dovey Sea Dragon Sex",
+                         "GiveSkillToMonster",            "Lovey-dovey Sea Dragon Sex",
+                         "GiveSkillToMonster",            "Serpentine Squeeze",
+                         "GiveSkillToMonster",            "Honeymoon Kiss",
+
+                         "ClearStanceFromMonsterAndPlayer", "Descended",
+                         "ClearStanceFromMonsterAndPlayer", "Ascended",
+                         "ClearStanceFromMonsterAndPlayer", "Serpentine Pose"
+              ]
+            },
+            {
+              "NameOfScene": "NormalSkillsExtra",
+              "theScene": [
+                  "SetChoice", "4", "SkillFlag",
+                "ChangeImageLayer", "Base", "Base",
+              "ChangeImageLayer", "Expression", "ShyNoAvert",
+              "Cetuspeanna appears to be in control of herself again!",
+                "ClearMonsterSkillList",
+                           "GiveSkillToMonster",            "Serpentine Pose", "GiveSkillToMonster","Serpentine Pose",
+                           "GiveSkillToMonster",            "Dreamy Water Bubbles", "GiveSkillToMonster","Dreamy Water Bubbles",
+
+                           "GiveSkillToMonster",            "Crescent Arc Pose","GiveSkillToMonster", "Crescent Arc Pose",
+                           "GiveSkillToMonster",            "Divine Splash: Moonlight Sparkles","GiveSkillToMonster", "Divine Splash: Moonlight Sparkles",
+                           "GiveSkillToMonster",            "Gentle Prayer of the Eternal Dragon",
+
+                           "GiveSkillToMonster",            "Ascending Serpent","GiveSkillToMonster","Ascending Serpent","GiveSkillToMonster","Ascending Serpent",
+                           "GiveSkillToMonster",            "Descending Curse: Ephemeral Twin Stroke",
+                                      "GiveSkillToMonster","Descending Curse: Ephemeral Twin Stroke",
+                                      "GiveSkillToMonster","Descending Curse: Ephemeral Twin Stroke",
+                           "GiveSkillToMonster",            "Descending Curse: Hellish Coils","GiveSkillToMonster", "Descending Curse: Hellish Coils",
+                           "GiveSkillToMonster",            "Stinging Hellmaw: Descent",
+                           "GiveSkillToMonster",            "Stinging Hellmaw: Descent",
+                           "GiveSkillToMonster",            "Stinging Hellmaw: Descent",
+                           "GiveSkillToMonster",            "Stinging Hellmaw: Descent",
+                           "GiveSkillToMonster",            "Stinging Hellmaw: Swallow",
+                           "GiveSkillToMonster",            "Stinging Hellmaw: Obscene Draining",
+                           "GiveSkillToMonster",            "Stinging Hellmaw: Obscene Draining",
+                           "GiveSkillToMonster",            "Stinging Hellmaw: Obscene Draining",
+                           "GiveSkillToMonster",            "Stinging Hellmaw: Obscene Draining",
+                           "GiveSkillToMonster",            "Suspend Prey",
+                           "GiveSkillToMonster",            "Dragontongue Draining Dance",
+                           "GiveSkillToMonster",            "Dragontongue Draining Dance",
+                           "GiveSkillToMonster",            "Foaming Hand Strokes",
+                           "GiveSkillToMonster",            "Descending Curse: Sealed Evil Butterfly", "GiveSkillToMonster","Descending Curse: Sealed Evil Butterfly",
+                           "GiveSkillToMonster",            "Bosom Suffocation",
+                           "GiveSkillToMonster",            "Bosom Suffocation",
+                           "GiveSkillToMonster",            "Smothering Depths",
+                           "GiveSkillToMonster",            "Smothering Depths",
+
+                           "GiveSkillToMonster",            "Descending Serpent","GiveSkillToMonster","Descending Serpent","GiveSkillToMonster","Descending Serpent",
+                           "GiveSkillToMonster",            "Ascending Blessing: Brilliant Deepsea Dragonhorn",
+                           "GiveSkillToMonster",            "Ascending Blessing: Everlasting Stroke",
+                           "GiveSkillToMonster",            "Ascending Blessing: Endlessly Abundant Bubbles","GiveSkillToMonster", "Ascending Blessing: Endlessly Abundant Bubbles",
+
+                           "GiveSkillToMonster",            "Serpentine Squeeze","GiveSkillToMonster","Serpentine Squeeze","GiveSkillToMonster","Serpentine Squeeze",
+                           "GiveSkillToMonster",            "Unhinged Maw Kiss","GiveSkillToMonster","Unhinged Maw Kiss","GiveSkillToMonster","Unhinged Maw Kiss"
+              ]
+            },
+            {
+              "NameOfScene": "EOR",
+              "theScene": ["IfHasPerk", "Ethereal Hands", "EverlastingAttack"
+              ]
+            },
+            {
+              "NameOfScene": "EverlastingAttackApply",
+              "theScene": [
+                "Cetuspeanna surges up from the water, faster than {ThePlayerName} can see! A single touch of her hand feels like a thousand strokes at once, almost bringing him to his knees on the spot!",
+                "GivePerkQuietly", "Ethereal Hands",
+                "Ethereal hands loom endlessly around {TargetName}'s crotch, occasionally stroking and caressing {TargetHisOrHer} manhood!"
+              ]
+            },
+            {
+              "NameOfScene": "EverlastingAttack",
+              "theScene": [
+                "HitPlayerWith", "Foaming Hand Strokes",
+                "The ethereal hands keep stroking and caressing your sweetly aching dick...{DamageToPlayer}",
+                "IfPlayerOrgasm", "EverlastingCoom"
+              ]
+            },
+            {
+              "NameOfScene": "EverlastingCoom",
+              "theScene": ["Your stiff cock throbs powerfully, unable to endure the ghastly touch anymore!",
+								"SwapLineIf", "Random",
+								          "All the hands clamp down on your sensitive tip, overlapping with one another and sending a mind-shattering climax through your entire body, almost forcing you to your knees as your dick sprays cum wildly all over the place.",
+                          "One of the hands grips your dick at the base, feeling more solid than the others as it secures your erection firmly. All the other hands start to jerk you off earnestly, overlapping and phasing through as they run up and down across your length, quickly bringing you to a mind-bending climax! Your cock erupts with a huge load, splattering the surroundings in your hot, sticky seed.",
+								"EndLoop",
+                "PlayerOrgasm", "1"
+              ]
+            },
+            {
+              "NameOfScene": "GentlePrayerExtra",
+              "theScene": [
+                "Cetuspeanna concentrates deeply, a beatific look on her graceful features, and channels soothing magic through {AttackerHisOrHer} body, cleansing arousal.",
+                "ChangeMonsterArousal", "-600",
+                "SwapLineIf", "Random",
+                "|f|ChangeImageLayer|/|ArmsBase|/|ArmsPrayBase|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsPrayTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|EyesClosed|n||f|ChangeImageLayer|/|Base|/|Base|n|'...'",
+                "|f|ChangeImageLayer|/|ArmsBase|/|ArmsPrayBase|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsPrayTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|EyesClosed|n||f|ChangeImageLayer|/|Base|/|Base|n|In response to the quiet prayer her flushed body calms again, all signs of fatigue disappearing.",
+                "EndLoop"
+              ]
+            },
+            {
+              "NameOfScene": "GenericUncharmedCounter",
+              "theScene": [
+                "SwapLineIf", "Random",
+                  "You move to attack Cetuspeanna but she moves away with grace, her large and quick body seemingly untouchable...",
+                  "You move to attack Cetuspeanna but she dodges swiftly, her large and quick body effortlessly avoiding your attacks...",
+                  "You move to attack Cetuspeanna but she blocks your advance with her tentacles, forcing you to back away...",
+                "EndLoop"
+              ]
+            },
+            {
+              "NameOfScene": "AscendedCounter",
+              "theScene": [
+                "You move to attack Cetuspeanna but she is too high in the air, her upper body currently out of reach..."
+              ]
+            },
+            {
+              "NameOfScene": "DescendedCounter",
+              "theScene": [
+                "You move to attack Cetuspeanna, but she is hidden too deeply underwater and you have to back away..."
+              ]
+            },
+            {
+              "NameOfScene": "AnswerPassion",
+              "theScene": [
+                "ChangeImageLayer", "Base", "BaseBlush",
+                "ChangeImageLayer", "ArmsBase", "ArmsRest", "ChangeImageLayer", "ArmsTop", "ArmsEmptyTop",
+                "ChangeImageLayer", "Magic", "MagicNone",
+                "ChangeImageLayer", "Expression", "SoftSmile",
+                "Cetuspeanna smiles sweetly, returning your touch.",
+                "HitPlayerWith", "Caress",
+								"FocusedSpeaks",
+								"SwapLineIf", "Random",
+					          "'Mm...♥ Can't get enough of you...♥'{DamageToPlayer}",
+                    "'Let's stay like this...♥'{DamageToPlayer}",
+                    "'...{ThePlayerName}.♥'{DamageToPlayer}",
+								"EndLoop"
+              ]
+            },
+            {
+              "NameOfScene": "CaressCheckExtra",
+              "theScene": [
+                "IfMonsterHasStance", "Sex", "AnswerPassion",
+                "IfMonsterHasStance", "Anal", "AnswerPassion",
+                "IfMonsterHasStance", "Making Out", "AnswerPassion",
+                "SkipPlayerAttack",
+                "IfMonsterHasStance", "Ascended", "AscendedCounter",
+                "IfMonsterHasStance", "Descended", "DescendedCounter",
+                "IfMonsterHasStatusEffect", "Stun", "StatusCaress",
+                "IfMonsterHasStatusEffect", "Restrain", "StatusCaress",
+                "IfMonsterDoesntHaveStatusEffect", "Charm", "GenericUncharmedCounter",
+
+                "ChangeImageLayer", "Base", "BaseBlush",
+                "ChangeImageLayer", "ArmsBase", "ArmsRest", "ChangeImageLayer", "ArmsTop", "ArmsEmptyTop",
+                "ChangeImageLayer", "Magic", "MagicNone",
+                "ChangeImageLayer", "Expression", "Charmed",
+                "In her charmed state she welcomes your touch gladly, panting and offering herself to you submissively.",
+                "HitMonsterWith", "Caress",
+								"FocusedSpeaks",
+								"SwapLineIf", "Random",
+								          "'Haa...♥ Mmh, touch me more darling...♥'{DamageToEnemy}",
+                          "'S-so gentle...♥ Hurry...♥ Don't tease me, darling...♥'{DamageToEnemy}",
+                          "'Too gentle...♥ Touch me more, please...!♥'{DamageToEnemy}",
+								"EndLoop"
+              ]
+            },
+            {
+              "NameOfScene": "StatusCaress",
+              "theScene": [
+                "ChangeImageLayer", "Base", "BaseFlush",
+                "ChangeImageLayer", "ArmsBase", "ArmsRest", "ChangeImageLayer", "ArmsTop", "ArmsEmptyTop",
+                "ChangeImageLayer", "Magic", "MagicNone",
+                "ChangeImageLayer", "Expression", "MildlyAroused",
+                "Taking advantage of Cetuspeanna's state, you manage to reach her sensitive body!",
+                "HitMonsterWith", "Caress",
+								"FocusedSpeaks",
+								"SwapLineIf", "Random",
+								          "'Haa...♥ {ThePlayerName}...♥'{DamageToEnemy}",
+          								"'Ahh...♥ This much won't be enough...♥'{DamageToEnemy}",
+                          "'Ooh...♥ I love it when you are so...♥'{DamageToEnemy}",
+                          "'You're so hard to resist...♥ But I won't go easy on you...!♥'{DamageToEnemy}",
+								"EndLoop"
+              ]
+            },
+            {
+              "NameOfScene": "FingerCheckExtra",
+              "theScene": [
+                "IfMonsterHasStance", "Anal", "AnswerPassion",
+                "IfMonsterHasStance", "Making Out", "AnswerPassion",
+                "SkipPlayerAttack",
+                "IfMonsterHasStance", "Ascended", "AscendedCounter",
+                "IfMonsterHasStance", "Descended", "DescendedCounter",
+                "IfMonsterHasStatusEffect", "Stun", "StatusFinger",
+                "IfMonsterHasStatusEffect", "Restrain", "StatusFinger",
+                "IfMonsterDoesntHaveStatusEffect", "Charm", "GenericUncharmedCounter",
+
+                "ChangeImageLayer", "Base", "BaseBlush",
+                "ChangeImageLayer", "ArmsBase", "ArmsRest", "ChangeImageLayer", "ArmsTop", "ArmsEmptyTop",
+                "ChangeImageLayer", "Magic", "MagicNone",
+                "ChangeImageLayer", "Expression", "Charmed",
+                "In her charmed state she welcomes your touch gladly, panting and offering herself to you submissively.",
+                "HitMonsterWith", "Finger",
+								"FocusedSpeaks",
+								"SwapLineIf", "Random",
+								          "'Haa...♥ Mmh, touch me more darling...♥'{DamageToEnemy}",
+                          "'Kuh!♥ Hurry...♥ Don't tease me, darling...♥'{DamageToEnemy}",
+                          "'No, you meanie...♥ Give me your thing, please...!♥'{DamageToEnemy}",
+								"EndLoop"
+              ]
+            },
+            {
+              "NameOfScene": "StatusFinger",
+              "theScene": [
+                "ChangeImageLayer", "Base", "BaseFlush",
+                "ChangeImageLayer", "ArmsBase", "ArmsRest", "ChangeImageLayer", "ArmsTop", "ArmsEmptyTop",
+                "ChangeImageLayer", "Magic", "MagicNone",
+                "ChangeImageLayer", "Expression", "MildlyAroused",
+                "Taking advantage of Cetuspeanna's state, you manage to reach her sensitive crotch!",
+                "HitMonsterWith", "Finger",
+								"FocusedSpeaks",
+								"SwapLineIf", "Random",
+								          "'Haa...♥ {ThePlayerName}...♥'{DamageToEnemy}",
+          								"'Ahh...♥ I love your touch.♥'{DamageToEnemy}",
+                          "'Ooh...♥ I love how your small hands feel in me...♥'{DamageToEnemy}",
+                          "'Ahn!♥ {ThePlayerName}...♥'{DamageToEnemy}",
+								"EndLoop"
+              ]
+            },
+            {
+              "NameOfScene": "DildoCheckExtra",
+              "theScene": [
+                  "IfMonsterHasStance", "Anal", "AnswerPassion",
+                  "IfMonsterHasStance", "Making Out", "AnswerPassion",
+                  "SkipPlayerAttack",
+                  "IfMonsterHasStance", "Ascended", "AscendedCounter",
+                  "IfMonsterHasStance", "Descended", "DescendedCounter",
+                  "IfMonsterHasStatusEffect", "Stun", "StatusDildo",
+                  "IfMonsterHasStatusEffect", "Restrain", "StatusDildo",
+                  "IfMonsterDoesntHaveStatusEffect", "Charm", "GenericUncharmedCounter",
+
+                  "ChangeImageLayer", "Base", "BaseBlush",
+                  "ChangeImageLayer", "ArmsBase", "ArmsRest", "ChangeImageLayer", "ArmsTop", "ArmsEmptyTop",
+                  "ChangeImageLayer", "Magic", "MagicNone",
+                  "ChangeImageLayer", "Expression", "Charmed",
+                  "In her charmed state she welcomes the toy gladly, panting and spreading her pussy submissively.",
+                  "HitMonsterWith", "Dildo",
+  								"FocusedSpeaks",
+  								"SwapLineIf", "Random",
+  								          "'Haa...♥ Mmh, push it deeper, darling...♥'{DamageToEnemy}",
+                            "'Kuh!♥ Hurry...♥ Don't tease me, darling...♥'{DamageToEnemy}",
+                            "'No, you meanie...♥ Give me the real thing, please...!♥'{DamageToEnemy}",
+  								"EndLoop"
+              ]
+            },
+            {
+              "NameOfScene": "StatusDildo",
+              "theScene": [
+                "ChangeImageLayer", "Base", "BaseFlush",
+                "ChangeImageLayer", "ArmsBase", "ArmsRest", "ChangeImageLayer", "ArmsTop", "ArmsEmptyTop",
+                "ChangeImageLayer", "Magic", "MagicNone",
+                "ChangeImageLayer", "Expression", "MildlyAroused",
+                "Taking advantage of Cetuspeanna's state, you manage to reach her sensitive crotch!",
+                "HitMonsterWith", "Dildo",
+								"FocusedSpeaks",
+								"SwapLineIf", "Random",
+								          "'Haa...♥ {ThePlayerName}.♥'{DamageToEnemy}",
+                          "'Ahn!♥ {ThePlayerName}...♥'{DamageToEnemy}",
+                          "'I-I want the real thing in me.♥'{DamageToEnemy}",
+          								"'Mmhf...♥ Wouldn't you rather...?♥'{DamageToEnemy}",
+                          "'Come on...♥ Let's have sex instead.♥'{DamageToEnemy}",
+								"EndLoop"
+              ]
+            },
+            {
+              "NameOfScene": "SpankCheckExtra",
+              "theScene": [
+                "SkipPlayerAttack",
+                "IfMonsterHasStance", "Ascended", "AscendedCounter",
+                "IfMonsterHasStance", "Descended", "DescendedCounter",
+                "IfMonsterHasStance", "Sex", "StatusSpank",
+                "IfMonsterHasStance", "Anal", "StatusSpank",
+                "IfMonsterHasStance", "Making Out", "StatusSpank",
+                "IfMonsterHasStatusEffect", "Stun", "StatusSpank",
+                "IfMonsterHasStatusEffect", "Restrain", "StatusSpank",
+                "IfMonsterDoesntHaveStatusEffect", "Charm", "GenericUncharmedCounter",
+
+                "ChangeImageLayer", "Base", "BaseBlush",
+                "ChangeImageLayer", "ArmsBase", "ArmsRest", "ChangeImageLayer", "ArmsTop", "ArmsEmptyTop",
+                "ChangeImageLayer", "Magic", "MagicNone",
+                "ChangeImageLayer", "Expression", "Charmed",
+                "In her charmed state she welcomes your touch gladly, panting and wiggling her butt to you submissively.",
+                "HitMonsterWith", "Spank",
+                "FocusedSpeaks",
+                "SwapLineIf", "Random",
+                          "'Haa...♥ Yes, yes, spank me darling...!♥'{DamageToEnemy}",
+                          "'Kya!♥ More...♥ Spank me more, darling...♥'{DamageToEnemy}",
+                          "'Ah...!♥ Hit me again...!♥'{DamageToEnemy}",
+                "EndLoop"
+              ]
+            },
+            {
+              "NameOfScene": "StatusSpank",
+              "theScene": [
+                "ChangeImageLayer", "Base", "BaseFlush",
+                "ChangeImageLayer", "ArmsBase", "ArmsRest", "ChangeImageLayer", "ArmsTop", "ArmsEmptyTop",
+                "ChangeImageLayer", "Magic", "MagicNone",
+                "ChangeImageLayer", "Expression", "Shocked",
+                "Taking advantage of Cetuspeanna's state, you manage to reach her palmable booty!",
+                "HitMonsterWith", "Spank",
+								"FocusedSpeaks",
+								"SwapLineIf", "Random",
+								          "'Kya!♥ Mmh, {ThePlayerName}, you meanie.♥'{DamageToEnemy}",
+                          "'{ThePlayerName}!♥ W-why did you spank me...?♥'{DamageToEnemy}",
+          								"'Spanking is...♥ nice...?♥'{DamageToEnemy}",
+                          "'I should spank you back.♥'{DamageToEnemy}",
+								"EndLoop"
+              ]
+            },
+            {
+              "NameOfScene": "PinchCheckExtra",
+              "theScene": [
+                "SkipPlayerAttack",
+                "IfMonsterHasStance", "Ascended", "AscendedCounter",
+                "IfMonsterHasStance", "Descended", "DescendedCounter",
+                "IfMonsterHasStance", "Sex", "StatusPinch",
+                "IfMonsterHasStance", "Anal", "StatusPinch",
+                "IfMonsterHasStance", "Making Out", "StatusPinch",
+                "IfMonsterHasStatusEffect", "Stun", "StatusPinch",
+                "IfMonsterHasStatusEffect", "Restrain", "StatusPinch",
+                "IfMonsterDoesntHaveStatusEffect", "Charm", "GenericUncharmedCounter",
+
+                "ChangeImageLayer", "Base", "BaseBlush",
+                "ChangeImageLayer", "ArmsBase", "ArmsRest", "ChangeImageLayer", "ArmsTop", "ArmsEmptyTop",
+                "ChangeImageLayer", "Magic", "MagicNone",
+                "ChangeImageLayer", "Expression", "Charmed",
+                "In her charmed state she welcomes your touch gladly, panting and offering her puffy nipples to you submissively.",
+                "HitMonsterWith", "Pinch Nipples",
+                "FocusedSpeaks",
+                "SwapLineIf", "Random",
+                          "'Haa...♥ Ah, squeeze them harder darling...!♥'{DamageToEnemy}",
+                          "'Kya!♥ More...♥ Pull on them harder, darling...♥'{DamageToEnemy}",
+                          "'Ah...!♥ Squeeze them again...!♥'{DamageToEnemy}",
+                "EndLoop"
+              ]
+            },
+            {
+              "NameOfScene": "StatusPinch",
+              "theScene": [
+                "ChangeImageLayer", "Base", "BaseBlush",
+                "ChangeImageLayer", "ArmsBase", "ArmsRest", "ChangeImageLayer", "ArmsTop", "ArmsEmptyTop",
+                "ChangeImageLayer", "Magic", "MagicNone",
+                "ChangeImageLayer", "Expression", "Shocked",
+                "Taking advantage of Cetuspeanna's state, you manage to reach her perky nipples!",
+                "HitMonsterWith", "Pinch Nipples",
+								"FocusedSpeaks",
+								"SwapLineIf", "Random",
+								          "'Kya!♥ {ThePlayerName} you meanie...♥'{DamageToEnemy}",
+                          "'Ooh!♥ I-I'm no good with pain...♥'{DamageToEnemy}",
+          								"'Ahh...♥ If you pinch them that hard, I'll...♥'{DamageToEnemy}",
+								"EndLoop"
+              ]
+            },
+            {
+              "NameOfScene": "BindingResisted",
+              "theScene": [
+                  "SkipPlayerAttack",
+                  "ChangeImageLayer", "Base", "Base",
+                  "ChangeImageLayer", "Expression", "SoftSmile",
+                  "The magical bindings you released fizzle out weakly before even touching Cetuspeanna.",
+                  "FocusedSpeaks",
+  								"SwapLineIf", "Random",
+  								          "'That won't work, {ThePlayerName}.♥'",
+                            "'Magic won't do you any good.♪'",
+                            "'Heehee.♥'",
+  								"EndLoop"
+              ]
+            },
+            {
+              "NameOfScene": "SleepResisted",
+              "theScene": [
+                "SkipPlayerAttack",
+                "ChangeImageLayer", "Base", "Base",
+                "ChangeImageLayer", "Expression", "SoftSmile",
+                "The sleeping spell you release fizzles out weakly before even touching Cetuspeanna.",
+                "FocusedSpeaks",
+                "SwapLineIf", "Random",
+                          "'That won't work, {ThePlayerName}.♥'",
+                          "'Magic won't do you any good.♪'",
+                          "'Heehee.♥'",
+                "EndLoop"
+              ]
+            },
+            {
+              "NameOfScene": "HeadpatCheckExtra",
+              "theScene": [
+                "IfMonsterHasStance", "Sex", "AnswerPassion",
+                "IfMonsterHasStance", "Anal", "AnswerPassion",
+                "IfMonsterHasStance", "Making Out", "AnswerPassion",
+                "SkipPlayerAttack",
+                "IfMonsterHasStance", "Ascended", "AscendedCounter",
+                "IfMonsterHasStance", "Descended", "DescendedCounter",
+                "IfMonsterHasStatusEffect", "Stun", "StatusPat",
+                "IfMonsterHasStatusEffect", "Restrain", "StatusPat",
+                "IfMonsterDoesntHaveStatusEffect", "Charm", "GenericUncharmedCounter",
+
+                "ChangeImageLayer", "Base", "BaseBlush",
+                "ChangeImageLayer", "ArmsBase", "ArmsRest", "ChangeImageLayer", "ArmsTop", "ArmsEmptyTop",
+                "ChangeImageLayer", "Magic", "MagicNone",
+                "ChangeImageLayer", "Expression", "Charmed",
+                "In her charmed state she welcomes your touch gladly, blushing and offering her head to you submissively.",
+                "HitMonsterWith", "Holy Headpat",
+                "FocusedSpeaks",
+                "SwapLineIf", "Random",
+                          "'Awawawa...!♥'{DamageToEnemy}",
+                          "She is fumbling and making cute noises. It is all she manages to do.{DamageToEnemy}",
+                          "Face flushed a deep purple, her eyelashes flutter desperately and she looks like she may faint...{DamageToEnemy}",
+                "EndLoop",
+                "ChangeMonsterArousal", "100",
+                "The move looks surprisingly effective... Cetuspeanna takes additional 100 damage!"
+              ]
+            },
+            {
+              "NameOfScene": "StatusPat",
+              "theScene": [
+                "ChangeImageLayer", "Base", "BaseFlush",
+                "ChangeImageLayer", "ArmsBase", "ArmsRest", "ChangeImageLayer", "ArmsTop", "ArmsEmptyTop",
+                "ChangeImageLayer", "Magic", "MagicNone",
+                "ChangeImageLayer", "Expression", "MildlyAroused",
+                "Taking advantage of Cetuspeanna's state, you manage to reach her pattable head!",
+                "HitMonsterWith", "Holy Headpat",
+								"FocusedSpeaks",
+								"SwapLineIf", "Random",
+								          "'{ThePlayerName}!♥ D-don't pat me...'{DamageToEnemy}",
+                          "'Oh!♥ Um, this is quite strange, isn't it...?'{DamageToEnemy}",
+          								"'W-whyyy...?♥'{DamageToEnemy}",
+								"EndLoop"
+              ]
+            },
+            {
+              "NameOfScene": "BCaressCheckExtra",
+              "theScene": [
+                "IfMonsterHasStance", "Sex", "AnswerPassion",
+                "IfMonsterHasStance", "Anal", "AnswerPassion",
+                "IfMonsterHasStance", "Making Out", "AnswerPassion",
+                "SkipPlayerAttack",
+                "IfMonsterHasStance", "Ascended", "AscendedCounter",
+                "IfMonsterHasStance", "Descended", "DescendedCounter",
+                "IfMonsterHasStatusEffect", "Stun", "StatusBCaress",
+                "IfMonsterHasStatusEffect", "Restrain", "StatusBCaress",
+                "IfMonsterDoesntHaveStatusEffect", "Charm", "GenericUncharmedCounter",
+
+                "ChangeImageLayer", "Base", "BaseBlush",
+                "ChangeImageLayer", "ArmsBase", "ArmsRest", "ChangeImageLayer", "ArmsTop", "ArmsEmptyTop",
+                "ChangeImageLayer", "Magic", "MagicNone",
+                "ChangeImageLayer", "Expression", "Charmed",
+                "In her charmed state she welcomes your touch gladly, panting and offering her perky bosom to you submissively.",
+                "HitMonsterWith", "Breast Caress",
+                "FocusedSpeaks",
+                "SwapLineIf", "Random",
+                          "'Touch them more, darling...♥'{DamageToEnemy}",
+                          "'D-do you like them?♥'{DamageToEnemy}",
+                          "'You can be rougher with them, darling.♥'{DamageToEnemy}",
+                "EndLoop"
+              ]
+            },
+            {
+              "NameOfScene": "StatusBCaress",
+              "theScene": [
+                "ChangeImageLayer", "Base", "BaseFlush",
+                "ChangeImageLayer", "ArmsBase", "ArmsRest", "ChangeImageLayer", "ArmsTop", "ArmsEmptyTop",
+                "ChangeImageLayer", "Magic", "MagicNone",
+                "ChangeImageLayer", "Expression", "MildlyAroused",
+                "Taking advantage of Cetuspeanna's state, you manage to reach her gropable boobs!",
+                "HitMonsterWith", "Breast Caress",
+								"FocusedSpeaks",
+								"SwapLineIf", "Random",
+				          "'Haa...♥ {ThePlayerName}...♥'{DamageToEnemy}",
+  								"'Ahh...♥ I love your touch.♥'{DamageToEnemy}",
+                  "'Ooh...♥ I love how your small hands feel on my chest.♥'{DamageToEnemy}",
+                  "'Ahn!♥ {ThePlayerName}...♥'{DamageToEnemy}",
+                  "'Fufu...♥ You're just groping me now.♥'{DamageToEnemy}",
+								"EndLoop"
+              ]
+            },
+            {
+              "NameOfScene": "BMassageCheckExtra",
+              "theScene": [
+                "IfMonsterHasStance", "Sex", "AnswerPassion",
+                "IfMonsterHasStance", "Anal", "AnswerPassion",
+                "IfMonsterHasStance", "Making Out", "AnswerPassion",
+                "SkipPlayerAttack",
+                "IfMonsterHasStance", "Ascended", "AscendedCounter",
+                "IfMonsterHasStance", "Descended", "DescendedCounter",
+                "IfMonsterHasStatusEffect", "Stun", "StatusBMassage",
+                "IfMonsterHasStatusEffect", "Restrain", "StatusBMassage",
+                "IfMonsterDoesntHaveStatusEffect", "Charm", "GenericUncharmedCounter",
+
+                "ChangeImageLayer", "Base", "BaseBlush",
+                "ChangeImageLayer", "ArmsBase", "ArmsRest", "ChangeImageLayer", "ArmsTop", "ArmsEmptyTop",
+                "ChangeImageLayer", "Magic", "MagicNone",
+                "ChangeImageLayer", "Expression", "Charmed",
+                "In her charmed state she welcomes your touch gladly, panting and offering her perky bosom to you submissively.",
+                "HitMonsterWith", "Breast Massage",
+                "FocusedSpeaks",
+                "SwapLineIf", "Random",
+                          "'Ahh♥, knead them more darling...♥'{DamageToEnemy}",
+                          "'D-do you like them?♥'{DamageToEnemy}",
+                          "'You can be rougher with them, darling.♥'{DamageToEnemy}",
+                          "'I love your touch, darling!♥'{DamageToEnemy}",
+                "EndLoop"
+              ]
+            },
+            {
+              "NameOfScene": "StatusBMassage",
+              "theScene": [
+                "ChangeImageLayer", "Base", "BaseFlush",
+                "ChangeImageLayer", "ArmsBase", "ArmsRest", "ChangeImageLayer", "ArmsTop", "ArmsEmptyTop",
+                "ChangeImageLayer", "Magic", "MagicNone",
+                "ChangeImageLayer", "Expression", "Aroused",
+                "Taking advantage of Cetuspeanna's state, you manage to reach her gropable boobs!",
+                "HitMonsterWith", "Breast Massage",
+								"FocusedSpeaks",
+								"SwapLineIf", "Random",
+				          "'Haa...♥ {ThePlayerName}...♥'{DamageToEnemy}",
+  								"'Ahh...♥ I love your touch.♥'{DamageToEnemy}",
+                  "'Ooh...♥ I love how your small hands feel on my chest.♥'{DamageToEnemy}",
+                  "'Ahn!♥ {ThePlayerName}...♥'{DamageToEnemy}",
+                  "'Fufu...♥ You're just groping me now.♥'{DamageToEnemy}",
+								"EndLoop"
+              ]
+            },
+            {
+              "NameOfScene": "SuckleCheckExtra",
+              "theScene": [
+              "IfMonsterHasStance", "Sex", "AnswerPassion",
+              "IfMonsterHasStance", "Anal", "AnswerPassion",
+              "IfMonsterHasStance", "Making Out", "AnswerPassion",
+              "SkipPlayerAttack",
+              "IfMonsterHasStance", "Ascended", "AscendedCounter",
+              "IfMonsterHasStance", "Descended", "DescendedCounter",
+              "IfMonsterHasStatusEffect", "Stun", "StatusSuckle",
+              "IfMonsterHasStatusEffect", "Restrain", "StatusSuckle",
+              "IfMonsterDoesntHaveStatusEffect", "Charm", "GenericUncharmedCounter",
+
+              "ChangeImageLayer", "Base", "BaseBlush",
+              "ChangeImageLayer", "ArmsBase", "ArmsRest", "ChangeImageLayer", "ArmsTop", "ArmsEmptyTop",
+              "ChangeImageLayer", "Magic", "MagicNone",
+              "ChangeImageLayer", "Expression", "Charmed",
+              "In her charmed state she welcomes your lips gladly, panting and offering her puffy nipples submissively.",
+              "HitMonsterWith", "Suckle",
+              "FocusedSpeaks",
+              "SwapLineIf", "Random",
+                        "'Ahh♥, suck them more darling...♥'{DamageToEnemy}",
+                        "'D-do you like my nipples?♥'{DamageToEnemy}",
+                        "'You can suck them harder, darling.♥'{DamageToEnemy}",
+              "EndLoop"
+              ]
+            },
+            {
+              "NameOfScene": "StatusSuckle",
+              "theScene": [
+                "ChangeImageLayer", "Base", "BaseBlush",
+                "ChangeImageLayer", "ArmsBase", "ArmsRest", "ChangeImageLayer", "ArmsTop", "ArmsEmptyTop",
+                "ChangeImageLayer", "Magic", "MagicNone",
+                "ChangeImageLayer", "Expression", "Aroused",
+                "Taking advantage of Cetuspeanna's state, you manage to plant your lips on her suckable nipples!",
+                "HitMonsterWith", "Suckle",
+								"FocusedSpeaks",
+								"SwapLineIf", "Random",
+                  "'Fufu...♥ Oh {ThePlayerName}, you're so cute when you do that.♥'{DamageToEnemy}",
+                  "'Mmm...♥ You can suck on them harder.♥'{DamageToEnemy}",
+                  "'Ooh...♥ I love how your small mouth feels on my nipples.♥'{DamageToEnemy}",
+                  "'Ahn!♥ {ThePlayerName}...♥'{DamageToEnemy}",
+                  "'Fufu...♥ So cute.♥'{DamageToEnemy}",
+								"EndLoop"
+              ]
+            },
+            {
+              "NameOfScene": "GropeAssCheckExtra",
+              "theScene": [
+              "IfMonsterHasStance", "Sex", "AnswerPassion",
+              "IfMonsterHasStance", "Anal", "AnswerPassion",
+              "IfMonsterHasStance", "Making Out", "AnswerPassion",
+              "SkipPlayerAttack",
+              "IfMonsterHasStance", "Ascended", "AscendedCounter",
+              "IfMonsterHasStance", "Descended", "DescendedCounter",
+              "IfMonsterHasStatusEffect", "Stun", "StatusGropeAss",
+              "IfMonsterHasStatusEffect", "Restrain", "StatusGropeAss",
+              "IfMonsterDoesntHaveStatusEffect", "Charm", "GenericUncharmedCounter",
+
+              "ChangeImageLayer", "Base", "BaseBlush",
+              "ChangeImageLayer", "ArmsBase", "ArmsRest", "ChangeImageLayer", "ArmsTop", "ArmsEmptyTop",
+              "ChangeImageLayer", "Magic", "MagicNone",
+              "ChangeImageLayer", "Expression", "Charmed",
+              "In her charmed state she welcomes your touch gladly, panting and wiggling her butt to you submissively.",
+              "HitMonsterWith", "Grope Ass",
+              "FocusedSpeaks",
+              "SwapLineIf", "Random",
+                        "'Ahh♥, grope it more darling...♥'{DamageToEnemy}",
+                        "'D-do you like my butt?♥'{DamageToEnemy}",
+                        "'You can grope it more, darling.♥'{DamageToEnemy}",
+              "EndLoop"
+              ]
+            },
+            {
+              "NameOfScene": "StatusGropeAss",
+              "theScene": [
+                "ChangeImageLayer", "Base", "BaseFlush",
+                "ChangeImageLayer", "ArmsBase", "ArmsRest", "ChangeImageLayer", "ArmsTop", "ArmsEmptyTop",
+                "ChangeImageLayer", "Magic", "MagicNone",
+                "ChangeImageLayer", "Expression", "Shy",
+                "Taking advantage of Cetuspeanna's state, you manage to reach her palmable butt!",
+                "HitMonsterWith", "Grope Ass",
+								"FocusedSpeaks",
+								"SwapLineIf", "Random",
+                  "'Kya!♥ Why would you touch me there?♥'{DamageToEnemy}",
+                  "'Ooh!♥ Squeeze it more.♥'{DamageToEnemy}",
+                  "'Ahh...♥ My butt is pretty sensitive.♥'{DamageToEnemy}",
+                  "'I love your small hands.♥'{DamageToEnemy}",
+								"EndLoop"
+              ]
+            },
+            {
+              "NameOfScene": "PenetrateCheckExtra",
+              "theScene": [
+              "SkipPlayerAttack",
+              "IfMonsterHasStance", "Ascended", "AscendedCounter",
+              "IfMonsterHasStance", "Descended", "DescendedCounter",
+              "IfMonsterHasStance", "Making Out", "StatusPenetrate",
+              "IfMonsterHasStatusEffect", "Stun", "StatusPenetrate",
+              "IfMonsterHasStatusEffect", "Restrain", "StatusPenetrate",
+              "IfMonsterDoesntHaveStatusEffect", "Charm", "GenericUncharmedCounter",
+
+              "ChangeImageLayer", "Base", "BaseBlush",
+              "ChangeImageLayer", "ArmsBase", "ArmsRest", "ChangeImageLayer", "ArmsTop", "ArmsEmptyTop",
+              "ChangeImageLayer", "Magic", "MagicNone",
+              "ChangeImageLayer", "Expression", "Charmed",
+              "In her charmed state she welcomes your dick gladly, panting and offering her drooling slit to you submissively.",
+              "HitMonsterWith", "Penetrate",
+              "ApplyStance", "Sex",
+              "FocusedSpeaks",
+              "SwapLineIf", "Random",
+                        "'Ahh♥, we can get married later... For now, just stir me up!♥'{DamageToEnemy}",
+                        "'M-make me yours...♥'{DamageToEnemy}",
+                        "'You can do it as hard as you want, darling.♥'{DamageToEnemy}",
+              "EndLoop"
+              ]
+            },
+            {
+              "NameOfScene": "StatusPenetrate",
+              "theScene": [
+                "ChangeImageLayer", "Base", "BaseBlush",
+                "ChangeImageLayer", "ArmsBase", "ArmsRest", "ChangeImageLayer", "ArmsTop", "ArmsEmptyTop",
+                "ChangeImageLayer", "Magic", "MagicNone",
+                "ChangeImageLayer", "Expression", "Helpless",
+                "Taking advantage of Cetuspeanna's state, you manage to reach her drooling slit!",
+                "HitMonsterWith", "Penetrate",
+                "ApplyStance", "Sex",
+								"FocusedSpeaks",
+								"SwapLineIf", "Random",
+                  "'Mmm!♥ I love it when you're so assertive, {ThePlayerName}.♥'{DamageToEnemy}",
+                  "'Ooh!♥ Fufu, this might get a little wild.♥'{DamageToEnemy}",
+                  "'Ahh...♥ Finally...♥'{DamageToEnemy}",
+								"EndLoop"
+              ]
+            },
+            {
+              "NameOfScene": "AnalPenetrateCheckExtra",
+              "theScene": [
+                "SkipPlayerAttack",
+                "IfMonsterHasStance", "Ascended", "AscendedCounter",
+                "IfMonsterHasStance", "Descended", "DescendedCounter",
+                "IfMonsterHasStance", "Making Out", "StatusAnalPenetrate",
+                "IfMonsterHasStatusEffect", "Stun", "StatusAnalPenetrate",
+                "IfMonsterHasStatusEffect", "Restrain", "StatusAnalPenetrate",
+                "IfMonsterDoesntHaveStatusEffect", "Charm", "GenericUncharmedCounter",
+
+                "ChangeImageLayer", "Base", "BaseBlush",
+                "ChangeImageLayer", "ArmsBase", "ArmsRest", "ChangeImageLayer", "ArmsTop", "ArmsEmptyTop",
+                "ChangeImageLayer", "Magic", "MagicNone",
+                "ChangeImageLayer", "Expression", "Charmed",
+                "In her charmed state she welcomes your dick gladly, panting and offering her tight butthole to you submissively.",
+                "HitMonsterWith", "Anal Penetration",
+                "ApplyStance", "Anal",
+                "FocusedSpeaks",
+                "SwapLineIf", "Random",
+                          "'Ahh♥, if it's anal... We can do that before marriage...♥'{DamageToEnemy}",
+                          "'M-make me yours...♥'{DamageToEnemy}",
+                          "'I offer all of myself to you, darling.♥'{DamageToEnemy}",
+                "EndLoop"
+              ]
+            },
+            {
+              "NameOfScene": "StatusAnalPenetrate",
+              "theScene": [
+                "ChangeImageLayer", "Base", "BaseBlush",
+                "ChangeImageLayer", "ArmsBase", "ArmsRest", "ChangeImageLayer", "ArmsTop", "ArmsEmptyTop",
+                "ChangeImageLayer", "Magic", "MagicNone",
+                "ChangeImageLayer", "Expression", "Aroused",
+                "Taking advantage of Cetuspeanna's state, you manage to locate her tight butthole!",
+                "HitMonsterWith", "Anal Penetration",
+                "ApplyStance", "Anal",
+								"FocusedSpeaks",
+								"SwapLineIf", "Random",
+                  "'Kya!♥ {ThePlayerName}... anal is embarrassing you know?♥'{DamageToEnemy}",
+                  "'Ooh!♥ I-if you fuck me thereee... I won't be able to hold back anymore.♥'{DamageToEnemy}",
+                  "'Ahh...♥ Now you've done it, {ThePlayerName}.♥'{DamageToEnemy}",
+                  "'Mmhf...♥ A-anal sex...♥ I'll have to make you marry me...♥'{DamageToEnemy}",
+								"EndLoop"
+              ]
+            },
+            {
+              "NameOfScene": "MakeOutCheckExtra",
+              "theScene": [
+                "IfMonsterHasStance", "Sex", "AnswerPassion",
+                "IfMonsterHasStance", "Anal", "AnswerPassion",
+                "SkipPlayerAttack",
+                "IfMonsterHasStance", "Ascended", "AscendedCounter",
+                "IfMonsterHasStance", "Descended", "DescendedCounter",
+                "IfMonsterHasStatusEffect", "Stun", "StatusMakeOut",
+                "IfMonsterHasStatusEffect", "Restrain", "StatusMakeOut",
+                "IfMonsterDoesntHaveStatusEffect", "Charm", "GenericUncharmedCounter",
+
+                "ChangeImageLayer", "Base", "BaseBlush",
+                "ChangeImageLayer", "ArmsBase", "ArmsRest", "ChangeImageLayer", "ArmsTop", "ArmsEmptyTop",
+                "ChangeImageLayer", "Magic", "MagicNone",
+                "ChangeImageLayer", "Expression", "Charmed",
+                "In her charmed state she welcomes your mouth, passionately returning the kiss.",
+                "HitMonsterWith", "Make Out",
+                "ApplyStance", "Making Out",
+                "FocusedSpeaks",
+                "SwapLineIf", "Random",
+                          "'Ahh♥, Kiss me... Taste me, darling!♥'{DamageToEnemy}",
+                          "'Hold me closer, my love...♥'{DamageToEnemy}",
+                          "'I love you so much...♥'{DamageToEnemy}",
+                "EndLoop"
+              ]
+            },
+            {
+              "NameOfScene": "StatusMakeOut",
+              "theScene": [
+                "ChangeImageLayer", "Base", "BaseBlush",
+                "ChangeImageLayer", "ArmsBase", "ArmsRest", "ChangeImageLayer", "ArmsTop", "ArmsEmptyTop",
+                "ChangeImageLayer", "Magic", "MagicNone",
+                "ChangeImageLayer", "Expression", "Aroused",
+                "Taking advantage of Cetuspeanna's state, you manage to grab her shoulders and move in for a smooch!",
+                "HitMonsterWith", "Make Out",
+                "ApplyStance", "Making Out",
+								"FocusedSpeaks",
+								"SwapLineIf", "Random",
+                  "'K-k-kissing...!!! Kiss me more, {ThePlayerName}!♥'{DamageToEnemy}",
+                  "'Mwah...♥ Kiss meee... Kiss me more, {ThePlayerName}...♥'{DamageToEnemy}",
+                  "'Chu...♥ Love you...♥'{DamageToEnemy}",
+								"EndLoop"
+              ]
+            },
+            {
+              "NameOfScene": "KissCheckExtra",
+              "theScene": [
+                "IfMonsterHasStance", "Sex", "AnswerPassion",
+                "IfMonsterHasStance", "Anal", "AnswerPassion",
+                "SkipPlayerAttack",
+                "IfMonsterHasStance", "Ascended", "AscendedCounter",
+                "IfMonsterHasStance", "Descended", "DescendedCounter",
+                "IfMonsterHasStatusEffect", "Stun", "StatusKiss",
+                "IfMonsterHasStatusEffect", "Restrain", "StatusKiss",
+                "IfMonsterDoesntHaveStatusEffect", "Charm", "GenericUncharmedCounter",
+
+                "ChangeImageLayer", "Base", "BaseBlush",
+                "ChangeImageLayer", "ArmsBase", "ArmsRest", "ChangeImageLayer", "ArmsTop", "ArmsEmptyTop",
+                "ChangeImageLayer", "Magic", "MagicNone",
+                "ChangeImageLayer", "Expression", "Charmed",
+                "In her charmed state she welcomes your mouth, passionately returning the kiss.",
+                "HitMonsterWith", "Kiss",
+                "FocusedSpeaks",
+                "SwapLineIf", "Random",
+                          "'Ahh♥, Kiss me... Taste me, darling!♥'{DamageToEnemy}",
+                          "'Kiss me deeper, my love...♥'{DamageToEnemy}",
+                          "'I love you so much...♥'{DamageToEnemy}",
+                "EndLoop"
+              ]
+            },
+            {
+              "NameOfScene": "StatusKiss",
+              "theScene": [
+                "ChangeImageLayer", "Base", "BaseBlush",
+                "ChangeImageLayer", "ArmsBase", "ArmsRest", "ChangeImageLayer", "ArmsTop", "ArmsEmptyTop",
+                "ChangeImageLayer", "Magic", "MagicNone",
+                "ChangeImageLayer", "Expression", "Aroused",
+                "Taking advantage of Cetuspeanna's state, you manage to reach her kissable lips!",
+                "HitMonsterWith", "Kiss",
+								"FocusedSpeaks",
+								"SwapLineIf", "Random",
+                  "'K-k-kissing...!!! Kiss me more, {ThePlayerName}!♥'{DamageToEnemy}",
+                  "'Mwah...♥ Kiss meee... Kiss me more, {ThePlayerName}...♥'{DamageToEnemy}",
+                  "'Chu...♥ Love you...♥'{DamageToEnemy}",
+								"EndLoop"
+              ]
+            },
+            {
+              "NameOfScene": "EarTeaseCheckExtra",
+              "theScene": [
+              "IfMonsterHasStance", "Sex", "AnswerPassion",
+              "IfMonsterHasStance", "Anal", "AnswerPassion",
+              "SkipPlayerAttack",
+              "IfMonsterHasStance", "Ascended", "AscendedCounter",
+              "IfMonsterHasStance", "Descended", "DescendedCounter",
+              "IfMonsterHasStatusEffect", "Stun", "StatusEarTease",
+              "IfMonsterHasStatusEffect", "Restrain", "StatusEarTease",
+              "IfMonsterDoesntHaveStatusEffect", "Charm", "GenericUncharmedCounter",
+
+              "ChangeImageLayer", "Base", "BaseBlush",
+              "ChangeImageLayer", "ArmsBase", "ArmsRest", "ChangeImageLayer", "ArmsTop", "ArmsEmptyTop",
+              "ChangeImageLayer", "Magic", "MagicNone",
+              "ChangeImageLayer", "Expression", "Charmed",
+              "In her charmed state she welcomes your touch, offering her head to you submissively.",
+              "HitMonsterWith", "Ear Tease",
+              "FocusedSpeaks",
+              "SwapLineIf", "Random",
+                        "'Ahh♥, tease me... Tease me, darling!♥'{DamageToEnemy}",
+                        "Her ear tentacles wrap around your fingers affectionately.{DamageToEnemy}",
+                        "'I am falling for you all over again...♥'{DamageToEnemy}",
+              "EndLoop"
+              ]
+            },
+            {
+              "NameOfScene": "StatusEarTease",
+              "theScene": [
+                "ChangeImageLayer", "Base", "BaseBlush",
+                "ChangeImageLayer", "ArmsBase", "ArmsRest", "ChangeImageLayer", "ArmsTop", "ArmsEmptyTop",
+                "ChangeImageLayer", "Magic", "MagicNone",
+                "ChangeImageLayer", "Expression", "SoftSmile",
+                "Taking advantage of Cetuspeanna's state, you manage to reach her unusual ears!",
+                "HitMonsterWith", "Ear Tease",
+                "FocusedSpeaks",
+                "SwapLineIf", "Random",
+                          "'Oh, {ThePlayerName}...♥ Naughty, naughty...♥'{DamageToEnemy}",
+                          "Her ear tentacles wrap around your fingers affectionately. Cetuspeanna blushes and looks at you affectionately.{DamageToEnemy}",
+                          "'O-ohh...♥'{DamageToEnemy}",
+                "EndLoop"
+              ]
+            },
+            {
+              "NameOfScene": "LowHealthTrigger",
+              "theScene": [
+                "ChangeImageLayer", "Base", "BaseBlush",
+                "ChangeImageLayer", "Expression", "Aroused",
+                "FocusedSpeaks",
+								"SwapLineIf", "Random",
+                  "'Haa...♥ haa...♥♥'",
+                  "'Oh {ThePlayerName}...♥ I'm almost there.♥'",
+                  "'You've done well... I should do my best for you too...♥'",
+								"EndLoop"
+              ]
+            },
+					  {
+  						"NameOfScene": "DoNothing",
+  						"theScene":[""]
+            },
+            {
+              "NameOfScene": "TailpussyDescent",
+              "theScene": [
+                "ChangeImageLayer", "Base", "BaseBlush",
+                "ChangeImageLayer", "Expression", "MildlyAroused",
+								"ApplyStatusEffect", "Cettys Juice",
+                "SetPostName", " - Stinging Hellmaw: Descent",
+                "FocusedSpeaksSkill",
+                "SwapLineIf", "Random",
+                  "As you lie restrained in Cetuspeanna's slick coils, you see her tailpussy looming menacingly over your erection! 'It may be over with this.♥' The dark lubricant already drooling down on your crotch, this may be your last chance to break out...",
+                  "As you lie restrained in Cetuspeanna's slick coils, you see her tailpussy looming menacingly over your erection! 'Playtime's over, {ThePlayerName}.♥' The dark lubricant already drooling down on your crotch, this may be your last chance to break out...",
+                  "As you lie restrained in Cetuspeanna's slick coils, you see her tailpussy looming menacingly over your erection! 'Ready, {ThePlayerName}?♥' The dark lubricant already drooling down on your crotch, this may be your last chance to break out...",
+                "EndLoop",
+                "SetPostName", "",
+                "Menu",
+                  "Struggle as hard as you can! (Power)",
+                  "Wiggle as skillfully as you can! (Technique)",
+                  "Accept your fate...",
+                "EndLoop"
+              ]
+            },
+            {
+              "NameOfScene": "Struggle as hard as you can! (Power)",
+              "theScene": [
+                "StatCheck", "Power", "40",
+                "StruggledOut!",
+                "Fail",
+                "FailedStruggle"
+              ]
+            },
+            {
+              "NameOfScene": "Wiggle as skillfully as you can! (Technique)",
+              "theScene": [
+                "StatCheck", "Technique", "40",
+                "StruggledOut!",
+                "Fail",
+                "FailedStruggle"
+              ]
+            },
+            {
+              "NameOfScene": "Accept your fate...",
+              "theScene": [
+                "Not seeing any escape, or perhaps looking forward to what's about to happen, you cease all resistance..."
+                "JumpToScene", "StartTailFuck"
+              ]
+            },
+            {
+              "NameOfScene": "FailedStruggle",
+              "theScene": [
+                "Your best effort was not enough, and you feel her coils hold you down even more firmly than before. There is no escaping the menacing orifice now...",
+                "FocusedSpeaksSkill", "Nice try, but not nice enough.♥",
+                "JumpToScene", "StartTailFuck"
+              ]
+            },
+            {
+              "NameOfScene": "StartTailFuck",
+              "theScene": [
+                "Her tailpussy descends slowly, covering your crotch in copious amounts of the strange black liquid that makes you weak in the knees and everywhere else, your entire lower body feeling like it's only purpose is to let loose...",
+                "ApplyStance", "Tail Fuck",
+                "HitPlayerWith", "Stinging Hellmaw: Obscene Draining",
+                "Your cock throbs powerfully, the immense pleasure of the insertion alone threatening to overwhelm you on the spot...{DamageToPlayer}",
+                "IfPlayerOrgasm", "InsertionOrgasm"
+              ]
+            },
+            {
+              "NameOfScene": "InsertionOrgasm",
+              "theScene": [
+                "Just as you realize that you are cumming the devilish tail gulps loudly, drawing out a huge load of your cum and instantly swallowing it with obscene noises...",
+                "PlayerOrgasm", "2",
+                "You can only moan helplessly as long spurts of cum are eagerly escaping your spasming dick only to intermix with the abnormal black lubricant and be gulped down by her undefeatable tail...",
+                "IfPlayerSpiritGone", "Lost",
+                "If you are still to win this, it is crucial that you break out of her restraints..."
+              ]
+            },
+            {
+                "NameOfScene": "Lost",
+                "theScene": [
+                  "PlayerLosesCombat"
+              ]
+            },
+            {
+              "NameOfScene": "Suspend",
+              "theScene": [
+                "IfSensitivityEqualOrGreater", "Ass", "120", "EatAss",
+                "As you lie wrapped up in Cetuspeanna's comfortably tight coils, she seems to grow quiet, not making her next move...",
+                "ChangeImageLayer", "Base", "BaseBlush",
+                "ChangeImageLayer", "Expression", "ShySmile",
+                "FocusedSpeaks", "{ThePlayerName}... As a combat tactic, may I... eat your butt? Please?",
+                "Menu",
+                  "Please no.",
+                  "You may...",
+                "EndLoop"
+              ]
+            },
+            {
+              "NameOfScene": "Please no.",
+              "theScene": [
+                "ChangeImageLayer", "Expression", "PoutAvert",
+                "FocusedSpeaks", "Ah- I- oh, alright... Sorry...",
+                "She seems taken aback and does nothing else for now..."
+              ]
+            },
+            {
+              "NameOfScene": "You may...",
+              "theScene": [
+                "ChangeImageLayer", "Base", "BaseBlush",
+                "ChangeImageLayer", "Expression", "MildlyAroused",
+                "FocusedSpeaks", "Thank you so much.♥",
+                "JumpToScene", "EatAss"
+              ]
+            },
+            {
+              "NameOfScene": "EatAss",
+              "theScene": [
+                "SetPostName", " - Suspend Prey",
+                "FocusedSpeaksSkill",
+                "Still coiling around you, her serpentine tail lifts you into the air effortlessly! Raising you higher and higher, until your ass is leveled with her face. 'Your butt is so cute.♥'",
+                "SetPostName", "",
+                "ChangeImageLayer", "Expression", "BigLicc",
+                "ApplyStance", "Rimjob",
+                "You yelp in helpless pleasure as her long tongue invades your exposed anus, sliding deep inside in one smooth motion, quickly arriving at your sensitive prostate! You moan and shudder, your cock already leaking out a large droplet of runny precum..."
+              ]
+            },
+            {
+              "NameOfScene": "EatAssActive",
+              "theScene": [
+                "ChangeImageLayer", "Expression", "BigLicc",
+                "The tongue frolicking and dancing around in your ass leaves your knees shaking, quickly draining your strength!",
+                "ChangeEnergy", "-20",
+
+                "SetPostName", " - Dragontongue Draining Dance",
+                "FocusedSpeaksSkill",
+                "SwapLineIf", "Random",
+                  "'Your assh is quivering... shoo cute.♥♥' It becomes increasingly more difficult to resist...",
+                  "'Nnh...♥ Mwah...♥ {ThePlayerName}'s butt...♥' It becomes increasingly more difficult to resist...",
+                  "'It'sh shoo hot inside...♥ Gonna cuum shoon?♥' It becomes increasingly more difficult to resist...",
+                "EndLoop",
+                "SetPostName", "",
+              ]
+            }
+    ]
+}

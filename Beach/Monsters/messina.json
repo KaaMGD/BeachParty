@@ -107,14 +107,14 @@
                   ],
     "combatDialogue": [
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Arouse",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Erotic|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Ahh...♥ I really... felt that...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|ShyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'N-noo...♫ I don't wanna go home yet, slow down!♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Embarrassed|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'H-hey, can we... skip magic..?♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Arousara",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Erotic|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Ahh...♥ I really... felt that...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|ShyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'N-noo...♫ I don't wanna go home yet, slow down!♥'",
@@ -123,102 +123,102 @@
                         {
                           "lineTrigger":"AutoCounter",
                           "move": "Electrify",
-                          "theText":["|f|CallEventThenScene|/|MessinaCombatEvents|/|Electrified|n|"]
+                          "theText":["|f|CallCombatEventAndScene|/|MessinaCombatEvents|/|Electrified|n|"]
                         },
                         {
                           "lineTrigger":"AutoCounter",
                           "move": "Finger",
-                          "theText":["|f|CallEventThenScene|/|MessinaCombatEvents|/|VortexFinger|n|"]
+                          "theText":["|f|CallCombatEventAndScene|/|MessinaCombatEvents|/|VortexFinger|n|"]
                         },
                         {
                           "lineTrigger":"AutoCounter",
                           "move": "Dildo",
-                          "theText":["|f|CallEventThenScene|/|MessinaCombatEvents|/|VortexDildo|n|"]
+                          "theText":["|f|CallCombatEventAndScene|/|MessinaCombatEvents|/|VortexDildo|n|"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Spank",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|NaughtyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Oh! Umm... I should spank you too...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|ShyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Ah, that was... My tentacle, not my butt...'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Whip",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|AvertBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Ah..! This is... more intense than I realized...'",
                                       "|f|ChangeImageLayer|/|Expression|/|AvertBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Oh..! A-are you into this kind of thing too..?'",
                                       "|f|ChangeImageLayer|/|Expression|/|NaughtyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'My tentacles... can whip too... But you'd be in trouble so not today.♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Lewd Bottle",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|AvertBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Ah, I know this one... Ohh...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|NaughtyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Oh, I have one of these at home...'",
                                       "|f|ChangeImageLayer|/|Expression|/|NaughtyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Are you trying to make me... Even hornier..?♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Pinch Nipples",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|ShyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Mmh..! My nipples are sensitive...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|ShyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Noo..!♥ Don't squeeze them...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Erotic|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Haa... haa...♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Bondage Net",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|NaughtyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Hehe...♥ Many ocean dwellers are weak to this, but not me...'",
                                       "|f|ChangeImageLayer|/|Expression|/|NaughtyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Watch me... I bet I can get out really fast...'",
                                       "|f|ChangeImageLayer|/|Expression|/|HappyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Hehe... this won't work...'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Magical Binding",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|NaughtyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Hehe...♥ Many ocean dwellers are weak to this, but not me...'",
                                       "|f|ChangeImageLayer|/|Expression|/|NaughtyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Watch me... I bet I can get out really fast...'",
                                       "|f|ChangeImageLayer|/|Expression|/|HappyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Hehe... this won't work...'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Sleep",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Apologetic|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Ah, sorry... I can't sleep unless I am in water...'",
                                       "|f|ChangeImageLayer|/|Expression|/|Apologetic|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Sorry, I don't sleep on land...'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Demon Layer",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|WorryBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Kyah...♥ W-what is that... thing..?♥",
                                       "|f|ChangeImageLayer|/|Expression|/|WorryBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Is this... the power of Hero..?♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Erotic|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'..!♥ This is... new...♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Holy Headpat",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|ShyCoveredBlush|n||f|ChangeImageLayer|/|Base|/|Shy Bikini|n|'Eh... W-what? Uuuu!'",
 						   "|f|ChangeImageLayer|/|Expression|/|HappyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'...Nice...♥'",
                                     "|f|ChangeImageLayer|/|Expression|/|WorryBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Ok-okay, what is this now..?'" ]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Breast Caress",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|NaughtyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Mm...♥ You kept staring, so I saw this coming...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|NaughtyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'They are pretty... big, yes..?♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|NaughtyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Oh...♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Breast Massage",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|NaughtyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Ah, now I am getting a massage...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|NaughtyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Mm, hehe...♥ You're quite skillfull too...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|NaughtyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Hehe, I used to... practice on them...♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Suckle",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Erotic|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Mm...♥ I love this...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|NaughtyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Do Heroes really suckle on boobies..?♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|ShyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Ahh..!♥ This is too good...♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Grope Ass",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|NaughtyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'My butt is pretty big...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|NaughtyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Mm...♥ This is a popular massage...♥'",
@@ -227,50 +227,50 @@
                         {
                           "lineTrigger":"AutoCounter",
                           "move": "Penetrate",
-                          "theText":["|f|CallEventThenScene|/|MessinaCombatEvents|/|SumataCounter|n|"]
+                          "theText":["|f|CallCombatEventAndScene|/|MessinaCombatEvents|/|SumataCounter|n|"]
                         },
                         {
                           "lineTrigger":"AutoCounter",
                           "move": "Anal Penetration",
-                          "theText":["|f|CallEventThenScene|/|MessinaCombatEvents|/|VortexAnal|n|"]
+                          "theText":["|f|CallCombatEventAndScene|/|MessinaCombatEvents|/|VortexAnal|n|"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Thrust",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|ShyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Ahh♥ I- I didn't plan to actually have sex...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|NaughtyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'So this is...♥ sex fighting...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Erotic|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Ah♥, h-harderrr...♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Pound",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Embarrassed|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Ahn!♥ This is more... than I- kyah!♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Erotic|n||f|ChangeImageLayer|/|Base|/|Bikini|n|Messina is just moaning loudly in appreciation.",
                                       "|f|ChangeImageLayer|/|Expression|/|Erotic|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Mmh♥... So strong, hard... ahh...♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Multi Thrust",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|ShyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'H-hey can you... slo- ahh!♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Erotic|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Ah♥, I might lose to this...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Erotic|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Oohh...♥ N-not so quickly...♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Tantric Thrust",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Erotic|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Ah...♥ Ahh...♥ This is more intimate than I imagined...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|ShyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'AAah!!♥ N-noo this is embarrassing..!♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|ShyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Mmm...♥ Mh...♥ Ahhh...♥ I- I can't stop moaning..!♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Empowered Thrust",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Erotic|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Ahh...♥ ahh..!♥ I really... felt that...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|ShyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'N-noo...♫ I don't wanna go home yet, slow down!♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Embarrassed|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Oooh..!♫ H-hey, can we... skip magic..?♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Charm",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|ShyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Ahh, noo...♥ It might be hard to stop now...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Embarrassed|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'O-okay... I {i}really{/i} want to have sex now...♥'"]
@@ -278,72 +278,72 @@
                         {
                             "lineTrigger":"AutoCounter",
                             "move": "Make Out",
-                            "theText":["|f|CallEventThenScene|/|MessinaCombatEvents|/|MouthCounter|n|"]
+                            "theText":["|f|CallCombatEventAndScene|/|MessinaCombatEvents|/|MouthCounter|n|"]
                         },                  
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Deep Kiss",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Embarrassed|n||f|ChangeImageLayer|/|Base|/|Bikini|n|She kisses back timidly.",
                                       "|f|ChangeImageLayer|/|Expression|/|Erotic|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Mmm... mwah...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Erotic|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Mmh...♥ Tastes nice...♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Kiss",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Embarrassed|n||f|ChangeImageLayer|/|Base|/|Bikini|n|She fails to react in time and blushes silently.",
                                       "|f|ChangeImageLayer|/|Expression|/|Erotic|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Mmm... mwah...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Erotic|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Mmh...♥ Tastes nice...♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Seduce",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Embarrassed|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Eh?!♥ Uh, umm, thank you...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|HappyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Thank you...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|ShyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'R-really..? Gosh...♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Ear Tease",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|AvertBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Umm..!♥ Is- is that allowed..?♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Embarrassed|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'T-that's nice...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|HappyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'...Hehehe...♥ That tickles...♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Distract",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Avert|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Ah umm... no, nevermind...'",
                                       "|f|ChangeImageLayer|/|Expression|/|HappyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Hehe, you tricked me!♥'"]
                         },
                         {
-                            "lineTrigger":"usesMove",
+                            "lineTrigger":"UsesMove",
                             "move": "Masseuse's Handjob",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Embarrassed|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Handjob... attack...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Erotic|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'It's okay... to splurt...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|NaughtyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'I'll make you... come...♥'"]
                         },
                         {
-                            "lineTrigger":"usesMove",
+                            "lineTrigger":"UsesMove",
                             "move": "Timid Kisses",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Erotic|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Mwah...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Erotic|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Mmm... chu...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Erotic|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Kiss...♥'"]
                         },
                         {
-                            "lineTrigger":"usesMove",
+                            "lineTrigger":"UsesMove",
                             "move": "Tentacle Restrain",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Embarrassed|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'First... I'll do this...'",
                                       "|f|ChangeImageLayer|/|Expression|/|Erotic|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Let me hold you...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|NaughtyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'D-don't struggle now...♥'"]
                         },
                         {
-                            "lineTrigger":"usesMove",
+                            "lineTrigger":"UsesMove",
                             "move": "Soft Massage",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Embarrassed|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Now... I can do this...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Erotic|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'You will come... in between these...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|NaughtyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'You wanted this... right..?♥'"]                   
                         },
                         {
-                            "lineTrigger":"usesMove",
+                            "lineTrigger":"UsesMove",
                             "move": "Massaging Titfuck",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Embarrassed|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'It's okay... to let loose in there...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Erotic|n||f|ChangeImageLayer|/|Base|/|Bikini|n|She drools into her cleavage quietly.",
@@ -351,7 +351,7 @@
                                       "|f|ChangeImageLayer|/|Expression|/|NaughtyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'I am... good at these...♥'"]           
                         },
                         {
-                            "lineTrigger":"usesMove",
+                            "lineTrigger":"UsesMove",
                             "move": "Scylla's Sumata",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Embarrassed|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Close your eyes... and imagine that this is sex...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Erotic|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'It's okay... if you come like this...♥'",
@@ -359,7 +359,7 @@
                                       "|f|ChangeImageLayer|/|Expression|/|NaughtyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'This is... a massage too...♥'"]                                  
                         },
                         {
-                            "lineTrigger":"usesMove",
+                            "lineTrigger":"UsesMove",
                             "move": "Cilia Vortex",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|WorryBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Ah..!♥ I- I am sooorryy!!♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Erotic|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Come...♥ come inside, a whoole loot...♥'",
@@ -367,13 +367,13 @@
                                       "|f|ChangeImageLayer|/|Expression|/|NaughtyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'You will come...♥ if you stay in there...♥'"]        
                         },
                         {
-                            "lineTrigger":"lowHealth",
+                            "lineTrigger":"LowHealth",
                             "move": "",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|WorryBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Ah♥, umm... I am almost there, so...♥'",
                                         "|f|ChangeImageLayer|/|Expression|/|NaughtyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Hehe...♥ I'm gonna lose...♥'"]
                         },
                         {
-                            "lineTrigger":"playerLowHealth",
+                            "lineTrigger":"PlayerLowHealth",
                             "move": "",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|NaughtyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Umm, am I winning?♥'",
                                         "|f|ChangeImageLayer|/|Expression|/|HappyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Ah, I am winning!♥'",
@@ -381,7 +381,7 @@
                                       "|f|ChangeImageLayer|/|Expression|/|Erotic|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Make sure... to come on me...♥'"]
                         },
                         {
-                            "lineTrigger":"onPlayerOrgasm",
+                            "lineTrigger":"OnPlayerOrgasm",
                             "move": "Sex",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|NaughtyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|Your face slack from the overwhelming pleasure, you can do little to prevent your rapidly approaching orgasm. 'Umm, you should just come...♥' Her cilia-filled pussy chaotically assaults your shaft, finally forcing you to squirt out a hot load of semen, moaning incoherently all the while.",
                                         "|f|ChangeImageLayer|/|Expression|/|Erotic|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Too late to pull out now...♥' Messina moans cutely and mashes her hips against yours, the mass of her tentacles thrashing around almost as wildly as the cilia inside her. Your over-stimulated penis can take no more and you finally flood her squirming hole with hot semen.",
@@ -389,14 +389,14 @@
                                       ]
                         },
                         {
-                            "lineTrigger":"onPlayerOrgasm",
+                            "lineTrigger":"OnPlayerOrgasm",
                             "move": "Making Out",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Erotic|n||f|ChangeImageLayer|/|Base|/|Bikini|n|As you find yourself lost in the passionate kiss, Messina's tentacles sneak between the two of you, timidly sticking to your painfully aroused dick and making it spurt on the spot, smearing her midsection and underside of her breasts in hot, sticky seed.",
                                         "|f|ChangeImageLayer|/|Expression|/|Embarrassed|n||f|ChangeImageLayer|/|Base|/|Bikini|n|Overly aroused from the passionate kissing and pressed tightly against Messina, your dick throbs strongly, finally leaking sperm against her's soft body. She looks a little bewildered but continues her timid kisses, her pale hands stroking your chest gently."
                                       ]
                         },
                         {
-                            "lineTrigger":"onPlayerOrgasm",
+                            "lineTrigger":"OnPlayerOrgasm",
                             "move": "Titfuck",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Erotic|n||f|ChangeImageLayer|/|Base|/|Bikini|n|Completely immobilized by her powerful tentacles you can do little to stop her gentle titfuck. Her breasts' slow, alterating movements finally become too much to bear and you squirt a sticky load on her soft bosom as she coos happily, encouraging you to ejaculate more.",
                                         "|f|ChangeImageLayer|/|Expression|/|HappyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|The delightful pressure of her soft tits slowly dragging up and down your aching cock quickly coaxes out a powerful ejaculation, splattering the scylla with your load as she smiles happily, still squeezing her breasts around your dick. 'Yay, you're cumming..!♥'",
@@ -404,7 +404,7 @@
                                       ]
                         },
                         {
-                            "lineTrigger":"onPlayerOrgasm",
+                            "lineTrigger":"OnPlayerOrgasm",
                             "move": "Thighjob",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Erotic|n||f|ChangeImageLayer|/|Base|/|Bikini|n|The pale valley between her plump thighs feels heavenly, and the occasional touch of her hot pussy sends you wild with lust until you are mindlessly humping back in tandem with her movements. In no time at all you're squirting a heavy load on her stomach and it drips down to her lap, making the Scylla sigh wistfully. 'Ahh... such a waste...♥'",
                                         "|f|ChangeImageLayer|/|Expression|/|NaughtyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|Mesmerized by the scylla's expert movements as she massages your cock between her thighs you stare at her lightly bouncing breasts, her toned midsection glistening with moisture... With a lustful sigh you orgasm, thoroughly coating her tummy and thighs with your sticky spunk. 'Enjoy... the view..?♥'",
@@ -412,7 +412,7 @@
                                       ]
                         },
                         {
-                            "lineTrigger":"onPlayerOrgasm",
+                            "lineTrigger":"OnPlayerOrgasm",
                             "move": "",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|NaughtyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|Unable to withstand her massage-like attacks you groan and spill your seed, showering the scylla with the sticky seed as she giggles. 'Hehe...♥ this is not so hard...♥'",
                                         "|f|ChangeImageLayer|/|Expression|/|Erotic|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Ahh...♥ Show me... how you come...♥' Unable to hold back any longer, you climax, splattering the naughty scylla with your hot load."
@@ -426,7 +426,7 @@
                                       ]
                         },
                         {
-                            "lineTrigger":"onSurrender",
+                            "lineTrigger":"OnSurrender",
                             "move": "",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Apologetic|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Umm... Yes, it's okay...♥ You must be too horny...♥'",
                                         "|f|ChangeImageLayer|/|Expression|/|Erotic|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Ah, so this is what you really wanted...♥'",
@@ -434,19 +434,19 @@
                                       ]
                         },
                         {
-                            "lineTrigger":"stanceStruggle",
+                            "lineTrigger":"StanceStruggle",
                             "move": "Sex",
-                            "theText":["{thePlayerName} tries to pull out from the scylla's wildly squirming pussy..."]
+                            "theText":["{ThePlayerName} tries to pull out from the scylla's wildly squirming pussy..."]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFail",
+                            "lineTrigger":"StanceStruggleFail",
                             "move": "Sex",
-                            "theText":["But she shudders and drops her hips back on {thePlayerName}, pushing {targetHisOrHer} shaft back inside her!",
+                            "theText":["But she shudders and drops her hips back on {ThePlayerName}, pushing {TargetHisOrHer} shaft back inside her!",
                                         "But as you get away, Messina shoots you a needy glance, making you thrust wildly back into her!",
                                         "But you shiver as her slimy cilia tease you wildly and lose the strength to pull out!"]
                         },
                         {
-                            "lineTrigger":"stanceStruggleComment",
+                            "lineTrigger":"StanceStruggleComment",
                             "move": "Sex",
                             "theText":["",
                                       "",
@@ -455,13 +455,13 @@
                                         "|f|ChangeImageLayer|/|Expression|/|Embarrassed|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'I love...♥ love your penis... Don't go now...♥'"]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFree",
+                            "lineTrigger":"StanceStruggleFree",
                             "move": "Sex",
                             "theText":["And manage to pull free from the scylla's squirming hole!",
                                       "And free yourself from the scylla's wet, cilia-laden pussy!"]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFreeComment",
+                            "lineTrigger":"StanceStruggleFreeComment",
                             "move": "Sex",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|AvertBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Ah...♥ I guess that was too intense...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Erotic|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Ohh...♥ Good- good call...♥'",
@@ -469,18 +469,18 @@
                                       ""]
                         },
                         {
-                            "lineTrigger":"stanceStruggle",
+                            "lineTrigger":"StanceStruggle",
                             "move": "Thighjob",
-                            "theText":["{thePlayerName} tries to pull away from the {attackerName}'s plump thighs..."]
+                            "theText":["{ThePlayerName} tries to pull away from the {AttackerName}'s plump thighs..."]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFail",
+                            "lineTrigger":"StanceStruggleFail",
                             "move": "Thighjob",
                             "theText":[ "But as you are sliding outside, Messina follows suit, keeping her tentacled thighs around your erection.",
                                         "But her tentacles keep you in place!"]
                         },
                         {
-                            "lineTrigger":"stanceStruggleComment",
+                            "lineTrigger":"StanceStruggleComment",
                             "move": "Thighjob",
                             "theText":["",
                                       "",
@@ -488,31 +488,31 @@
                                         "|f|ChangeImageLayer|/|Expression|/|NaughtyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Stay... a while...♥'"]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFree",
+                            "lineTrigger":"StanceStruggleFree",
                             "move": "Thighjob",
                             "theText":["And barely manage to pull your cock out of her thigh prison, leaving you gasping!"]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFreeComment",
+                            "lineTrigger":"StanceStruggleFreeComment",
                             "move": "Thighjob",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|AvertBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Was it... not good..?'",
                                       "|f|ChangeImageLayer|/|Expression|/|NaughtyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'You should've tried... coming between them...♥'",
                                       ""]
                         },
                         {
-                            "lineTrigger":"stanceStruggle",
+                            "lineTrigger":"StanceStruggle",
                             "move": "Making Out",
-                            "theText":["{thePlayerName} tries to pull away from the scylla's timid kisses..."]
+                            "theText":["{ThePlayerName} tries to pull away from the scylla's timid kisses..."]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFail",
+                            "lineTrigger":"StanceStruggleFail",
                             "move": "Making Out",
-                            "theText":["But she wraps her arms around {thePlayerName}'s neck, keeping {targetHimOrHer} in a quiet, but passionate make out session!",
+                            "theText":["But she wraps her arms around {ThePlayerName}'s neck, keeping {TargetHimOrHer} in a quiet, but passionate make out session!",
                                         "But as you pull away and gasp for air, Messina smooches you again, almost bumping your foreheads in process!",
                                         "But as you start to pull away, Messina whines quietly and you decide to keep kissing her."]
                         },
                         {
-                            "lineTrigger":"stanceStruggleComment",
+                            "lineTrigger":"StanceStruggleComment",
                             "move": "Making Out",
                             "theText":["",
                                       "",
@@ -520,44 +520,44 @@
                                         "|f|ChangeImageLayer|/|Expression|/|Erotic|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Stay... I like... kissing...♥'"]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFree",
+                            "lineTrigger":"StanceStruggleFree",
                             "move": "Making Out",
                             "theText":["And manage to pull free from Messina's timid embrace!",
                                       "And free yourself from the Scylla's timid smooches!"]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFreeComment",
+                            "lineTrigger":"StanceStruggleFreeComment",
                             "move": "Making Out",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|AvertBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'I wanted... to kiss more...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|ShyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Whyy...'",
                                       ""]
                         },
                         {
-                            "lineTrigger":"stanceStruggle",
+                            "lineTrigger":"StanceStruggle",
                             "move": "Titfuck",
-                            "theText":["{thePlayerName} tries to push {attackerName}'s heavy tits away from {targetHisOrHer} rigid shaft..."]
+                            "theText":["{ThePlayerName} tries to push {AttackerName}'s heavy tits away from {TargetHisOrHer} rigid shaft..."]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFail",
+                            "lineTrigger":"StanceStruggleFail",
                             "move": "Titfuck",
                             "theText":["But as you pull her cleavage off the length of your cock she presses back twice as hard, engulfing your erection in her soft bosom again.",
                                         "But as you hold her delightful bosom you get lost in the moment, deciding to enjoy groping her instead!",
                                         "But her tentacles wrap around your wrists, forcing your hands to bounce her tits in your lap instead!"]
                         },
                         {
-                            "lineTrigger":"stanceStruggleComment",
+                            "lineTrigger":"StanceStruggleComment",
                             "move": "Titfuck",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Erotic|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Hehe... is it too much?♥'",
                                         "|f|ChangeImageLayer|/|Expression|/|NaughtyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'You should... enjoy them some more...♥'",
                                         "|f|ChangeImageLayer|/|Expression|/|Embarrassed|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'P-please enjoy it a bit more...♥'"]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFree",
+                            "lineTrigger":"StanceStruggleFree",
                             "move": "Titfuck",
                             "theText":["And manage to get her weighty breasts away from your cock!"]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFreeComment",
+                            "lineTrigger":"StanceStruggleFreeComment",
                             "move": "Titfuck",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|AvertBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'I- I thought I had you with this...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Embarrassed|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'I- I hope you at least enjoyed it...♥'",

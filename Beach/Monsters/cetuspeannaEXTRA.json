@@ -1,0 +1,1054 @@
+{
+    "name": "Cetuspeanna",
+    "IDname": "CetuspeannaEXTRA",
+    "species": "Draconic Mollusc",
+    "gender": "female",
+    "description": "A majestic, vibrantly blue sea dragon woman with long princess-cut styled dark hair and glistening azure skin. A pair of strikingly green eyes peek slyly from underneath her long bangs as she regards you with poorly-concealed interest. Her ample E-cup breasts rest heavily against her chest, tightly constrained by a surprisingly tasteful bikini top. Her gracefully thin arms are covered in glistening scales, which terminates into her pale skin somewhere close to the shoulder. Her wide, nicely-rounded hips blend smoothly into her lower, dragon-like body, which sports an uncharacteristically large number of limbs for a serpent-type monster. These limbs in turn split into numerous wiggly tentacles, giving her an aberrant look. Her long, bifurcated tail ends in a pair of beautiful fan-like shapes and never seems to rest idly, swishing in the air as she floats gracefully in the shallow waters.",
+    "encyclopedia": "",
+    "tags": "none",
+    "generic": "False",
+    "requires": [""],
+    "skillList": [
+      "Serpentine Pose", "Serpentine Pose",
+          "Dreamy Water Bubbles", "Dreamy Water Bubbles",
+
+      "Crescent Arc Pose","Crescent Arc Pose",
+      "Divine Splash: Moonlight Sparkles", "Divine Splash: Moonlight Sparkles",
+      "Gentle Prayer of the Eternal Dragon",
+
+      "Ascending Serpent","Ascending Serpent","Ascending Serpent",
+        "Descending Curse: Ephemeral Twin Stroke", "Descending Curse: Ephemeral Twin Stroke",
+        "Descending Curse: Hellish Coils", "Descending Curse: Hellish Coils",
+          "Stinging Hellmaw: Descent", "Stinging Hellmaw: Descent", "Stinging Hellmaw: Descent", "Stinging Hellmaw: Descent",
+          "Stinging Hellmaw: Obscene Draining", "Stinging Hellmaw: Obscene Draining", "Stinging Hellmaw: Obscene Draining", "Stinging Hellmaw: Obscene Draining",
+          "Suspend Prey",
+            "Dragontongue Draining Dance", "Dragontongue Draining Dance",
+        "Descending Curse: Sealed Evil Butterfly", "Descending Curse: Sealed Evil Butterfly",
+          "Bosom Suffocation", "Bosom Suffocation",
+          "Smothering Depths", "Smothering Depths",
+
+      "Descending Serpent","Descending Serpent","Descending Serpent",
+        "Ascending Blessing: Brilliant Deepsea Dragonhorn",
+        "Ascending Blessing: Everlasting Stroke",
+        "Ascending Blessing: Endlessly Abundant Bubbles", "Ascending Blessing: Endlessly Abundant Bubbles",
+
+      "Serpentine Squeeze",  "Serpentine Squeeze",  "Serpentine Squeeze", "Unhinged Maw Kiss", "Unhinged Maw Kiss", "Unhinged Maw Kiss"],
+    "perks": ["Enduring Body", "Seductive Touch", "Unshackled", "Lovers Passion", "Intimate Lover", "Ass Appreciator", "Ass Handler", "Arcane Adept", "Arcane Master", "Alluring", "Anal Adverse"],
+    "stats": {"lvl": "80",
+              "Exp":"500",
+              "max_hp":"2400",
+              "max_ep":"50",
+              "max_sp": "1",
+              "Power": "12",
+              "Technique": "35",
+              "Willpower": "66",
+              "Allure": "35",
+              "Luck": "50"
+    },
+    "Fetishes": ["Kissing", "Cock", "Cock"],
+    "BodySensitivity": {"Sex": "105",
+              "Ass":"125",
+              "Breasts":"115",
+              "Mouth":"135",
+              "Seduction": "140",
+              "Magic": "1",
+              "Pain": "110",
+              "Holy": "1",
+              "Unholy": "120"
+    },
+    "resistancesStatusEffects": {
+              "Stun": "40",
+              "Charm":"-5",
+              "Aphrodisiac":"25",
+              "Restraints":"45",
+              "Sleep":"999",
+              "Trance": "0",
+              "Paralysis": "0",
+              "Debuff": "0"
+    },
+    "moneyDropped": "1000",
+    "ItemDropList": [
+                      {
+                        "name": "Silver Rune",
+                        "dropChance": "10"
+                      },
+                      {
+                        "name": "Unbound Rune",
+                        "dropChance": "50"
+                      },
+                      {
+                        "name": "Resilience Rune",
+                        "dropChance": "50"
+                      }
+                    ],
+    "lossScenes": [
+                    {
+                        "NameOfScene": "UnderwaterSerpentTorture",
+                        "move": "",
+                        "stance": "",
+                        "includes": ["CetuspeannaEXTRA"],
+                        "theScene":["JumpToEventThenScene", "CongregationGangbang", "UnderwaterSerpentTorture"
+                                  ],
+                        "picture":""
+                    }
+                  ],
+    "combatDialogue": [
+      {
+        "lineTrigger": "SetMusicTo",
+        "move": "",
+        "theText": [
+          "../ModLoader/mods/Beach/Music/PerituneMaterial_Numina_loop.mp3"
+        ]
+      },
+      {
+        "lineTrigger": "StartOfCombat",
+        "move": "",
+        "theText": ["|f|CallCombatEventAndScene|/|CetuspeannaExtraCombatEvents|/|CombatInit|n|"
+        ]
+      },
+      {
+          "lineTrigger": "StartOfRound",
+          "move": "",
+          "theText": [ "|f|CallCombatEventAndScene|/|CetuspeannaExtraCombatEvents|/|SOREXTRA|n|"]
+      },
+      {
+          "lineTrigger": "EndOfRound",
+          "move": "",
+          "theText": [ "|f|CallCombatEventAndScene|/|CetuspeannaExtraCombatEvents|/|EOR|n|"]
+      },
+      {
+        "lineTrigger":"HitWith",
+        "move": "Arouse",
+        "theText":["|f|ChangeImageLayer|/|Expression|/|Solemn|n||f|ChangeImageLayer|/|Base|/|Base|n|Met with her overwhelming aura, your spell fizzles out completely."]
+      },
+      {
+        "lineTrigger":"AutoCounter",
+        "move": "Arousara",
+        "theText":["|f|ChangeImageLayer|/|Expression|/|Solemn|n||f|ChangeImageLayer|/|Base|/|Base|n|Met with her overwhelming aura, your spell fizzles out completely."]
+      },
+      {
+        "lineTrigger":"AutoCounter",
+        "move": "Electrify",
+        "theText":["|f|ChangeImageLayer|/|Expression|/|Solemn|n||f|ChangeImageLayer|/|Base|/|Base|n|Met with her overwhelming aura, your spell fizzles out completely."]
+      },
+      {
+        "lineTrigger":"AutoCounter",
+        "move": "Caress",
+        "theText":["|f|CallCombatEventAndScene|/|CetuspeannaExtraCombatEvents|/|CaressCheckExtra|n|"]
+      },
+      {
+        "lineTrigger":"AutoCounter",
+        "move": "Finger",
+        "theText":["|f|CallCombatEventAndScene|/|CetuspeannaExtraCombatEvents|/|FingerCheckExtra|n|"]
+      },
+      {
+        "lineTrigger":"AutoCounter",
+        "move": "Dildo",
+        "theText":["|f|CallCombatEventAndScene|/|CetuspeannaExtraCombatEvents|/|DildoCheckExtra|n|"]
+      },
+      {
+        "lineTrigger":"AutoCounter",
+        "move": "Spank",
+        "theText":["|f|CallCombatEventAndScene|/|CetuspeannaExtraCombatEvents|/|SpankCheckExtra|n|"]
+      },
+      {
+        "lineTrigger":"HitWith",
+        "move": "Whip",
+        "theText":["|f|ChangeImageLayer|/|Expression|/|Pout|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Mmh...! S-such a thing...'",
+                    "|f|ChangeImageLayer|/|Expression|/|Shy|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Kya...!♥ Awawa...'",
+                    "|f|ChangeImageLayer|/|Expression|/|Aroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'...♥'"]
+      },
+      {
+        "lineTrigger":"HitWith",
+        "move": "Lewd Bottle",
+        "theText":["|f|ChangeImageLayer|/|Expression|/|Aroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'W-what's that smell...♥'",
+                    "|f|ChangeImageLayer|/|Expression|/|Aroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Oh, I-... Oh...♥'",
+                    "|f|ChangeImageLayer|/|Expression|/|Aroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Smells... really good.♥'"]
+      },
+      {
+        "lineTrigger":"AutoCounter",
+        "move": "Pinch Nipples",
+        "theText":["|f|CallCombatEventAndScene|/|CetuspeannaExtraCombatEvents|/|PinchCheckExtra|n|"]
+      },
+      {
+        "lineTrigger":"HitWith",
+        "move": "Bondage Net",
+        "theText":["|f|ChangeImageLayer|/|Expression|/|Haughty|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Ah?! No mere... net... can hold a dragon!'",
+                    "|f|ChangeImageLayer|/|Expression|/|Haughty|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'This much is...!' She wiggles defiantly against the restraints.",
+                    "|f|ChangeImageLayer|/|Expression|/|Haughty|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'This... won't... hold!'"]
+      },
+      {
+        "lineTrigger":"AutoCounter",
+        "move": "Magical Binding",
+        "theText":["|f|CallCombatEventAndScene|/|CetuspeannaExtraCombatEvents|/|BindingResisted|n|"]
+      },
+      {
+        "lineTrigger":"AutoCounter",
+        "move": "Sleep",
+        "theText":["|f|CallCombatEventAndScene|/|CetuspeannaExtraCombatEvents|/|SleepResisted|n|"]
+      },
+      {
+        "lineTrigger":"HitWith",
+        "move": "Demon Layer",
+        "theText":["|f|ChangeImageLayer|/|Expression|/|MildlyAroused|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'Mmh...' She flinches visibly from the strike, but remains largely unaffected.",
+                    "|f|ChangeImageLayer|/|Expression|/|MildlyAroused|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'Divine energies... won't work.'",
+                    "|f|ChangeImageLayer|/|Expression|/|MildlyAroused|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'My divinity... is stronger.'"]
+      },
+      {
+        "lineTrigger":"AutoCounter",
+        "move": "Holy Headpat",
+        "theText":["|f|CallCombatEventAndScene|/|CetuspeannaExtraCombatEvents|/|HeadpatCheckExtra|n|"]
+      },
+      {
+        "lineTrigger":"AutoCounter",
+        "move": "Breast Caress",
+        "theText":["|f|CallCombatEventAndScene|/|CetuspeannaExtraCombatEvents|/|BCaressCheckExtra|n|"]
+      },
+      {
+        "lineTrigger":"AutoCounter",
+        "move": "Breast Massage",
+        "theText":["|f|CallCombatEventAndScene|/|CetuspeannaExtraCombatEvents|/|BMassageCheckExtra|n|"]
+      },
+      {
+        "lineTrigger":"AutoCounter",
+        "move": "Suckle",
+        "theText":["|f|CallCombatEventAndScene|/|CetuspeannaExtraCombatEvents|/|SuckleCheckExtra|n|"]
+      },
+      {
+        "lineTrigger": "HitWith",
+        "move": "Breast Nuzzle",
+        "theText":[ "|f|ChangeImageLayer|/|Expression|/|MildlyAroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'N-n-n-n-noo, we really shouldn't...!♥'",
+                    "|f|ChangeImageLayer|/|Expression|/|MildlyAroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Ahh...♥ of course, darling.♥♥'",
+                    "|f|ChangeImageLayer|/|Expression|/|Shy|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|She shivers, blushes a deep purple and looks away in distress. She peeks back shyly the very next moment."]
+      },
+      {
+        "lineTrigger":"AutoCounter",
+        "move": "Grope Ass",
+        "theText":["|f|CallCombatEventAndScene|/|CetuspeannaExtraCombatEvents|/|GropeAssCheckExtra|n|"]
+      },
+      {
+        "lineTrigger":"AutoCounter",
+        "move": "Penetrate",
+        "theText":["|f|CallCombatEventAndScene|/|CetuspeannaExtraCombatEvents|/|PenetrateCheckExtra|n|"]
+      },
+      {
+        "lineTrigger":"AutoCounter",
+        "move": "Anal Penetration",
+        "theText":["|f|CallCombatEventAndScene|/|CetuspeannaExtraCombatEvents|/|AnalPenetrateCheckExtra|n|"]
+      },
+      {
+        "lineTrigger":"HitWith",
+        "move": "Charm",
+        "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Flustered|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'N-n-n-n-noo, we really shouldn't...!♥'",
+                    "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Charmed|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Ahh...♥ of course, darling.♥♥'",
+                    "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Shy|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|She shivers, blushes a deep purple and looks away in distress. She peeks back shyly the very next moment."]
+      },
+      {
+        "lineTrigger":"AutoCounter",
+        "move": "Make Out",
+        "theText":["|f|CallCombatEventAndScene|/|CetuspeannaExtraCombatEvents|/|MakeOutCheckExtra|n|"]
+      },
+      {
+        "lineTrigger":"HitWith",
+        "move": "Deep Kiss",
+        "theText":["|f|ChangeImageLayer|/|Expression|/|Flustered|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|She kisses back enthusiastically, while trying to push you back at the same time...",
+                    "|f|ChangeImageLayer|/|Expression|/|Shy|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Mwah...♥'",
+                    "|f|ChangeImageLayer|/|Expression|/|Aroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'N-noo...♥ I'll fall for youuu...♥'"]
+      },
+      {
+        "lineTrigger":"AutoCounter",
+        "move": "Kiss",
+        "theText":["|f|CallCombatEventAndScene|/|CetuspeannaExtraCombatEvents|/|KissCheckExtra|n|"]
+      },
+      {
+        "lineTrigger":"HitWith",
+        "move": "Seduce",
+        "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Flustered|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'N-n-n-n-noo, we really shouldn't...!♥'",
+                    "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Charmed|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Ahh...♥ of course, darling.♥♥'",
+                    "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Shy|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|She shivers, blushes a deep purple and hurriedly looks away."]
+      },
+      {
+        "lineTrigger":"AutoCounter",
+        "move": "Ear Tease",
+        "theText":["|f|CallCombatEventAndScene|/|CetuspeannaExtraCombatEvents|/|EarTeaseCheckExtra|n|"]
+      },
+      {
+        "lineTrigger":"HitWith",
+        "move": "Distract",
+        "theText":["|f|ChangeImageLayer|/|Expression|/|EyesClosed|n||f|ChangeImageLayer|/|Base|/|Base|n|'...'",
+                    "|f|ChangeImageLayer|/|Expression|/|Solemn|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'I was careless...'"]
+      },
+
+
+
+      {
+        "lineTrigger":"UsesMove",
+        "move": "Mermaid Choir: Dragon God Worship",
+        "theText":["|f|CallCombatEventAndScene|/|CetuspeannaExtraCombatEvents|/|MermaidChoir|n|"]
+      },
+      {
+        "lineTrigger":"UsesMove",
+        "move": "Exalted Congregation: Moonlit Prostration",
+        "theText":["|f|CallCombatEventAndScene|/|CetuspeannaExtraCombatEvents|/|NereidCongregationExtra|n|"]
+      },
+      {
+        "lineTrigger":"UsesMove",
+        "move": "Dreamy Water Bubbles",
+        "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsMagicBase|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsMagicTop|n||f|ChangeImageLayer|/|Magic|/|MagicOrb|n||f|ChangeImageLayer|/|Expression|/|Haughty|n||f|ChangeImageLayer|/|Base|/|Base|n|'Lose yourself in the glimmering moonlight.'",
+                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsMagicBase|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsMagicTop|n||f|ChangeImageLayer|/|Magic|/|MagicOrb|n||f|ChangeImageLayer|/|Expression|/|Solemn|n||f|ChangeImageLayer|/|Base|/|Base|n|'Come and look... Come closer still and be lost in the moonlight...'",
+                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsMagicBase|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsMagicTop|n||f|ChangeImageLayer|/|Magic|/|MagicOrb|n||f|ChangeImageLayer|/|Expression|/|Solemn|n||f|ChangeImageLayer|/|Base|/|Base|n|'...'"]
+      },
+      {
+        "lineTrigger":"UsesMove",
+        "move": "Divine Splash: Moonlight Sparkles",
+        "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsMagicBase|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsMagicTop|n||f|ChangeImageLayer|/|Magic|/|MagicOrb|n||f|ChangeImageLayer|/|Expression|/|EyesClosed|n||f|ChangeImageLayer|/|Base|/|Base|n|'Look into these colors. What do you see?'",
+                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsMagicBase|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsMagicTop|n||f|ChangeImageLayer|/|Magic|/|MagicOrb|n||f|ChangeImageLayer|/|Expression|/|Solemn|n||f|ChangeImageLayer|/|Base|/|Base|n|'Your shameful defeat shall be painted in unknowable colors.'",
+                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsMagicBase|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsMagicTop|n||f|ChangeImageLayer|/|Magic|/|MagicOrb|n||f|ChangeImageLayer|/|Expression|/|Haughty|n||f|ChangeImageLayer|/|Base|/|Base|n|'When the droplets fall... You shall, too.'"]
+      },
+      {
+        "lineTrigger":"UsesMove",
+        "move": "Crescent Arc Pose",
+        "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Haughty|n||f|ChangeImageLayer|/|Base|/|Base|n|'You shan't look away.'",
+                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|EyesClosed|n||f|ChangeImageLayer|/|Base|/|Base|n|'...'",
+                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Solemn|n||f|ChangeImageLayer|/|Base|/|Base|n|'I am the Moon Goddess.' Mesmerized, you can't tear your eyes away from her."]
+      },
+      {
+        "lineTrigger":"UsesMove",
+        "move": "Serpentine Pose",
+        "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Solemn|n||f|ChangeImageLayer|/|Base|/|Base|n|'You will be lost in my coils.'",
+                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|EyesClosed|n||f|ChangeImageLayer|/|Base|/|Base|n|'...'",
+                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Solemn|n||f|ChangeImageLayer|/|Base|/|Base|n|'I am the Serpent Goddess.' Mesmerized, you can't tear your eyes away from her."]
+      },
+      {
+        "lineTrigger":"UsesMove",
+        "move": "Ascending Serpent",
+        "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsSpread|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Haughty|n||f|ChangeImageLayer|/|Base|/|Base|n|'I shall reap.'",
+                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsSpread|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Solemn|n||f|ChangeImageLayer|/|Base|/|Base|n|'When I descend... you fall.'",
+                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsSpread|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|EyesClosed|n||f|ChangeImageLayer|/|Base|/|Base|n|'It will end in a single touch...'"]
+      },
+      {
+        "lineTrigger":"UsesMove",
+        "move": "Descent: Ephemeral Stroke",
+        "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsMagicBase|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsMagicTop|n||f|ChangeImageLayer|/|Magic|/|MagicOrb|n||f|ChangeImageLayer|/|Expression|/|SoftSmile|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'In a flash...♥'",
+                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsMagicBase|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsMagicTop|n||f|ChangeImageLayer|/|Magic|/|MagicOrb|n||f|ChangeImageLayer|/|Expression|/|EyesClosed|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'You won't even notice...'",
+                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsMagicBase|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsMagicTop|n||f|ChangeImageLayer|/|Magic|/|MagicOrb|n||f|ChangeImageLayer|/|Expression|/|SoftSmile|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'Leak...♥'"]
+      },
+      {
+        "lineTrigger":"UsesMove",
+        "move": "Descent: Heavenly Coils",
+        "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Solemn|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'You will not escape.'",
+                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|EyesClosed|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'I shall entrap you...♥'",
+                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Haughty|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'In these coils... You'll lose yourself.'"]
+      },
+      {
+        "lineTrigger":"UsesMove",
+        "move": "Stinging Hellmaw: Descent",
+        "theText":["|f|CallCombatEventAndScene|/|CetuspeannaExtraCombatEvents|/|TailpussyDescent|n|"]
+      },
+      {
+        "lineTrigger":"UsesMove",
+        "move": "Foaming Hand Strokes",
+        "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|MildlyAroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Become one with the foam.'",
+                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|EyesClosed|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Don't hold back...♥'",
+                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|MildlyAroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Leak into the foam...♥'"]
+      },
+      {
+        "lineTrigger":"UsesMove",
+        "move": "Descent: Suffocating Butterfly",
+        "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsMagicBase|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsMagicTop|n||f|ChangeImageLayer|/|Magic|/|Butterfly|n||f|ChangeImageLayer|/|Expression|/|Solemn|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'Eyes on the butterfly...♥'",
+                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsMagicBase|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsMagicTop|n||f|ChangeImageLayer|/|Magic|/|Butterfly|n||f|ChangeImageLayer|/|Expression|/|Solemn|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'Look how it flutters...♥'",
+                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsMagicBase|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsMagicTop|n||f|ChangeImageLayer|/|Magic|/|Butterfly|n||f|ChangeImageLayer|/|Expression|/|EyesClosed|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'Don't look away...♥'"]
+      },
+      {
+        "lineTrigger":"UsesMove",
+        "move": "Smothering Caress",
+        "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|MildlyAroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Shh, don't struggle. Soil yourself for your goddess...♥'",
+                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|MildlyAroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Shh, think about the butterfly... How it flutters...♥'",
+                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|EyesClosed|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'Cum for your goddess, cum for Cetuspeanna...♥'"]
+      },
+      {
+        "lineTrigger":"UsesMove",
+        "move": "Breast Suffocation",
+        "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Solemn|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'You don't need to breathe.'",
+                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|EyesClosed|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'Shh, don't struggle.♥'",
+                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|MildlyAroused|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'You'll get to breathe when you cum.'"]
+      },
+      {
+        "lineTrigger":"UsesMove",
+        "move": "Descending Serpent",
+        "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Solemn|n||f|ChangeImageLayer|/|Base|/|Base|n|'...'"]
+      },
+      {
+        "lineTrigger":"UsesMove",
+        "move": "Ascent: Brilliant Deepsea Dragonscale",
+        "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|Dragonscale|n||f|ChangeImageLayer|/|Expression|/|Solemn|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'Gaze upon its brilliance!'",
+                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|Dragonscale|n||f|ChangeImageLayer|/|Expression|/|Haughty|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'I am the undefeated, invulnerable goddess!'",
+                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|Dragonscale|n||f|ChangeImageLayer|/|Expression|/|EyesClosed|n||f|ChangeImageLayer|/|Base|/|Base|n|'...'"]
+      },
+      {
+        "lineTrigger":"UsesMove",
+        "move": "Ascent: Everlasting Stroke",
+        "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsMagicBase|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsMagicTop|n||f|ChangeImageLayer|/|Magic|/|MagicOrb|n||f|ChangeImageLayer|/|Expression|/|Haughty|n||f|ChangeImageLayer|/|Base|/|Base|n|'Lose yourself in the infinity.'",
+                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsMagicBase|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsMagicTop|n||f|ChangeImageLayer|/|Magic|/|MagicOrb|n||f|ChangeImageLayer|/|Expression|/|Solemn|n||f|ChangeImageLayer|/|BaseFlush|/|BaseFlush|n|'It will never cease...♥'",
+                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsMagicBase|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsMagicTop|n||f|ChangeImageLayer|/|Magic|/|MagicOrb|n||f|ChangeImageLayer|/|Expression|/|EyesClosed|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'The endless technique...'"]
+      },
+      {
+        "lineTrigger":"UsesMove",
+        "move": "Ascent: Endlessly Abundant Bubbles",
+        "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Tiny|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'Can you withstand this?♥'",
+                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Tiny|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'It's okay to cum right away.♥'",
+                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Tiny|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'Don't you want more? Submit.♥'"]
+      },
+      {
+        "lineTrigger":"UsesMove",
+        "move": "Divine Squeeze",
+        "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Aroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|Cetuspeanna is panting strongly, face flushed a deep purple.",
+                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Aroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'...Hya-♥'",
+                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Aroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'H-how's this, da- Human....♥'"]
+      },
+      {
+
+
+
+      {
+          "lineTrigger":"LowHealth",
+          "move": "",
+          "theText":["|f|CallCombatEventAndScene|/|CetuspeannaExtraCombatEvents|/|LowHealthTrigger|n|"]
+      },
+      {
+          "lineTrigger":"PlayerLowHealth",
+          "move": "",
+          "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|EyesClosed|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'Hm. Think you can keep going?'",
+                    "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Solemn|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'There is no shame in losing to a Goddess, Hero. Submit.'",
+                    "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Haughty|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'Hold nothing back, Hero. Soil yourself and submit.'"]
+      },
+      {
+          "lineTrigger":"OnPlayerOrgasm",
+          "move": "Sex",
+          "theText":[
+              "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Aroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|Despite having the upper hand over the desperately wiggling dragoness, you feel an uncontrollable orgasm building rapidly. Sensing your approaching climax, Cetuspeanna wraps her arms around you and screams desperately through her loud moans. 'Inside, all of it, inside!!!♥' Her tight dragon pussy insistently sucks your shaft deep inside, squeezing out a huge load of semen, drinking it up to the last drop as she moans in bliss from the insemination.",
+              "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Aroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Fill me up darling, make me yours!♥' Excited by her submissively encouraging words, you desperately pound her receptive dragon pussy, quickly filling the tight canal to the brim with your hot seed. 'Aaah!!!♥'",
+              "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Aroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|Giving the large dragoness the pounding of her life, you find yourself getting lost in throes of passion and unexpectedly blast her womb with a powerful ejaculation. She screams in delight, hugging you close and nibbling your neck affectionately as her pussy milks out every drop of your seed."]
+      },
+      {
+          "lineTrigger":"OnPlayerOrgasm",
+          "move": "Anal",
+          "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Aroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|Despite having the upper hand over the desperately wiggling dragoness, you feel an uncontrollable orgasm building rapidly. Sensing your approaching climax, Cetuspeanna wraps her arms around you and screams desperately through her loud moans. 'Inside, all of it, inside!!!♥' Her tight dragon anus insistently draws your shaft deep inside, squeezing out a huge load of semen, drinking it up to the last drop as she moans in bliss.",
+          "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Aroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Fill me up darling, make me yours!♥' Excited by her submissively encouraging words, you desperately pound her tight dragon ass, quickly filling the warm canal to the brim with your hot seed. 'Aaah!!!♥'",
+          "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Aroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|Giving the large dragoness the pounding of her life, you find yourself getting lost in throes of passion and unexpectedly blast her colon with a powerful ejaculation. She screams in delight, hugging you close and nibbling your neck affectionately as her anus milks out every drop of your seed."]
+      },
+      {
+          "lineTrigger":"OnPlayerOrgasm",
+          "move": "Making Out",
+          "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Aroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|Cetuspeanna completely loses herself in the passionate kiss, dragging you down with herself as she assaults your mouth with desperate and sloppy kisses, her numerous tentacles caressing you idly as she pulls you ever closer. Overwhelmed by the draconic passion, you unload a hot serving of sticky seed on her soft stomach. 'Mmph...♥ Mwah.♥♥'",
+                      "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Aroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|Making out with the horny dragoness becomes an increasingly difficult affair as her large tongue completely dominates your mouth, and her tentacles are all but suspending you in thin air. When two of her tentacles slip into your speedo and wrap around your erection you emit a muffled gasp into the sloppy kiss and cover the tentacles with your seed as they wiggle inside your swimsuit happily."
+                    ]
+      },
+      {
+          "lineTrigger":"OnPlayerOrgasm",
+          "move": "Breast Smother",
+          "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|MildlyAroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|Smothered in her soft bosom and teased by the tentacles you fail to hold back a powerful orgasm, splattering the dragoness with a thick load of hot cum. 'There, there...♥ Let loose and keep cumming.♥' You oblige and do let loose, thrusting your hips into the air weakly as lances of ivory cum shoot out of your stiff dick, eager to please the dragon goddess.",
+                      "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|MildlyAroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|Having difficulty to breathe and stuck on the verge of orgasm you cease your struggles, hoping that cumming will bring a brief respite. Suddenly her tentacles stop moving completely, denying you release and leaving your cock throbbing with desperate desire. Patting your head she giggles ominously and utters a single word. 'Cum.♥' Obeying the simple command you spurt strongly into the air, with no stimulation at all, showering the divine being with white, sticky proof of your obedience."
+                    ]
+      },
+      {
+          "lineTrigger":"OnPlayerOrgasm",
+          "move": "Descent: Ephemeral Stroke",
+          "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Haughty|n||f|ChangeImageLayer|/|Base|/|Base|n|You fail to even notice the instant she rest her hand on your erection, but that fleeting moment was enough to completely overwhelm your senses. Your dick erupts uncontrollably on the spot as you fall to your knees, shaking helplessly from multiple powerful orgasms. Cetuspeanna retreats and looks down on your miserable ejaculation with an amused smile.",
+                      "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|MildlyAroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'You are already cumming.♥' Confused, you look down to see your dick erupt with a powerful ejaculation, just as she said. Shaken you fall on your butt, still shooting out your ropes of cum all over the sandy beach..."
+                    ]
+      },
+      {
+          "lineTrigger":"OnPlayerOrgasm",
+          "move": "Foaming Hand Strokes",
+          "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|MildlyAroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'I'll stop only when you're spent.♥' She speeds up her movements, her sloppy, foaming handjob filling the air with obscene fapping noises as her hand mashes repeatedly into your crotch. The intense, slippery strokes feel unbearably good and you squirt a scalding hot load into her foamy fist, moaning in desperation as she mercilessly strokes you through your orgasm, never stopping.",
+                      "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Haughty|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|The intense and wonderfully slippery handjob feels really good, forcing you to orgasm in mere moments. 'Wonderful. I'll have you leaking and squirting until all your cum turns into sloppy, lewd foam.♥'."
+                    ]
+      },
+      {
+          "lineTrigger":"OnPlayerOrgasm",
+          "move": "Ascent: Everlasting Stroke",
+          "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Haughty|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|With the magical spirit hands forming all around your crotch, you are brought over the edge, cumming uncontrollably through the incorporeal hands as they descend on your dick. 'Fufu♥ it only just started, you know.♥'"
+                    ]
+      },
+      {
+          "lineTrigger":"OnPlayerOrgasm",
+          "move": "Ascent: Endlessly Abundant Bubbles",
+          "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Tiny|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|As she moves away your dick begins orgasming strongly, adding your hot seed to the mess of the seafoam on her stomach.'Fufu, a delayed reaction?♥'",
+                      "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|MildlyAroused|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|Your dick throbs strongly from the slippery touch of her tits. Sensing your impending orgasm she wetly smacks her bosom into your crotch again, squeezing your dick and trapping all of your hot load between her slippery tits. You moan and thrust your hips forward, gripping her shoulders for support as you inseminate her cleavage helplessly."
+                    ]
+      },
+      {
+          "lineTrigger":"OnPlayerOrgasm",
+          "move": "",
+          "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Haughty|n||f|ChangeImageLayer|/|Base|/|Base|n|Unable to hold back anymore you groan and spill your load on the sands. 'Hmhm...♥ Is my presence too much for you?♥'",
+                      "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|MildlyAroused|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'I know you {i}need{/i} to. Do it.♥' In response to her uncanny insight you submit to her command and spew hot seed wildly all over the foaming seawater next to the dragon goddess."
+                    ]
+      },
+      {
+          "lineTrigger":"onOrgasm",
+          "move": "",
+          "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Helpless|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'K-kuh!♥ G-gonna... aah!♥",
+                    "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Helpless|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Waaa...♥ C-cumming!♥'"
+                    ]
+      },
+      {
+          "lineTrigger":"OnSurrender",
+          "move": "",
+          "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsMagicBase|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsMagicTop|n||f|ChangeImageLayer|/|Magic|/|MagicOrb|n||f|ChangeImageLayer|/|Expression|/|Solemn|n||f|ChangeImageLayer|/|Base|/|Base|n|'Oh? I see you know your place, Hero. But if you are expecting something, you may be disappointed...'"]
+      },
+      {
+          "lineTrigger":"StanceStruggle",
+          "move": "Sex",
+          "theText":["{ThePlayerName} tries to pull out from the dragoness' divine pussy..."]
+      },
+      {
+          "lineTrigger":"StanceStruggleFail",
+          "move": "Sex",
+          "theText":["But it is much too tight, and you are essentially trapped inside inside her lewdly convulsing pussy!",
+                      "But as you move to get away, the dragoness squirms from the pleasure and the movement of her large tail smashes you balls-deep back into her tight pussy!",
+                      "But your heart skips a beat when her celestial pussy squeezes tightly and you loses the strength to pull out!"]
+      },
+      {
+          "lineTrigger":"StanceStruggleComment",
+          "move": "Sex",
+          "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Aroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|",
+                    "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Aroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|",
+                      "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Aroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Hyaa...♥ feels so good...♥'",
+                      "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Aroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'It's so deep!♥ Hyaaa!♥'",
+                      "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Aroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Awawa... D-don't thrust any mooore!♥'"]
+      },
+      {
+          "lineTrigger":"StanceStruggleFree",
+          "move": "Sex",
+          "theText":["And manage to pull yourself free from the dragoness' divine slit!",
+                    "And manage to free yourself from the dragoness' pussy!"]
+      },
+      {
+          "lineTrigger":"StanceStruggleFreeComment",
+          "move": "Sex",
+          "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|MildlyAroused|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'Ah...♥ That's for the best...♥'",
+                    "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|MildlyAroused|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'Any more would've been dangerous...♥'",
+                    "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|MildlyAroused|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'Haa...♥ I hope you learned your lesson...♥'",
+                    "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|MildlyAroused|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|"]
+      },
+      {
+          "lineTrigger":"StanceStruggle",
+          "move": "Anal",
+          "theText":["{ThePlayerName} tries to pull out of the {AttackerName}'s tight ass..."]
+      },
+      {
+          "lineTrigger":"StanceStruggleFail",
+          "move": "Anal",
+          "theText":[ "But as you are sliding outside, Cetuspeanna wiggles from the pleasure and knocks your cock back inside!",
+                      "But her thrashing tail forces you back inside!"]
+      },
+      {
+          "lineTrigger":"StanceStruggleComment",
+          "move": "Anal",
+          "theText":[ "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Aroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'N-nooo,♥ not anal, no..!♥'",
+                      "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Aroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'W-we have to stop, anal is...!♥'"]
+      },
+      {
+          "lineTrigger":"StanceStruggleFree",
+          "move": "Anal",
+          "theText":["And manage to pull your cock out of her tight rear, leaving her gasping!"]
+      },
+      {
+          "lineTrigger":"StanceStruggleFreeComment",
+          "move": "Anal",
+          "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|MildlyAroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Ohh...♥ it's for the best...♥'",
+                    "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|MildlyAroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'No more anal...♥ Not before marriage...♥'"]
+      },
+      {
+          "lineTrigger":"StanceStruggle",
+          "move": "Making Out",
+          "theText":["{ThePlayerName} tries to pull away from Cetuspeanna's desperately affectionate kisses..."]
+      },
+      {
+          "lineTrigger":"StanceStruggleFail",
+          "move": "Making Out",
+          "theText":["But she keeps her arms on your shoulders, keeping you in a passionate, tongue-filled make out session!",
+                      "But as you pull away and gasp for air, Cetuspeanna desperately forces her kiss back on you!",
+                      "But as you start to pull away, the dragoness whines weakly, making your heart skip a beat and allowing her to keep kissing you."]
+      },
+      {
+          "lineTrigger":"StanceStruggleComment",
+          "move": "Making Out",
+          "theText":[
+                      "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Tiny|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Just a little bit more...♥ Please...♥'",
+                      "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Flustered|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Ahh... I can't help myself!♥'"]
+      },
+      {
+          "lineTrigger":"StanceStruggleFree",
+          "move": "Making Out",
+          "theText":["And manage to pull free from the dragoness' love-filled embrace!",
+                    "And free yourself from the dragoness' affectionate kisses!"]
+      },
+      {
+          "lineTrigger":"StanceStruggleFreeComment",
+          "move": "Making Out",
+          "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Flustered|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Eh? Oh... yes, it was time to stop...'",
+                    "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Shy|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'We could got for a moment more...♥'",
+                    "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Shy|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|"]
+      }
+    ],
+  "victoryScenes": [
+            {
+                "NameOfScene": "",
+                "move": "",
+                "stance": "",
+                "includes": [""],
+                "theScene":[""
+                          ],
+                "picture":""
+            }
+        ],
+    "pictures": [
+    {
+                      "Name":"Base",
+                      "StartOn": "1",
+                      "AlwaysOn": "1",
+                      "IsScene": "0",
+                      "TheBody": "1",
+                      "Overlay": "No",
+                      "setXalign": "0.0",
+                      "setYalign": "0.2",
+                      "Images":[
+            {
+              "Name":"Base",
+              "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Body.png",
+              "setXalign": "0.0",
+              "setYalign": "0.0"
+            },
+            {
+              "Name":"BaseFlush",
+              "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Body_Flush.png",
+              "setXalign": "0.0",
+              "setYalign": "0.0"
+            },
+            {
+              "Name":"BaseBlush",
+              "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Body_Blush.png",
+              "setXalign": "0.0",
+              "setYalign": "0.0"
+            },
+            {
+              "Name":"BaseFullBodyBlush",
+              "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Body_FullBodyBlush.png",
+              "setXalign": "0.0",
+              "setYalign": "0.0"
+            }
+        ]
+    },
+    {
+                      "Name":"ArmsBase",
+                      "StartOn": "1",
+                      "AlwaysOn": "0",
+                      "IsScene": "0",
+                      "TheBody": "0",
+                      "Overlay": "No",
+                      "setXalign": "0.0",
+                      "setYalign": "0.0",
+                      "Images":[
+            {
+              "Name":"ArmsRest",
+              "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Arms_Rest.png",
+              "setXalign": "0.0",
+              "setYalign": "0.0"
+            },
+            {
+              "Name":"ArmsSpread",
+              "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Arms_Spread.png",
+              "setXalign": "0.0",
+              "setYalign": "0.0"
+            },
+            {
+              "Name":"ArmsPrayBase",
+              "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Arms_Pray1.png",
+              "setXalign": "0.0",
+              "setYalign": "0.0"
+            },
+            {
+              "Name":"ArmsMagicBase",
+              "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Arms_Magic1.png",
+              "setXalign": "0.0",
+              "setYalign": "0.0"
+            },
+            {
+              "Name":"ArmsEmptyBase",
+              "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Empty.png",
+              "setXalign": "0.0",
+              "setYalign": "0.0"
+            }
+        ]
+    },
+    {
+                      "Name":"Tits",
+                      "StartOn": "1",
+                      "AlwaysOn": "1",
+                      "IsScene": "0",
+                      "TheBody": "0",
+                      "Overlay": "No",
+                      "setXalign": "0.0",
+                      "setYalign": "0.0",
+                      "Images":[
+                        {
+                        "Name":"Titties",
+                        "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Titties.png",
+                        "setXalign": "0.0",
+                        "setYalign": "0.0"
+                      }
+
+        ]
+    },
+    {
+                      "Name":"BikiniTop",
+                      "StartOn": "1",
+                      "AlwaysOn": "0",
+                      "IsScene": "0",
+                      "TheBody": "0",
+                      "Overlay": "No",
+                      "setXalign": "0.0",
+                      "setYalign": "0.0",
+                      "Images":[
+                        {
+                        "Name":"Top",
+                        "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Bikini_Top.png",
+                        "setXalign": "0.0",
+                        "setYalign": "0.0"
+                      }
+        ]
+    },
+    {
+                      "Name":"BikiniBottom",
+                      "StartOn": "1",
+                      "AlwaysOn": "0",
+                      "IsScene": "0",
+                      "TheBody": "0",
+                      "Overlay": "No",
+                      "setXalign": "0.0",
+                      "setYalign": "0.0",
+                      "Images":[
+                        {
+                        "Name":"Bottom",
+                        "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Bikini_Bottom.png",
+                        "setXalign": "0.0",
+                        "setYalign": "0.0"
+                      }
+        ]
+    },
+    {
+                      "Name":"ArmsTop",
+                      "StartOn": "0",
+                      "AlwaysOn": "0",
+                      "IsScene": "0",
+                      "TheBody": "0",
+                      "Overlay": "No",
+                      "setXalign": "0.0",
+                      "setYalign": "0.0",
+                      "Images":[
+            {
+              "Name":"ArmsEmptyTop",
+              "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Empty.png",
+              "setXalign": "0.0",
+              "setYalign": "0.0"
+            },
+            {
+              "Name":"ArmsPrayTop",
+              "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Arms_Pray2.png",
+              "setXalign": "0.0",
+              "setYalign": "0.0"
+            },
+            {
+              "Name":"ArmsMagicTop",
+              "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Arms_Magic2.png",
+              "setXalign": "0.0",
+              "setYalign": "0.0"
+            }
+        ]
+    },
+    {
+                      "Name":"HairTop",
+                      "StartOn": "1",
+                      "AlwaysOn": "1",
+                      "IsScene": "0",
+                      "TheBody": "0",
+                      "Overlay": "No",
+                      "setXalign": "0.0",
+                      "setYalign": "0.0",
+                      "Images":[
+            {
+              "Name":"HairBangs",
+              "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Front_Hair_Overlay.png",
+              "setXalign": "0.0",
+              "setYalign": "0.0"
+            }
+        ]
+    },
+    {
+                      "Name":"Magic",
+                      "StartOn": "0",
+                      "AlwaysOn": "0",
+                      "IsScene": "0",
+                      "TheBody": "0",
+                      "Overlay": "No",
+                      "setXalign": "0.0",
+                      "setYalign": "0.0",
+                      "Images":[
+                        {
+                        "Name":"MagicNone",
+                        "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Empty.png",
+                        "setXalign": "0.0",
+                        "setYalign": "0.0"
+                      },
+            {
+              "Name":"MagicOrb",
+              "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Magic_Orb.png",
+              "setXalign": "0.0",
+              "setYalign": "0.0"
+            },
+            {
+              "Name":"Dragonscale",
+              "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Magic_Dragonscale.png",
+              "setXalign": "0.0",
+              "setYalign": "0.0"
+            },
+            {
+              "Name":"Butterfly",
+              "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Magic_Butterfly.png",
+              "setXalign": "0.0",
+              "setYalign": "0.0"
+            },
+            {
+              "Name":"ButterflyEvil",
+              "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Magic_Butterfly2.png",
+              "setXalign": "0.0",
+              "setYalign": "0.0"
+            }
+        ]
+    },
+    {
+                      "Name":"Expression",
+                      "StartOn": "1",
+                      "AlwaysOn": "1",
+                      "IsScene": "0",
+                      "TheBody": "0",
+                      "Overlay": "No",
+                      "setXalign": "0.0",
+                      "setYalign": "0.0",
+                      "Images":[
+            {
+                "Name":"Solemn",
+                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Solemn.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+             },
+             {
+                "Name":"EyesClosed",
+                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_EyesClosed.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+            },
+            {
+                "Name":"Tiny",
+                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Tiny.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+            },
+             {
+                "Name":"Shy",
+                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Shy.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+              },
+              {
+                "Name":"Flustered",
+                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Flustered.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+              },
+              {
+                "Name":"Charmed",
+                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Charmed.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+              },
+              {
+                "Name":"Pout",
+                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Pout.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+              },
+              {
+                "Name":"PoutAvert",
+                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Pout2.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+              },
+              {
+                "Name":"Hurt",
+                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Hurt.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+              },
+              {
+                "Name":"Haughty",
+                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Haughty.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+              },
+              {
+                "Name":"SoftSmile",
+                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_SoftSmile.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+              },
+              {
+                "Name":"Confus",
+                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Wat.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+              },
+              {
+                "Name":"Shocked",
+                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Shocked.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+              },
+              {
+                "Name":"Helpless",
+                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Helpless.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+              },
+              {
+                "Name":"Oface",
+                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Oface.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+              },
+              {
+                "Name":"Torogao",
+                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Torogao.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+              },
+              {
+                "Name":"Happy",
+                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Happy.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+              },
+              {
+                "Name":"Smile",
+                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Smile.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+              },
+              {
+                "Name":"Reminiscing",
+                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Reminiscing.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+              },
+              {
+                "Name":"Panic",
+                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Panic.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+              },
+              {
+                "Name":"Wistful",
+                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Wistful.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+              },
+              {
+                "Name":"ShyNoAvert",
+                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_ShyNoAvert.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+              },
+              {
+                "Name":"Rules",
+                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Rules.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+              },
+              {
+                "Name":"Sleepy",
+                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Sleepy.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+              },
+              {
+                "Name":"HaughtyEyesClosed",
+                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_HaughtyEyesClosed.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+              },
+              {
+                "Name":"BigSucc",
+                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_BigSucc.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+              },
+              {
+                "Name":"NaughtyFace",
+                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_NaughtyFace.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+              },
+              {
+                "Name":"Licc",
+                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Licc.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+              },
+              {
+                "Name":"BigLicc",
+                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_BigLicc.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+              },
+              {
+                "Name":"ShySmile",
+                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_ShySmile.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+              },
+              {
+                "Name":"Aroused",
+                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Aroused.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+              },
+              {
+                "Name":"MildlyAroused",
+                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_MildlyAroused.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+              }
+          ]
+        },
+         {
+                           "Name":"Overlay",
+                           "StartOn": "0",
+                           "AlwaysOn": "0",
+                           "IsScene": "0",
+                           "TheBody": "0",
+                           "Overlay": "Yes",
+                           "setXalign": "0.0",
+                           "setYalign": "0.0",
+                           "Images":[
+                             {
+                             "Name":"Moonlight",
+                             "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Ambience_Overlay.png",
+                             "setXalign": "0.0",
+                             "setYalign": "0.0"
+                           }
+             ]
+         }
+    ]
+}

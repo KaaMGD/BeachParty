@@ -32,7 +32,7 @@
     "descrip": "",
     "outcome": "",
     "miss": "",
-    "statusOutcome": "|f|CallEventThenScene|/|MermaidCombatEvents|/|Mermaid Quatrain|n|",
+    "statusOutcome": "|f|CallCombatEventAndScene|/|MermaidCombatEvents|/|Mermaid Quatrain|n|",
     "statusMiss": "",
     "restraintStruggle": "",
     "restraintStruggleCharmed": "",

@@ -77,7 +77,7 @@
                         "JumpToRandomScene",
                           "Sunbathing",
                           "Sunbathing",
-                        "EndRandom"
+                        "EndLoop"
                       ]
                     },
                     {
@@ -89,7 +89,7 @@
                           "MermaidPlay",
                           "Polite",
                           "Polite",
-                        "EndRandom"
+                        "EndLoop"
                       ]
                     },
                     {
@@ -103,28 +103,28 @@
                           "SneakOpportunityTina",
                           "ImpPlay",
                           "ImpPlay",
-                        "EndRandom"
+                        "EndLoop"
                       ]
                     },
                     {
                       "NameOfScene": "Spotted",
-                      "theScene": ["DisplayCharacters", "1", "End",
+                      "theScene": ["DisplayCharacters", "1", "EndLoop",
                         "ChangeImageLayer", "GlassesLayer", "1", "GlassesFace",
                         "Felicia is sunbathing, but seems to have noticed you as she gives you a beckoning wave with her paw.",
                         "ChangeImageLayer", "Expression", "1", "InvitingSmile",
                         "ChangeImageLayer", "GlassesLayer", "1", "",
                         "As you come closer, she sits up, takes off her sunglasses and gives you a soft smile.",
-                        "Speaks", "Hey there, {thePlayerName}.",
+                        "Speaks", "Hey there, {ThePlayerName}.",
                         "JumpToScene", "GeneralInteraction"
                       ]
                     },
                     {
                       "NameOfScene": "SpottedOilNotWritingYetSorry",
-                      "theScene": ["DisplayCharacters", "1", "End",
+                      "theScene": ["DisplayCharacters", "1", "EndLoop",
                         "Felicia is sunbathing, but seems to have noticed you as she gives you a beckoning wave with her paw.",
                         "ChangeImageLayer", "Expression", "1", "InvitingSmile",
                         "As you come closer, you notice a bottle of suntan oil in her paw that she shakes demonstratively.",
-                        "Speaks", "Hey there, {thePlayerName}. Could you rub this on me?",
+                        "Speaks", "Hey there, {ThePlayerName}. Could you rub this on me?",
 
                         "Cue oil scene with a lot of 'rubbing' :ShizuErotic:",
 
@@ -133,7 +133,7 @@
                     },
                     {
                       "NameOfScene": "SneakOpportunity",
-                      "theScene": ["DisplayCharacters", "1", "End",
+                      "theScene": ["DisplayCharacters", "1", "EndLoop",
                       "ChangeImageLayer", "Expression", "1", "Sleeping",
                       "ChangeImageLayer", "GlassesLayer", "1", "GlassesFace",
                         "Felicia is sunbathing, but doesn't seem to have noticed you... She may be napping. There is a large boulder nearby...",
@@ -141,7 +141,7 @@
                           "Wake her up.",
                           "Sneak up on her. (Technique)",
                           "Sneak past her.",
-                        "EndMenu"
+                        "EndLoop"
                       ]
                     },
                     {
@@ -150,7 +150,7 @@
                       "ChangeImageLayer", "Expression", "1", "InvitingSmile",
                       "ChangeImageLayer", "GlassesLayer", "1", "",
                       "She removes her sunglasses and gives you a soft smile.",
-                      "Speaks", "Oh, hey there, {thePlayerName}. Do you need something?",
+                      "Speaks", "Oh, hey there, {ThePlayerName}. Do you need something?",
                       "JumpToScene", "GeneralInteraction"
                       ]
                     },
@@ -170,7 +170,7 @@
                         "Menu",
                           "Sneak up even closer...(Technique)",
                           "Enjoy the view...",
-                        "EndMenu"
+                        "EndLoop"
                       ]
                     },
                     {
@@ -191,7 +191,7 @@
                           "Tickle her!",
                           "RequiresChoice", "1", "SleepMolestingOk",
                             "Eat her out...",
-                        "EndMenu"
+                        "EndLoop"
                       ]
                     },
                     {
@@ -219,7 +219,7 @@
                         "SetChoice", "2", "PetBefore",
                         "ChangeImageLayer", "GlassesLayer", "1", "",
                         "ChangeImageLayer", "Expression", "1", "Smile",
-                        "Speaks", "So, {thePlayerName}. Want to do something? Or keep it at some friendly petting for today?",
+                        "Speaks", "So, {ThePlayerName}. Want to do something? Or keep it at some friendly petting for today?",
                         "JumpToScene", "GeneralInteraction"
                       ]
                     },
@@ -240,7 +240,7 @@
                         "SetChoice", "2", "PetBefore",
                         "ChangeImageLayer", "GlassesLayer", "1", "",
                         "ChangeImageLayer", "Expression", "1", "Smile",
-                        "Speaks", "So, {thePlayerName}. Want to do something? Or keep it at some friendly petting for today?",
+                        "Speaks", "So, {ThePlayerName}. Want to do something? Or keep it at some friendly petting for today?",
                         "JumpToScene", "GeneralInteraction"
                       ]
                     },
@@ -273,7 +273,7 @@
     											"RequiresStat", "Power", "20",
     											"Struggle.",
     											"Be bratty...",
-    										"EndMenu"
+    										"EndLoop"
                       ]
                     },
                     {
@@ -288,7 +288,7 @@
     											  	"RequiresStat", "Power", "20",
     												  "Struggle.",
     												  "Be bratty...",
-    											 "EndMenu"
+    											 "EndLoop"
                                   ]
                     },
                     {
@@ -354,7 +354,7 @@
 											 "Menu",
 											    "Grit your teeth.",
 												  "Feels good...?",
-											 "EndMenu"
+											 "EndLoop"
                       ]
                     },
                     {
@@ -498,7 +498,7 @@
                         "ChangeImageLayer", "Expression", "1", "Smug",
                         "ChangeImageLayer", "GlassesLayer", "1", "GlassesNose",
                         "She snickers and removes her sunglasses, eyeing you over with a grin.",
-                        "Speaks", "Oh, hey there, {thePlayerName}. Do you need something?",
+                        "Speaks", "Oh, hey there, {ThePlayerName}. Do you need something?",
                         "JumpToScene", "GeneralInteraction"
                       ]
                     },
@@ -514,10 +514,10 @@
                           "SneakOpportunity",
                         "IfChoice", "4", "TinaNoLongerAfraidOfCat",
                           "SneakOpportunity",
-                        "DisplayCharacters", "1", "End",
+                        "DisplayCharacters", "1", "EndLoop",
                         "ChangeImageLayer", "Expression", "1", "Sleeping",
                         "Felicia is sunbathing, but doesn't seem to have noticed you... She may be napping.",
-                        "DisplayCharacters", "1", "2", "End",
+                        "DisplayCharacters", "1", "2", "EndLoop",
                         "ChangeImageLayer", "Expression", "1", "Sleeping",
                         "ChangeImageLayer", "Expression", "2", "Focused",
                         "Looking around, you spot Tina nearby, who is standing on all fours behind a rock and wiggling her big butt nervously. Is she peeking on Felicia?",
@@ -525,7 +525,7 @@
                           "Approach Felicia and wake her.",
                           "Sneak up to Tina.",
                           "Sneak past them.",
-                        "EndMenu"
+                        "EndLoop"
                       ]
                     },
                     {
@@ -535,7 +535,7 @@
                         "ChangeImageLayer", "Expression", "1", "InvitingSmile",
                         "ChangeImageLayer", "GlassesLayer", "1", "GlassesNose",
                         "Felicia opens her eyes and pulls off her sunglasses, greeting you with a soft smile.",
-                        "Speaks", "Oh, hey there, {thePlayerName}. Do you need something?",
+                        "Speaks", "Oh, hey there, {ThePlayerName}. Do you need something?",
                         "JumpToScene", "GeneralInteraction"
                       ]
                     },
@@ -544,7 +544,7 @@
                       "theScene": ["You sneak around Felicia, making your way to Tina's hiding spot. She notices your approach and blushes, fidgeting in place.",
                         "ChangeImageLayer", "Base", "2", "Flush",
                         "ChangeImageLayer", "Expression", "2", "Awkward",
-                        "Speaks2", "Oh, hey there, {thePlayerName}... Fancy meeting you here, huh? Ahaha...",
+                        "Speaks2", "Oh, hey there, {ThePlayerName}... Fancy meeting you here, huh? Ahaha...",
                         "You ask why she is peeking on Felicia.",
                         "Speaks2", "Huh? Haha... well... I'm just wondering if she likes it here... And how she spends her day... At what time she stops sleeping... Not like I'm trying to avoid her or anything!",
                         "You shoot a glance to Felicia, who lays sprawled over her couch lazily, and say that she seems to be enjoying herself.",
@@ -563,7 +563,7 @@
                     },
                     {
                       "NameOfScene": "NereidPlayCurrentlyNotWrittenEither:AikoCry:",
-                      "theScene": ["DisplayCharacters", "1", "5", "End",
+                      "theScene": ["DisplayCharacters", "1", "5", "EndLoop",
                         "Felicia is sunbathing, but seems to have noticed you as she gives you a beckoning wave with her paw. Surprisingly enough, you also spot a Nereid sitting on the sand, next to Felicia's couch.",
                         "With the usual apathetic, if a more thoughtful expression, the Nereid sighs. It is a long sigh. Her gaze, almost unblinking, is glued to Felicia's expansive bosom.",
                         "Speaks4", "Those things sure are big, huh...? How do you get them like this?",
@@ -590,12 +590,12 @@
                         "ChangeImageLayer", "Expression", "2", "CalmBlush",
                         "Speaks4", "Yeah. Can I?",
                         "ChangeImageLayer", "Expression", "1", "Inviting",
-                        "Speaks", "I don't mind. But we don't know if he does. Or if he is even in the mood. Are you in the mood, {thePlayerName}?",
+                        "Speaks", "I don't mind. But we don't know if he does. Or if he is even in the mood. Are you in the mood, {ThePlayerName}?",
                         "Menu",
                           "'Let's fuck, but I want privacy.'",
                           "'She can watch.'",
                           "'I'm just here to talk'",
-                        "EndMenu"
+                        "EndLoop"
                       ]
                     },
                     {
@@ -615,7 +615,7 @@
                       "theScene": [
                         "ChangeImageLayer", "Expression", "2", "Hurt",
                         "Speaks4", "Aww, you're no fun...",
-                        "DisplayCharacters", "1", "End",
+                        "DisplayCharacters", "1", "EndLoop",
                         "The Nereid gets up and waddles away, looking back dejectedly, once.",
                         "ChangeImageLayer", "Expression", "1", "Smug",
                         "Speaks", "You're no fun.",
@@ -626,7 +626,7 @@
                     },
                     {
                       "NameOfScene": "ImpPlay",
-                      "theScene": ["DisplayCharacters", "6", "1", "7", "8", "End",
+                      "theScene": ["DisplayCharacters", "6", "1", "7", "8", "EndLoop",
                       "ChangeImageLayer", "Expression", "2", "Sleeping",
                       "ChangeImageLayer", "Expression", "1", "Dominant",
                       "ChangeImageLayer", "Expression", "3", "Panic",
@@ -646,7 +646,7 @@
                           "Snitch and wake Felicia.",
                           "Decline and peek.",
                           "Decline and leave.",
-                        "EndMenu"
+                        "EndLoop"
                       ]
                     },
                     {
@@ -687,10 +687,10 @@
                         "ChangeImageLayer", "Expression", "3", "Panic",
                         "Speaks6", "Kyahahahah she caught her! She caught her! Run, run! Ahahaha!",
                         "Speaks7", "N-noo!! Don't leave me! Kyaaa!",
-                        "DisplayCharacters", "1", "7", "End",
+                        "DisplayCharacters", "1", "7", "EndLoop",
                         "ChangeImageLayer", "Expression", "2", "Panic",
                         "The imps scatter, leaving their comrade behind without a second though. As Felicia sits up on top of the imp and begins to pull off the umbrella, you realize it may be best to leave as well.",
-                        "DisplayCharacters", "End",
+                        "DisplayCharacters", "EndLoop",
                         "Taking advantage of Felicia's focus on her prey, you quietly sneak away. Loud spanking noises and embarrassed imp moans fill the air as you leave..."
                       ]
                     },
@@ -706,7 +706,7 @@
                         "Felicia moves quickly, snatching two of the imps in one of her paws, and you in the other! The other imp hops away before laughing like crazy.",
                         "ChangeImageLayer", "Expression", "1", "Dominant",
                         "Speaks6", "Kyahaha I got away! Bye losers! Kyahaha!",
-                        "DisplayCharacters", "1", "7", "8", "End",
+                        "DisplayCharacters", "1", "7", "8", "EndLoop",
                         "ChangeImageLayer", "Expression", "1", "Predatory",
                         "ChangeImageLayer", "Expression", "2", "Panic",
                         "ChangeImageLayer", "Expression", "3", "Panic",
@@ -763,7 +763,7 @@
                         "The next slap sends the imp flying off your face, screaming and orgasming wildly. She doesn't even seem to try and get up after she falls.",
                         "With the two imps thoroughly spanked, laying beside her and panting heavily, Felicia's predatory gaze turns to you.",
                         "ChangeImageLayer", "Expression", "1", "Predatory",
-                        "Speaks", "Your turn now, {thePlayerName}.",
+                        "Speaks", "Your turn now, {ThePlayerName}.",
                         "The imp who got punished first perks up instantly, looking at you with interest.",
                         "ChangeImageLayer", "Expression", "2", "Cheerful",
                         "Speaks7", "Are you going to spank him too? I'll help!",
@@ -775,11 +775,11 @@
                         "ChangeImageLayer", "Expression", "2", "Cheerful",
                         "ChangeImageLayer", "Expression", "3", "Dominant",
                         "You gulp down as the cat woman pulls you unto her lap, the imps cheerfully pulling off your speedo as Felicia rests her paw on your buttocks.",
-                        "Speaks", "You didn't think you'd get away with this, did you now {thePlayerName}?",
+                        "Speaks", "You didn't think you'd get away with this, did you now {ThePlayerName}?",
                         "Menu",
                           "Struggle. (Power)",
                           "Accept your fate.",
-                        "EndMenu"
+                        "EndLoop"
                       ]
                     },
                     {
@@ -812,7 +812,7 @@
                         "ChangeImageLayer", "Expression", "2", "Dominant",
                         "ChangeImageLayer", "Expression", "3", "Dominant",
                         "Your attempts are overpowered by Felicia's unflinching arms with ease, and you can only go limp and resign yourself to what's about to happen. The imps cackle like mad, obviously happy with the situation now that the attention shifted from them.",
-                        "Speaks", "Oh no, no... You're not getting away {thePlayerName}.♥",
+                        "Speaks", "Oh no, no... You're not getting away {ThePlayerName}.♥",
                         "JumpToScene", "Accept your fate."
                       ]
                     },
@@ -871,7 +871,7 @@
                         "Felicia's mighty paw breaks out from the umbrella, firmly slapping one of the imp asses, producing a yelp so loud you hear it clearly even through the umbrella.",
                         "Speaks", "Oh you've done it now brats, prepare yourselves!",
                         "The umbrella looks like it's about to tear in half, so you make the wise decision to get the hell away from there.",
-                        "DisplayCharacters", "End",
+                        "DisplayCharacters", "EndLoop",
                         "Regretting that there isn't a safer spot to observe the happenings from, you sneak away hurriedly. You hear lots of spanking noises from behind as you leave..."
                       ]
                     },
@@ -887,7 +887,7 @@
                           "Felicia moves quickly, snatching two of the imps in one of her paws, and you in the other! The other imp hops away before laughing like crazy.",
                           "ChangeImageLayer", "Expression", "1", "Dominant",
                           "Speaks6", "Kyahaha I got away! Bye losers! Kyahaha!",
-                          "DisplayCharacters", "1", "7", "8", "End",
+                          "DisplayCharacters", "1", "7", "8", "EndLoop",
                           "ChangeImageLayer", "Expression", "1", "Predatory",
                           "ChangeImageLayer", "Expression", "2", "Panic",
                           "ChangeImageLayer", "Expression", "3", "Panic",
@@ -906,7 +906,7 @@
                         "ChangeImageLayer", "Expression", "2", "Confus",
                         "She looks confused by the flock of imps and shoots you a questioning glance. Before you can answer, the imps scatter and run away.",
                         "Speaks6", "Telltale! We'll remember this you snitch!",
-                        "DisplayCharacters", "1", "End",
+                        "DisplayCharacters", "1", "EndLoop",
                         "ChangeImageLayer", "Expression", "1", "Confus",
                         "Speaks", "What was that about?",
                         "You shrug and explain the imp's plans briefly.",
@@ -953,7 +953,7 @@
                         "In the very next moment Felicia performs an awesome leap, knocking down two of the imps and trapping them underneath her body.",
                         "Speaks7", "Kyaaaaa!",
                         "A short struggle ensues, but they are completely overpowered by the larger, and much stronger, woman. The last imp stumbles away in fear, and soon only her desperately running backside remains in view. She doesn't even stop to gloat.",
-                        "DisplayCharacters", "1", "7", "8", "End",
+                        "DisplayCharacters", "1", "7", "8", "EndLoop",
                         "ChangeImageLayer", "Base", "1", "BaseFlush",
                         "ChangeImageLayer", "Expression", "1", "Amused",
                         "ChangeImageLayer", "Expression", "2", "Submissive",
@@ -988,7 +988,7 @@
                         "ChangeImageLayer", "Expression", "3", "Panic",
                         "Speaks7", "Okay, okay!♥ You're right, I admit it!♥ So please spank me harder mommy!♥ I've been a bad imp, so please ruin my slutty little butt!♥",
                         "The imp's friend looks weirded out as heck, and Felicia just laughs in amusement and unleashes the loudest slap yet. A dumbstruck orgasmic expression on her face, the imp disappears so fast that it looks like she was knocked out of existence.",
-                        "DisplayCharacters", "1", "8", "End",
+                        "DisplayCharacters", "1", "8", "EndLoop",
                         "ChangeImageLayer", "Expression", "1", "Amused",
                         "ChangeImageLayer", "Expression", "2", "Panic",
                         "Felicia looks down on the last imp and licks her lips. The imp herself doesn't look too worried however, still trying to process what just happened.",
@@ -1009,10 +1009,10 @@
                         "ChangeImageLayer", "Expression", "1", "SmugTongue",
                         "Speaks", "Well that's fair... Mrs. Fat Cat bids you farewell then, slutty little brat in denial.♥",
                         "The last spank sends the imp home, as fast as it did the first one. You gulp down and make a mental note not to make Felicia angry, as those spankings seemed downright dangerous.",
-                        "DisplayCharacters", "1", "End",
+                        "DisplayCharacters", "1", "EndLoop",
                         "ChangeImageLayer", "Expression", "1", "Pout",
                         "Felicia gets up and dusts herself off, casting an annoyed glance at the ruined umbrella and walks away.",
-                        "DisplayCharacters", "End",
+                        "DisplayCharacters", "EndLoop",
                         "You decide it is time to move on as well, picking yourself up from the sand and setting out to continue your adventure."
                       ]
                     },
@@ -1025,7 +1025,7 @@
                     },
                     {
                       "NameOfScene": "GeneralInteraction",
-                      "theScene": ["DisplayCharacters", "1", "End",
+                      "theScene": ["DisplayCharacters", "1", "EndLoop",
                       "ChangeImageLayer", "Base", "1", "Base",
                       "ChangeImageLayer", "Expression", "1", "Smile",
                       "Menu",
@@ -1038,7 +1038,7 @@
                         "RequiresChoice", "5", "NotAskedForSparring",
                           "Ask for a fight.",
                         "Leave.",
-                      "EndMenu"
+                      "EndLoop"
                       ]
                     },
                     {
@@ -1048,7 +1048,7 @@
                           "About herself.",
                           "About the resort.",
                           "Done talking.",
-                        "EndMenu"
+                        "EndLoop"
                       ]
                     },
                     {
@@ -1063,7 +1063,7 @@
                             "Retired?",
                           "Species?",
                           "Return.",
-                        "EndMenu"
+                        "EndLoop"
                       ]
                     },
                     {
@@ -1185,7 +1185,7 @@
                             "Cetuspeanna?",
                           "Locals?",
                           "Return.",
-                        "EndMenu"
+                        "EndLoop"
                       ]
                     },
                     {
@@ -1295,7 +1295,7 @@
                       "Menu",
                         "Just cuddle.",
                         "Cumming...",
-                      "EndMenu"
+                      "EndLoop"
                       ]
                     },
                     {
@@ -1307,7 +1307,7 @@
                           "Sex, you lead.",
                           "Sex, she leads.",
                           "Titfuck.",
-                        "EndMenu"
+                        "EndLoop"
                       ]
                     },
                     {
@@ -1460,7 +1460,7 @@
                           "Speaks", "I shouldn't eat all this...",
                           "ChangeImageLayer", "Expression", "Apologetic",
                           "She grabs her beach towel and wipes off all the sticky splooge, looking at you apologetically.",
-                          "Speaks", "Sorry {thePlayerName}, I am on a diet...",
+                          "Speaks", "Sorry {ThePlayerName}, I am on a diet...",
                           "ChangeImageLayer", "BikiniLayer", "1", "Bikini",
                           "She takes a moment to pull her flimsy bikini back on, and looks up to you again, noticing that you're staring at her tits again.",
                           "ChangeImageLayer", "Expression", "Smug",

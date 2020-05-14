@@ -145,81 +145,81 @@
                   ],
     "combatDialogue": [
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Arouse",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|BiteLip|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'...♥' She bites her lip and blushes furiously as lusty magic reverberates throughout her slimy body.",
                                       "|f|ChangeImageLayer|/|Expression|/|BiteLip|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Nhh, this is really good...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Aroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Ah!♥ I like magic...'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Arousara",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|BiteLip|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'...♥' She bites her lip and blushes furiously as lusty magic reverberates throughout her slimy body.",
                                       "|f|ChangeImageLayer|/|Expression|/|BiteLip|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Nhh, this is really good...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Aroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Ah!♥ I like magic...'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Electrify",
-                          "theText":["|f|CallEventThenScene|/|SeaSlugCombatEvents|/|Electrified|n|"]
+                          "theText":["|f|CallCombatEventAndScene|/|SeaSlugCombatEvents|/|Electrified|n|"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Finger",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Shy|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'You'll get your hands slimy...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Happy|n||f|ChangeImageLayer|/|Base|/|Base|n|'Feels nice...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Happy|n||f|ChangeImageLayer|/|Base|/|Base|n|'Use your penis instead.♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Dildo",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Shy|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Ah...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Happy|n||f|ChangeImageLayer|/|Base|/|Base|n|'Let's go for real sex instead...♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Spank",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Happy|n||f|ChangeImageLayer|/|Base|/|Base|n|'Hehe, I'm jiggling!'",
                                       "|f|ChangeImageLayer|/|Expression|/|Happy|n||f|ChangeImageLayer|/|Base|/|Base|n|'Your small hand feels funny...'",
                                       "|f|ChangeImageLayer|/|Expression|/|Pout|n||f|ChangeImageLayer|/|Base|/|Base|n|'Uhh... that doesn't do anything...'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Whip",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Happy|n||f|ChangeImageLayer|/|Base|/|Base|n|'Hehe, I'm jiggling!'",
                                       "|f|ChangeImageLayer|/|Expression|/|Happy|n||f|ChangeImageLayer|/|Base|/|Base|n|'Wow, that was a loud smack!'",
                                       "|f|ChangeImageLayer|/|Expression|/|Pout|n||f|ChangeImageLayer|/|Base|/|Base|n|'Uhh... that doesn't feel nice...'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Bondage Net",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Worry|n||f|ChangeImageLayer|/|Base|/|Base|n|'Oh no, I'm caught!'",
                                       "|f|ChangeImageLayer|/|Expression|/|Shy|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Umm, please don't do anything bad, ok?'",
                                       "|f|ChangeImageLayer|/|Expression|/|Lewd|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Mhhh... Tie yourself to me next...'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Magical Binding",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Worry|n||f|ChangeImageLayer|/|Base|/|Base|n|'Oh no, I'm caught!'",
                                       "|f|ChangeImageLayer|/|Expression|/|Shy|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Umm, please don't do anything bad, ok?'",
                                       "|f|ChangeImageLayer|/|Expression|/|Lewd|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Mhhh... Tie yourself to me next...'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Sleep",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Sleepy|n||f|ChangeImageLayer|/|Base|/|Base|n|'Ah... ohh... Is it nap time already?♫'",
                                       "|f|ChangeImageLayer|/|Expression|/|Sleepy|n||f|ChangeImageLayer|/|Base|/|Base|n|'Yaawn...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Sleepy|n||f|ChangeImageLayer|/|Base|/|Base|n|She yawns and looks around for a place to lie on."]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Lewd Bottle",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Confused|n||f|ChangeImageLayer|/|Base|/|Base|n|'Umm... Thank you..? But I am not drying out yet...'",
                                       "|f|ChangeImageLayer|/|Expression|/|Confused|n||f|ChangeImageLayer|/|Base|/|Base|n|'Umm.. I thought I was slimy enough?'",
                                       "|f|ChangeImageLayer|/|Expression|/|Pout|n||f|ChangeImageLayer|/|Base|/|Base|n|'Oh no, is this naughty juice?'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Demon Layer",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Aroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Kya!♥",
                                       "|f|ChangeImageLayer|/|Expression|/|Shy|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'I- I don't like- ohhh♥, maybe I do.♥'",
@@ -231,20 +231,20 @@
                         {
                           "lineTrigger":"AutoCounter",
                           "move": "Holy Headpat",
-                          "theText":["|f|CallEventThenScene|/|SeaSlugCombatEvents|/|HeadpatCounter|n|"]
+                          "theText":["|f|CallCombatEventAndScene|/|SeaSlugCombatEvents|/|HeadpatCounter|n|"]
                         },
                         {
                           "lineTrigger":"AutoCounter",
                           "move": "Breast Caress",
-                          "theText":["|f|CallEventThenScene|/|SeaSlugCombatEvents|/|BreastCaressCounter|n|"]
+                          "theText":["|f|CallCombatEventAndScene|/|SeaSlugCombatEvents|/|BreastCaressCounter|n|"]
                         },
                         {
                           "lineTrigger":"AutoCounter",
                           "move": "Breast Massage",
-                          "theText":["|f|CallEventThenScene|/|SeaSlugCombatEvents|/|BreastMassageCounter|n|"]
+                          "theText":["|f|CallCombatEventAndScene|/|SeaSlugCombatEvents|/|BreastMassageCounter|n|"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Breast Nuzzle",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Lewd|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Oh my...♥ Fufu, don't forget to breathe, sweetie...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Shy|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Mm... aren't you needy...♥'",
@@ -253,29 +253,29 @@
                         {
                           "lineTrigger":"AutoCounter",
                           "move": "Suckle",
-                          "theText":["|f|CallEventThenScene|/|SeaSlugCombatEvents|/|SuckleCounter|n|"]
+                          "theText":["|f|CallCombatEventAndScene|/|SeaSlugCombatEvents|/|SuckleCounter|n|"]
                         },
                         {
                           "lineTrigger":"AutoCounter",
                           "move": "Pinch Nipples",
-                          "theText":["|f|CallEventThenScene|/|SeaSlugCombatEvents|/|PinchNipplesCounter|n|"]
+                          "theText":["|f|CallCombatEventAndScene|/|SeaSlugCombatEvents|/|PinchNipplesCounter|n|"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Tit Fucking",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Lewd|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Ah...♥ It feels so good you have to thrust back, yes?♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Shy|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'P-please settle down and enjoy it...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Aroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Ahh...♥ N-no fair, thrusting back...♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Grope Ass",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Lewd|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Ah...♥ It is very jiggly, yes?♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Shy|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'M-my butt is very big...♥ I'm glad you like it...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Happy|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Ahaha!♥ Squish it more...♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Penetrate",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Aroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|She presses her slimy body against yours eagerly.",
                                       "|f|ChangeImageLayer|/|Expression|/|Happy|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Ah, yes.♥ Sex is nice!♥",
@@ -284,32 +284,32 @@
                         {
                             "lineTrigger":"AutoCounter",
                             "move": "Anal Penetration",
-                            "theText":["|f|CallEventThenScene|/|SeaSlugCombatEvents|/|NoAnal|n|"
+                            "theText":["|f|CallCombatEventAndScene|/|SeaSlugCombatEvents|/|NoAnal|n|"
                                         ]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Thrust",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Aroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Mmm...♥ I like you.♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Happy|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'I am glad you don't mind getting all slimy!♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Lewd|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'You should grab on me for support.♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Pound",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Lewd|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Ohh♥ Ah...♥ I love it when you make me jiggle like that!♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Happy|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'So good!♥ Just don't slip off now!♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Aroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Mm!♥ More!♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Multi Thrust",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Lewd|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Ohh♥ Ah...♥ I love it when you make me jiggle like that!♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Happy|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'So good!♥ Just don't slip off now!♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Aroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Mm!♥ More!♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Tantric Thrust",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Confused|n||f|ChangeImageLayer|/|Base|/|Base|n|'Are- are you trying to be gentle..?'",
                                       "|f|ChangeImageLayer|/|Expression|/|Happy|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'I'm glad you like me so much...♥'",
@@ -317,14 +317,14 @@
                                       "|f|ChangeImageLayer|/|Expression|/|Wat|n||f|ChangeImageLayer|/|Base|/|Base|n|'Ermm... you should thrust faster..?'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Empowered Thrust",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|BiteLip|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Aaahh!♥ Maaagic...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Aroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Ohh!♥ Magic sex is the best!♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Ahegao|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Uhhh!♥ Shoo good!!♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Charm",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Confused|n||f|ChangeImageLayer|/|Base|/|Base|n|'Oh... Umm, wha-?...'",
                                       "|f|ChangeImageLayer|/|Expression|/|Happy|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'I love you!♥'",
@@ -333,76 +333,76 @@
                         {
                           "lineTrigger":"AutoCounter",
                           "move": "Kiss",
-                          "theText":["|f|CallEventThenScene|/|SeaSlugCombatEvents|/|NoKiss|n|"]
+                          "theText":["|f|CallCombatEventAndScene|/|SeaSlugCombatEvents|/|NoKiss|n|"]
                         },
                         {
                           "lineTrigger":"AutoCounter",
                           "move": "Make Out",
-                          "theText":["|f|CallEventThenScene|/|SeaSlugCombatEvents|/|NoMakeOut|n|"]
+                          "theText":["|f|CallCombatEventAndScene|/|SeaSlugCombatEvents|/|NoMakeOut|n|"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Seduce",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Confused|n||f|ChangeImageLayer|/|Base|/|Base|n|'Oh... Umm, wha-?...'",
                                       "|f|ChangeImageLayer|/|Expression|/|Happy|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'I love you!♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Wat|n||f|ChangeImageLayer|/|Base|/|Base|n|She looks confused. 'Umm... ahaha... sure?'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Ear Tease",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Confused|n||f|ChangeImageLayer|/|Base|/|Base|n|'D-did you... mean to do that? Why?'",
                                       "|f|ChangeImageLayer|/|Expression|/|Happy|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Ahaha, tickles...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Wat|n||f|ChangeImageLayer|/|Base|/|Base|n|'Umm, was there something on my ear..?'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Distract",
                           "theText":["|f|ChangeImageLayer|/|Expression|/|Confused|n||f|ChangeImageLayer|/|Base|/|Base|n|'What? I don't get it...'",
                                       "|f|ChangeImageLayer|/|Expression|/|Wat|n||f|ChangeImageLayer|/|Base|/|Base|n|'Umm...'"]
                         },
                         {
-                            "lineTrigger":"usesMove",
+                            "lineTrigger":"UsesMove",
                             "move": "Slimy Sluggy Titfuck",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Happy|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Hehe, I caught you!♥'",
 									  "|f|ChangeImageLayer|/|Expression|/|Base|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Fufu, it'll feel really good, I promise...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Lewd|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Be a good boy and hold still now...♥'"]
                         },
                         {
-                            "lineTrigger":"usesMove",
+                            "lineTrigger":"UsesMove",
                             "move": "Tittyfucking Smooches",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Shy|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|Her plump lips are much larger than yours and end up smearing half of your face with her mucus and saliva. 'Mwah- Ohh♥ I- I am shorry... mwah...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Base|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Hehe...♥ I'll kiss you a whole lot.♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Lewd|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Mwah...♥ Smooch...♥'"]
                         },
                         {
-                            "lineTrigger":"usesMove",
+                            "lineTrigger":"UsesMove",
                             "move": "Sluggy Pressure Mating", 
                             "theText":["|f|ChangeImageLayer|/|Expression|/|BiteLip|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'It's okay to fill me up...♥ Let loose and cum.♥'",
 									  "|f|ChangeImageLayer|/|Expression|/|Base|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Fufu, don't hold back and cum whenever you want...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Lewd|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Mmh...♥ Be a good boy and let auntie squeeze you dry...♥'"]
                         },
                         {
-                            "lineTrigger":"usesMove",
+                            "lineTrigger":"UsesMove",
                             "move": "Slick Tighten",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|BiteLip|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'You should let me be on top.♥'",
 									  "|f|ChangeImageLayer|/|Expression|/|Base|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Fufu, is this too tight..?♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Lewd|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Mmh...♥ Auntie will squeeze you good...♥'"]
                         },
                         {
-                            "lineTrigger":"lowHealth",
+                            "lineTrigger":"LowHealth",
                             "move": "",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Worry|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Ah, I might lose at this rate...♥'",
                                         "|f|ChangeImageLayer|/|Expression|/|BiteLip|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Oh no... I am close...♥'"]
                         },
                         {
-                            "lineTrigger":"playerLowHealth",
+                            "lineTrigger":"PlayerLowHealth",
                             "move": "",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Lewd|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'It's okay to cum, auntie will accept all your seed.♥'",
                                         "|f|ChangeImageLayer|/|Expression|/|Lewd|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'It's okay even if you don't win.♥ Auntie will still love you.♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Base|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Are you close to shooting everything out?♥ That's very good, don't hold back now.♥'"]
                         },
                         {
-                            "lineTrigger":"onPlayerOrgasm",
+                            "lineTrigger":"OnPlayerOrgasm",
                             "move": "Sluggy Pressure Mating",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Lewd|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|Completely trapped underneath the soft slug woman you can't do anything to hold back your impending orgasm as her soft drooling pussy insistently massages your length. 'Don't hold back...♥ Cum...♥' Her gentle whispering sends you over the edge and you flood her pussy with seed, moaning quietly in her luxuriously soft bosom as she coos and eggs you on.",
                                         "|f|ChangeImageLayer|/|Expression|/|Lewd|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Shh it's okay, relax.♥ Let auntie make you feel good.♥' Seduced by her words, you stop trying to push her off and instead wrap your limbs around the larger woman, overwhelmed by the desire to submit to her. She coos and pats your head affectionately, the gentle rocking of her hips drawing out a nice, big load of your seed into her pussy.",
@@ -410,7 +410,7 @@
                                       ]
                         },
                         {
-                            "lineTrigger":"onPlayerOrgasm",
+                            "lineTrigger":"OnPlayerOrgasm",
                             "move": "Slick Tighten",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Lewd|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|Despite you being on top, you realize that her yielding and soft honeypot feels way too good, and soon you'll be filling it to the brim. The slug senses your impending orgasm and hugs you close, forcing you balls deep in her pussy before you can pull out. 'Shh, it's okay...♥ Now... Cum.♥' Her words shatter your resistance, and with a moan your seed comes rushing out, squirting strongly inside her drooling slit as she coos and encourages you.",
                                         "|f|ChangeImageLayer|/|Expression|/|BiteLip|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'You have to cum, auntie wants your seed too much...♥' Her pussy tightens up, making it difficult to thrust. Her arms rest on your buttocks, slowly pushing you inside her incredibly tight pussy, the sensual insertion managing to be incredibly stimulating. 'Shh... relax your hips... okay... now cum as hard as you want...♥' The incredible tightness together with her encouraging words bring you over the edge and you explode, uncontrollably flooding her with your seed.",
@@ -418,7 +418,7 @@
                                       ]
                         },
                         {
-                            "lineTrigger":"onPlayerOrgasm",
+                            "lineTrigger":"OnPlayerOrgasm",
                             "move": "Titfuck",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Base|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|The overwhelming assault of her slimy titfuck and mucus leaves you weak in the knees and on the verge of orgasm. 'Cum, shoot it into auntie's boobies...♥' Unable to hold back you moan and flood her tight cleavage valley, mixing her mucus with your seed.",
                                         "|f|ChangeImageLayer|/|Expression|/|Lewd|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|With her heavy tits rapidly mashing into your crotch with seemingly no effort, you can't help but feel momentarily overwhelmed. Taking advantage of your inaction she presses her tits tighter, rolling, bouncing and squeezing them around your dick in irregular, amazing patterns. Thrusting back weakly you cum, copiously splattering her chest with pearly white sperm. 'Good boy...♥'",
@@ -426,7 +426,7 @@
                                       ]
                         },
                         {
-                            "lineTrigger":"onPlayerOrgasm",
+                            "lineTrigger":"OnPlayerOrgasm",
                             "move": "",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Lewd|n||f|ChangeImageLayer|/|Base|/|Base|n|Unable to hold back anymore you shoot your load on the sand. 'Ohh♥ do you like auntie so much?♥'",
                                         "|f|ChangeImageLayer|/|Expression|/|Base|n||f|ChangeImageLayer|/|Base|/|Base|n|'Come now, you don't have to hold back.♥' Unable to resist any longer, you shower the slippery slug woman with your cum."
@@ -440,7 +440,7 @@
                                       ]
                         },
                         {
-                            "lineTrigger":"onSurrender",
+                            "lineTrigger":"OnSurrender",
                             "move": "",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Lewd|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Good boy, let auntie handle everything.♥'",
                                         "|f|ChangeImageLayer|/|Expression|/|Lewd|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Hehehe, I'm going to pamper you a whole lot.♥'",
@@ -448,19 +448,19 @@
                                       ]
                         },
                         {
-                            "lineTrigger":"stanceStruggle",
+                            "lineTrigger":"StanceStruggle",
                             "move": "Sex",
-                            "theText":["{thePlayerName} tries to pull out from the slug's receptive, soft pussy..."]
+                            "theText":["{ThePlayerName} tries to pull out from the slug's receptive, soft pussy..."]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFail",
+                            "lineTrigger":"StanceStruggleFail",
                             "move": "Sex",
-                            "theText":["But she keeps her arms tightly wrapped around {thePlayerName}, keeping {targetHisOrHer} shaft trapped snugly in her!",
+                            "theText":["But she keeps her arms tightly wrapped around {ThePlayerName}, keeping {TargetHisOrHer} shaft trapped snugly in her!",
                                         "But as you rest your hand on her to push away you slip, collapsing back into her soft, jiggling body!",
                                         "But her mucus leaves your muscles weak, and you can't find the strength to pull out!"]
                         },
                         {
-                            "lineTrigger":"stanceStruggleComment",
+                            "lineTrigger":"StanceStruggleComment",
                             "move": "Sex",
                             "theText":["",
                                       "",
@@ -469,13 +469,13 @@
                                         "|f|ChangeImageLayer|/|Expression|/|BiteLip|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Mmmm... let's do it more, naughty boy.♥'"]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFree",
+                            "lineTrigger":"StanceStruggleFree",
                             "move": "Sex",
                             "theText":["And manage to pull free from the slugs's dripping slit!",
                                       "And free yourself from the slug's opressive love making!"]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFreeComment",
+                            "lineTrigger":"StanceStruggleFreeComment",
                             "move": "Sex",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Pout|n||f|ChangeImageLayer|/|Base|/|Base|n|'Come back. Auntie knows best!'",
                                       "|f|ChangeImageLayer|/|Expression|/|Pout|n||f|ChangeImageLayer|/|Base|/|Base|n|'Aww... Are you sure you want to stop?'",
@@ -483,18 +483,18 @@
                                       ""]
                         },
                         {
-                            "lineTrigger":"stanceStruggle",
+                            "lineTrigger":"StanceStruggle",
                             "move": "Titfuck",
-                            "theText":["{thePlayerName} tries to pull out of the {attackerName}'s massive tits..."]
+                            "theText":["{ThePlayerName} tries to pull out of the {AttackerName}'s massive tits..."]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFail",
+                            "lineTrigger":"StanceStruggleFail",
                             "move": "Titfuck",
                             "theText":[ "But as you move to get away, the slug squeezes her tits tighter, leaving your knees weak!",
                                         "But as you move to get away, she pushes forward, almost knocking you over and you have to grab her shoulders for support, leaving your dick in her tits!"]
                         },
                         {
-                            "lineTrigger":"stanceStruggleComment",
+                            "lineTrigger":"StanceStruggleComment",
                             "move": "Titfuck",
                             "theText":["",
                                       "",
@@ -503,12 +503,12 @@
                                         "|f|ChangeImageLayer|/|Expression|/|Base|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'You love it, don't lie.♥'"]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFree",
+                            "lineTrigger":"StanceStruggleFree",
                             "move": "Titfuck",
                             "theText":["And manage to pull your cock out of her heavy cleavage!"]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFreeComment",
+                            "lineTrigger":"StanceStruggleFreeComment",
                             "move": "Titfuck",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Pout|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Naughty! Good boys stand still and enjoy my slimy tittyfucks!'",
                                       "|f|ChangeImageLayer|/|Expression|/|Lewd|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Fufu... are auntie's titties too much?♥'",

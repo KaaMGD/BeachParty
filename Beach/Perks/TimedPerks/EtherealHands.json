@@ -7,7 +7,7 @@
     "StatReq": [ ""],
     "StatReqAmount": [ "0"],
 
-    "PerkType": [  "Status Icon"  ],
+    "PerkType": [  "StatusIcon"  ],
     "EffectPower": [ "../../ModLoader/mods/Beach/Images/StatusIcons/EtherealHands.png"],
 
     "PlayerCanPurchase": "HiddenCompletelyFromPlayer"

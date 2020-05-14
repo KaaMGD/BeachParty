@@ -30,7 +30,7 @@
     "statusResistedBy": "",
     "statusText": "",
     "descrip": "",
-    "outcome": "{attackerName} panics and stuffs her tentacle in {targetName}'s mouth!",
+    "outcome": "{AttackerName} panics and stuffs her tentacle in {TargetName}'s mouth!",
     "miss": "",
     "statusOutcome": "",
     "statusMiss": "",

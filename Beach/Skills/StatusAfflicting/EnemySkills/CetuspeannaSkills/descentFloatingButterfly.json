@@ -1,5 +1,5 @@
 {
-    "name": "Descent: Suffocating Butterfly",
+    "name": "Descent: Floating Butterfly",
     "cost": "0",
     "costType": "ep",
     "requiredLevel": "0",
@@ -30,8 +30,8 @@
     "statusResistedBy": "Power",
     "statusText": "bound",
     "descrip": "",
-    "outcome": "{attackerName} performs a series of quick motions with her hands, forming an illusionary silhouette of a butterfly over her bouncing chest! Mesmerized, {targetName} can only watch it's slow, fluttering descent until the butterfly gently lands on {targetHisOrHer} face, closely followed by {attackerName}'s bountiful breasts!",
-    "miss": "{attackerName} performs a series of quick motions with her hands, forming an illusionary silhouette of a butterfly over her bouncing chest! But the butterfly shatters and the dragoness pouts!",
+    "outcome": "{AttackerName} performs a series of quick motions with her hands, forming an illusionary silhouette of a butterfly over her bouncing chest! Mesmerized, {TargetName} can only watch it's slow, fluttering descent until the butterfly gently lands on {TargetHisOrHer} face, closely followed by {AttackerName}'s bountiful breasts!",
+    "miss": "{AttackerName} performs a series of quick motions with her hands, forming an illusionary silhouette of a butterfly over her bouncing chest! But the butterfly shatters and the dragoness pouts!",
     "statusOutcome": "",
     "statusMiss": "",
     "restraintStruggle": "",

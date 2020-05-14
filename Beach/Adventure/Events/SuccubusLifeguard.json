@@ -23,8 +23,8 @@
 							"ProgressEquals", "1", "RepeatFirst",
 							"ProgressEquals", "2", "RepeatRepeat",
               "SetProgress", "1",
-							"Leaving the city you follow the road beside a couple farmsteads and arrive fairly quickly at a sandy beach. At the roadside, right on the edge of the beach, stands a lone booth and a flimsy signboard gate. The sign reads {pink}'Sexy Hookup Resort'{colorEnd}.",
-							"DisplayCharacters", "1", "End",
+							"Leaving the city you follow the road beside a couple farmsteads and arrive fairly quickly at a sandy beach. At the roadside, right on the edge of the beach, stands a lone booth and a flimsy signboard gate. The sign reads {Pink}'Sexy Hookup Resort'{ColorEnd}.",
+							"DisplayCharacters", "1", "EndLoop",
 							"ChangeImageLayer", "Extra", "1", "BikiniBottom",
 							"The booth door flies open and a tall, sketchy-looking succubus walks out, giving you a little wave. Her bikini is ridiculously small and leaves little to imagination.",
 							"Speaks2",
@@ -50,11 +50,11 @@
 							"Speaks",
 							"Great! Let's go inside so we don't bother any ladies earlier than you're ready for them.",
 							"She grabs your hand and takes you inside the booth. Surprisingly enough, she leads you into a tiny changing room and pushes you inside.",
-							"DisplayCharacters", "2", "End",
+							"DisplayCharacters", "2", "EndLoop",
 							"Speaks",
 							"Get undressed, I'll bring you something in a jiffy! Oh but do keep your grimoire on, we're not allowed to take those away.",
 							"You shrug and begin to disrobe. Before you can even finish you hear the succubus return.",
-							"DisplayCharacters", "1", "End",
+							"DisplayCharacters", "1", "EndLoop",
 							"ChangeImageLayer", "Extra", "1", "BikiniBottom",
 							"ChangeImageLayer", "Expression", "1", "Naughty",
 							"Opposed to your expectations she barges into the changing room with a cocky smile and tiny piece of cloth in her hands.",
@@ -65,7 +65,7 @@
 								"H-hey!",
 								"Let her do what she wants...",
 								"Get her to leave.",
-              "EndMenu"
+              "EndLoop"
                          ]
                     },
 					{
@@ -105,7 +105,7 @@
             "theScene":["PlayerSpeaks",
 							"Do you mind?",
 							"Firmly grabbing the intrusive succubus by the shoulders you force her up and push her out of the changing room.",
-							"DisplayCharacters", "2", "End",
+							"DisplayCharacters", "2", "EndLoop",
 							"Speaks",
 							"Ah okay, okay, sorry! I wasn't gonna jump you or anything, my contract forbids me.",
 							"Speaks",
@@ -154,7 +154,7 @@
 							"...",
 							"Resigning yourself to your fate, you put them on. A tight fit, but not too uncomfortable. They were definitely made to emphasize the crotch.",
 							"Feeling ready you walk out of the changing room.",
-							"DisplayCharacters", "1", "End",
+							"DisplayCharacters", "1", "EndLoop",
 							"ChangeImageLayer", "Extra", "1", "BikiniBottom",
 							"ChangeImageLayer", "Base", "1", "Flush",
 							"ChangeImageLayer", "Expression", "1", "Drool",
@@ -179,7 +179,7 @@
 							"Speaks",
 							"I have a job to do now, but I am hoping to see you again someday!",
 							"On the word 'job' she gestures in a handjob-like motion. With both hands.",
-							"DisplayCharacters", "2", "End",
+							"DisplayCharacters", "2", "EndLoop",
 							"You nod a goodbye to the peppy succubus and enter the resort.",
 							"AdventureComplete", "Beach Trip",
 							"GiveItem", "1", "Speedo"
@@ -192,7 +192,7 @@
 							"SetChoice", "1", "Sex",
 							"SetChoice", "2", "Squid",
 							"Making your way through the beach, you spot the succubus lifeguard, Tina, from afar. She seems to notice you as well as she gives you a wave before skipping happily in your direction. Really fast.",
-							"DisplayCharacters", "1", "End",
+							"DisplayCharacters", "1", "EndLoop",
 							"ChangeImageLayer", "Extra", "1", "BikiniBottom",
 							"ChangeImageLayer", "Base", "1", "BlushAlt",
 							"ChangeImageLayer", "Expression", "1", "Happy",
@@ -201,9 +201,9 @@
 							"Speaks",
 							"Hello again! Enjoying the resort? Sorry I didn't get your name last time!",
 							"PlayerSpeaks",
-							"It's {thePlayerName}.",
+							"It's {ThePlayerName}.",
 							"Speaks",
-							"Right! Nice to meet you again, {thePlayerName}. I hope you're enjoying your time with us!",
+							"Right! Nice to meet you again, {ThePlayerName}. I hope you're enjoying your time with us!",
 							"PlayerSpeaks",
 							"It has been pleasant, thank you.",
 							"Faced up close with Tina again, you realize just how tall she is. Your face barely reaches above her bountiful chest.",
@@ -218,7 +218,7 @@
 								"RequiresChoice", "1", "Sex",
 								"Sex?",
 								"Nothing.",
-							"EndMenu"
+							"EndLoop"
                          ]
 					},
 					{
@@ -237,17 +237,17 @@
 								"RequiresChoice", "1", "SexOpen",
 								"Sex.",
 								"Nothing.",
-							"EndMenu"
+							"EndLoop"
                          ]
 					},
 					{
 						"NameOfScene": "RepeatRepeat",
             "theScene":[
 							"Making your way through the beach you spot Tina. She seems to notice you as well as she gives you a wave before skipping happily in your direction. Fast.",
-							"DisplayCharacters", "1", "End",
+							"DisplayCharacters", "1", "EndLoop",
 							"ChangeImageLayer", "Extra", "1", "BikiniBottom",
 							"Speaks",
-							"Hello again {thePlayerName}!",
+							"Hello again {ThePlayerName}!",
 							"She leans down and plants a chaste kiss on your cheek.",
 							"ChangeArousalQuietly", "5",
 							"ChangeImageLayer", "Base", "1", "BlushAlt",
@@ -265,7 +265,7 @@
 								"RequiresChoice", "1", "SexOpen",
 								"Sex.",
 								"Nothing.",
-							"EndMenu"
+							"EndLoop"
                          ]
 					},
                     {
@@ -433,7 +433,7 @@
 							"About the resort...",
 							"About you...",
 							"Done talking.",
-							"EndMenu"
+							"EndLoop"
                          ]
 					},
 					{
@@ -445,7 +445,7 @@
 							"Why organize a resort here?",
 							"Tell me about the locals.",
 							"Return.",
-							"EndMenu"
+							"EndLoop"
 							]
 					},
 					{
@@ -537,7 +537,7 @@
                 "1", "DragonHid", "What? You met her and she ran away? Tell me more about that later!",
                 "1", "DragonUnhid", "But you met her already, of course. A great gal isn't she? If a little shy.",
                 "1", "", "",
-              "endSwap",
+              "EndLoop",
 							"ChangeImageLayer", "Base", "1", "Base",
 							"ChangeImageLayer", "Expression", "1", "Base",
 							"Speaks",
@@ -562,7 +562,7 @@
 								"Swimsuits?",
 								"Big...",
 								"Return.",
-							"EndMenu"
+							"EndLoop"
 							]
 					},
 					{
@@ -735,7 +735,7 @@
 								"Outnumbering sounded fun...",
 								"RequiresChoice", "3", "Tied",
 								"Tied up and drugged?",
-							"EndMenu"
+							"EndLoop"
                          ]
 					},
 					{
@@ -1053,7 +1053,7 @@
 							"Speaks",
 							"Oh crap! This took way too long! Sorry boys I gotta get back to work! Thank you for participating and love you all!",
 							"She flies off on her wings before plunging into water with a loud splash, likely to wash off all the sperm from her body.",
-							"DisplayCharacters", "2", "End",
+							"DisplayCharacters", "2", "EndLoop",
 							"The adventurers shrug to each other, spreading around the beach or chatting up with each other. Some of them seem to be going back to town. You overhear some conversations, like 'best gangbang of my life', 'she sucked me dry' and 'Tina really knows how to take dick' and chuckle to yourself in agreement.",
 							"Despite feeling pretty exhausted yourself, you walk away and decide to continue your adventure."
                          ]
@@ -1080,7 +1080,7 @@
 								"Thigh 'sex'?",
 								"Something with your bikini?",
 								"Outnumbering sounded fun...",
-							"EndMenu"
+							"EndLoop"
                          ]
 					},
 					{

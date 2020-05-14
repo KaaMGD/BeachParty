@@ -32,7 +32,7 @@
     "descrip": "",
     "outcome": "",
     "miss": "",
-    "statusOutcome": "|f|CallEventThenScene|/|MermaidCombatEvents|/|Mouth Invitation",
+    "statusOutcome": "|f|CallCombatEventAndScene|/|MermaidCombatEvents|/|Mouth Invitation",
     "statusMiss": "",
     "restraintStruggle": "",
     "restraintStruggleCharmed": "",

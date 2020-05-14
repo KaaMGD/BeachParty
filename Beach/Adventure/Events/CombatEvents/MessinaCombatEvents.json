@@ -22,7 +22,7 @@
 								"'Ah...♥ C-could you hold back, please?♥'",
                                 "'Kyaah!♥ I- I didn't know heroes used electric magic...♥'",
                                 "'Ah..!♥ N-no more- kya-!♥'",
-								"endSwap"
+								"EndLoop"
                                   ]
 					  },
 					  {
@@ -35,7 +35,7 @@
 								"'Hehe...♥ Are you lost..?♥'",
                                 "'These tentacles... are my shield...♥'",
                                 "'You won't... find a way in... that easily...'",
-								"endSwap"										 
+								"EndLoop"										 
                                   ]
 					  },
 					  {
@@ -48,7 +48,7 @@
 								"'Hehe...♥ Are you lost..?♥'",
                                 "'These tentacles... are my shield...♥'",
                                 "'You won't... find a way in... that easily...'",
-								"endSwap"										 
+								"EndLoop"										 
                                   ]
 					  },
 					  {
@@ -72,7 +72,7 @@
 								"'Hehe...♥ Are you lost..?♥'",
                                 "'These tentacles... are my shield...♥'",
                                 "'You won't... find a way in... that easily...'",
-								"endSwap"										 
+								"EndLoop"										 
                                   ]
 					  },
 					  {
@@ -101,7 +101,7 @@
 						
 										"You move to penetrate Messina but the swirling mass of her tentacles makes it impossible to reach her pussy!",
 										"Fumbled in your attempts you move to get away, but Messina's tentacles swipe your legs from under you!",
-										"ApplyStatusEffectQuietly",   "Messinas Drop Stun",
+										"ApplyStatusEffect",   "Messinas Drop Stun",
 										"Air knocked out of you chest by the fall you struggle to get up but the mass of Messina's squiggly tentacles descends on you!",
 										"ApplyStatusEffect",   "Messinas Tentacle Restrain",
 										"Thoroughly restraining you with her tentacles Messina gracefully hops on your crotch and traps your stiff erection between her plump thighs!",
@@ -114,7 +114,7 @@
 								"'Hehe...♥ A c-combo counterattack, huh..?♥'",
                                 "'W-was that too much..?♥'",
                                 "'Huh, I am pretty... good...♥'",
-								"endSwap"										 
+								"EndLoop"										 
                                   ]
 					  },
 					  {
@@ -130,7 +130,7 @@
 								"'Ooohh...♥'",
                                 "'Ahh..♥'",
                                 "'S-sex...♥'",
-								"endSwap"
+								"EndLoop"
                                   ]
 					  },
 					  {
@@ -155,7 +155,7 @@
 								"'Finally... penis... inside of me...♥'",
                                 "'Hurry and... {i}seed{/i} me..♥'",
                                 "'S-sex..! Cum inside..!♥'",
-								"endSwap"
+								"EndLoop"
                                   ]
 					  },
 					  {
@@ -186,7 +186,7 @@
 									"JumpToRandomScene",
 									"SuckOnThis",
 									"DoNothing",
-								"EndRandom"
+								"EndLoop"
                                   ]
 					  },
 					  {
@@ -197,7 +197,7 @@
 										"N-noo!",
 										"HitPlayerWith", "Tentacle In Mouth",
 										"ApplyStance", "Tentacle In Mouth",
-										"Messina panics and stuffs her tentacle in {thePlayerName}'s mouth!",
+										"Messina panics and stuffs her tentacle in {ThePlayerName}'s mouth!",
 										"ChangeImageLayer", "Expression", "WorryBlush", 										
 										"Speaks",
 										"Ah, umm... I am sorry..!",

@@ -258,21 +258,21 @@
                   ],
     "combatDialogue": [
                         {
-                            "lineTrigger":"hitWith",
+                            "lineTrigger":"HitWith",
                             "move": "Spank",
                             "theText":["|f|ChangeImageFor|/|Flustered|n|'KYAA!'",
                                         "|f|ChangeImageFor|/|Flustered|n|'EEP!'",
                                         "|f|ChangeImageFor|/|Lustful|n|'That felt... nice?'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Whip",
                           "theText":["|f|ChangeImageFor|/|Flustered|n|'KYAA!'",
                                       "|f|ChangeImageFor|/|Lustful|n|'A-Are you trying to b-break me?!♥'",
                                       "|f|ChangeImageFor|/|Lustful|n|'That felt... nice?'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Demon Layer",
                           "theText":["|f|ChangeImageFor|/|Lustful|n|'A-Are you trying to b-break me?!♥'",
                                       "|f|ChangeImageFor|/|Tsun Blush|n|'Mmmm!♥ I-I won't lose to that!♥'",
@@ -281,47 +281,47 @@
                                       "|f|ChangeImageFor|/|Tsun Blush|n|'Ahhh!♥ G-Getting whipped by a lowly human f-felt good?!'" ]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Holy Headpat",
                           "theText":["|f|ChangeImageFor|/|Flustered|n|'Wh-What do you think you're doing you foul human!?'",
                                     "|f|ChangeImageFor|/|Flustered|n|'Th-This is humiliating... H-How dare you!'" ]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Bondage Net",
                           "theText":["|f|ChangeImageFor|/|Tsun Blush|n|'Make the ropes tighter!♥ Ah! I... uhm... I-I mean, untie me you h-horrid human!'",
                                       "|f|ChangeImageFor|/|Shock Blush|n|'Kya?! Ah...♥ I-I won't lose to some meager human restraints!'",
                                       "|f|ChangeImageFor|/|Shock Blush|n|'H-How dare you!'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Magical Binding",
                           "theText":["|f|ChangeImageFor|/|Tsun Blush|n|'Make the ropes tighter!♥ Ah! I... uhm... I-I mean, untie me you h-horrid human!'",
                                       "|f|ChangeImageFor|/|Shock Blush|n|'Kya?! Ah...♥ I-I won't lose to some meager magical restraints!'",
                                       "|f|ChangeImageFor|/|Shock Blush|n|'H-How dare you!'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Lewd Bottle",
                           "theText":["|f|ChangeImageFor|/|Lewd|n|'Ah?♥ It's getting so hard to think...♥'",
                                       "|f|ChangeImageFor|/|Lewd|n|'Ahhh... Please hurry and make me pregnant!♥'"]
                         },
                         {
-                            "lineTrigger":"hitWith",
+                            "lineTrigger":"HitWith",
                             "move": "Electrify",
                             "theText":["|f|ChangeImageFor|/|Lustful|n|'A-Are you trying to b-break me?!♥'",
                                         "|f|ChangeImageFor|/|Lustful|n|'I-I can't th-think!♥'",
                                         "|f|ChangeImageFor|/|Tsun Blush|n|'I-I won't lose to h-human magic!♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Finger",
                           "theText":["|f|ChangeImageFor|/|Smug Blush|n|'Y-You're rather good at this, human...♥'",
                                       "|f|ChangeImageFor|/|Smug Blush|n|'I-I'm ready for you, you know...'",
                                       "|f|ChangeImageFor|/|Lustful|n|'Mmmnnnn.♥"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Breast Caress",
                           "theText":["|f|ChangeImageFor|/|Smug Blush|n|'Has my perfect elven body captivated you?",
                                       "|f|ChangeImageFor|/|Smug Blush|n|'Do you like my breasts, human?♥'",
@@ -329,7 +329,7 @@
                                       "|f|ChangeImageFor|/|Smug Blush|n|'Far better than any human woman's chest, hmmmm?♥"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Breast Massage",
                           "theText":["|f|ChangeImageFor|/|Lustful|n|'Ah♥ Oh,♥ yes!♥ Good human.♥'",
                                       "|f|ChangeImageFor|/|Lustful|n|'T-This is making me so wet.♥'",
@@ -337,7 +337,7 @@
                                       "|f|ChangeImageFor|/|Lustful|n|'Mmmmm...♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Suckle",
                           "theText":["|f|ChangeImageFor|/|Lustful|n|'Ah!♥ I-I'm not p-pregnant, so no milk is g-going to come out, b-but this feels so good!♥'",
                                       "|f|ChangeImageFor|/|Lustful|n|'Hahhh...♥'",
@@ -345,56 +345,56 @@
                                       "|f|ChangeImageFor|/|Smug Blush|n|'A human servicing me like this... is rather cute.♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Tit Fucking",
                           "theText":["|f|ChangeImageFor|/|Tsun Blush|n|'H-hey, don't you want me to do it by myself?'",
                                       "|f|ChangeImageFor|/|Flustered|n|'Aaah w-wait, don't just thrust in there!.'",
                                       "|f|ChangeImageFor|/|Lustful|n|'Mnn♥ this is ... kinda nice."]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Dildo",
                           "theText":["|f|ChangeImageFor|/|Flustered|n|'W-Wait! D-Don't! I-I won't be able to get pregnant from this!'",
                                       "|f|ChangeImageFor|/|Tsun Blush|n|'Th-This kind of thing won't w-work on a proud elf like me!♥'",
                                       "|f|ChangeImageFor|/|Tsun Blush|n|'I-I won't lose to this!♥'"]
                         },
                         {
-                            "lineTrigger":"hitWith",
+                            "lineTrigger":"HitWith",
                             "move": "Penetrate",
                             "theText":["|f|ChangeImageFor|/|Lustful|n|'I-It's so big!'",
                                         "|f|ChangeImageFor|/|Tsun Blush|n|'Y-You won't break me with that... thick... MMM♥ virile cock of yours...'",
                                         "|f|ChangeImageFor|/|Lustful|n|'Y-You're going to impregnate me, right?'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Thrust",
                           "theText":["|f|ChangeImageFor|/|Lewd|n|'Yes! More!♥ Fuck me more!♥'",
                                       "|f|ChangeImageFor|/|Lewd|n|'If I'm not careful, you're going to break me!♥'",
                                       "|f|ChangeImageFor|/|Lewd|n|'I can't stop thinking about your cock!♥"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Pound",
                           "theText":["|f|ChangeImageFor|/|Incoherently Lewd|n|'AAAHH♥♥ This is too much!♥'",
                                       "|f|ChangeImageFor|/|Incoherently Lewd|n|'I'm gonna break!♥ A human is going to break me!♥♥♥'",
                                       "|f|ChangeImageFor|/|Incoherently Lewd|n|'More!♥ More!♥ Don't stop!♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Multi Thrust",
                           "theText":["|f|ChangeImageFor|/|Incoherently Lewd|n|'AAAHH♥♥ This is too much!♥'",
                                       "|f|ChangeImageFor|/|Incoherently Lewd|n|'I'm gonna break!♥ A human is going to break me!♥♥♥'",
                                       "|f|ChangeImageFor|/|Incoherently Lewd|n|'More!♥ More!♥ Don't stop!♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Empowered Thrust",
                           "theText":["|f|ChangeImageFor|/|Incoherently Lewd|n|'AAAHH♥♥ This is too much!♥'",
                                       "|f|ChangeImageFor|/|Incoherently Lewd|n|'I'm gonna break!♥ A human is going to break me!♥♥♥'",
                                       "|f|ChangeImageFor|/|Incoherently Lewd|n|'More!♥ More!♥ Don't stop!♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Tantric Thrust",
                           "theText":[
                                       "|f|ChangeImageFor|/|Incoherently Lewd|n|'I-I can't stop thinking about your dick!♥",
@@ -403,13 +403,13 @@
                                       "|f|ChangeImageFor|/|Incoherently Lewd|n|'M-My body-♥ Is tingling all over-♥ I-I can't think straight...♥♥♥'"]
                         },
                         {
-                            "lineTrigger":"hitWith",
+                            "lineTrigger":"HitWith",
                             "move": "Anal Penetration",
                             "theText":["|f|ChangeImageFor|/|Flustered|n|'Ah?! W-Wait, that's not my pussy! Ahh!♥'",
                                         "|f|ChangeImageFor|/|Flustered|n|'W-Wait! I can't get pregnant there! AAAHH!♥'"]
                         },
                         {
-                          "lineTrigger":"hitWithA",
+                          "lineTrigger":"HitWithA",
                           "move": "Thrust",
                           "theText":["|f|ChangeImageFor|/|Lewd|n|'Yes! More!♥ This is so good!♥'",
                                       "|f|ChangeImageFor|/|Lewd|n|'Anal isn't that bad...♥ You are going to impregnate me later, right?♥'",
@@ -417,28 +417,28 @@
                                       "|f|ChangeImageFor|/|Lewd|n|'I can't stop thinking about your cock!♥'"]
                         },
                         {
-                          "lineTrigger":"hitWithA",
+                          "lineTrigger":"HitWithA",
                           "move": "Pound",
                           "theText":["|f|ChangeImageFor|/|Incoherently Lewd|n|'AAAHH♥♥ This is too much!♥'",
                                       "|f|ChangeImageFor|/|Incoherently Lewd|n|'My ass is breaking!♥ A human is going to break my ass!♥♥♥'",
                                       "|f|ChangeImageFor|/|Incoherently Lewd|n|'More!♥ More!♥ Don't stop!♥'"]
                         },
                         {
-                          "lineTrigger":"hitWithA",
+                          "lineTrigger":"HitWithA",
                           "move": "Multi Thrust",
                           "theText":["|f|ChangeImageFor|/|Incoherently Lewd|n|'AAAHH♥♥ This is too much!♥'",
                                       "|f|ChangeImageFor|/|Incoherently Lewd|n|'My ass is breaking!♥ A human is going to break my ass!♥♥♥'",
                                       "|f|ChangeImageFor|/|Incoherently Lewd|n|'More!♥ More!♥ Don't stop!♥'"]
                         },
                         {
-                          "lineTrigger":"hitWithA",
+                          "lineTrigger":"HitWithA",
                           "move": "Empowered Thrust",
                           "theText":["|f|ChangeImageFor|/|Incoherently Lewd|n|'AAAHH♥♥ This is too much!♥'",
                                       "|f|ChangeImageFor|/|Incoherently Lewd|n|'My ass is breaking!♥ A human is going to break my ass!♥♥♥'",
                                       "|f|ChangeImageFor|/|Incoherently Lewd|n|'More!♥ More!♥ Don't stop!♥'"]
                         },
                         {
-                          "lineTrigger":"hitWithA",
+                          "lineTrigger":"HitWithA",
                           "move": "Tantric Thrust",
                           "theText":[
                                       "|f|ChangeImageFor|/|Incoherently Lewd|n|'I-I can't stop thinking about your dick!♥",
@@ -447,7 +447,7 @@
                                       "|f|ChangeImageFor|/|Incoherently Lewd|n|'M-My body-♥ Is tingling all over-♥ I-I can't think straight...♥♥♥'"]
                         },
                         {
-                            "lineTrigger":"hitWith",
+                            "lineTrigger":"HitWith",
                             "move": "Ear Tease",
                             "theText":["|f|ChangeImageFor|/|Lustful|n|'Ah! Wait, don't- Ahhhh!♥ P-Please♥ more,♥ tease my ears more!♥'",
                                         "|f|ChangeImageFor|/|Lustful|n|'Ahhh!♥ H-Human!♥ T-This is ch-cheating!♥'",
@@ -455,7 +455,7 @@
                                         "|f|ChangeImageFor|/|Incoherently Lewd|n|'M-My brain feels like it's melting!♥'"]
                         },
                         {
-                            "lineTrigger":"hitWith",
+                            "lineTrigger":"HitWith",
                             "move": "Face Fuck",
                             "theText":["|f|ChangeImageFor|/|Lewd|n|'MMPH?!♥'",
                                         "|f|ChangeImageFor|/|Ahegao|n|She looks up at you with a slutty expression, her face and ears flushed crimson. She's enjoying this a lot.",
@@ -463,26 +463,26 @@
                                       "|f|ChangeImageFor|/|Lewd|n|'MMM♥ Yesh!♥'"]
                         },
                         {
-                            "lineTrigger":"hitWith",
+                            "lineTrigger":"HitWith",
                             "move": "Make Out",
                             "theText":["|f|ChangeImageFor|/|Flustered|n|'Ah! W-Wait! I need to mentally prepare myse- mmmhh...♥'",
                                         "|f|ChangeImageFor|/|Tsun Blush|n|'T-This is kinda romantic...'",
                                         "|f|ChangeImageFor|/|Tsun Blush|n|'I-If it's just kissing, then i-it's not lewd...♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Charm",
                           "theText":["|f|ChangeImageFor|/|Tsun Blush|n|'Ahhh... Fuck me human!♥ Please?'",
                                       "|f|ChangeImageFor|/|Lewd|n|'Just looking at you makes me feel pregnant!♥'"]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Sleep",
                           "theText":["|f|ChangeImageFor|/|Tsun Blush|n|'W-What terrible things are you going to do to me once I fall asleep, human?♥'"
                                       ]
                         },
                         {
-                          "lineTrigger":"hitWith",
+                          "lineTrigger":"HitWith",
                           "move": "Seduce",
                           "theText":["|f|ChangeImageFor|/|Lustful|n|'Y-You're going to do w-what to me?! Uhm... Y-Yes please!'",
                                       "|f|ChangeImageFor|/|Lustful|n|Her hand drifts to her groin.",
@@ -490,7 +490,7 @@
                                       "|f|ChangeImageFor|/|Tsun Blush|n|'Y-Your words won't w-work on me, human!' Pussy juices are clearly leaking down her thighs."]
                         },
                         {
-                            "lineTrigger":"usesMove",
+                            "lineTrigger":"UsesMove",
                             "move": "Elven Kissing",
                             "theText":["|f|ChangeImageFor|/|Lustful|n|'Chu. Smooch. Mmm.'",
                                         "|f|ChangeImageFor|/|Lustful|n|'Mmmm, Hehehe.'",
@@ -498,7 +498,7 @@
                                         "|f|ChangeImageFor|/|Lustful|n|'Mmmm, M-Maybe this is a little lewd...'"]
                         },
                         {
-                            "lineTrigger":"usesMove",
+                            "lineTrigger":"UsesMove",
                             "move": "Elven Kiss",
                             "theText":["|f|ChangeImageFor|/|Smug Blush|n|'I bet I can make you cum just by kissing you♥.'",
                                         "|f|ChangeImageFor|/|Tsun Blush|n|'T-This is kinda romantic...'",
@@ -506,7 +506,7 @@
                                         "|f|ChangeImageFor|/|Tsun Blush|n|'I-If it's just kissing, then i-it's not lewd...♥'"]
                         },
                         {
-                            "lineTrigger":"usesMove",
+                            "lineTrigger":"UsesMove",
                             "move": "Kiss",
                             "theText":["|f|ChangeImageFor|/|Tsun Blush|n|'Th-This is all you're getting... R-Really...'",
                                         "|f|ChangeImageFor|/|Tsun Blush|n|'O-One kiss won't hurt.'",
@@ -514,7 +514,7 @@
                                         "|f|ChangeImageFor|/|Flustered|n|'So, you wanna do it? N-No! W-Wait! Th-That came out wrong!'"]
                         },
                         {
-                            "lineTrigger":"usesMove",
+                            "lineTrigger":"UsesMove",
                             "move": "Swimsuit Tease",
                             "theText":["|f|ChangeImageFor|/|Tsun Blush|n|'Is- is this not revealing enough..? H-hey, look here and be seduced!'",
                                         "|f|ChangeImageFor|/|Flustered|n|'Aaah I can't believe I actually wore this... I hope he likes it...'",
@@ -522,7 +522,7 @@
                                         "|f|ChangeImageFor|/|Flustered|n|'So what do you think, i-is this sexy? N-No! W-Wait! Don't answer!'"]
                         },
                         {
-                            "lineTrigger":"usesMove",
+                            "lineTrigger":"UsesMove",
                             "move": "Swimsuit Titfuck",
                             "theText":["|f|ChangeImageFor|/|Tsun Blush|n|'W-well? I was told it's supposed to feel pretty tight if I wear this...'",
                                         "|f|ChangeImageFor|/|Flustered|n|'Nnh... Oh gosh it's so tight...'",
@@ -530,7 +530,7 @@
                                         "|f|ChangeImageFor|/|Lewd|n|'Aaah, you're so hard... Mmm, this is working out pretty well.♥'"]
                         },
                         {
-                            "lineTrigger":"usesMove",
+                            "lineTrigger":"UsesMove",
                             "move": "Titfuck",
                             "theText":["|f|ChangeImageFor|/|Flustered|n|'H-hey, hold still and stick it in here...'",
                                         "|f|ChangeImageFor|/|Flustered|n|'I-I can do this, let's go!'",
@@ -538,7 +538,7 @@
                                         "|f|ChangeImageFor|/|Tsun Blush|n|'I-I'll try something new, you better appreciate it!'"]
                         },
                         {
-                            "lineTrigger":"usesMove",
+                            "lineTrigger":"UsesMove",
                             "move": "Blowjob",
                             "theText":["|f|ChangeImageFor|/|Lewd|n|'Ahhh, I just can't hold myself back any longer...♥'",
                                         "|f|ChangeImageFor|/|Lewd|n|'I-I just need to see how thick your load will be.'",
@@ -546,7 +546,7 @@
                                         "|f|ChangeImageFor|/|Lewd|n|'I'm not lewd... I'm not lewd... I'm n-not... Haaahhh.'"]
                         },
                         {
-                            "lineTrigger":"usesMove",
+                            "lineTrigger":"UsesMove",
                             "move": "Vacuum Blowjob",
                             "theText":["|f|ChangeImageFor|/|Lustful|n|'Haahhhh. So tasty.♥'",
                                         "|f|ChangeImageFor|/|Lustful|n|'Haaa.' *Slurp* 'Mmmph, Mmm♥'",
@@ -556,7 +556,7 @@
                                         "|f|ChangeImageFor|/|Lustful|n|'Mmmm, hehehe.'"]
                         },
                         {
-                            "lineTrigger":"usesMove",
+                            "lineTrigger":"UsesMove",
                             "move": "Deepthroat",
                             "theText":["|f|ChangeImageFor|/|Tsun Blush|n|'Mmmmm, I can't wait for you to breed me, a-after you're tamed.'",
                                     "|f|ChangeImageFor|/|Lustful|n|'Mmph. Mmmmm. Haaaa. You're so thick.'",
@@ -565,7 +565,7 @@
                                     "|f|ChangeImageFor|/|Lustful|n|'Mmmm♥' *Suck* 'Mmmphh.'"]
                         },
                         {
-                            "lineTrigger":"usesMove",
+                            "lineTrigger":"UsesMove",
                             "move": "Double Blowjob",
                             "theText":["|f|ChangeImageFor|/|Smug Blush|n|'Hey, he likes me more.'",
                                       "|f|ChangeImageFor|/|Lustful|n|'Hahhhh, he smells so good.'",
@@ -573,56 +573,56 @@
                                       "|f|ChangeImageFor|/|Smug Blush|n|'Can you handle a double blowjob?'"]
                         },
                         {
-                            "lineTrigger":"usesMove",
+                            "lineTrigger":"UsesMove",
                             "move": "Magical Binding",
                             "theText":["'Don't struggle!'",
                                         "'If you give up, I promise to take good care of you.'",
                                         "'T-This is the elven way t-to court a man. W-We are not perverts!'"]
                         },
                         {
-                            "lineTrigger":"usesMove",
+                            "lineTrigger":"UsesMove",
                             "move": "Grind",
                             "theText":["|f|ChangeImageFor|/|Lustful|n|'Hey, fill me up!'",
                                         "|f|ChangeImageFor|/|Lewd|n|'Yes! More! Fuck me more!'",
                                         "|f|ChangeImageFor|/|Lustful|n|'Ahhh, so good!'"]
                         },
                         {
-                            "lineTrigger":"usesMove",
+                            "lineTrigger":"UsesMove",
                             "move": "Tighten",
                             "theText":["|f|ChangeImageFor|/|Lewd|n|'Knock me up please!♥'",
                                         "|f|ChangeImageFor|/|Lustful|n|'Fuck me!♥ Fuck me!♥ Ah! W-Wait! H-Hey, m-maybe we should s-slow down.'",
                                         "|f|ChangeImageFor|/|Lustful|n|'You fit so perfectly in me.'"]
                         },
                         {
-                            "lineTrigger":"usesMoveA",
+                            "lineTrigger":"UsesMoveA",
                             "move": "Grind",
                             "theText":["|f|ChangeImageFor|/|Smug Blush|n|'A-After this, you're going to fuck me until I'm pregnant.♥'",
                                         "|f|ChangeImageFor|/|Lustful|n|'Yes! More! Fuck me more!'",
                                         "|f|ChangeImageFor|/|Lustful|n|'Ahhh, so good!'"]
                         },
                         {
-                            "lineTrigger":"usesMoveA",
+                            "lineTrigger":"UsesMoveA",
                             "move": "Tighten",
                             "theText":["|f|ChangeImageFor|/|Lustful|n|'Your cock feels so big inside my ass!♥'",
                                         "|f|ChangeImageFor|/|Lustful|n|'Fuck me!♥ Fuck me!♥ Ah! W-Wait! H-Hey, m-maybe we should s-slow down.'",
                                         "|f|ChangeImageFor|/|Lewd|n|'I can't get enough of this!♥'"]
                         },
                         {
-                            "lineTrigger":"lowHealth",
+                            "lineTrigger":"LowHealth",
                             "move": "",
                             "theText":["|f|ChangeImageFor|/|Lustful|n|'T-To think a human could make me feel so good...'",
                               "|f|ChangeImageFor|/|Tsun Blush|n|'I-I am n-not about to o-orgasm!'",
                               "|f|ChangeImageFor|/|Flustered|n|'A-At least get me pregnant first! W-Wait, that's not what I meant!'"]
                         },
                         {
-                            "lineTrigger":"playerLowHealth",
+                            "lineTrigger":"PlayerLowHealth",
                             "move": "",
                             "theText":["|f|ChangeImageFor|/|Dominant|n|'You're about to spurt your load, aren't you?'",
                                       "|f|ChangeImageFor|/|Smug Blush|n|'You better be as virile is I hope you are.'",
                                       "|f|ChangeImageFor|/|Smug Blush|n|'Yes! Give me your cum!'"]
                         },
                         {
-                            "lineTrigger":"onPlayerOrgasm",
+                            "lineTrigger":"OnPlayerOrgasm",
                             "move": "Sex",
                             "theText":["|f|ChangeImageFor|/|Lewd Blush|n|You moan as the elf's exquisite pussy strokes your throbbing shaft, her hips quickly moving in a frenzy as if eager to be filled with your thick semen. The waves of pleasure hitting your groin quickly overwhelm you, and as your semen is pumped into the elf's womb you both cry out in ecstasy.|n|'Ahhhh!♥ F-Feeling you cum inside me... Was incredible.♥'",
                                         "|f|ChangeImageFor|/|Smug Blush|n|The elf rides your shaft with a lewd grin, licking her lips as your cock throbs inside of her as if greatly anticipating your thick load.|n|Her elven pussy clamps down tightly as she slams her hips down onto your manhood, sending ripples of orgasmic pleasure through your body, forcing you to fill the horny elf with your cum.|n|'More!♥ I'm not satisfied yet!'",
@@ -631,7 +631,7 @@
                                       ]
                         },
                         {
-                            "lineTrigger":"onPlayerOrgasm",
+                            "lineTrigger":"OnPlayerOrgasm",
                             "move": "Anal",
                             "theText":["|f|ChangeImageFor|/|Lewd Blush|n|You moan as the elf's tight ass strokes your throbbing shaft, her hips quickly start to move in a lusful frenzy. The waves of pleasure hitting your groin quickly overwhelm you, and as your semen is pumped into the elf's rear you both cry out in ecstasy.|n|'Ahhhh!♥ F-Feeling you cum inside my ass... Was incredible.♥'",
                                         "|f|ChangeImageFor|/|Smug Blush|n|The elf rides your shaft with a lewd grin, licking her lips as your cock throbs inside of her as if greatly anticipating your thick load.|n|Her elven rear clamps down tightly as she slams her hips down onto your manhood, sending ripples of orgasmic pleasure through your body, forcing you to fill the horny elf with your cum.|n|'More!♥ I'm not satisfied yet!'",
@@ -640,21 +640,21 @@
                                       ]
                         },
                         {
-                            "lineTrigger":"onPlayerOrgasm",
+                            "lineTrigger":"OnPlayerOrgasm",
                             "move": "Blowjob",
                             "theText":["|f|ChangeImageFor|/|Lustful|n|You grit your teeth, trying to stop your imminent orgasm as the elf continues to suck on your rigid cock. With one final suck, your resistance crumbles as you unload semen into her waiting mouth. The elf gently gulps down all of your seed with a slutty look on her face.",
                                         "|f|ChangeImageFor|/|Lustful|n|Your shaft throbs as her oral assault on you continues, and as she pulls her wet mouth off of your cock with a satisfying pop. You cum, spraying semen all over her lewd face as she tries to catch some in her mouth."
                                       ]
                         },
                         {
-                            "lineTrigger":"onPlayerOrgasm",
+                            "lineTrigger":"OnPlayerOrgasm",
                             "move": "Titfuck",
                             "theText":["|f|ChangeImageFor|/|Smug Blush|n|You grit your teeth, trying to stop your imminent orgasm as your throbbing shaft is hopelessly trapped in her tight cleavage. With one final stroke of her breasts your resistance crumbles and you flood her cleavage with your thick semen. The elf smiles smugly and continues titfucking your still ejaculating cock, making your sperm splatter the surroundings.",
                                         "|f|ChangeImageFor|/|Lustful|n|You groan as your cock is squeezed inside her tight bikini cleavage and finally let lose, painting her damp boob valley white with your spunk.|n|'Mnnn,♥ Yay!♥ Good thing I bought this swimsuit!♥'."
                                       ]
                         },
                         {
-                            "lineTrigger":"onPlayerOrgasm",
+                            "lineTrigger":"OnPlayerOrgasm",
                             "move": "",
                             "theText":["|f|ChangeImageFor|/|Smug Blush|n|Unable to hold back any longer, your shaft throbs as you shoot your load, the elf squealing in delight. 'Look at all that thick seed!♥'",
                                         "|f|ChangeImageFor|/|Smug Blush|n|'That's it human!♥ Don't hold back!♥' You can't take any more of the pleasant sensations racing through your body and you cum, the horny elf looking delighted as you orgasm."
@@ -675,19 +675,19 @@
                                       ]
                         },
                         {
-                            "lineTrigger":"onSurrender",
+                            "lineTrigger":"OnSurrender",
                             "move": "",
                             "theText":["|f|ChangeImageFor|/|Flustered|n|'Y-You're going to let me be your slut? I-I MEAN WIFE!'",
                                         "|f|ChangeImageFor|/|Dominant|n|'Well at least you know your place, human.♥'",
                                         "|f|ChangeImageFor|/|Smug Blush|n|'You won't regret this, human!'"]
                         },
                         {
-                            "lineTrigger":"stanceStruggle",
+                            "lineTrigger":"StanceStruggle",
                             "move": "Sex",
-                            "theText":["{thePlayerName} tries to pull out of the {attackerName}'s tight pussy..."]
+                            "theText":["{ThePlayerName} tries to pull out of the {AttackerName}'s tight pussy..."]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFail",
+                            "lineTrigger":"StanceStruggleFail",
                             "move": "Sex",
                             "theText":["But the elf tightly locks her legs around your waist, preventing you from pulling out!",
                                         "But the elf desperately clings to your chest as she rides your shaft!",
@@ -695,7 +695,7 @@
                                         "But as you grab her hips to pull out, she looks at you with needy eyes, and you are overcome with the urge to continue fucking her."]
                         },
                         {
-                            "lineTrigger":"stanceStruggleComment",
+                            "lineTrigger":"StanceStruggleComment",
                             "move": "Sex",
                             "theText":["",
                                         "|f|ChangeImageFor|/|Smug Blush|n|'You're not going anywhere until you get me pregnant!♥'",
@@ -705,12 +705,12 @@
                                         "|f|ChangeImageFor|/|Flustered|n|'Stop struggling and I will be your personal elven cock sleeve!♥ ...I-I mean wife! N-No, wait! I meant mistress!'"]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFree",
+                            "lineTrigger":"StanceStruggleFree",
                             "move": "Sex",
                             "theText":["And manage to pull your cock out of her tight elven slit!"]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFreeComment",
+                            "lineTrigger":"StanceStruggleFreeComment",
                             "move": "Sex",
                             "theText":["|f|ChangeImageFor|/|Lustful|n|'Ah?! W-Why did you stop?!'",
                                       "|f|ChangeImageFor|/|Lustful|n|'Ahhh...♥ I can't keep my mind off that big cock of yours!♥'",
@@ -720,12 +720,12 @@
                                       ""]
                         },
                         {
-                            "lineTrigger":"stanceStruggle",
+                            "lineTrigger":"StanceStruggle",
                             "move": "Anal",
-                            "theText":["{thePlayerName} tries to pull out of the {attackerName}'s tight ass..."]
+                            "theText":["{ThePlayerName} tries to pull out of the {AttackerName}'s tight ass..."]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFail",
+                            "lineTrigger":"StanceStruggleFail",
                             "move": "Anal",
                             "theText":["But the elf tightly locks her legs around your waist, preventing you from pulling out!",
                                         "But the elf desperately clings to your chest as she rides your shaft!",
@@ -733,7 +733,7 @@
                                         "But as you grab her hips to pull out, she looks at you with needy eyes, and you are overcome with the urge to continue fucking her."]
                         },
                         {
-                            "lineTrigger":"stanceStruggleComment",
+                            "lineTrigger":"StanceStruggleComment",
                             "move": "Anal",
                             "theText":["",
                                         "|f|ChangeImageFor|/|Lustful|n|'Fuck me!♥'",
@@ -742,12 +742,12 @@
                                         "|f|ChangeImageFor|/|Flustered|n|'Stop struggling and I will be your personal elven cock sleeve!♥ ...I-I mean wife! N-No, wait! I meant mistress!'"]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFree",
+                            "lineTrigger":"StanceStruggleFree",
                             "move": "Anal",
                             "theText":["And manage to pull your cock out of her tight elven rear!"]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFreeComment",
+                            "lineTrigger":"StanceStruggleFreeComment",
                             "move": "Anal",
                             "theText":["|f|ChangeImageFor|/|Lustful|n|'Ah?! W-Why did you stop?!'",
                                       "|f|ChangeImageFor|/|Lustful|n|'Ahhh...♥ I can't keep my mind off that big cock of yours!♥'",
@@ -755,32 +755,32 @@
                                       ""]
                         },
                         {
-                            "lineTrigger":"stanceStruggle",
+                            "lineTrigger":"StanceStruggle",
                             "move": "Blowjob",
-                            "theText":["{thePlayerName} tries to push the {attackerName}'s mouth away from {targetHisOrHer} rigid shaft..."]
+                            "theText":["{ThePlayerName} tries to push the {AttackerName}'s mouth away from {TargetHisOrHer} rigid shaft..."]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFail",
+                            "lineTrigger":"StanceStruggleFail",
                             "move": "Blowjob",
                             "theText":["But as she takes your cock's full length into her mouth, you let out a gasp and can't bring yourself to push her away!",
                                         "But as you grab her head to push her away, she lovingly nuzzles into your shaft and looks up at you with pleading eyes, and your heart throbs as you decide a little longer can't hurt...",
                                         "But the elf deftly moves in and starts to lick and suck on your balls, and as she looks up at you submissively, you find yourself stroking her hair instead of pushing her away!"]
                         },
                         {
-                            "lineTrigger":"stanceStruggleComment",
+                            "lineTrigger":"StanceStruggleComment",
                             "move": "Blowjob",
                             "theText":["|f|ChangeImageFor|/|Lustful|n|The elf looks up looks up at you with lust in her eyes as she continues to suck and lick your shaft.",
 										"|f|ChangeImageFor|/|Lustful|n|She briefly takes her mouth off your cock to nuzzle lovingly into against manhood before resuming her oral assault.",
 										""]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFree",
+                            "lineTrigger":"StanceStruggleFree",
                             "move": "Blowjob",
                             "theText":["And manage to get her wet mouth away from your cock!",
                                       "And as you grab the elf's long ears to push her away, causing her to gasp in pleasure and stop her oral assault long enough for you to pull away."]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFreeComment",
+                            "lineTrigger":"StanceStruggleFreeComment",
                             "move": "Blowjob",
                             "theText":["|f|ChangeImageFor|/|Lustful|n|'Ah?! I just wanted to taste your cum...♥'",
                                       "|f|ChangeImageFor|/|Lustful|n|'Ahhh...♥ I can't keep my mind off that big cock of yours!♥'",
@@ -789,32 +789,32 @@
                                       ""]
                         },
                         {
-                            "lineTrigger":"stanceStruggle",
+                            "lineTrigger":"StanceStruggle",
                             "move": "Titfuck",
-                            "theText":["{thePlayerName} tries to free {targetHisOrHer} rigid shaft from {attackerName}'s tight swimsuit cleavage..."]
+                            "theText":["{ThePlayerName} tries to free {TargetHisOrHer} rigid shaft from {AttackerName}'s tight swimsuit cleavage..."]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFail",
+                            "lineTrigger":"StanceStruggleFail",
                             "move": "Titfuck",
                             "theText":["But as she looks at you with bashful, pleading eyes, you can't bring yourself to push her away!",
                                         "But as you grab her shoulders to push her away, she presses her boobs down on your crotch and stubbornly grabs your legs for support, managing to keep you trapped...",
                                         "But as you move to grab her shoulders, she deftly guides your hands to her boobs, making you grope her instead..."]
                         },
                         {
-                            "lineTrigger":"stanceStruggleComment",
+                            "lineTrigger":"StanceStruggleComment",
                             "move": "Titfuck",
                             "theText":["|f|ChangeImageFor|/|Tsun Blush|n|'You're not going anywhere until you cum! I paid good money for this swimsuit, so you better enjoy it!'",
 										"|f|ChangeImageFor|/|Flustered|n|'H-hey, don't you like it?'",
 										""]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFree",
+                            "lineTrigger":"StanceStruggleFree",
                             "move": "Titfuck",
                             "theText":["And manage to get your cock away from her constricting cleavage!",
                                       "And as you grab the elf's palmable breasts to push her away, your hand grazes her armpit causing her to stiffle a laugh and lose focus, allowing you to pop free."]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFreeComment",
+                            "lineTrigger":"StanceStruggleFreeComment",
                             "move": "Titfuck",
                             "theText":["|f|ChangeImageFor|/|Tsun|n|'Ah?! I just wanted to try something new...'",
                                       "|f|ChangeImageFor|/|Tsun|n|'H-hey, get back here!'",
@@ -823,18 +823,18 @@
                                       ""]
                         },
                         {
-                            "lineTrigger":"stanceStruggle",
+                            "lineTrigger":"StanceStruggle",
                             "move": "Making Out",
-                            "theText":["{thePlayerName} tries to break the deep kiss with the elf..."]
+                            "theText":["{ThePlayerName} tries to break the deep kiss with the elf..."]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFail",
+                            "lineTrigger":"StanceStruggleFail",
                             "move": "Making Out",
-                            "theText":["|f|ChangeImageFor|/|Lustful|n|But she keeps a tight hold on {thePlayerName}, and he stays locked in a deep, loving kiss!",
+                            "theText":["|f|ChangeImageFor|/|Lustful|n|But she keeps a tight hold on {ThePlayerName}, and he stays locked in a deep, loving kiss!",
                                         "|f|ChangeImageFor|/|Lustful|n|But as you start to push her away she wraps an arm around the back of your head, deepening the kiss while she gazes lustfully into your eyes."]
                         },
                         {
-                            "lineTrigger":"stanceStruggleComment",
+                            "lineTrigger":"StanceStruggleComment",
                             "move": "Making Out",
                             "theText":["",
                                       "",
@@ -843,13 +843,13 @@
                                         "|f|ChangeImageFor|/|Lustful|n|'Kiss me just a little longer!♥'"]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFree",
+                            "lineTrigger":"StanceStruggleFree",
                             "move": "Making Out",
                             "theText":["And manage to push the kiss needy elf away!",
                                       "And free your mouth from the elf's soft lips!"]
                         },
                         {
-                            "lineTrigger":"stanceStruggleFreeComment",
+                            "lineTrigger":"StanceStruggleFreeComment",
                             "move": "Making Out",
                             "theText":["|f|ChangeImageFor|/|Flustered|n|'Eh?! Y-You don't want to kiss me?!'",
                                       "|f|ChangeImageFor|/|Base|n|'Ah? Hmph, I guess I'll have to teach you how to enjoy elven kisses, then.'",

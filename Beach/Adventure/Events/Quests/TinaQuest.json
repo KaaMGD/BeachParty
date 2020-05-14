@@ -30,12 +30,12 @@
                         "Arriving at a less-groomed portion of the beach you begin to struggle with your footing, and trekking through uneven, shell-littered sands under the blazing sun becomes increasingly difficult. This must be the end of resort area, so you look around in search of Tina.",
                         "Nobody seems to be around. You'd expect to spot at least a couple of giggling mermaids in the waters, but sharp-looking rocks jutting out from water would indicate that even waters are inhospitable around these parts.",
                         "Finally, you spot the familiar figure of the tall succubus in the distance behind one of the palm trees. Curious about the so-called 'Tina Quest' you approach her.",
-                        "DisplayCharacters", "3", "End",
+                        "DisplayCharacters", "3", "EndLoop",
                         "ChangeImageLayer", "Base", "1", "Flush",
                         "ChangeImageLayer", "Expression", "1", "Grin",
                         "ChangeArousalQuietly", "15",
                         "Tina seems to be in the middle of doing some warm-up exercises, currently touching her toes with her hands. Her large and appetizing butt is sticking out into the air, and her bosom is squeezed tightly between her thighs. Seeing you approach, she flashes you a cheeky grin on her currently upside-down face.",
-                        "Speaks3", "Oh, hello {thePlayerName}!",
+                        "Speaks3", "Oh, hello {ThePlayerName}!",
                         "ChangeImageLayer", "Expression", "1", "Happy",
                         "You greet the succubus back as she gracefully lifts her body, twirling around to face you again with a happy smile on her flushed face, a droplet of sweat running and disappearing into the valley between her jiggling boobs.",
                         "Speaks3", "I was just feeling a bit too nervous and decided to exercise!",
@@ -77,7 +77,7 @@
                         "Speaks3", "Oh, right! You'll be looking for this hot catgirl milf with impeccable taste in bikini.",
                         "Speaks3", "The beach out there is kinda empty and... sharp, so watch your step. Not even the Nereids come there, so at least you won't be attacked on the way. Keep an eye out for an umbrella and you should find her fast.",
                         "You nod and walk out of the resort area, intent on finding the catgirl for Tina.",
-                        "DisplayCharacters", "2", "End",
+                        "DisplayCharacters", "2", "EndLoop",
                         "JumpToScene", "Looking4Cat"
 						]
                     },
@@ -93,7 +93,7 @@
                       "Menu",
                         "Approach boldly.",
                         "Try to sneak up. (Technique)",
-                      "EndMenu"
+                      "EndLoop"
                       ]
                     },
                     {
@@ -101,7 +101,7 @@
                       "theScene": [
                         "Given that your goal here is to have a conversation, you see little reason to sneak around. Casting aside your concerns, you decide to approach the umbrella openly and without hiding.",
                         "Taking a short detour around the boulders you walk up from the side, ensuring that your approach is visible from afar, and in turn allowing you to examine the person relaxing underneath the umbrella.",
-      									"DisplayCharacters", "1", "End",
+      									"DisplayCharacters", "1", "EndLoop",
         								"ChangeImageLayer", "Expression", "1", "Confus",
                         "Sure enough, you see a mature-looking catgirl, (or should you say, a catwoman?) resting on a comfy-looking beach couch, cocking her head to the side as she notices you.",
                         "Her strikingly cat-like eyes regard you carefully as you approach, but she makes no attempts to attack you or even get up.",
@@ -118,7 +118,7 @@
                         "Menu",
                           "'I'll stand.'",
                           "Sit down.",
-                        "EndMenu"
+                        "EndLoop"
                       ]
                     },
                     {
@@ -137,7 +137,7 @@
                         "Menu",
                           "Try to stay focused.",
                           "Ogle her as you speak...",
-                        "EndMenu"
+                        "EndLoop"
                       ]
                     },
                     {
@@ -206,7 +206,7 @@
                           "Fuck her!",
                           "Stammer...",
                           "Turn her down.",
-                        "EndMenu"
+                        "EndLoop"
                       ]
                     },
                     {
@@ -346,7 +346,7 @@
                         "Menu",
                           "Play with her boobs as you talk.",
                           "Pull your hands away and keep talking.",
-                        "EndMenu"
+                        "EndLoop"
                       ]
                     },
                     {
@@ -460,26 +460,26 @@
                       "NameOfScene": "SneakSuccess",
                       "theScene": [
                         "You manage to make it to the boulder without being spotted. Carefully peeking from behind the boulder gives you a full view on the cat woman from the side.",
-                        "DisplayCharacters", "1", "End",
+                        "DisplayCharacters", "1", "EndLoop",
                         "She is definitely an older woman, with a pleasantly plush build and an air of relaxed confidence around her. Trying to scour for a weakness you conclude that she is unlikely to be very fast in combat, but the cat-like grace of her movements as she adjusts her bikini makes you doubt that assessment.",
                         "ChangeArousalByPercent", "10",
                         "Her full breasts rest heavily against her chest, barely constrained by the bikini, a slight sag in their womanly shape. Her long legs look both strong and plump, their shapely fullness nicely complementing her big ass. She is also intensely seductive and fashionable, with the abundance of flashy accessories and almost garish makeup.",
                         "ChangeArousalByPercent", "15",
-                        "DisplayCharacters", "End",
+                        "DisplayCharacters", "EndLoop",
                         "Realizing that you're shamelessly ogling her, you hide behind the boulder again. You are also not certain what you have accomplished. She appears rather formidable in many regards, betraying no weakness, and now you have a throbbing erection to boot.",
-                        "DisplayCharacters", "1", "End",
+                        "DisplayCharacters", "1", "EndLoop",
                         "You can't help yourself and peek again, your eyes drawn to her sensually mature body and its pleasantly round shapes. She probably wouldn't notice if you rubbed one out quietly...",
                         "Menu",
                           "That's not why you came here. Time to act!",
                           "Just once...",
-                        "EndMenu"
+                        "EndLoop"
                       ]
                     },
                     {
                       "NameOfScene": "That's not why you came here. Time to act!",
                       "theScene": [
                         "Given that your goal here is to have a conversation, you see little reason to sneak around any longer. To avoid startling and possibly agitating the feline lady, you creep backwards and take a short detour around the boulders, ensuring that your approach is visible from afar.",
-                        "DisplayCharacters", "1", "End",
+                        "DisplayCharacters", "1", "EndLoop",
                         "ChangeImageLayer", "Expression", "1", "Confus",
                         "This time she notices your approach, cocking her head to the side.",
                         "Her strikingly cat-like eyes regard you carefully as you approach, but she makes no attempts to attack you or even get up.",
@@ -494,7 +494,7 @@
                         "Menu",
                           "'I'll stand.'",
                           "Sit down.",
-                        "EndMenu"
+                        "EndLoop"
                       ]
                     },
                     {
@@ -520,7 +520,7 @@
                     {
                       "NameOfScene": "SneakFail",
                       "theScene": [
-                      "DisplayCharacters", "1", "End",
+                      "DisplayCharacters", "1", "EndLoop",
                         "ChangeImageLayer", "Expression", "1", "Flash",
                         "Creeping behind a boulder you almost twist your ankle on the treacherous sands and step on a seashell, crushing it with an audible crunch. Catwoman's ear twitches from the sound and she turns in your direction, spotting you instantly!",
                         "ChangeImageLayer", "Expression", "1", "Amused",
@@ -539,7 +539,7 @@
                         "Menu",
                           "'I'll stand.'",
                           "Sit down.",
-                        "EndMenu"
+                        "EndLoop"
                       ]
                     },
                     {
@@ -555,14 +555,14 @@
                         "She playfully pokes you in the chest with her fluffy finger and smiles softly.",
                         "Speaks", "Hope to see you again, boy.",
                         "With that she walks away from the shore, a playful spring in her step, fluffy tail swishing from side to side. You blink and can only wonder how she is walking so effortlessly through all the sharp rocks, with a weight over her shoulder no less.",
-                        "DisplayCharacters", "2", "End",
+                        "DisplayCharacters", "2", "EndLoop",
                         "Accomplishing what you set out to do, you begin walking back to the resort area, quietly hoping you never have to traverse these rocky sands ever again.",
                         "SwapLineIf", "Choice",
                           "1", "NoSex", "Thinking of it, this went smoother than expected. Felicia was reasonably polite, if overly salacious, and never tried to attack you. Perhaps Tina's impression of her is wrong?",
                           "1", "HadSex", "Thinking of it, this went smoother than expected. Felicia did flirt rather aggressively, and you ended up fucking, but she was rather friendly about it. Perhaps Tina's impression of her is wrong?",
                           "1", "GotDommed", "Thinking back on what happened, you wonder what would happen if Felicia kept going... You may need to be wary of her in the future, or your trips to the resort may end abruptly. Perhaps Tina's impression of her is not all wrong...",
-                        "endSwap",
-                        "DisplayCharacters", "3", "End",
+                        "EndLoop",
+                        "DisplayCharacters", "3", "EndLoop",
                         "ChangeImageLayer", "Expression", "1", "Awkward",
                         "With these thoughts on your mind, the trip back feels fairly short, and soon you spot Tina fidgeting awkwardly on the edge of resort, waiting for you.",
                         "ChangeImageLayer", "Expression", "1", "Happy",
@@ -583,7 +583,7 @@
                         "Menu",
                           "Ask for the kiss.",
                           "Let it go.",
-                        "EndMenu"
+                        "EndLoop"
                       ]
                     },
                     {
@@ -608,7 +608,7 @@
                         "ChangeImageLayer", "Expression", "1", "Shy",
                         "Suddenly breaking the embrace Tina steps back, giving you a shy smile. 'Thank you', she whispers, before blushing even more fiercely and bolting away.",
                         "You feel a little stunned for a moment, and after gathering your thoughts decide to return back to town for the day, a job well-done and well-paid.",
-                        "questComplete",
+                        "QuestComplete",
                         "GoToTown"
                       ]
                     },
@@ -618,9 +618,9 @@
                         "You decide not to press the issue and bid farewell to Tina with a nod.",
                         "ChangeImageLayer", "Expression", "1", "Happy",
                         "She waves you off with a smile, but you feel like she may looked a little disappointed. Did she want to kiss you but was too shy to offer?",
-                        "DisplayCharacters", "End",
+                        "DisplayCharacters", "EndLoop",
                         "With a shrug you return back to town for the day, a job well-done.",
-                        "questComplete",
+                        "QuestComplete",
                         "GoToTown"
                       ]
                     }

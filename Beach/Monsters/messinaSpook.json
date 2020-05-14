@@ -61,28 +61,28 @@
                   ],
     "combatDialogue": [
                         {
-                            "lineTrigger":"hitWith",
+                            "lineTrigger":"HitWith",
                             "move": "Spank",
                             "theText":[""
                                         ]
                         },
                         {
-                            "lineTrigger":"usesMove",
+                            "lineTrigger":"UsesMove",
                             "move": "",
                             "theText":["''"]
                         },
                         {
-                            "lineTrigger":"lowHealth",
+                            "lineTrigger":"LowHealth",
                             "move": "",
                             "theText":["''"]
                         },
                         {
-                            "lineTrigger":"playerLowHealth",
+                            "lineTrigger":"PlayerLowHealth",
                             "move": "",
                             "theText":["''"]
                         },
                         {
-                            "lineTrigger":"onPlayerOrgasm",
+                            "lineTrigger":"OnPlayerOrgasm",
                             "move": "",
                             "theText":[""
                                       ]
@@ -94,7 +94,7 @@
                                       ]
                         },
                         {
-                            "lineTrigger":"onSurrender",
+                            "lineTrigger":"OnSurrender",
                             "move": "",
                             "theText":[""]
                         }

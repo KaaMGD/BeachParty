@@ -22,7 +22,7 @@
 								"'Ow!♥ D-don't use that again, I'm all wet!♥'",
                                 "'AHHH!♥ H-have mercy, Hero!♥'",
                                 "'OOOH!♥ N-no more- AHHHH!♥'",
-								"endSwap"
+								"EndLoop"
                                   ]
 					  },	
 					  {
@@ -35,7 +35,7 @@
 										"Shut her up with a kiss.",
 										"Shut her up with your penis.",
                                         "Keep listening...",
-                                      "EndMenu"
+                                      "EndLoop"
                                   ]
 					  },
 					  {
@@ -74,7 +74,7 @@
 								"FocusedSpeaks",
                                     "La la-♪",
                                     "HitPlayerWith", "Mermaid's Couplet",
-									"You moved to cover your ears but not before she started her song!{damageToPlayer}",
+									"You moved to cover your ears but not before she started her song!{DamageToPlayer}",
 									"She keeps singing, but you avoid hearing any more of the song...",
 						 "ChangeImageLayer", "BodyPart", "ArmRest"
                                   ]
@@ -113,7 +113,7 @@
 								"FocusedSpeaks",
                                     "La la- Mmph-♪",
                                     "HitPlayerWith", "Mermaid's Couplet",
-									"You planted a firm kiss on her wet lips but not before she started her song!{damageToPlayer}",
+									"You planted a firm kiss on her wet lips but not before she started her song!{DamageToPlayer}",
 									"ApplyStance",
 									"Making Out",
 									"The mermaid looks taken aback but soon begins to return your kisses...",
@@ -156,7 +156,7 @@
 						"FocusedSpeaks",
                                     "La la- Mmph-♪",
                                     "HitPlayerWith", "Mermaid's Couplet",
-									"You deftly stuck your cock in her open mouth but not before she started her song!{damageToPlayer}",
+									"You deftly stuck your cock in her open mouth but not before she started her song!{DamageToPlayer}",
 									"ApplyStance",
 									"Blowjob",
 									"The mermaid looks taken aback but then giggles and begins to slowly suck on your penis...",
@@ -171,11 +171,11 @@
 						"FocusedSpeaks",
                                     "La la la~♪",
                                     "HitPlayerWith", "Mermaid's Couplet",
-									"The mermaid sings a quick couplet in her pretty voice, distracting you from the fight...{damageToPlayer}",
+									"The mermaid sings a quick couplet in her pretty voice, distracting you from the fight...{DamageToPlayer}",
 									"FocusedSpeaks",
                                     "La la la~♫",
                                     "HitPlayerWith", "Mermaid's Couplet",
-									"Your inaction allowed her to keep singing...{damageToPlayer}",
+									"Your inaction allowed her to keep singing...{DamageToPlayer}",
 						 "ChangeImageLayer", "BodyPart", "ArmRest"
                                   ]
 					  },
@@ -186,7 +186,7 @@
 								"ChangeImageLayer", "Expression", "Seductive", 
 								"The mermaid opens her mouth widely, but instead of singing she holds still and looks at you expectedly.",
                                       "HitPlayerWith", "Seduce",
-									  "A naughty expression on her face, she flicks her tongue in an inviting manner. {damageToPlayer}.",
+									  "A naughty expression on her face, she flicks her tongue in an inviting manner. {DamageToPlayer}.",
                                       "FocusedSpeaks",
                                       "Come here, hero.♥",
                                       "IfFetishLevelEqualOrGreater", "Oral", "10", "MaxFetishTemptationOral",
@@ -194,7 +194,7 @@
                                       "Menu",
                                         "Approach.",
                                         "Ignore.",
-                                      "EndMenu"
+                                      "EndLoop"
                                   ]
                       },
 					  {
@@ -204,7 +204,7 @@
                                       "Stick it in.♥",
                                       "Stick it in.♥",
                                       "Stick it in.♥",
-									  "EndMenu"
+									  "EndLoop"
                                   ]
 					  },
 					  {
@@ -239,7 +239,7 @@
 									"ApplyStance",
 									"Blowjob",
                                     "HitPlayerWith", "Deepthroat",
-									"Lodged deep inside her throat your cock throbs in arousal. {damageToPlayer}."
+									"Lodged deep inside her throat your cock throbs in arousal. {DamageToPlayer}."
                                   ]
 					  }
                 ]

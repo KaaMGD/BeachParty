@@ -34,8 +34,8 @@
     "miss": "",
     "statusOutcome": " ",
     "statusMiss": " ",
-    "restraintStruggle": "{targetName} struggles against {attackerName}'s powerful tentacles coiling around {targetHisOrHer} body, all while {attackerHeOrShe} continues to stroke {targetHisOrHer} twitching dick with {attackerHimOrHer} pale thighs...",
-    "restraintStruggleCharmed": "{targetName} struggles against {attackerName}'s powerful tentacles coiling around {targetHisOrHer} body, all while {attackerHeOrShe} continues to stroke {targetHisOrHer} twitching dick with {attackerHimOrHer} pale thighs...",
-    "restraintEscaped": "|f|CallEventThenScene|/|MessinaCombatEvents|/|BreakFree|n|",
-    "restraintEscapedFail": "But {targetName} can't get free of {attackerName}'s tentacle hold!"
+    "restraintStruggle": "{TargetName} struggles against {AttackerName}'s powerful tentacles coiling around {TargetHisOrHer} body, all while {AttackerHeOrShe} continues to stroke {TargetHisOrHer} twitching dick with {AttackerHimOrHer} pale thighs...",
+    "restraintStruggleCharmed": "{TargetName} struggles against {AttackerName}'s powerful tentacles coiling around {TargetHisOrHer} body, all while {AttackerHeOrShe} continues to stroke {TargetHisOrHer} twitching dick with {AttackerHimOrHer} pale thighs...",
+    "restraintEscaped": "|f|CallCombatEventAndScene|/|MessinaCombatEvents|/|BreakFree|n|",
+    "restraintEscapedFail": "But {TargetName} can't get free of {AttackerName}'s tentacle hold!"
 }

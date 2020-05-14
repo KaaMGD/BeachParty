@@ -30,7 +30,7 @@
     "statusResistedBy": "",
     "statusText": "",
     "descrip": "Cleanse your lust to greatly decrease arousal.",
-    "outcome": "|f|CallEventThenScene|/|CetuspeannaCombatEvents|/|GentlePrayer|n|",
+    "outcome": "|f|CallCombatEventAndScene|/|CetuspeannaCombatEvents|/|GentlePrayer|n|",
     "miss": "",
     "statusOutcome": "",
     "statusMiss": "",

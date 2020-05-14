@@ -30,7 +30,7 @@
     "statusResistedBy": "",
     "statusText": "",
     "descrip": "",
-    "outcome": "|f|CallEventThenScene|/|CetuspeannaCombatEvents|/|Panting|n|",
+    "outcome": "|f|CallCombatEventAndScene|/|CetuspeannaCombatEvents|/|Panting|n|",
     "miss": "",
     "statusOutcome": "",
     "statusMiss": "",

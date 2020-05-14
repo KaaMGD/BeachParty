@@ -35,7 +35,7 @@
                                       "Menu",
                                         "Explore the cave!",
                                         "Ignore...",
-                                      "EndMenu"
+                                      "EndLoop"
                                   ]
                     },
                     {
@@ -80,7 +80,7 @@
                         "theScene":[  "ChangeBGM",  "../ModLoader/mods/Beach/Music/In_The_Terror.mp3",
 
 
-									  "DisplayCharacters", "3", "End",
+									  "DisplayCharacters", "3", "EndLoop",
                                       "A body... There is a body floating in the lake!",
                                       "Pale skin... and long, dark hair splayed over the water's surface... Floating face down, the figure appears completely lifeless.",
 									  "...Did somebody drown?",
@@ -112,7 +112,7 @@
                                       "Menu",
                                         "Huh?",
 									    "AaAAAAaAaaAahhH!",
-                                      "EndMenu"
+                                      "EndLoop"
                                     ]
                     },
 					{
@@ -131,7 +131,7 @@
                                       "Menu",
 									    "Y- yes!",
                                         "N- no, not at all.",
-                                      "EndMenu"
+                                      "EndLoop"
                                         ]
 							},
                             {
@@ -189,7 +189,7 @@
 											  "The tentacles push you unto her before receding and letting you go. You wrap your arms around her neck for support, as remaining upright otherwise is difficult in this cold. She hugs back, holding you close.",
 											  "You feel a sudden jerk as the woman moves, easily speeding through the water and arriving at the shore in a single push.",
 											  "Still holding you she slowly moves over the ground for a while before putting you down in the sunlit portion of the room.",
-											  "DisplayCharacters", "1", "End",
+											  "DisplayCharacters", "1", "EndLoop",
 											  "ChangeImageLayer", "Base", "1", "Base",
 											  "ChangeImageLayer", "Expression", "1", "Worry",
 												"Now that you're out of water, it is obvious the tentacles belong to her. This pale woman is obviously some kind of aquatic monster.",
@@ -204,10 +204,10 @@
                                               "Speaks2",
 											  "I am... Messina. A sea Scylla...",
 											  "PlayerSpeaks",
-											  "Nice to meet you, Messina... I am {thePlayerName}.",
+											  "Nice to meet you, Messina... I am {ThePlayerName}.",
 											  "ChangeImageLayer", "Expression", "1", "Happy",
                                               "Speaks",
-											  "Okay♪. Nice... to meet you... {thePlayerName}.",
+											  "Okay♪. Nice... to meet you... {ThePlayerName}.",
 											  "ChangeImageLayer", "Expression", "1", "Embarrassed",
 											  "...",
 											  "Another moment passes in awkward silence. Or it is only awkward for you, as the Scylla seems content to remain silent as she looks over you.",
@@ -233,13 +233,13 @@
 											  "PlayerSpeaks",
 											  "A- ah, s- sorry. I am okay now so you don't have to-",
 											  "She nods and slithers back to the lake, slipping soundlessly into the water, completely disappearing under its surface.",
-											  "DisplayCharacters", "2", "End",
+											  "DisplayCharacters", "2", "EndLoop",
 											  "Deciding it might be time to leave, you get up and walk up to the lake.",
 											  "PlayerSpeaks",
 											  "So umm... I'll be going now.",
 											  "She pops her head out of water.",
                                               "Speaks",
-											  "Okay... come visit again... {thePlayerName}.",
+											  "Okay... come visit again... {ThePlayerName}.",
 											  "You nod and bid farewell to the quiet Scylla. On your way out of lake room, you still feel a little awkward over the entire interaction. At least there weren't any corpses.",
 											  "JumpToScene",
 											  "Leave"
@@ -248,15 +248,15 @@
 							{
 								"NameOfScene": "Meeting Again",
 								"theScene":[  "Deciding to meet Messina again you navigate through familiar caverns and quickly arrive at her underground lake.",
-											  "DisplayCharacters", "1", "End",
+											  "DisplayCharacters", "1", "EndLoop",
 											  "She is sitting on the rocks by the lake, her numerous tentacles folded neatly around her. She notices your presence and gives you a small smile.",
 											  "ChangeBGM", "music/Relaxing/Purple Planet Music - Gentle - Meltwater (1_38) (L).mp3",
 											  "Speaks",
-											  "Hello... {thePlayerName}.",
+											  "Hello... {ThePlayerName}.",
 											  "Menu",
 												"You're not naked today.",
 												"Cute swimsuit.",
-											  "EndMenu"
+											  "EndLoop"
 											]
 							},
 							{
@@ -323,7 +323,7 @@
 												"Yes, please.",
 												"...Are you implying something sexual?",
 												"No, thank you.",
-											  "EndMenu"
+											  "EndLoop"
 											]
 							},
 							{
@@ -352,7 +352,7 @@
 											  "Menu",
 												"Yes, please.",
 												"No, thank you.",
-											  "EndMenu"
+											  "EndLoop"
 											]
 							},
 							{
@@ -401,7 +401,7 @@
 												"Let her continue.",
 												"Tentacles?",
 												"Fantasize...",
-											  "EndMenu"
+											  "EndLoop"
 											]
 							},
 							{
@@ -413,7 +413,7 @@
 											    "RequiresStat", "Willpower", "10",
 												"Calm yourself.",
 												"Tentacles...",
-											  "EndMenu"
+											  "EndLoop"
 											]
 							},
 							{
@@ -476,7 +476,7 @@
 											  "Menu",
 												"Let her continue.",
 												"Fantasize...",
-											  "EndMenu"
+											  "EndLoop"
 											]
 							},
 							{
@@ -514,7 +514,7 @@
 											   "RequiresStat", "Willpower", "8",
 												"Sorry.",
 												"Ahhh... Tentacles...",
-											  "EndMenu"
+											  "EndLoop"
 											]
 							},
 							{
@@ -539,7 +539,7 @@
 											   "RequiresStat", "Allure", "10",
 												"You skipped a part...",
 												"That was great, thank you.",
-											  "EndMenu"
+											  "EndLoop"
 											]
 							},
 							{
@@ -567,7 +567,7 @@
 											  "Menu",
 												"Let's skip that one thing.",
 												"Sounds good...",
-											  "EndMenu"
+											  "EndLoop"
 											]
 							},
 							{
@@ -691,7 +691,7 @@
 											  "Menu",
 												"Nod...",
 												"Shake your head.",
-											  "EndMenu"
+											  "EndLoop"
 											]
 							},
 							{
@@ -916,19 +916,19 @@
 							{
 								"NameOfScene": "SecondMeetingDeclinedMassage",
 								"theScene":[ "Deciding to meet Messina again you navigate through familiar caverns and quickly arrive at her underground lake.",
-											  "DisplayCharacters", "1", "End",
+											  "DisplayCharacters", "1", "EndLoop",
 											  "ChangeImageLayer", "Expression", "1", "Base",
 											  "She is sitting on the rocks by the lake, her numerous tentacles folded neatly around her. She notices your presence and gives you a small smile.",
 											  "ChangeBGM", "music/Relaxing/Purple Planet Music - Gentle - Meltwater (1_38) (L).mp3",
 											  "Speaks",
-											  "Hello... {thePlayerName}.",
+											  "Hello... {ThePlayerName}.",
 											  "ChangeImageLayer", "Expression", "1", "Worry",
 											  "Speaks",
 											  "Would you like... a massage now..?",
 											  "Menu",
 												"Yes.",
 												"Not today, thank you.",
-											  "EndMenu"
+											  "EndLoop"
 											]
 							},
 							{
@@ -981,12 +981,12 @@
 							{
 								"NameOfScene": "Repeated Meeting",
 								"theScene":[ "Deciding to meet Messina again you navigate through familiar caverns and quickly arrive at her underground lake.",
-											  "DisplayCharacters", "1", "End",
+											  "DisplayCharacters", "1", "EndLoop",
 											  "ChangeImageLayer", "Expression", "1", "Base",
 											  "She is sitting on the rocks by the lake, her numerous tentacles folded neatly around her. She notices your presence and gives you a small smile.",
 											  "ChangeBGM", "music/Relaxing/Purple Planet Music - Gentle - Meltwater (1_38) (L).mp3",
 											  "Speaks",
-											  "Hello... {thePlayerName}.",
+											  "Hello... {ThePlayerName}.",
 											  "ChangeImageLayer", "Expression", "1", "Embarrassed",
 											  "Speaks",
 											  "Here... take this.",
@@ -1002,7 +1002,7 @@
 											"EnergyPotion",
 											"EnergyPotion",
 											 "SoothingPotion",
-											  "EndRandom"
+											  "EndLoop"
 											]
 							},
 							{
@@ -1040,7 +1040,7 @@
 												"Spar",
 												"Ask for a massage.",
 												"Leave the cave.",
-											  "EndMenu"
+											  "EndLoop"
 											]
 							},
 							{
@@ -1053,7 +1053,7 @@
 												"RequiresChoice", "2", "Battlefucking",
 												"Spar",
 												"Leave the cave.",
-											  "EndMenu"
+											  "EndLoop"
 											]
 							},
 							{
@@ -1074,7 +1074,7 @@
 												"RequiresChoice", "2", "BattlefuckAllowed",
 												"I spoke with Tina...",
                                                 "Done talking.",
-											  "EndMenu"
+											  "EndLoop"
 										  ]
 							},
 							{
@@ -1301,7 +1301,7 @@
 											  "Speaks",
 											  "Auuu-",
 											  "Speaks",
-											  "T-time out! S-sorry {thePlayerName}, I can't do this...",
+											  "T-time out! S-sorry {ThePlayerName}, I can't do this...",
 											  "...",
 											  "ChangeImageLayer", "Base", "1", "Bikini",
 											  "ChangeImageLayer", "Expression", "1", "Embarrassed",
@@ -1327,7 +1327,7 @@
 											  "ChangeImageLayer", "Expression", "1", "Happy",
 											  "Speaks",
 											  "Bye...",
-											  "DisplayCharacters", "2", "End",
+											  "DisplayCharacters", "2", "EndLoop",
 											  "You nod and she disappears under the dark water's surface.",
 											  "Now what would be good for next time..?",
 											  "SetChoice", "2", "Nanpa",
@@ -1381,7 +1381,7 @@
 											  "Okay... I will do my best...",
 											  "ChangeImageLayer", "Expression", "1", "Embarrassed",
 											  "She slithers in the direction of Nereid and you follow closely right behind her. Some distance away the Nereid notices your approach and turns to face you.",
-											  "DisplayCharacters", "1", "4", "End",
+											  "DisplayCharacters", "1", "4", "EndLoop",
 											  "Speaks4",
 											  "...?",
 											  "Speaks",
@@ -1448,7 +1448,7 @@
 											  "Shaking with pleasure, the Nereid is left completely helpless as she starts to magically fade away.",
 											  "Speaks4",
 											  "Fucking incredible... I should try it with girls more often...",
-											  "DisplayCharacters", "1", "End",
+											  "DisplayCharacters", "1", "EndLoop",
 											  "ChangeImageLayer", "Expression", "1", "Embarrassed",
 											  "Messina was victorious!\nMessina gained 30 Exp and 108 Eros.",
 											  "ChangeImageLayer", "Expression", "1", "ShyBlush",
@@ -1459,7 +1459,7 @@
 											  "PlayerSpeaks",
 											  "...Hey, at least she enjoyed it.",
 											  "...",
-											  "DisplayCharacters", "2", "End",
+											  "DisplayCharacters", "2", "EndLoop",
 											  "Messina seems too embarrassed to continue training today, so you lead her back to cave and bid your farewells at the entrance. She slithers inside, sulking and still embarrassed.\nGood enough for one day.",
 											  "SetChoice", "2", "Battlefuck"
 										  ]
@@ -1547,7 +1547,7 @@
 							{
 								"NameOfScene": "BeatMessina",
 								"theScene":[
-											  "DisplayCharacters", "1", "End",
+											  "DisplayCharacters", "1", "EndLoop",
 											  "ChangeImageLayer", "Base", "1", "Base",
 											  "ChangeImageLayer", "Expression", "1", "Erotic",
 											  "Having triumphed in battle you disentangle yourself from Messina, who is left shaking on the verge of a powerful orgasm.",
@@ -1614,7 +1614,7 @@
 											  "Menu",
 												"Enjoy the massage.",
 												"Fantasize...",
-											  "EndMenu"
+											  "EndLoop"
 										  ]
 							},
 							{
@@ -1658,7 +1658,7 @@
 							{
 								"NameOfScene": "Leave",
 								"theScene":[
-											  "DisplayCharacters", "2", "End",
+											  "DisplayCharacters", "2", "EndLoop",
 											  "Quickly moving backwards through the now familiar cave you reach the entrance and get back onto the beach, happy to see sunlight again.",
 											  "ChangeBG",
 											  "../../ModLoader/mods/Beach/Images/beach.png"
