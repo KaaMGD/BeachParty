@@ -17,6 +17,7 @@
               "max_sp": "1",
               "Power": "35",
               "Technique": "65",
+              "Intelligence": "2",
               "Willpower": "35",
               "Allure": "65",
               "Luck": "35"
@@ -124,37 +125,37 @@
                           "Images":[
                   {
                       "Name":"Base",
-                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Base.png",
+                      "File": "../Mods/Beach/Images/Tina/Tina_Base.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   },
                   {
                       "Name":"Blush",
-                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Base_Blush.png",
+                      "File": "../Mods/Beach/Images/Tina/Tina_Base_Blush.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   },
                   {
                       "Name":"Flush",
-                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Base_LightBlush.png",
+                      "File": "../Mods/Beach/Images/Tina/Tina_Base_LightBlush.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   },
                   {
                       "Name":"BlushAlt",
-                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Base_AltBlush.png",
+                      "File": "../Mods/Beach/Images/Tina/Tina_Base_AltBlush.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   },
                   {
                       "Name":"Smol1",
-                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Base_Smol1.png",
+                      "File": "../Mods/Beach/Images/Tina/Tina_Base_Smol1.png",
                       "setXalign": "0.3",
                       "setYalign": "0.0"
                   },
                   {
                       "Name":"Smol2",
-                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Base_Smol2.png",
+                      "File": "../Mods/Beach/Images/Tina/Tina_Base_Smol2.png",
                       "setXalign": "0.3",
                       "setYalign": "0.0"
                   }
@@ -172,19 +173,19 @@
                           "Images":[
                   {
                       "Name":"TitsBikini",
-                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Tits_Bikini.png",
+                      "File": "../Mods/Beach/Images/Tina/Tina_Tits_Bikini.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   },
                   {
                       "Name":"TitsNaked",
-                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Tits_Base.png",
+                      "File": "../Mods/Beach/Images/Tina/Tina_Tits_Base.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   },
                   {
                       "Name":"Empty",
-                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Bikini_Empty.png",
+                      "File": "../Mods/Beach/Images/Tina/Tina_Bikini_Empty.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   }
@@ -202,13 +203,13 @@
                           "Images":[
 				{
                     "Name":"BikiniBottom",
-                     "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Bikini_Bottom.png",
+                     "File": "../Mods/Beach/Images/Tina/Tina_Bikini_Bottom.png",
                     "setXalign": "0.0",
                     "setYalign": "0.0"
                 },
 				{
                     "Name":"BikiniBottomEmpty",
-                     "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Bikini_Empty.png",
+                     "File": "../Mods/Beach/Images/Tina/Tina_Bikini_Empty.png",
                     "setXalign": "0.0",
                     "setYalign": "0.0"
                 }
@@ -227,115 +228,115 @@
                           "Images":[
                   {
                       "Name":"Base",
-                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Expression_Base.png",
+                      "File": "../Mods/Beach/Images/Tina/Tina_Expression_Base.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   },
                   {
                       "Name":"Empty",
-                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Bikini_Empty.png",
+                      "File": "../Mods/Beach/Images/Tina/Tina_Bikini_Empty.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   },
                   {
                       "Name":"Ahegao",
-                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Expression_Ahegao.png",
+                      "File": "../Mods/Beach/Images/Tina/Tina_Expression_Ahegao.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   },
                   {
                       "Name":"Angery",
-                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Expression_Angery.png",
+                      "File": "../Mods/Beach/Images/Tina/Tina_Expression_Angery.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   },
                   {
                       "Name":"Awkward",
-                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Expression_Awkward.png",
+                      "File": "../Mods/Beach/Images/Tina/Tina_Expression_Awkward.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   },
                   {
                       "Name":"Beg",
-                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Expression_Beg.png",
+                      "File": "../Mods/Beach/Images/Tina/Tina_Expression_Beg.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   },
                   {
                       "Name":"Cheeky",
-                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Expression_Cheeky.png",
+                      "File": "../Mods/Beach/Images/Tina/Tina_Expression_Cheeky.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   },
                   {
                       "Name":"Drool",
-                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Expression_Drool.png",
+                      "File": "../Mods/Beach/Images/Tina/Tina_Expression_Drool.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   },
                   {
                       "Name":"Flash",
-                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Expression_Flash.png",
+                      "File": "../Mods/Beach/Images/Tina/Tina_Expression_Flash.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   },
                   {
                       "Name":"Focused",
-                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Expression_Focused.png",
+                      "File": "../Mods/Beach/Images/Tina/Tina_Expression_Focused.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   },
                   {
                       "Name":"Grin",
-                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Expression_Grin.png",
+                      "File": "../Mods/Beach/Images/Tina/Tina_Expression_Grin.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   },
                   {
                       "Name":"Happy",
-                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Expression_Happy.png",
+                      "File": "../Mods/Beach/Images/Tina/Tina_Expression_Happy.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   },
                   {
                       "Name":"Horny",
-                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Expression_Horny.png",
+                      "File": "../Mods/Beach/Images/Tina/Tina_Expression_Horny.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   },
                   {
                       "Name":"Naughty",
-                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Expression_Naughty.png",
+                      "File": "../Mods/Beach/Images/Tina/Tina_Expression_Naughty.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   },
                   {
                       "Name":"Thoughtful",
-                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Expression_Thoughtful.png",
+                      "File": "../Mods/Beach/Images/Tina/Tina_Expression_Thoughtful.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   }	,
                   {
                       "Name":"Wow",
-                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Expression_Wow.png",
+                      "File": "../Mods/Beach/Images/Tina/Tina_Expression_Wow.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   }		,
                   {
                       "Name":"IntenseKissing",
-                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Expression_IntenseKissing.png",
+                      "File": "../Mods/Beach/Images/Tina/Tina_Expression_IntenseKissing.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   }		,
                   {
                       "Name":"SuddenAhe",
-                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Expression_SuddenAhe.png",
+                      "File": "../Mods/Beach/Images/Tina/Tina_Expression_SuddenAhe.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   }		,
                   {
                       "Name":"DroolAhe",
-                      "File": "../../ModLoader/mods/Beach/Images/Tina/Tina_Expression_DroolAhe.png",
+                      "File": "../Mods/Beach/Images/Tina/Tina_Expression_DroolAhe.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   }

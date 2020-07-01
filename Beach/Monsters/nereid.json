@@ -17,6 +17,7 @@
               "max_sp": "2",
               "Power": "4",
               "Technique": "4",
+              "Intelligence": "10",
               "Willpower": "8",
               "Allure": "8",
               "Luck": "4"
@@ -588,31 +589,31 @@
                           "Images":[
 								{
 									"Name":"Base",
-										"File": "../../ModLoader/mods/Beach/Images/Nereid/Nereid_Body_Base.png",
+										"File": "../Mods/Beach/Images/Nereid/Nereid_Body_Base.png",
 										"setXalign": "0.0",
 										"setYalign": "0.0"
 								},
 								{
 									"Name":"Blush",
-										"File": "../../ModLoader/mods/Beach/Images/Nereid/Nereid_Body_Blush.png",
+										"File": "../Mods/Beach/Images/Nereid/Nereid_Body_Blush.png",
 										"setXalign": "0.0",
 										"setYalign": "0.0"
 								},
 								{
 									"Name":"Disdain",
-										"File": "../../ModLoader/mods/Beach/Images/Nereid/Nereid_Body_Disdain.png",
+										"File": "../Mods/Beach/Images/Nereid/Nereid_Body_Disdain.png",
 										"setXalign": "0.0",
 										"setYalign": "0.0"
 								},
 								{
 									"Name":"Manic",
-										"File": "../../ModLoader/mods/Beach/Images/Nereid/Nereid_Body_Manic.png",
+										"File": "../Mods/Beach/Images/Nereid/Nereid_Body_Manic.png",
 										"setXalign": "0.0",
 										"setYalign": "0.0"
 								},
 								{
 									"Name":"Smol",
-										"File": "../../ModLoader/mods/Beach/Images/Nereid/Nereid_Body_Smol.png",
+										"File": "../Mods/Beach/Images/Nereid/Nereid_Body_Smol.png",
 										"setXalign": "0.0",
 										"setYalign": "0.0"
 								}
@@ -629,44 +630,50 @@
                           "setYalign": "0.0",
                           "Images":[
 							{
+								"Name":"Base",
+								"File": "../Mods/Beach/Images/Nereid/Nereid_Expression_Calm.png",
+								"setXalign": "0.0",
+								"setYalign": "0.0"
+							},
+							{
 								"Name":"Calm",
-								"File": "../../ModLoader/mods/Beach/Images/Nereid/Nereid_Expression_Calm.png",
+								"File": "../Mods/Beach/Images/Nereid/Nereid_Expression_Calm.png",
 								"setXalign": "0.0",
 								"setYalign": "0.0"
 							},
 							{
 								"Name":"Hurt",
-								"File": "../../ModLoader/mods/Beach/Images/Nereid/Nereid_Expression_Hurt.png",
+								"File": "../Mods/Beach/Images/Nereid/Nereid_Expression_Hurt.png",
 								"setXalign": "0.0",
 								"setYalign": "0.0"
 							},
 							{
 								"Name":"Calm Blush",
-								"File": "../../ModLoader/mods/Beach/Images/Nereid/Nereid_Expression_CalmBlush.png",
+								"File": "../Mods/Beach/Images/Nereid/Nereid_Expression_CalmBlush.png",
 								"setXalign": "0.0",
 								"setYalign": "0.0"
 							},
 							{
 								"Name":"Orgasm",
-								"File": "../../ModLoader/mods/Beach/Images/Nereid/Nereid_Expression_Orgasm.png",
+								"File": "../Mods/Beach/Images/Nereid/Nereid_Expression_Orgasm.png",
 								"setXalign": "0.0",
 								"setYalign": "0.0"
 							},
 							{
 								"Name":"Manic",
-								"File": "../../ModLoader/mods/Beach/Images/Nereid/Nereid_Expression_Manic.png",
+								"File": "../Mods/Beach/Images/Nereid/Nereid_Expression_Manic.png",
 								"setXalign": "0.0",
 								"setYalign": "0.0"
 							},
 							{
 								"Name":"Disdain",
-								"File": "../../ModLoader/mods/Beach/Images/Nereid/Nereid_Expression_Disdain.png",
+								"File": "../Mods/Beach/Images/Nereid/Nereid_Expression_Disdain.png",
 								"setXalign": "0.0",
 								"setYalign": "0.0"
 							},
 							{
 								"Name":"Snooze",
-								"File": "../../ModLoader/mods/Beach/Images/Nereid/Nereid_Expression_Snooze.png",
+								"File": "../Mods/Beach/Images/Nereid/Nereid_Expression_Snooze.png",
 								"setXalign": "0.0",
 								"setYalign": "0.0"
 							}

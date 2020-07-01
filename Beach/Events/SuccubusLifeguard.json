@@ -170,7 +170,7 @@
 					{
 						"NameOfScene": "Outside",
             "theScene":[
-							"ChangeBG", "../../ModLoader/mods/Beach/Images/beach.png",
+							"ChangeBG", "../Mods/Beach/Images/beach.png",
 							"Now that you're 'dressed' appropriately, she brings you back outside and gestures to the sea.",
 							"Speaks",
 							"Well, enjoy your time on the beach! Go for a swim, meet ladies, have fun!",
@@ -373,6 +373,11 @@
 							"Tina hops to her feet, plants a quick peck on your cheek and saunters away, leaving you to deal with a sticky mess in your swimwear...",
 							"IfPlayerSpiritGone",
                 "RefillSpirit"
+                         ]
+					},
+					{
+						"NameOfScene": "RefillSpirit",
+            "theScene":[ "ChangeSpiritQuietly", "1"
                          ]
 					},
 					{

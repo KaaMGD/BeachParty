@@ -17,6 +17,7 @@
               "max_sp": "1",
               "Power": "5",
               "Technique": "9",
+              "Intelligence": "5",
               "Willpower": "5",
               "Allure": "10",
               "Luck": "4"
@@ -747,25 +748,25 @@
                           "Images":[
 							  {
 								  "Name":"Base",
-								  "File": "../../ModLoader/mods/Beach/Images/Mermaid/Mermaid_Body.png",
+								  "File": "../Mods/Beach/Images/Mermaid/Mermaid_Body.png",
 								  "setXalign": "0.0",
 								  "setYalign": "0.0"
 							  },
 							  {
 								  "Name":"BaseBlush",
-								  "File": "../../ModLoader/mods/Beach/Images/Mermaid/Mermaid_Body_Blush.png",
+								  "File": "../Mods/Beach/Images/Mermaid/Mermaid_Body_Blush.png",
 								  "setXalign": "0.0",
 								  "setYalign": "0.0"
 							  },
 							  {
 								  "Name":"Smol1",
-								  "File": "../../ModLoader/mods/Beach/Images/Mermaid/Mermaid_Body_Smol1.png",
+								  "File": "../Mods/Beach/Images/Mermaid/Mermaid_Body_Smol1.png",
 								  "setXalign": "0.0",
 								  "setYalign": "0.0"
 							  },
 							  {
 								  "Name":"Smol2",
-								  "File": "../../ModLoader/mods/Beach/Images/Mermaid/Mermaid_Body_Smol2.png",
+								  "File": "../Mods/Beach/Images/Mermaid/Mermaid_Body_Smol2.png",
 								  "setXalign": "0.0",
 								  "setYalign": "0.0"
 							  }
@@ -783,13 +784,13 @@
                           "Images":[
 							  {
 								  "Name":"ArmRest",
-								  "File": "../../ModLoader/mods/Beach/Images/Mermaid/Mermaid_Arm_Rest.png",
+								  "File": "../Mods/Beach/Images/Mermaid/Mermaid_Arm_Rest.png",
 								  "setXalign": "0.0",
 								  "setYalign": "0.0"
 							  },
 							  {
 								  "Name":"ArmReach",
-								  "File": "../../ModLoader/mods/Beach/Images/Mermaid/Mermaid_Arm_Reach.png",
+								  "File": "../Mods/Beach/Images/Mermaid/Mermaid_Arm_Reach.png",
 								  "setXalign": "0.0",
 								  "setYalign": "0.0"
 							  }
@@ -807,43 +808,43 @@
                           "Images":[
 								{
 									  "Name":"Base",
-									  "File": "../../ModLoader/mods/Beach/Images/Mermaid/Mermaid_Expression_Base.png",
+									  "File": "../Mods/Beach/Images/Mermaid/Mermaid_Expression_Base.png",
 									  "setXalign": "0.0",
 									  "setYalign": "0.0"
 								 },
 								 {
 									  "Name":"Submissive",
-									  "File": "../../ModLoader/mods/Beach/Images/Mermaid/Mermaid_Expression_Submissive.png",
+									  "File": "../Mods/Beach/Images/Mermaid/Mermaid_Expression_Submissive.png",
 									  "setXalign": "0.0",
 									  "setYalign": "0.0"
 								  },
 								  {
 									  "Name":"Seductive",
-									  "File": "../../ModLoader/mods/Beach/Images/Mermaid/Mermaid_Expression_Seductive.png",
+									  "File": "../Mods/Beach/Images/Mermaid/Mermaid_Expression_Seductive.png",
 									  "setXalign": "0.0",
 									  "setYalign": "0.0"
 								  },
 								  {
 									  "Name":"Pout",
-									  "File": "../../ModLoader/mods/Beach/Images/Mermaid/Mermaid_Expression_Pout.png",
+									  "File": "../Mods/Beach/Images/Mermaid/Mermaid_Expression_Pout.png",
 									  "setXalign": "0.0",
 									  "setYalign": "0.0"
 								  },
 								  {
 									  "Name":"Cockeating",
-									  "File": "../../ModLoader/mods/Beach/Images/Mermaid/Mermaid_Expression_Cockeating.png",
+									  "File": "../Mods/Beach/Images/Mermaid/Mermaid_Expression_Cockeating.png",
 									  "setXalign": "0.0",
 									  "setYalign": "0.0"
 								  },
 								  {
 									  "Name":"Singing",
-									  "File": "../../ModLoader/mods/Beach/Images/Mermaid/Mermaid_Expression_Singing.png",
+									  "File": "../Mods/Beach/Images/Mermaid/Mermaid_Expression_Singing.png",
 									  "setXalign": "0.0",
 									  "setYalign": "0.0"
 								  },
 								  {
 									  "Name":"Humming",
-									  "File": "../../ModLoader/mods/Beach/Images/Mermaid/Mermaid_Expression_Humming.png",
+									  "File": "../Mods/Beach/Images/Mermaid/Mermaid_Expression_Humming.png",
 									  "setXalign": "0.0",
 									  "setYalign": "0.0"
 								  }

@@ -77,7 +77,7 @@
                     },
                     {
                         "NameOfScene": "First Squiding",
-                        "theScene":[  "ChangeBGM",  "../ModLoader/mods/Beach/Music/In_The_Terror.mp3",
+                        "theScene":[  "ChangeBGM",  "../Mods/Beach/Music/In_The_Terror.mp3",
 
 
 									  "DisplayCharacters", "3", "EndLoop",
@@ -92,7 +92,7 @@
 									  "Carefully, slowly you take each step to make sure the lake's depth does not change suddenly. Thankfully the change is slow with no pitfalls. Soon enough you are chest-deep in water. The cold is becoming almost unbearable, but you force yourself to keep a proper pace.",
 									  "Finally you make it to your grim destination. On a closer inspection the body appears to be female, and completely naked.",
 									  "You gently tap on her shoulder and turn her body over. Most of her face is concealed by the long hair. Putting your arm under her, you raise her torso from the water. She is cold to touch...",
-									  "ChangeBGM",  "../ModLoader/mods/Beach/Music/In_The_Terror.mp3",
+									  "ChangeBGM",  "../Mods/Beach/Music/In_The_Terror.mp3",
 									  "ChangeImageLayer", "Expression", "1", "Crooked",
 									  "The body shifts, her head turning to face you, a crooked smile forming on her lips as she speaks!",
                                       "Speaks2",
@@ -1070,7 +1070,7 @@
 												"RequiresChoice", "2", "Nanpa",
 												"Up for more confidence training?",
 												"RequiresChoice", "2", "Battlefuck",
-												"We should change out training regimen.",
+												"We should change our training regimen.",
 												"RequiresChoice", "2", "BattlefuckAllowed",
 												"I spoke with Tina...",
                                                 "Done talking.",
@@ -1360,7 +1360,7 @@
 											  "O-okay... I will... try...",
 											  "You take Messina's hand in your own and lead her out of the cave.",
 											  "ChangeBG",
-											  "../../ModLoader/mods/Beach/Images/beach.png",
+											  "../Mods/Beach/Images/beach.png",
 											  "ChangeBGM", "music/Relaxing/umi.mp3",
 											  "ChangeImageLayer", "Expression", "1", "Embarrassed",
 											  "She squints from the sunlight at first but seems to adapt fairly quickly.",
@@ -1661,7 +1661,7 @@
 											  "DisplayCharacters", "2", "EndLoop",
 											  "Quickly moving backwards through the now familiar cave you reach the entrance and get back onto the beach, happy to see sunlight again.",
 											  "ChangeBG",
-											  "../../ModLoader/mods/Beach/Images/beach.png"
+											  "../Mods/Beach/Images/beach.png"
 										  ]
 							}
                 ]

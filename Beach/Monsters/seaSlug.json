@@ -17,6 +17,7 @@
               "max_sp": "1",
               "Power": "12",
               "Technique": "1",
+              "Intelligence": "12",
               "Willpower": "2",
               "Allure": "10",
               "Luck": "3"
@@ -540,13 +541,13 @@
                           "Images":[
 							  {
 							  "Name":"Base",
-							  "File": "../../ModLoader/mods/Beach/Images/Sea Slug/Slug_Body.png",
+							  "File": "../Mods/Beach/Images/Sea Slug/Slug_Body.png",
 							  "setXalign": "0.0",
 							  "setYalign": "0.0"
 							  },
 							  {
 								  "Name":"BaseBlush",
-								  "File": "../../ModLoader/mods/Beach/Images/Sea Slug/Slug_Body_Blush.png",
+								  "File": "../Mods/Beach/Images/Sea Slug/Slug_Body_Blush.png",
 								  "setXalign": "0.0",
 								  "setYalign": "0.0"
 							  }
@@ -564,67 +565,67 @@
                           "Images":[
                   {
                       "Name":"Base",
-                      "File": "../../ModLoader/mods/Beach/Images/Sea Slug/Slug_Expression_Base.png",
+                      "File": "../Mods/Beach/Images/Sea Slug/Slug_Expression_Base.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   },
                   {
                       "Name":"BiteLip",
-                      "File": "../../ModLoader/mods/Beach/Images/Sea Slug/Slug_Expression_BiteLip.png",
+                      "File": "../Mods/Beach/Images/Sea Slug/Slug_Expression_BiteLip.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   },
                   {
                       "Name":"Shy",
-                      "File": "../../ModLoader/mods/Beach/Images/Sea Slug/Slug_Expression_Shy.png",
+                      "File": "../Mods/Beach/Images/Sea Slug/Slug_Expression_Shy.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   },
                   {
                       "Name":"Aroused",
-                      "File": "../../ModLoader/mods/Beach/Images/Sea Slug/Slug_Expression_Aroused.png",
+                      "File": "../Mods/Beach/Images/Sea Slug/Slug_Expression_Aroused.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   },
                   {
                       "Name":"Happy",
-                      "File": "../../ModLoader/mods/Beach/Images/Sea Slug/Slug_Expression_Happy.png",
+                      "File": "../Mods/Beach/Images/Sea Slug/Slug_Expression_Happy.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   },
                   {
                       "Name":"Pout",
-                      "File": "../../ModLoader/mods/Beach/Images/Sea Slug/Slug_Expression_Pout.png",
+                      "File": "../Mods/Beach/Images/Sea Slug/Slug_Expression_Pout.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   },
                   {
                       "Name":"Worry",
-                      "File": "../../ModLoader/mods/Beach/Images/Sea Slug/Slug_Expression_Worry.png",
+                      "File": "../Mods/Beach/Images/Sea Slug/Slug_Expression_Worry.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   },
                   {
                       "Name":"Lewd",
-                      "File": "../../ModLoader/mods/Beach/Images/Sea Slug/Slug_Expression_Lewd.png",
+                      "File": "../Mods/Beach/Images/Sea Slug/Slug_Expression_Lewd.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   },
                   {
                       "Name":"Confused",
-                      "File": "../../ModLoader/mods/Beach/Images/Sea Slug/Slug_Expression_Confused.png",
+                      "File": "../Mods/Beach/Images/Sea Slug/Slug_Expression_Confused.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   },
                   {
                       "Name":"Wat",
-                      "File": "../../ModLoader/mods/Beach/Images/Sea Slug/Slug_Expression_Wat.png",
+                      "File": "../Mods/Beach/Images/Sea Slug/Slug_Expression_Wat.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   },
                   {
                       "Name":"Ahegao",
-                      "File": "../../ModLoader/mods/Beach/Images/Sea Slug/Slug_Expression_Ahegao.png",
+                      "File": "../Mods/Beach/Images/Sea Slug/Slug_Expression_Ahegao.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                  }       

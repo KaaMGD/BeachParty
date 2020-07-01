@@ -17,6 +17,7 @@
               "max_sp": "1",
               "Power": "2",
               "Technique": "5",
+              "Intelligence": "4",
               "Willpower": "5",
               "Allure": "8",
               "Luck": "5"
@@ -575,7 +576,7 @@
                         {
                             "lineTrigger": "StanceStruggleComment",
                             "move": "Sex",
-                            "theText": [ "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|StanceStrugglePen" ]
+                            "theText": [ "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|StanceStrugglePen|n|" ]
                         },
                         {
                             "lineTrigger": "StanceStruggleFree",
@@ -586,7 +587,7 @@
                             "lineTrigger": "StanceStruggleFreeComment",
                             "move": "Sex",
                             "theText": [
-                                      "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|StanceescapePen"]
+                                      "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|StanceEscapePen|n|"]
                         },
                         {
                             "lineTrigger": "StanceStruggle",
@@ -604,7 +605,7 @@
                         {
                             "lineTrigger": "StanceStruggleComment",
                             "move": "Anal",
-                            "theText": [ "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|StanceStrugglePen"
+                            "theText": [ "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|StanceStrugglePen|n|"
                                          ]
                         },
                         {
@@ -615,7 +616,7 @@
                         {
                             "lineTrigger": "StanceStruggleFreeComment",
                             "move": "Anal",
-                            "theText": [ "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|StanceescapePen"
+                            "theText": [ "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|StanceEscapePen|n|"
                                          ]
                         },
                         {
@@ -668,7 +669,7 @@
                         {
                             "lineTrigger": "StanceStruggleComment",
                             "move": "Blowjob",
-                            "theText": [ "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|StanceStruggleOral"]
+                            "theText": [ "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|StanceStruggleOral|n|"]
                         },
                         {
                             "lineTrigger": "StanceStruggleFree",
@@ -679,7 +680,7 @@
                         {
                             "lineTrigger": "StanceStruggleFreeComment",
                             "move": "Blowjob",
-                            "theText": [ "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|StanceescapeOral"]
+                            "theText": [ "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|StanceEscapeOral|n|"]
                         },
                         {
                             "lineTrigger": "StanceStruggle",
@@ -695,7 +696,7 @@
                         {
                             "lineTrigger": "StanceStruggleComment",
                             "move": "Making Out",
-                            "theText": [ "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|StanceStruggleKiss"
+                            "theText": [ "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|StanceStruggleKiss|n|"
                                         ]
                         },
                         {
@@ -706,7 +707,7 @@
                         {
                             "lineTrigger": "StanceStruggleFreeComment",
                             "move": "Making Out",
-                            "theText": [ "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|StanceescapeKiss"]
+                            "theText": [ "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|StanceEscapeKiss|n|"]
                         }
                       ],
         "victoryScenes": [
@@ -733,37 +734,37 @@
                           "Images": [
                             {
                                 "Name": "Base",
-                                "File": "../../ModLoader/mods/Beach/Images/Bikini Imp/Bikini_Imp_cheerfull.png",
+                                "File": "../Mods/Beach/Images/Bikini Imp/Bikini_Imp_cheerfull.png",
                                 "setXalign": "0.0",
                                 "setYalign": "0.0"
                             },
                             {
                                 "Name": "Tease",
-                                "File": "../../ModLoader/mods/Beach/Images/Bikini Imp/Bikini_Imp_dominant.png",
+                                "File": "../Mods/Beach/Images/Bikini Imp/Bikini_Imp_dominant.png",
                                 "setXalign": "0.0",
                                 "setYalign": "0.0"
                             },
                             {
                                 "Name": "Dominant",
-                                "File": "../../ModLoader/mods/Beach/Images/Bikini Imp/Bikini_Imp_dominant.png",
+                                "File": "../Mods/Beach/Images/Bikini Imp/Bikini_Imp_dominant.png",
                                 "setXalign": "0.0",
                                 "setYalign": "0.0"
                             },
                             {
                                 "Name": "Panic",
-                                "File": "../../ModLoader/mods/Beach/Images/Bikini Imp/Bikini_Imp_panic.png",
+                                "File": "../Mods/Beach/Images/Bikini Imp/Bikini_Imp_panic.png",
                                 "setXalign": "0.0",
                                 "setYalign": "0.0"
                             },
                             {
                                 "Name": "Smug",
-                                "File": "../../ModLoader/mods/Beach/Images/Bikini Imp/Bikini_Imp_smug.png",
+                                "File": "../Mods/Beach/Images/Bikini Imp/Bikini_Imp_smug.png",
                                 "setXalign": "0.0",
                                 "setYalign": "0.0"
                             },
                             {
                                 "Name": "Submissive",
-                                "File": "../../ModLoader/mods/Beach/Images/Bikini Imp/Bikini_Imp_submissive.png",
+                                "File": "../Mods/Beach/Images/Bikini Imp/Bikini_Imp_submissive.png",
                                 "setXalign": "0.0",
                                 "setYalign": "0.0"
                             }

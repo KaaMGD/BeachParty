@@ -17,6 +17,7 @@
               "max_sp": "1",
               "Power": "13",
               "Technique": "4",
+              "Intelligence": "1",
               "Willpower": "4",
               "Allure": "6",
               "Luck": "4"
@@ -503,7 +504,7 @@
                           "Images":[
 								{
 									"Name":"Base",
-										"File": "../../ModLoader/mods/Beach/Images/Nereid/Nereid_Body_Manic.png",
+										"File": "../Mods/Beach/Images/Nereid/Nereid_Body_Manic.png",
 										"setXalign": "0.0",
 										"setYalign": "0.0"
 								}                
@@ -521,13 +522,13 @@
                           "Images":[            
                     {
                         "Name": "Manic",
-                        "File": "../../ModLoader/mods/Beach/Images/Nereid/Nereid_Expression_Manic.png",
+                        "File": "../Mods/Beach/Images/Nereid/Nereid_Expression_Manic.png",
                         "setXalign": "0.0",
                         "setYalign": "0.0"
                     },
                     {
                         "Name": "Manic Orgasm",
-                        "File": "../../ModLoader/mods/Beach/Images/Nereid/Nereid_Expression_ManicOrgasm.png",
+                        "File": "../Mods/Beach/Images/Nereid/Nereid_Expression_ManicOrgasm.png",
                         "setXalign": "0.0",
                         "setYalign": "0.0"
                     }

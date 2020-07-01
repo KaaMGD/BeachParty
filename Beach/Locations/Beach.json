@@ -2,7 +2,7 @@
     "name": "Beach Resort",
     "exploreTitle": "Beach Resort",
     "MusicList": ["music/Relaxing/umi.mp3"],
-    "mapIcon": "../../../ModLoader/mods/Beach/Images/MGD_Map_Icon_Beach",
+    "mapIcon": "../../Mods/Beach/Images/MGD_Map_Icon_Beach",
     "mapIconXpos": "0",
     "mapIconYpos": "0",
     "mapIconZorder": "1",
@@ -11,7 +11,7 @@
     "mapCloudsYpos": "0",
     "requires": [""],
     "FullyUnlockedBy": ["Speedo"],
-    "MinimumDeckSize": "3",
+    "MinimumDeckSize": "5",
     "MaximumMonsterDeck": "6",
     "MaximumEventDeck": "3",
     "Monsters": ["Mermaid", "Bikini Elf", "Bikini Imp", "Nereid", "Sea Slug"],
@@ -72,5 +72,5 @@
                     "Rare": "150"
                 }
               ],
-    "picture": "../../ModLoader/mods/Beach/Images/beach.png"
+    "picture": "../Mods/Beach/Images/beach.png"
 }

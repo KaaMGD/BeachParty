@@ -39,11 +39,12 @@
               "max_sp": "1",
               "Power": "12",
               "Technique": "20",
-              "Willpower": "25",
+              "Intelligence": "30",
+              "Willpower": "15",
               "Allure": "20",
               "Luck": "40"
     },
-    "Fetishes": ["Kissing", "Cock", "Cock"],
+    "Fetishes": ["Kissing|/|10", "Cock|/|20"],
     "BodySensitivity": {"Sex": "120",
               "Ass":"130",
               "Breasts":"120",
@@ -95,7 +96,7 @@
         "lineTrigger": "SetMusicTo",
         "move": "",
         "theText": [
-          "../ModLoader/mods/Beach/Music/PerituneMaterial_Numina_loop.mp3"
+          "../Mods/Beach/Music/PerituneMaterial_Numina_loop.mp3"
         ]
       },
       {
@@ -617,25 +618,25 @@
                       "Images":[
             {
               "Name":"Base",
-              "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Body.png",
+              "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Body.png",
               "setXalign": "0.0",
               "setYalign": "0.0"
             },
             {
               "Name":"BaseFlush",
-              "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Body_Flush.png",
+              "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Body_Flush.png",
               "setXalign": "0.0",
               "setYalign": "0.0"
             },
             {
               "Name":"BaseBlush",
-              "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Body_Blush.png",
+              "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Body_Blush.png",
               "setXalign": "0.0",
               "setYalign": "0.0"
             },
             {
               "Name":"BaseFullBodyBlush",
-              "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Body_FullBodyBlush.png",
+              "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Body_FullBodyBlush.png",
               "setXalign": "0.0",
               "setYalign": "0.0"
             }
@@ -653,31 +654,31 @@
                       "Images":[
             {
               "Name":"ArmsRest",
-              "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Arms_Rest.png",
+              "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Arms_Rest.png",
               "setXalign": "0.0",
               "setYalign": "0.0"
             },
             {
               "Name":"ArmsSpread",
-              "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Arms_Spread.png",
+              "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Arms_Spread.png",
               "setXalign": "0.0",
               "setYalign": "0.0"
             },
             {
               "Name":"ArmsPrayBase",
-              "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Arms_Pray1.png",
+              "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Arms_Pray1.png",
               "setXalign": "0.0",
               "setYalign": "0.0"
             },
             {
               "Name":"ArmsMagicBase",
-              "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Arms_Magic1.png",
+              "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Arms_Magic1.png",
               "setXalign": "0.0",
               "setYalign": "0.0"
             },
             {
               "Name":"ArmsEmptyBase",
-              "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Empty.png",
+              "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Empty.png",
               "setXalign": "0.0",
               "setYalign": "0.0"
             }
@@ -695,7 +696,7 @@
                       "Images":[
                         {
                         "Name":"Titties",
-                        "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Titties.png",
+                        "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Titties.png",
                         "setXalign": "0.0",
                         "setYalign": "0.0"
                       }
@@ -714,7 +715,7 @@
                       "Images":[
                         {
                         "Name":"Top",
-                        "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Bikini_Top.png",
+                        "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Bikini_Top.png",
                         "setXalign": "0.0",
                         "setYalign": "0.0"
                       }
@@ -732,7 +733,7 @@
                       "Images":[
                         {
                         "Name":"Bottom",
-                        "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Bikini_Bottom.png",
+                        "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Bikini_Bottom.png",
                         "setXalign": "0.0",
                         "setYalign": "0.0"
                       }
@@ -750,19 +751,19 @@
                       "Images":[
             {
               "Name":"ArmsEmptyTop",
-              "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Empty.png",
+              "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Empty.png",
               "setXalign": "0.0",
               "setYalign": "0.0"
             },
             {
               "Name":"ArmsPrayTop",
-              "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Arms_Pray2.png",
+              "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Arms_Pray2.png",
               "setXalign": "0.0",
               "setYalign": "0.0"
             },
             {
               "Name":"ArmsMagicTop",
-              "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Arms_Magic2.png",
+              "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Arms_Magic2.png",
               "setXalign": "0.0",
               "setYalign": "0.0"
             }
@@ -780,7 +781,7 @@
                       "Images":[
             {
               "Name":"HairBangs",
-              "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Front_Hair_Overlay.png",
+              "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Front_Hair_Overlay.png",
               "setXalign": "0.0",
               "setYalign": "0.0"
             }
@@ -798,25 +799,25 @@
                       "Images":[
                         {
                         "Name":"MagicNone",
-                        "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Empty.png",
+                        "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Empty.png",
                         "setXalign": "0.0",
                         "setYalign": "0.0"
                       },
             {
               "Name":"MagicOrb",
-              "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Magic_Orb.png",
+              "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Magic_Orb.png",
               "setXalign": "0.0",
               "setYalign": "0.0"
             },
             {
               "Name":"Dragonscale",
-              "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Magic_Dragonscale.png",
+              "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Magic_Dragonscale.png",
               "setXalign": "0.0",
               "setYalign": "0.0"
             },
             {
               "Name":"Butterfly",
-              "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Magic_Butterfly.png",
+              "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Magic_Butterfly.png",
               "setXalign": "0.0",
               "setYalign": "0.0"
             }
@@ -834,193 +835,193 @@
                       "Images":[
             {
                 "Name":"Solemn",
-                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Solemn.png",
+                "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Solemn.png",
                 "setXalign": "0.0",
                 "setYalign": "0.0"
              },
              {
                 "Name":"EyesClosed",
-                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_EyesClosed.png",
+                "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_EyesClosed.png",
                 "setXalign": "0.0",
                 "setYalign": "0.0"
             },
             {
                 "Name":"Tiny",
-                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Tiny.png",
+                "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Tiny.png",
                 "setXalign": "0.0",
                 "setYalign": "0.0"
             },
              {
                 "Name":"Shy",
-                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Shy.png",
+                "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Shy.png",
                 "setXalign": "0.0",
                 "setYalign": "0.0"
               },
               {
                 "Name":"Flustered",
-                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Flustered.png",
+                "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Flustered.png",
                 "setXalign": "0.0",
                 "setYalign": "0.0"
               },
               {
                 "Name":"Charmed",
-                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Charmed.png",
+                "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Charmed.png",
                 "setXalign": "0.0",
                 "setYalign": "0.0"
               },
               {
                 "Name":"Pout",
-                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Pout.png",
+                "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Pout.png",
                 "setXalign": "0.0",
                 "setYalign": "0.0"
               },
               {
                 "Name":"PoutAvert",
-                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Pout2.png",
+                "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Pout2.png",
                 "setXalign": "0.0",
                 "setYalign": "0.0"
               },
               {
                 "Name":"Hurt",
-                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Hurt.png",
+                "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Hurt.png",
                 "setXalign": "0.0",
                 "setYalign": "0.0"
               },
               {
                 "Name":"Haughty",
-                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Haughty.png",
+                "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Haughty.png",
                 "setXalign": "0.0",
                 "setYalign": "0.0"
               },
               {
                 "Name":"SoftSmile",
-                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_SoftSmile.png",
+                "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_SoftSmile.png",
                 "setXalign": "0.0",
                 "setYalign": "0.0"
               },
               {
                 "Name":"Confus",
-                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Wat.png",
+                "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Wat.png",
                 "setXalign": "0.0",
                 "setYalign": "0.0"
               },
               {
                 "Name":"Shocked",
-                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Shocked.png",
+                "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Shocked.png",
                 "setXalign": "0.0",
                 "setYalign": "0.0"
               },
               {
                 "Name":"Helpless",
-                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Helpless.png",
+                "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Helpless.png",
                 "setXalign": "0.0",
                 "setYalign": "0.0"
               },
               {
                 "Name":"Oface",
-                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Oface.png",
+                "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Oface.png",
                 "setXalign": "0.0",
                 "setYalign": "0.0"
               },
               {
                 "Name":"Torogao",
-                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Torogao.png",
+                "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Torogao.png",
                 "setXalign": "0.0",
                 "setYalign": "0.0"
               },
               {
                 "Name":"Happy",
-                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Happy.png",
+                "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Happy.png",
                 "setXalign": "0.0",
                 "setYalign": "0.0"
               },
               {
                 "Name":"Smile",
-                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Smile.png",
+                "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Smile.png",
                 "setXalign": "0.0",
                 "setYalign": "0.0"
               },
               {
                 "Name":"Reminiscing",
-                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Reminiscing.png",
+                "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Reminiscing.png",
                 "setXalign": "0.0",
                 "setYalign": "0.0"
               },
               {
                 "Name":"Panic",
-                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Panic.png",
+                "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Panic.png",
                 "setXalign": "0.0",
                 "setYalign": "0.0"
               },
               {
                 "Name":"Wistful",
-                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Wistful.png",
+                "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Wistful.png",
                 "setXalign": "0.0",
                 "setYalign": "0.0"
               },
               {
                 "Name":"ShyNoAvert",
-                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_ShyNoAvert.png",
+                "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_ShyNoAvert.png",
                 "setXalign": "0.0",
                 "setYalign": "0.0"
               },
               {
                 "Name":"Rules",
-                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Rules.png",
+                "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Rules.png",
                 "setXalign": "0.0",
                 "setYalign": "0.0"
               },
               {
                 "Name":"Sleepy",
-                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Sleepy.png",
+                "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Sleepy.png",
                 "setXalign": "0.0",
                 "setYalign": "0.0"
               },
               {
                 "Name":"HaughtyEyesClosed",
-                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_HaughtyEyesClosed.png",
+                "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_HaughtyEyesClosed.png",
                 "setXalign": "0.0",
                 "setYalign": "0.0"
               },
               {
                 "Name":"BigSucc",
-                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_BigSucc.png",
+                "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_BigSucc.png",
                 "setXalign": "0.0",
                 "setYalign": "0.0"
               },
               {
                 "Name":"NaughtyFace",
-                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_NaughtyFace.png",
+                "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_NaughtyFace.png",
                 "setXalign": "0.0",
                 "setYalign": "0.0"
               },
               {
                 "Name":"Licc",
-                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Licc.png",
+                "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Licc.png",
                 "setXalign": "0.0",
                 "setYalign": "0.0"
               },
               {
                 "Name":"BigLicc",
-                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_BigLicc.png",
+                "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_BigLicc.png",
                 "setXalign": "0.0",
                 "setYalign": "0.0"
               },
               {
                 "Name":"ShySmile",
-                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_ShySmile.png",
+                "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_ShySmile.png",
                 "setXalign": "0.0",
                 "setYalign": "0.0"
               },
               {
                 "Name":"Aroused",
-                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Aroused.png",
+                "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Aroused.png",
                 "setXalign": "0.0",
                 "setYalign": "0.0"
               },
               {
                 "Name":"MildlyAroused",
-                "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_MildlyAroused.png",
+                "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_MildlyAroused.png",
                 "setXalign": "0.0",
                 "setYalign": "0.0"
               }
@@ -1038,7 +1039,7 @@
                            "Images":[
                              {
                              "Name":"Moonlight",
-                             "File": "../../ModLoader/mods/Beach/Images/Cetuspeanna/Cetuspeanna_Ambience_Overlay.png",
+                             "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Ambience_Overlay.png",
                              "setXalign": "0.0",
                              "setYalign": "0.0"
                            }

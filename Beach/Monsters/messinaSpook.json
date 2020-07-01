@@ -17,6 +17,7 @@
               "max_sp": "1",
               "Power": "15",
               "Technique": "60",
+              "Intelligence": "40",
               "Willpower": "15",
               "Allure": "15",
               "Luck": "5"
@@ -123,19 +124,19 @@
                           "Images":[
 							  {  
 								  "Name":"Base",
-								  "File": "../../ModLoader/mods/Beach/Images/Messina/Messina_Body_Submerged_Spooky.png",
+								  "File": "../Mods/Beach/Images/Messina/Messina_Body_Submerged_Spooky.png",
 								  "setXalign": "0.0",
 								  "setYalign": "0.0"
 							  },
 							  {				  
 								  "Name":"Spooky Tentacles",
-								  "File": "../../ModLoader/mods/Beach/Images/Messina/Messina_Body_Submerged_Spooky_Tentacles.png",
+								  "File": "../Mods/Beach/Images/Messina/Messina_Body_Submerged_Spooky_Tentacles.png",
 								  "setXalign": "0.0",
 								  "setYalign": "0.0"
 							  },
 							  {				  
 								  "Name":"Submerged",
-								  "File": "../../ModLoader/mods/Beach/Images/Messina/Messina_Body_Submerged_Tentacles.png",
+								  "File": "../Mods/Beach/Images/Messina/Messina_Body_Submerged_Tentacles.png",
 								  "setXalign": "0.0",
 								  "setYalign": "0.0"
 							  }
@@ -153,49 +154,49 @@
                           "Images":[
                   {
                       "Name":"Base",
-                      "File": "../../ModLoader/mods/Beach/Images/Messina/Messina_Expression_Corpse.png",
+                      "File": "../Mods/Beach/Images/Messina/Messina_Expression_Corpse.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   },         
                   {
                       "Name":"Crooked",
-                      "File": "../../ModLoader/mods/Beach/Images/Messina/Messina_Expression_Spooky.png",
+                      "File": "../Mods/Beach/Images/Messina/Messina_Expression_Spooky.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   },    
                   {
                       "Name":"Base_Submerged",
-                      "File": "../../ModLoader/mods/Beach/Images/Messina/Messina_Expression_Smile.png",
+                      "File": "../Mods/Beach/Images/Messina/Messina_Expression_Smile.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   },    
                   {
                       "Name":"Embarrassed_Submerged",
-                      "File": "../../ModLoader/mods/Beach/Images/Messina/Messina_Expression_Embarrassed.png",
+                      "File": "../Mods/Beach/Images/Messina/Messina_Expression_Embarrassed.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   },    
                   {
                       "Name":"HappySubmerged",
-                      "File": "../../ModLoader/mods/Beach/Images/Messina/Messina_Expression_Happy.png",
+                      "File": "../Mods/Beach/Images/Messina/Messina_Expression_Happy.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   },    
                   {
                       "Name":"HappyBlushSubmerged",
-                      "File": "../../ModLoader/mods/Beach/Images/Messina/Messina_Expression_HappyBlush.png",
+                      "File": "../Mods/Beach/Images/Messina/Messina_Expression_HappyBlush.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   },    
                   {
                       "Name":"PanicSubmerged",
-                      "File": "../../ModLoader/mods/Beach/Images/Messina/Messina_Expression_Panic.png",
+                      "File": "../Mods/Beach/Images/Messina/Messina_Expression_Panic.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   },
                   {
                       "Name":"WorrySubmerged",
-                      "File": "../../ModLoader/mods/Beach/Images/Messina/Messina_Expression_Worry.png",
+                      "File": "../Mods/Beach/Images/Messina/Messina_Expression_Worry.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   } 

@@ -17,11 +17,12 @@
               "max_sp": "1",
               "Power": "3",
               "Technique": "5",
-              "Willpower": "1",
+              "Intelligence": "10",
               "Allure": "9",
+              "Willpower": "1",
               "Luck": "4"
     },
-    "Fetishes": ["Cock", "Cock", "Cock", "Cock"],
+    "Fetishes": [ "Cock|/|50"],
     "BodySensitivity": {"Sex": "100",
               "Ass":"100",
               "Breasts":"90",
@@ -881,91 +882,91 @@
                           "Images":[
 								{
 									"Name":"Base",
-									"File": "../../ModLoader/mods/Beach/Images/Bikini Elf/Elf_Base.png",
+									"File": "../Mods/Beach/Images/Bikini Elf/Elf_Base.png",
 									"setXalign": "0.0",
 									"setYalign": "0.0"
 								},
 								{
 									"Name":"Lustful",
-									"File": "../../ModLoader/mods/Beach/Images/Bikini Elf/Elf_Lustful.png",
+									"File": "../Mods/Beach/Images/Bikini Elf/Elf_Lustful.png",
 									"setXalign": "0.0",
 									"setYalign": "0.0"
 								},
 								{
 									"Name":"Lewd",
-									"File": "../../ModLoader/mods/Beach/Images/Bikini Elf/Elf_Lewd.png",
+									"File": "../Mods/Beach/Images/Bikini Elf/Elf_Lewd.png",
 									"setXalign": "0.0",
 									"setYalign": "0.0"
 								},
 								{
 									"Name":"Incoherently Lewd",
-									"File": "../../ModLoader/mods/Beach/Images/Bikini Elf/Elf_Incoherently_Lewd.png",
+									"File": "../Mods/Beach/Images/Bikini Elf/Elf_Incoherently_Lewd.png",
 									"setXalign": "0.0",
 									"setYalign": "0.0"
 								},
 								{
 									"Name":"Ahegao",
-									"File": "../../ModLoader/mods/Beach/Images/Bikini Elf/Elf_Ahegao.png",
+									"File": "../Mods/Beach/Images/Bikini Elf/Elf_Ahegao.png",
 									"setXalign": "0.0",
 									"setYalign": "0.0"
 								},
 								{
 									"Name":"Shock",
-									"File": "../../ModLoader/mods/Beach/Images/Bikini Elf/Elf_Shock.png",
+									"File": "../Mods/Beach/Images/Bikini Elf/Elf_Shock.png",
 									"setXalign": "0.0",
 									"setYalign": "0.0"
 								},
 								{
 									"Name":"Shock Blush",
-									"File": "../../ModLoader/mods/Beach/Images/Bikini Elf/Elf_Shock_Blush.png",
+									"File": "../Mods/Beach/Images/Bikini Elf/Elf_Shock_Blush.png",
 									"setXalign": "0.0",
 									"setYalign": "0.0"
 								},
 								{
 									"Name":"Flustered",
-									"File": "../../ModLoader/mods/Beach/Images/Bikini Elf/Elf_Flustered.png",
+									"File": "../Mods/Beach/Images/Bikini Elf/Elf_Flustered.png",
 									"setXalign": "0.0",
 									"setYalign": "0.0"
 								},
 								{
 									"Name":"Smug",
-									"File": "../../ModLoader/mods/Beach/Images/Bikini Elf/Elf_Smug.png",
+									"File": "../Mods/Beach/Images/Bikini Elf/Elf_Smug.png",
 									"setXalign": "0.0",
 									"setYalign": "0.0"
 								},
 								{
 									"Name":"Smug Blush",
-									"File": "../../ModLoader/mods/Beach/Images/Bikini Elf/Elf_Smug_Blush.png",
+									"File": "../Mods/Beach/Images/Bikini Elf/Elf_Smug_Blush.png",
 									"setXalign": "0.0",
 									"setYalign": "0.0"
 								},
 								{
 									"Name":"Extra Smug",
-									"File": "../../ModLoader/mods/Beach/Images/Bikini Elf/Elf_Extra_Smug.png",
+									"File": "../Mods/Beach/Images/Bikini Elf/Elf_Extra_Smug.png",
 									"setXalign": "0.0",
 									"setYalign": "0.0"
 								},
 								{
 									"Name":"Dominant",
-									"File": "../../ModLoader/mods/Beach/Images/Bikini Elf/Elf_Dominant.png",
+									"File": "../Mods/Beach/Images/Bikini Elf/Elf_Dominant.png",
 									"setXalign": "0.0",
 									"setYalign": "0.0"
 								},
 								{
 									"Name":"Tsun",
-									"File": "../../ModLoader/mods/Beach/Images/Bikini Elf/Elf_Tsun.png",
+									"File": "../Mods/Beach/Images/Bikini Elf/Elf_Tsun.png",
 									"setXalign": "0.0",
 									"setYalign": "0.0"
 								},
 								{
 									"Name":"Tsun Blush",
-									"File": "../../ModLoader/mods/Beach/Images/Bikini Elf/Elf_Tsun_Blush.png",
+									"File": "../Mods/Beach/Images/Bikini Elf/Elf_Tsun_Blush.png",
 									"setXalign": "0.0",
 									"setYalign": "0.0"
 								},
 								{
 									"Name":"Angry",
-									"File": "../../ModLoader/mods/Beach/Images/Bikini Elf/Elf_Angry.png",
+									"File": "../Mods/Beach/Images/Bikini Elf/Elf_Angry.png",
 									"setXalign": "0.0",
 									"setYalign": "0.0"
 								}
