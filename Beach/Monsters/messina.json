@@ -63,7 +63,7 @@
 									"Trying to reassure her you manage a weak nod to which she reacts with a huge smile.",
 									"ChangeImageLayer", "Expression", "1", "HappyBlush",
                                     "Speaks",
-									"Yay♪ I did it!",									
+									"Yay♪ I did it!",
 									"ChangeImageLayer", "Expression", "1", "NaughtyBlush",
                                     "Speaks",
 									"Then... I get to do whatever I want now, right? Hehe...",
@@ -101,7 +101,7 @@
 									"Hehe... mwah...♥ hope you enjoyed that... bye~♥",
 									"You finally black out, only wishing that you could enjoy her amazing blowjob a little more.",
                                      "ChangeSensitivity", "Sex", "3",
-									 "IncreaseFetish", "Oral|/|10"
+									 "ChangeFetish", "Oral", "10"
                                   ],
                         "picture":""
                     }
@@ -280,7 +280,7 @@
                             "lineTrigger":"AutoCounter",
                             "move": "Make Out",
                             "theText":["|f|CallCombatEventAndScene|/|MessinaCombatEvents|/|MouthCounter|n|"]
-                        },                  
+                        },
                         {
                           "lineTrigger":"HitWith",
                           "move": "Deep Kiss",
@@ -341,7 +341,7 @@
                             "move": "Soft Massage",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Embarrassed|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Now... I can do this...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Erotic|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'You will come... in between these...♥'",
-                                      "|f|ChangeImageLayer|/|Expression|/|NaughtyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'You wanted this... right..?♥'"]                   
+                                      "|f|ChangeImageLayer|/|Expression|/|NaughtyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'You wanted this... right..?♥'"]
                         },
                         {
                             "lineTrigger":"UsesMove",
@@ -349,7 +349,7 @@
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Embarrassed|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'It's okay... to let loose in there...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Erotic|n||f|ChangeImageLayer|/|Base|/|Bikini|n|She drools into her cleavage quietly.",
                                       "|f|ChangeImageLayer|/|Expression|/|Erotic|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Hurry and... coat me... in your hot seed...♥'",
-                                      "|f|ChangeImageLayer|/|Expression|/|NaughtyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'I am... good at these...♥'"]           
+                                      "|f|ChangeImageLayer|/|Expression|/|NaughtyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'I am... good at these...♥'"]
                         },
                         {
                             "lineTrigger":"UsesMove",
@@ -357,7 +357,7 @@
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Embarrassed|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Close your eyes... and imagine that this is sex...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Erotic|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'It's okay... if you come like this...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Erotic|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Hurry and... splurt...♥  please cover me... in your hot seed...♥'",
-                                      "|f|ChangeImageLayer|/|Expression|/|NaughtyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'This is... a massage too...♥'"]                                  
+                                      "|f|ChangeImageLayer|/|Expression|/|NaughtyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'This is... a massage too...♥'"]
                         },
                         {
                             "lineTrigger":"UsesMove",
@@ -365,7 +365,7 @@
                             "theText":["|f|ChangeImageLayer|/|Expression|/|WorryBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Ah..!♥ I- I am sooorryy!!♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Erotic|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Come...♥ come inside, a whoole loot...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|ShyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'Ah, umm...♥  I can't control them, so...♥'",
-                                      "|f|ChangeImageLayer|/|Expression|/|NaughtyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'You will come...♥ if you stay in there...♥'"]        
+                                      "|f|ChangeImageLayer|/|Expression|/|NaughtyBlush|n||f|ChangeImageLayer|/|Base|/|Bikini|n|'You will come...♥ if you stay in there...♥'"]
                         },
                         {
                             "lineTrigger":"LowHealth",
@@ -588,7 +588,7 @@
                           "setXalign": "0.0",
                           "setYalign": "0.152",
                           "Images":[
-				  {				  
+				  {
                       "Name":"Bikini",
                       "File": "../Mods/Beach/Images/Messina/Messina_Body_Base_Bikini.png",
                       "setXalign": "0.0",
@@ -600,31 +600,31 @@
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   },
-				  {				  
+				  {
                       "Name":"Shy",
                       "File": "../Mods/Beach/Images/Messina/Messina_Body_Base_Shy.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   },
-				  {				  
+				  {
                       "Name":"Shy Bikini",
                       "File": "../Mods/Beach/Images/Messina/Messina_Body_Base_Bikini_Shy.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
                   },
-				  {				  
+				  {
                       "Name":"Spooky",
                       "File": "../Mods/Beach/Images/Messina/Messina_Body_Submerged_Spooky.png",
                       "setXalign": "0.0",
                       "setYalign": "0.2"
                   },
-				  {				  
+				  {
                       "Name":"Spooky Tentacles",
                       "File": "../Mods/Beach/Images/Messina/Messina_Body_Submerged_Spooky_Tentacles.png",
                       "setXalign": "0.0",
                       "setYalign": "0.2"
                   },
-				  {				  
+				  {
                       "Name":"Submerged",
                       "File": "../Mods/Beach/Images/Messina/Messina_Body_Submerged_Tentacles.png",
                       "setXalign": "0.0",
@@ -677,97 +677,97 @@
                       "File": "../Mods/Beach/Images/Messina/Messina_Expression_Erotic.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
-                  },    
+                  },
                   {
                       "Name":"Happy",
                       "File": "../Mods/Beach/Images/Messina/Messina_Expression_Happy.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
-                  },    
+                  },
                   {
                       "Name":"HappyBlush",
                       "File": "../Mods/Beach/Images/Messina/Messina_Expression_HappyBlush.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
-                  },    
+                  },
                   {
                       "Name":"Naughty",
                       "File": "../Mods/Beach/Images/Messina/Messina_Expression_Naughty.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
-                  },    
+                  },
                   {
                       "Name":"NaughtyBlush",
                       "File": "../Mods/Beach/Images/Messina/Messina_Expression_NaughtyBlush.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
-                  },    
+                  },
                   {
                       "Name":"Panic",
                       "File": "../Mods/Beach/Images/Messina/Messina_Expression_Panic.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
-                  },    
+                  },
                   {
                       "Name":"Sad",
                       "File": "../Mods/Beach/Images/Messina/Messina_Expression_Sad.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
-                  },    
+                  },
                   {
                       "Name":"Shy",
                       "File": "../Mods/Beach/Images/Messina/Messina_Expression_Shy.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
-                  },    
+                  },
                   {
                       "Name":"ShyBlush",
                       "File": "../Mods/Beach/Images/Messina/Messina_Expression_ShyBlush.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
-                  },    
+                  },
                   {
                       "Name":"ShyCovered",
                       "File": "../Mods/Beach/Images/Messina/Messina_Expression_ShyCovered.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
-                  },    
+                  },
                   {
                       "Name":"ShyCoveredBlush",
                       "File": "../Mods/Beach/Images/Messina/Messina_Expression_ShyCoveredBlush.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
-                  },    
+                  },
                   {
                       "Name":"Worry",
                       "File": "../Mods/Beach/Images/Messina/Messina_Expression_Worry.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
-                  },    
+                  },
                   {
                       "Name":"WorryBlush",
                       "File": "../Mods/Beach/Images/Messina/Messina_Expression_WorryBlush.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
-                  },    
+                  },
                   {
                       "Name":"Base_Submerged",
                       "File": "../Mods/Beach/Images/Messina/Messina_Expression_Smile.png",
                       "setXalign": "0.0",
                       "setYalign": "0.2"
-                  },    
+                  },
                   {
                       "Name":"Embarrassed_Submerged",
                       "File": "../Mods/Beach/Images/Messina/Messina_Expression_Embarrassed.png",
                       "setXalign": "0.0",
                       "setYalign": "0.2"
-                  },    
+                  },
                   {
                       "Name":"Crooked",
                       "File": "../Mods/Beach/Images/Messina/Messina_Expression_Spooky.png",
                       "setXalign": "0.0",
                       "setYalign": "0.2"
-                  },    
+                  },
                   {
                       "Name":"Corpse",
                       "File": "../Mods/Beach/Images/Messina/Messina_Expression_Corpse.png",
@@ -779,13 +779,13 @@
                       "File": "../Mods/Beach/Images/Messina/Messina_Expression_Happy.png",
                       "setXalign": "0.0",
                       "setYalign": "0.2"
-                  },    
+                  },
                   {
                       "Name":"HappyBlushSubmerged",
                       "File": "../Mods/Beach/Images/Messina/Messina_Expression_HappyBlush.png",
                       "setXalign": "0.0",
                       "setYalign": "0.2"
-                  },    
+                  },
                   {
                       "Name":"PanicSubmerged",
                       "File": "../Mods/Beach/Images/Messina/Messina_Expression_Panic.png",
@@ -797,7 +797,7 @@
                       "File": "../Mods/Beach/Images/Messina/Messina_Expression_Worry.png",
                       "setXalign": "0.0",
                       "setYalign": "0.2"
-                  } 
+                  }
 						  ]
 						 }
 				]
