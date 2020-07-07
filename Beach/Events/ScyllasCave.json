@@ -1430,7 +1430,7 @@
 											  "...",
 											  "Some time passes as you ward off boredom by looking at the ocean waves. Suddenly you notice the Nereid getting a little restless, her tail waving around and sending sand flying around. Curious, you move in closer for a better look.",
 											  "ChangeImageLayer", "Base", "2", "Blush",
-											  "ChangeImageLayer", "Expression", "2", "BaseBlush",
+											  "ChangeImageLayer", "Expression", "2", "Calm Blush",
 											  "ChangeImageLayer", "Expression", "1", "Happy",
 											  "Messina's numerous tentacles are diligently working on Nereid's inner thighs. The slick appendages occasionaly flicking against her crotch are obviously making the Nereid horny, but Messina seems oblivious to the effects her massage is having on the Nereid as she keeps going, a happy smile plastered on her face.",
 											  "Speaks4",
@@ -1465,7 +1465,7 @@
 										  ]
 							},
 							{
-								"NameOfScene": "We should change out training regimen.",
+								"NameOfScene": "We should change our training regimen.",
 								"theScene":[
 											  "ChangeImageLayer", "Expression", "1", "ShyBlush",
 											  "Speaks",
