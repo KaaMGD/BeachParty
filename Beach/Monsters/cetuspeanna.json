@@ -19,7 +19,7 @@
       "Ascending Serpent","Ascending Serpent","Ascending Serpent",
         "Descent: Ephemeral Stroke","Descent: Ephemeral Stroke","Descent: Ephemeral Stroke",
         "Descent: Heavenly Coils", "Descent: Heavenly Coils",
-          "Foaming Hand Strokes",
+          "Foaming Hand Strokes", "Foaming Hand Strokes",
         "Descent: Floating Butterfly", "Descent: Floating Butterfly",
           "Smothering Caress", "Smothering Caress",
         "Moon-Eclipsing Dragon God",
@@ -219,7 +219,7 @@
         "lineTrigger": "HitWith",
         "move": "Breast Nuzzle",
         "theText":[ "|f|ChangeImageLayer|/|Expression|/|MildlyAroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'N-n-n-n-noo, we really shouldn't...!♥'",
-                    "|f|ChangeImageLayer|/|Expression|/|MildlyAroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Ahh...♥ of course, darling.♥♥'",
+                    "|f|ChangeImageLayer|/|Expression|/|MildlyAroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Ahh...♥ Of course, darling.♥♥'",
                     "|f|ChangeImageLayer|/|Expression|/|Shy|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|She shivers, blushes a deep purple and looks away in distress. She peeks back shyly the very next moment."]
       },
       {
@@ -361,13 +361,6 @@
       },
       {
         "lineTrigger":"UsesMove",
-        "move": "Breast Suffocation",
-        "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Solemn|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'You don't need to breathe.'",
-                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|EyesClosed|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'Shh, don't struggle.♥'",
-                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|MildlyAroused|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'You'll get to breathe when you cum.'"]
-      },
-      {
-        "lineTrigger":"UsesMove",
         "move": "Descending Serpent",
         "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Solemn|n||f|ChangeImageLayer|/|Base|/|Base|n|'...'"]
       },
@@ -404,7 +397,7 @@
         "move": "Divine Squeeze",
         "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Aroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|Cetuspeanna is panting strongly, face flushed a deep purple.",
                    "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Aroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'...Hya-♥'",
-                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Aroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'H-how's this, da- Human....♥'"]
+                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Aroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'H-how's this, da- Human...♥'"]
       },
       {
         "lineTrigger":"UsesMove",
@@ -816,6 +809,12 @@
               "setYalign": "0.0"
             },
             {
+              "Name":"Dragonhorn",
+              "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Magic_Dragonhorn.png",
+              "setXalign": "0.0",
+              "setYalign": "0.0"
+            },
+            {
               "Name":"Butterfly",
               "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Magic_Butterfly.png",
               "setXalign": "0.0",
@@ -960,7 +959,7 @@
                 "setYalign": "0.0"
               },
               {
-                "Name":"ShyNoAvert",
+                "Name":"ShyNonAvert",
                 "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_ShyNoAvert.png",
                 "setXalign": "0.0",
                 "setYalign": "0.0"
@@ -1022,6 +1021,48 @@
               {
                 "Name":"MildlyAroused",
                 "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_MildlyAroused.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+              },
+              {
+                "Name":"HappyLewd",
+                "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_HappyLewd.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+              },
+              {
+                "Name":"Kissy",
+                "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Kissy.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+              },
+              {
+                "Name":"Scary",
+                "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Scary1.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+              },
+              {
+                "Name":"ScaryAroused",
+                "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Scary2.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+              },
+              {
+                "Name":"ScaryLicc",
+                "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_ScaryLicc.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+              },
+              {
+                "Name":"Pleasured",
+                "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_Pleasured.png",
+                "setXalign": "0.0",
+                "setYalign": "0.0"
+              },
+              {
+                "Name":"LovingSex",
+                "File": "../Mods/Beach/Images/Cetuspeanna/Cetuspeanna_Expression_LovingSex.png",
                 "setXalign": "0.0",
                 "setYalign": "0.0"
               }

@@ -11,29 +11,36 @@
                     "SpeakerType": "Monster"
                   }
                 ],
-    "EventText": [              
+    "EventText": [
+          {
+            "NameOfScene": "CaressEvent",
+            "theScene": [
+              "SkipPlayerAttack",
+              "She doesn't seem to notice your caress..."
+            ]
+          },
 					{
 						"NameOfScene": "Electrified",
-						"theScene":["ChangeMonsterArousal",						
+						"theScene":["ChangeMonsterArousal",
 								"30",
-								"ChangeImageLayer", "Expression", "Manic Orgasm", 
+								"ChangeImageLayer", "Expression", "Manic Orgasm",
 								"SwapLineIf", "Random",
 									"'Ahahahaha!♥ MORE!'",
 									"'AAAAH YESSSS!♥'",
 								"EndLoop"
                                   ]
-					  },		
+					  },
 					  {
 						"NameOfScene": "EndOfRound",
 						"theScene":["IfMonsterHasStatusEffect", "Charm", "CharmRefresh"
                                   ]
-					  },		
+					  },
 					  {
 						"NameOfScene": "CharmRefresh",
 						"theScene":[
 								"ApplyStatusEffectToMonster", "Charm"
                                   ]
-					  },			  
+					  },
 					  {
 						"NameOfScene": "DoNothing",
 						"theScene":[""]

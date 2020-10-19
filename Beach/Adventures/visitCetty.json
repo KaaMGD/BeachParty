@@ -1,0 +1,46 @@
+{
+    "name": "Visit Cetuspeanna",
+    "Description": "Go straight to your dragon girlfriend.",
+    "requires": [ ""],
+    "requiresEvent": [
+                        {
+                          "NameOfEvent": "Meet the Sea Dragon!",
+                          "Progress": "-99",
+                          "ChoiceNumber": "10",
+                          "Choice": "RomanceStart"
+                        }
+                      ],
+    "Deck": [ "Event", "Dragon Palace"],
+    "RandomEvents": [ ""],
+    "RandomMonsters": [ "Blue Slime", "Lizard Girl"],
+    "MonsterGroups": [
+                  {
+                      "Monsters": [ "Blue Slime"]
+                  },
+                  {
+                      "Monsters": [ "Lizard Girl"]
+                  }
+                ],
+    "Treasure": [
+                {
+                    "Common": [ "Calming Potion", "Anaph Herb", "Ugli Herb"]
+                },
+                {
+                    "Uncommon": [ "Calming Potion", "Energy Potion", "Unbound Rune", "Stoic Rune", "Luck Rune", "Soothing Potion"]
+                },
+                {
+                    "Rare": [ "Panacea", "Luck Rune", "Stoic Rune", "Gloves of Skill", "Cock Ring of Justice", "Power Belt"]
+                }
+              ],
+    "Eros": [
+                {
+                    "Common": "25"
+                },
+                {
+                    "Uncommon": "75"
+                },
+                {
+                    "Rare": "150"
+                }
+              ]
+}

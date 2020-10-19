@@ -47,9 +47,9 @@
                          "GiveSkillToMonster",            "Lovey-dovey Sea Dragon Sex",
                          "GiveSkillToMonster",            "Lovey-dovey Sea Dragon Sex",
                          "GiveSkillToMonster",            "Lovey-dovey Sea Dragon Sex",
-                         "GiveSkillToMonster",            "Lovey-dovey Sea Dragon Sex",
-                         "GiveSkillToMonster",            "Lovey-dovey Sea Dragon Sex",
                          "GiveSkillToMonster",            "Serpentine Squeeze",
+                         "GiveSkillToMonster",            "Honeymoon Kiss",
+                         "GiveSkillToMonster",            "Honeymoon Kiss",
                          "GiveSkillToMonster",            "Honeymoon Kiss",
 
                          "ClearStanceFromMonsterAndPlayer", "Descended",
@@ -62,39 +62,47 @@
               "theScene": [
                   "SetChoice", "4", "SkillFlag",
                 "ChangeImageLayer", "Base", "Base",
-              "ChangeImageLayer", "Expression", "ShyNoAvert",
+              "ChangeImageLayer", "Expression", "ShyNonAvert",
               "Cetuspeanna appears to be in control of herself again!",
                 "ClearMonsterSkillList",
                            "GiveSkillToMonster",            "Serpentine Pose", "GiveSkillToMonster","Serpentine Pose",
                            "GiveSkillToMonster",            "Dreamy Water Bubbles", "GiveSkillToMonster","Dreamy Water Bubbles",
 
-                           "GiveSkillToMonster",            "Crescent Arc Pose","GiveSkillToMonster", "Crescent Arc Pose",
-                           "GiveSkillToMonster",            "Divine Splash: Moonlight Sparkles","GiveSkillToMonster", "Divine Splash: Moonlight Sparkles",
+                           "GiveSkillToMonster",            "Crescent Arc Pose",
+                           "GiveSkillToMonster",             "Crescent Arc Pose",
+                           "GiveSkillToMonster",            "Divine Splash: Moonlight Sparkles",
+                           "GiveSkillToMonster",            "Divine Splash: Moonlight Sparkles",
                            "GiveSkillToMonster",            "Gentle Prayer of the Eternal Dragon",
 
                            "GiveSkillToMonster",            "Ascending Serpent","GiveSkillToMonster","Ascending Serpent","GiveSkillToMonster","Ascending Serpent",
                            "GiveSkillToMonster",            "Descending Curse: Ephemeral Twin Stroke",
-                                      "GiveSkillToMonster","Descending Curse: Ephemeral Twin Stroke",
-                                      "GiveSkillToMonster","Descending Curse: Ephemeral Twin Stroke",
+                           "GiveSkillToMonster",            "Descending Curse: Ephemeral Twin Stroke",
                            "GiveSkillToMonster",            "Descending Curse: Hellish Coils","GiveSkillToMonster", "Descending Curse: Hellish Coils",
                            "GiveSkillToMonster",            "Stinging Hellmaw: Descent",
                            "GiveSkillToMonster",            "Stinging Hellmaw: Descent",
                            "GiveSkillToMonster",            "Stinging Hellmaw: Descent",
                            "GiveSkillToMonster",            "Stinging Hellmaw: Descent",
-                           "GiveSkillToMonster",            "Stinging Hellmaw: Swallow",
                            "GiveSkillToMonster",            "Stinging Hellmaw: Obscene Draining",
                            "GiveSkillToMonster",            "Stinging Hellmaw: Obscene Draining",
                            "GiveSkillToMonster",            "Stinging Hellmaw: Obscene Draining",
                            "GiveSkillToMonster",            "Stinging Hellmaw: Obscene Draining",
                            "GiveSkillToMonster",            "Suspend Prey",
+                           "GiveSkillToMonster",            "Suspend Prey",
+                           "GiveSkillToMonster",            "Suspend Prey",
                            "GiveSkillToMonster",            "Dragontongue Draining Dance",
                            "GiveSkillToMonster",            "Dragontongue Draining Dance",
-                           "GiveSkillToMonster",            "Foaming Hand Strokes",
-                           "GiveSkillToMonster",            "Descending Curse: Sealed Evil Butterfly", "GiveSkillToMonster","Descending Curse: Sealed Evil Butterfly",
+                           "GiveSkillToMonster",            "Descending Curse: Sealed Evil Butterfly",
+                           "GiveSkillToMonster",            "Descending Curse: Sealed Evil Butterfly",
                            "GiveSkillToMonster",            "Bosom Suffocation",
                            "GiveSkillToMonster",            "Bosom Suffocation",
                            "GiveSkillToMonster",            "Smothering Depths",
                            "GiveSkillToMonster",            "Smothering Depths",
+
+                           "GiveSkillToMonster",            "Sleepy Prince Adoration",
+                           "GiveSkillToMonster",            "Sleepy Prince Adoration",
+                           "GiveSkillToMonster",            "Sleepy Prince Adoration",
+                           "GiveSkillToMonster",            "Sleepy Prince Adoration",
+                           "GiveSkillToMonster",            "Sleepy Prince Adoration",
 
                            "GiveSkillToMonster",            "Descending Serpent","GiveSkillToMonster","Descending Serpent","GiveSkillToMonster","Descending Serpent",
                            "GiveSkillToMonster",            "Ascending Blessing: Brilliant Deepsea Dragonhorn",
@@ -673,6 +681,7 @@
               "NameOfScene": "PenetrateCheckExtra",
               "theScene": [
               "SkipPlayerAttack",
+              "IfMonsterHasStance", "Sex", "DoNothing",
               "IfMonsterHasStance", "Ascended", "AscendedCounter",
               "IfMonsterHasStance", "Descended", "DescendedCounter",
               "IfMonsterHasStance", "Making Out", "StatusPenetrate",
@@ -717,6 +726,7 @@
               "NameOfScene": "AnalPenetrateCheckExtra",
               "theScene": [
                 "SkipPlayerAttack",
+                "IfMonsterHasStance", "Anal", "DoNothing",
                 "IfMonsterHasStance", "Ascended", "AscendedCounter",
                 "IfMonsterHasStance", "Descended", "DescendedCounter",
                 "IfMonsterHasStance", "Making Out", "StatusAnalPenetrate",
@@ -761,6 +771,7 @@
             {
               "NameOfScene": "MakeOutCheckExtra",
               "theScene": [
+                "IfMonsterHasStance", "Making Out", "DoNothing",
                 "IfMonsterHasStance", "Sex", "AnswerPassion",
                 "IfMonsterHasStance", "Anal", "AnswerPassion",
                 "SkipPlayerAttack",
@@ -948,7 +959,7 @@
             {
               "NameOfScene": "Accept your fate...",
               "theScene": [
-                "Not seeing any escape, or perhaps looking forward to what's about to happen, you cease all resistance..."
+                "Not seeing any escape, or perhaps looking forward to what's about to happen, you cease all resistance...",
                 "JumpToScene", "StartTailFuck"
               ]
             },
@@ -1043,8 +1054,14 @@
                   "'Nnh...♥ Mwah...♥ {ThePlayerName}'s butt...♥' It becomes increasingly more difficult to resist...",
                   "'It'sh shoo hot inside...♥ Gonna cuum shoon?♥' It becomes increasingly more difficult to resist...",
                 "EndLoop",
-                "SetPostName", "",
+                "SetPostName", ""
               ]
-            }
+            },
+					  {
+						"NameOfScene": "BreakFree",
+						"theScene":["ClearStances",
+										"You finally overcome the powerful serpent coils and push Cetuspeanna away, your lower body still aching sweetly from her lavish attentions!"
+                                  ]
+					  }
     ]
 }

@@ -396,7 +396,7 @@
 											  "She places her hands on your back again, her long fingers caressing your body gently, letting you get used to her touch.",
 											  "Gradually she increases the force behind her movements, massaging out the tension in your muscles with her skilled touch.",
 											  "As her hands work your upper back and neck, you feel wet, slimy appendages begin to massage your legs...",
-											  "IfFetishLevelEqualOrGreater", "Monstrous", "3", "MassageFetishIntro",
+											  "IfFetishLevelEqualOrGreater", "Monstrous", "30", "MassageFetishIntro",
 											  "Menu",
 												"Let her continue.",
 												"Tentacles?",
@@ -408,7 +408,7 @@
 								"NameOfScene": "MassageFetishIntro",
 								"theScene":[
 								"You gulp down at the first touch of her wet appendages. Unbidden fantasies of losing yourself in a myriad of slick scylla tentacles flood your mind and your body heats with arousal.",
-											  "IfFetishLevelEqualOrGreater", "Monstrous", "10", "FetishFail",
+											  "IfFetishLevelEqualOrGreater", "Monstrous", "100", "FetishFail",
 											  "Menu",
 											    "RequiresStat", "Willpower", "10",
 												"Calm yourself.",
@@ -1073,10 +1073,19 @@
 												"We should change our training regimen.",
 												"RequiresChoice", "2", "BattlefuckAllowed",
 												"I spoke with Tina...",
-                                                "Done talking.",
+												"RequiresChoiceFromEvent", "Messina Defeated", "1", "RepeatVictory",
+                        "RequiresChoiceFromEvent", "Scyllas Salon", "1", "NOTIMPLEMENTED",
+												"...Was our training at all helpful?",
+                        "Done talking.",
 											  "EndLoop"
 										  ]
 							},
+              {
+                "NameOfScene": "...Was our training at all helpful?",
+                "theScene": [
+                  "JumpToEvent", "Leave"
+                ]
+              },
 							{
 								"NameOfScene": "What are you doing in this cave?",
 								"theScene":[
@@ -1609,7 +1618,7 @@
 											  "As you get comfortable on the rock, you notice Messina warming her hands with quiet breaths.",
 											  "She soon places her hands on your back, the familiar sensation of her long fingers caressing your body draining tension from your muscles before she even starts the massage.",
 											  "Humming a little song under her breath she increases the force behind her movements, expertly massaging out the tension and stress from your adventures out of your body.",
-											  "IfFetishLevelEqualOrGreater", "Monstrous", "3", "MassageFetishIntro",
+											  "IfFetishLevelEqualOrGreater", "Monstrous", "30", "MassageFetishIntro",
 											  "As her hands work your upper back and neck, you feel her, slimy tentacles begin to massage your legs...",
 											  "Menu",
 												"Enjoy the massage.",

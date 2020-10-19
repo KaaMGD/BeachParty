@@ -11,20 +11,20 @@
                     "SpeakerType": "Monster"
                   }
                 ],
-    "EventText": [        
+    "EventText": [
 					  {
 						"NameOfScene": "Electrified",
 						"theScene":["ChangeMonsterArousal",
 								"50",
                                           "ChangeImageLayer", "Base", "BaseBlush",
-								"ChangeImageLayer", "Expression", "Submissive", 
+								"ChangeImageLayer", "Expression", "Submissive",
 								"SwapLineIf", "Random",
 								"'Ow!♥ D-don't use that again, I'm all wet!♥'",
                                 "'AHHH!♥ H-have mercy, Hero!♥'",
                                 "'OOOH!♥ N-no more- AHHHH!♥'",
 								"EndLoop"
                                   ]
-					  },	
+					  },
 					  {
 						"NameOfScene": "Mermaid Quatrain",
 						"theScene":[
@@ -40,8 +40,8 @@
 					  },
 					  {
 						"NameOfScene": "Cover your ears.",
-						"theScene":["IfFetishLevelEqualOrGreater", "Oral", "3", "OralFetishDistraction",
-									"IfFetishLevelEqualOrGreater", "Kissing", "3", "OralFetishDistraction",
+						"theScene":["IfFetishLevelEqualOrGreater", "Oral", "30", "OralFetishDistraction",
+									"IfFetishLevelEqualOrGreater", "Kissing", "30", "OralFetishDistraction",
                                     "StatCheck",
                                       "Technique",
                                       "15",
@@ -61,7 +61,7 @@
 						"NameOfScene": "Covered!",
 						"theScene":["You manage to cover your ears before she starts singing!",
                                           "ChangeImageLayer", "Base", "Base",
-								"ChangeImageLayer", "Expression", "Singing", 
+								"ChangeImageLayer", "Expression", "Singing",
 									"The mermaid sings anyway, but you don't hear any of it.\nNothing happens.",
 						 "ChangeImageLayer", "BodyPart", "ArmRest"
                                   ]
@@ -70,7 +70,7 @@
 						"NameOfScene": "CoveredHalf!",
 						"theScene":[
                                           "ChangeImageLayer", "Base", "Base",
-								"ChangeImageLayer", "Expression", "Singing", 
+								"ChangeImageLayer", "Expression", "Singing",
 								"FocusedSpeaks",
                                     "La la-♪",
                                     "HitPlayerWith", "Mermaid's Couplet",
@@ -93,14 +93,14 @@
 						"NameOfScene": "ShutupKiss!",
 						"theScene":[
                                           "ChangeImageLayer", "Base", "BaseBlush",
-								"ChangeImageLayer", "Expression", "Submissive", 
+								"ChangeImageLayer", "Expression", "Submissive",
 								"FocusedSpeaks",
                                     "Mmph-♪",
 									"You plant a firm kiss on her wet lips before she manages to sing!",
 									"ApplyStance",
 									"Making Out",
                                           "ChangeImageLayer", "Base", "BaseBlush",
-								"ChangeImageLayer", "Expression", "Seductive", 
+								"ChangeImageLayer", "Expression", "Seductive",
 									"The mermaid looks taken aback but soon begins to return your kisses...",
 						 "ChangeImageLayer", "BodyPart", "ArmRest"
                                   ]
@@ -109,7 +109,7 @@
 						"NameOfScene": "HalfKiss!",
 						"theScene":[
                                           "ChangeImageLayer", "Base", "Base",
-								"ChangeImageLayer", "Expression", "Singing", 
+								"ChangeImageLayer", "Expression", "Singing",
 								"FocusedSpeaks",
                                     "La la- Mmph-♪",
                                     "HitPlayerWith", "Mermaid's Couplet",
@@ -134,16 +134,16 @@
 						"NameOfScene": "ShutupPenis!",
 						"theScene":[
                                           "ChangeImageLayer", "Base", "Base",
-								"ChangeImageLayer", "Expression", "Singing", 
+								"ChangeImageLayer", "Expression", "Singing",
 								"You deftly stick your cock in her open mouth before she starts singing!",
 									"FocusedSpeaks",
                                     "Mmph-♪",
                                           "ChangeImageLayer", "Base", "BaseBlush",
-								"ChangeImageLayer", "Expression", "Submissive", 
+								"ChangeImageLayer", "Expression", "Submissive",
 									"ApplyStance",
 									"Blowjob",
                                           "ChangeImageLayer", "Base", "BaseBlush",
-								"ChangeImageLayer", "Expression", "Seductive", 
+								"ChangeImageLayer", "Expression", "Seductive",
 									"The mermaid looks taken aback but then giggles and begins to slowly suck on your penis...",
 						 "ChangeImageLayer", "BodyPart", "ArmRest"
                                   ]
@@ -152,7 +152,7 @@
 						"NameOfScene": "HalfPenis!",
 						"theScene":[
                                           "ChangeImageLayer", "Base", "Base",
-								"ChangeImageLayer", "Expression", "Singing", 
+								"ChangeImageLayer", "Expression", "Singing",
 						"FocusedSpeaks",
                                     "La la- Mmph-♪",
                                     "HitPlayerWith", "Mermaid's Couplet",
@@ -167,7 +167,7 @@
 						"NameOfScene": "Keep listening...",
 						"theScene":[
                                           "ChangeImageLayer", "Base", "Base",
-								"ChangeImageLayer", "Expression", "Singing", 
+								"ChangeImageLayer", "Expression", "Singing",
 						"FocusedSpeaks",
                                     "La la la~♪",
                                     "HitPlayerWith", "Mermaid's Couplet",
@@ -183,13 +183,13 @@
                         "NameOfScene": "Mouth Invitation",
                         "theScene":[
                                           "ChangeImageLayer", "Base", "BaseBlush",
-								"ChangeImageLayer", "Expression", "Seductive", 
+								"ChangeImageLayer", "Expression", "Seductive",
 								"The mermaid opens her mouth widely, but instead of singing she holds still and looks at you expectedly.",
                                       "HitPlayerWith", "Seduce",
 									  "A naughty expression on her face, she flicks her tongue in an inviting manner. {DamageToPlayer}.",
                                       "FocusedSpeaks",
                                       "Come here, hero.♥",
-                                      "IfFetishLevelEqualOrGreater", "Oral", "10", "MaxFetishTemptationOral",
+                                      "IfFetishLevelEqualOrGreater", "Oral", "100", "MaxFetishTemptationOral",
                                       "IfPlayerHasStatusEffect", "Charm", "CharmedTemptation",
                                       "Menu",
                                         "Approach.",

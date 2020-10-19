@@ -1,0 +1,249 @@
+{
+    "name": "Scyllas Salon",
+    "CardType": "",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [ ""],
+    "requiresEvent": [
+                        {
+                          "NameOfEvent": "",
+                          "Progress": "-99",
+                          "ChoiceNumber": "-1",
+                          "Choice": ""
+                        }
+                      ],
+    "Speakers": [
+                  {
+                    "name": "Messina",
+                    "postName": "",
+                    "SpeakerType": "monster"
+                  },
+                  {
+                    "name": "Elf",
+                    "postName": "",
+                    "SpeakerType": "monster"
+                  }
+                ],
+    "EventText": [
+                    {
+                        "NameOfScene": "EventStart",
+                        "theScene": [
+                                "IfChoice", "1", "SalonOpen", "Salon",
+            									  "DisplayCharacters", "1", "EndLoop",
+                                "Speaks", "I... think so...",
+        											  "ChangeImageLayer", "Expression", "1", "Avert",
+                                "She stops to think for a moment.",
+        											  "ChangeImageLayer", "Expression", "1", "Base",
+                                "Speaks", "I don't think... battlefucking helped much though...",
+        											  "ChangeImageLayer", "Expression", "1", "HappyBlush",
+                                "Speaks", "But... it was fun.",
+        											  "ChangeImageLayer", "Expression", "1", "Base",
+                                "Speaks", "I want to try... running a salon. A very small one.",
+        											  "ChangeImageLayer", "Expression", "1", "HappyBlush",
+                                "Speaks", "To be honest... I already rented a place at the town here...",
+        											  "ChangeImageLayer", "Expression", "1", "Base",
+                                "Speaks", "I don't know if I am ready to run a salon... But I am ready to try.",
+        											  "ChangeImageLayer", "Expression", "1", "AvertBlush",
+                                "Speaks", "Will you come visit...? It will help me do my best...",
+        											  "ChangeImageLayer", "Expression", "1", "NaughtyBlush",
+                                "Speaks", "Of course... all services will be free, just for you.♪",
+                                "You nod and reassure Messina that you will stop by, further encouraging her to finally go with her plan.",
+        											  "ChangeImageLayer", "Expression", "1", "HappyBlush",
+                                "Speaks", "Okay... Then I'll go and... make it happen... right now...!",
+        											  "ChangeImageLayer", "Expression", "1", "Base",
+                                "She picks up herself, gathering her sprawling tentacles and making a beeline for the exit before stopping awkwardly half-way through and turning around.",
+        											  "ChangeImageLayer", "Expression", "1", "Embarrassed",
+                                "Speaks", "Ah, umm... I didn't mean to... leave you behind...",
+                                "With a chuckle you catch up to her, and both of you walk towards the exit from the damp cavern together.",
+        											  "ChangeBG", "../Mods/Beach/Images/beach.png",
+                                "Emerging from the dark palce and into the sunlight Messina visibly deflates and stops for a moment. Clenching her fists she sets her gaze on the town and speaks up, not turning to face you.",
+        											  "ChangeImageLayer", "Expression", "1", "Sad",
+                                "Speaks", "Okay... {ThePlayerName}. I think I have to... do this on my own.",
+        											  "ChangeImageLayer", "Expression", "1", "Base",
+                                "Speaks", "But come visit soon... My salon will be right behind the inn...",
+        											  "ChangeImageLayer", "Expression", "1", "NaughtyBlush",
+                                "Speaks", "I'll have all kinds of {i}services{/i} ready.♪",
+                                "Still wearing an embarrassed but very naughty smile, the scylla gives you a little wave and staunters towards the town, a determined spring in her... step.",
+        											  "DisplayCharacters", "2", "EndLoop",
+        											  "You look up to the skies, spending a moment to reminiscence over your ordeals with the shy scylla, a placid smile on your face...",
+                                "SetChoice", "1", "SalonOpen"
+                                  ]
+                    },
+                    {
+                      "NameOfScene": "Salon",
+                      "theScene": [
+                        "IfChoice", "1", "SalonOpen", "SalonFirstVisit",
+                        "SetChoice", "1", "SalonRepeat"
+
+                      ]
+                    },
+                    {
+                      "NameOfScene": "SalonFirstVisit",
+                      "theScene": [
+                        "Following Messina's directions you head behind Vivian's inn, and quickly find a small colorful sign reading 'Messina's Pampering Tentacles Spa'. The sign is adorned with elaborate but very cutesy drawings of marine creatures and monstergirls.",
+                        "You push the door open and find youself in a small, neatly adorned room with a large desk and two differently-colored doors leading further inside.",
+                        "DisplayCharacters", "1", "2", "EndLoop",
+                        "As you enter, you notice Messina together with an Elf next to the desk.",
+                        "ChangeImageLayer", "Expression", "1", "Happy",
+                        "ChangeImageLayer", "Base", "2", "Flustered",
+                        "Messina smiles widely as she turns to face you.",
+                        "Speaks", "Ah... Hello-",
+                        "ChangeImageLayer", "Base", "2", "Ahegao",
+                        "Speaks2", "Oh my Goood, what a stud! I-I get to rub oil all over him, r-right, Ms. Messina?",
+                        "ChangeImageLayer", "Expression", "1", "Naughty",
+                        "ChangeImageLayer", "Base", "2", "Flustered",
+                        "Speaks", "No, no... That's not how we greet guests, remember?",
+                        "Speaks2", "Ah- s-sorry, please don't fire me...",
+                        "ChangeImageLayer", "Base", "2", "Lustful",
+                        "Speaks2", "G-greetings, welcome to Messina's Pampering Spa...",
+                        "ChangeImageLayer", "Base", "2", "Flustered",
+                        "Blushing profusely the elf bows then looks between you and Messina nervously.",
+                        "ChangeImageLayer", "Expression", "1", "Happy",
+                        "Speaks", "That's better... ",
+                        "ChangeImageLayer", "Expression", "1", "NaughtyBlush",
+                        "Speaks", "Okay, you should go practice in your room for now... I'll handle this client.",
+                        "ChangeImageLayer", "Base", "2", "Tsun Blush",
+                        "Speaks2", "O-ok...",
+                        "The elf opens the blue door then turns around to face you and Messina again.",
+                        "ChangeImageLayer", "Base", "2", "Flustered",
+                        "Speaks2", "P-please pick me!",
+                        "DisplayCharacters", "1", "EndLoop",
+                        "ChangeImageLayer", "Expression", "1", "Apologetic",
+                        "Blurting that out, the elf slams the door. Messina looks to you with an awkward smile, fiddling with her tentacles.",
+                        "Speaks", "This was not... the kind of trouble I expected... Heehee...",
+                        "Menu",
+                          "Congratulate her on opening.",
+                          "Compliment her outfit.",
+                        "EndMenu"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "Congratulate her on opening.",
+                      "theScene": [
+                        "ChangeImageLayer", "Expression", "1", "Happy",
+                        "Speaks", "Thank you... it's all thanks to your encouragement.",
+                        "ChangeImageLayer", "Expression", "1", "Apologetic",
+                        "Speaks", "Honestly... I am still a little uncomfortable... So I am glad that you are here.",
+                        "JumpToScene", "WrapUpIntro"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "Compliment her outfit.",
+                      "theScene": [
+                        "ChangeImageLayer", "Expression", "1", "HappyBlush",
+                        "Speaks", "Thank you... it's a design popular at the capital...♪",
+                        "ChangeImageLayer", "Expression", "1", "Apologetic",
+                        "Speaks", "Thank you for coming... Honestly... I am still a little uncomfortable... So I am glad that you are here.",
+                        "JumpToScene", "WrapUpIntro"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "WrapUpIntro",
+                      "theScene": [
+                        "ChangeImageLayer", "Expression", "1", "Base",
+                        "Messina retreats behind the desk, getting on top of a wide-looking chair and looks up to you with a smile.",
+                        "Speaks", "Do you want to... hire a masseuse?",
+                        "She pulls out a brochure and places it on the table in front of you.",
+                        "Speaks", "We could also chat for a bit... Though we are still understaffed, so not too long.♪",
+                        "JumpToScene", "MainHub"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "MainHub",
+                      "theScene": [
+                        "Menu",
+                          "Hire a masseuse.",
+                          "Chat with Messina.",
+                          "Leave.",
+                        "EndMenu"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "Hire a masseuse.",
+                      "theScene": [
+                        "You take up the brochure and crack it open, examining the offered services. This appears to be a version for male customers.",
+                        "Choose the masseuse.",
+                        "Menu",
+                          "Messina, the madam scylla.",
+                          "Nilvina, the lively elf.",
+                          "Wupuru, the bubbly slimegirl.",
+                          "Put down the brochure.",
+                        "EndMenu"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "Messina, the madam scylla.",
+                      "theScene": [
+                        "ChangeImageLayer", "Expression", "1", "NaughtyBlush",
+                        "Messina smiles lewdly as you open her spread and whispers even quiter than usual.",
+                        "Speaks", "Remember, you also get a 50% discount for my services... And I'll do common and battlefuck courses for free.",
+                        "Menu",
+                          "Common Course.",
+                          "Relaxing Tentacle Bath. (500 Eros)",
+                          "Prostate Course. (1000 Eros)",
+                          "Gentle Milking Play. (2000 Eros)",
+                          "Paizuri Bath Service. (10000 Eros)",
+                          "Hands-free Whispering Course. (10000 Eros)",
+                          "Doting Fellatio. (10000 Eros)",
+                          "Extreme Milking Play. (12500 Eros)",
+                          "Battlefuck Play. (Level 40+ adventures)",
+                        "EndMenu"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "Nilvina, the lively elf.",
+                      "theScene": [
+                      "ChangeImageLayer", "Expression", "1", "HappyBlush",
+                      "Messina giggles amusedly as you open the elf's spread and examine her services.",
+                      "Speaks", "She will be delighted...",
+                      "Menu",
+                        "Common Oil Course. (500 Eros)",
+                        "Fragrant Aphrodisiacs Play. (1000 Eros)",
+                        "Hugging Full-body Massage Course. (2000 Eros)",
+                        "Lovey-dovey Sex (PLEASE BUY THIS THANKS). (3000 Eros)",
+                      "EndMenu"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "Wupuru, the bubbly slimegirl.",
+                      "theScene": [
+                      "ChangeImageLayer", "Expression", "1", "Base",
+                      "Messina smiles softly as you open the slime's spread and examine her services.",
+                      "Speaks", "That girl is a natural... You are sure to enjoy yourself...",
+                      "ChangeImageLayer", "Expression", "1", "Embarrassed",
+                      "Speaks", "And don't think too much about the names... And I helped write the last one...",
+                      "Menu",
+                        "Puru-puru Course! (500 Eros)",
+                        "Bubbly Bath Thingie! (1000 Eros)",
+                        "Puru-puru Hot! (2000 Eros)",
+                        "Full-body Submerging Relaxation Service. (Takes up to 4 hours, recall stone mandatory!) (15000 Eros)",
+                      "EndMenu"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "Put down the brochure.",
+                      "theScene": [
+                        ""
+                      ]
+                    },
+                    {
+                      "NameOfScene": "Chat with Messina.",
+                      "theScene": [
+                        "ChangeImageLayer", "Expression", "1", "Happy",
+                        "Speaks", "Sure...♪",
+                        "Menu",
+                          "Brochure?",
+                          "Will you be at the beach?",
+                          "About the outfit.",
+                          "Done talking.",
+                        "EndMenu"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "Leave.",
+                      "theScene": [
+                        ""
+                      ]
+                    }
+                ]
+}

@@ -278,6 +278,35 @@
             "theScene": [
             "ChangeBG", "../Mods/Beach/Images/altar.png",
             "IfChoice", "2", "FaintedFirstFight", "FaintIntro",
+            "IfChoice", "10", "", "CheckRomance",
+            "You return to Cetuspeanna's island and sit down on the altar, waiting for her arrival. Hopefully the dragoness is not too far.",
+            "As if alleviating your concerns, Cetuspeanna emerges from the water gracefully.",
+            "DisplayCharacters", "1", "EndLoop",
+            "ChangeImageLayer", "Expression", "1", "SoftSmile",
+            "Speaks", "Hello again, {ThePlayerName}.",
+            "Slithering unto land, she wraps her long tail around the altar, propping up her upper body across from you, perhaps a little too closely.",
+            "ChangeImageLayer", "Expression", "1", "Happy",
+            "Speaks", "So, what did you want to do today?",
+            "JumpToScene", "MainHub"
+            ]
+          },
+          {
+            "NameOfScene": "CheckRomance",
+            "theScene": [
+              "IfChoice", "4", "Love","CheckRomance2",
+              "JumpToScene", "MeetDragonNoChecks"
+            ]
+          },
+          {
+            "NameOfScene": "CheckRomance2",
+            "theScene": [
+              "ProgressEqualsOrGreater", "100", "Confession",
+              "JumpToScene", "MeetDragonNoChecks"
+            ]
+          },
+          {
+            "NameOfScene": "MeetDragonNoChecks",
+            "theScene": [
             "You return to Cetuspeanna's island and sit down on the altar, waiting for her arrival. Hopefully the dragoness is not too far.",
             "As if alleviating your concerns, Cetuspeanna emerges from the water gracefully.",
             "DisplayCharacters", "1", "EndLoop",
@@ -349,6 +378,7 @@
                 "RequiresChoice", "4", "WhyRun",
                   "'Why did you run away at first?'",
                 "RequiresChoice", "4", "Love",
+                "RequiresLessProgress", "100",
                   "'So you love me?'",
                 "RequiresChoice", "6", "TailPussyNotLooked",
                   "Tail pussy...",
@@ -396,9 +426,10 @@
               "ChangeImageLayer", "Expression", "Smile",
               "Speaks", "So in the end, they classified me as a 'draconic mollusc' and bought me a cake. Wizards are so oddly adorable at times, aren't they?",
               "ChangeImageLayer", "Expression", "Panic",
-              "Speaks", "Oh I am sorry, I talked too much about this. I hope I didn't bore you, we should change the subject.",
+              "Speaks", "Oh I am sorry, I talked so much about this. I hope I didn't bore you, we should change the subject!",
               "SetChoice", "5", "NotAGod",
               "ChangeImageLayer", "Expression", "Smile",
+              "ChangeProgress", "5",
               "JumpToScene", "About herself."
             ]
           },
@@ -419,7 +450,7 @@
               "Speaks", "W-w-well if you have to know... Sometimes I receive prophetic dreams.",
               "ChangeImageLayer", "Base", "1", "BaseFlush",
               "ChangeImageLayer", "Expression", "1", "Smile",
-              "Speaks", "And the day before we met, I dreamed of a fair man sent by the Goddess to love me.",
+              "Speaks", "And some weeks before we met, I dreamed of a fair man sent by the Goddess to love me.",
               "ChangeImageLayer", "Expression", "1", "Shy",
               "Speaks", "And well... I am sure you noticed how mermaids love talking about marriage, so that kind of romantic thinking must've rubbed off on me a little. Or a lot...",
               "ChangeImageLayer", "Base", "1", "BaseBlush",
@@ -428,6 +459,7 @@
               "SetChoice", "4", "Love",
               "ChangeImageLayer", "Base", "1", "Base",
               "ChangeImageLayer", "Expression", "Smile",
+              "ChangeProgress", "5",
               "JumpToScene", "About herself."
 
             ]
@@ -456,6 +488,7 @@
               "Speaks", "So maybe if we spend more time together, I will fall in love with you. Hope you don't mind.♪",
               "ChangeImageLayer", "Base", "1", "Base",
               "ChangeImageLayer", "Expression", "Smile",
+              "ChangeProgress", "10",
               "JumpToScene", "About herself."
 
             ]
@@ -485,6 +518,7 @@
               "SetChoice", "6", "TailPussyLooked",
               "ChangeImageLayer", "Base", "1", "Base",
               "ChangeImageLayer", "Expression", "Smile",
+              "ChangeProgress", "3",
               "JumpToScene", "About herself."
             ]
           },
@@ -519,6 +553,7 @@
               "Speaks", "But they end up babying the men so much that I am not sure if that's actually their intent...",
               "ChangeImageLayer", "Base", "1", "Base",
               "ChangeImageLayer", "Expression", "Smile",
+              "ChangeProgress", "5",
               "JumpToScene", "About the resort."
             ]
           },
@@ -563,6 +598,7 @@
               "Speaks", "And I hear she has quite an appetite for men, so do watch out...",
               "ChangeImageLayer", "Base", "1", "Base",
               "ChangeImageLayer", "Expression", "Smile",
+              "ChangeProgress", "5",
               "JumpToScene", "About the resort."
             ]
           },
@@ -595,6 +631,7 @@
               "Speaks", "Of course, nobody actually thinks I am Goddess, not even the Nereids. But everyone enjoys the aesthetic.",
               "ChangeImageLayer", "Base", "1", "Base",
               "ChangeImageLayer", "Expression", "Smile",
+              "ChangeProgress", "5",
               "JumpToScene", "Talk."
 
             ]
@@ -609,6 +646,7 @@
               "Speaks", "I am glad she did.",
               "ChangeImageLayer", "Base", "1", "Base",
               "ChangeImageLayer", "Expression", "Smile",
+              "ChangeProgress", "5",
               "JumpToScene", "Talk."
             ]
           },
@@ -689,6 +727,7 @@
           {
             "NameOfScene": "CetuspeannaBeatenSpar",
             "theScene": [
+              "ChangeProgress", "5",
               "ChangeBGM", "../Mods/Beach/Music/PerituneMaterial_Shizima2.mp3",
               "DisplayCharacters", "1", "EndLoop",
               "ChangeImageLayer", "Expression", "1", "MildlyAroused",
@@ -823,6 +862,7 @@
               "Speaks", "Let's take a little break to calm down, okay?",
               "You nod in agreement, still a little flushed with embarrassment and arousal from the intense and uncharacteristically sloppy fellatio...",
               "ChangeImageLayer", "Expression", "1", "Smile",
+              "ChangeProgress", "10",
               "JumpToScene", "MainHub"
             ]
           },
@@ -877,6 +917,7 @@
               "You let go of the dragoness, allowing her to go for a quick swim. Soon enough she returns, wrapping around the altar and facing you again.",
               "ChangeImageLayer", "Expression", "1", "Smile",
               "Speaks", "Well, that was fun. Wanted to do anything else?♥",
+              "ChangeProgress", "5",
               "JumpToScene", "MainHub"
             ]
           },
@@ -950,6 +991,7 @@
               "SetChoice", "9", "TailPussyFucked",
               "ChangeFetish", "Monstrous", "10",
               "ChangeSensitivity", "Sex", "7",
+              "ChangeProgress", "5",
               "GameOver"
             ]
           },
@@ -967,6 +1009,7 @@
           {
             "NameOfScene": "Ask if she has any suggestions.",
             "theScene": [
+              "ChangeProgress", "5",
               "ChangeImageLayer", "Base", "1", "BaseFlush",
               "ChangeImageLayer", "Expression", "1", "ShyNonAvert",
               "Speaks", "Something I'd want..? W-well...",
@@ -1034,6 +1077,7 @@
               "ChangeImageLayer", "Expression", "1", "NaughtyFace",
               "Speaks", "I'm glad...♥ I had a lot of fun doing this too.",
               "You spend a quiet moment together, enjoying the afterglow and each other's presence. Eventually, you reluctantly disentangle yourself from your dragon lover, and she goes for a quick swim to rinse off the huge mess you left on her, but not before scooping up some of it for a taste when she thinks you're not looking.",
+              "ChangeProgress", "15",
               "JumpToScene", "MainHub"
             ]
           },
@@ -1082,6 +1126,7 @@
               "You wake up still in her embrace, stirring and disentangling yourself from the cuddly serpent as you sit up. She squeezes your hand longingly for a moment before letting go, and gives you a shy smile before sitting up as well.",
               "ChangeImageLayer", "Expression", "1", "Tiny",
               "Speaks", "Want to do something else now..?♥",
+              "ChangeProgress", "10",
               "JumpToScene", "MainHub"
             ]
           },
@@ -1095,6 +1140,153 @@
               "Speaks", "Very well. It was good seeing you again, {ThePlayerName}.",
               "DisplayCharacters", "EndLoop",
               "With a little wave Cetuspeanna disappears into the water and you backtrack through the resort towards town."
+            ]
+          },
+          {
+            "NameOfScene": "Confession",
+            "theScene": [
+            "You return to Cetuspeanna's island and sit down on the altar, waiting for her arrival. Hopefully the dragoness is not too far.",
+            "As if alleviating your concerns, Cetuspeanna emerges from the water... rather nervously.",
+            "DisplayCharacters", "1", "EndLoop",
+            "ChangeImageLayer", "Base", "1", "BaseBlush",
+            "ChangeImageLayer", "Expression", "1", "Shy",
+            "Speaks", "...",
+            "Silently, she wraps herself around the stone altar. She looks caught up in her own thoughts, but given how often she steals glances at your face, they must involve you in some form.",
+            "PlayerSpeaks", "...Is something wrong?",
+            "Speaks", "No... I am just thinking how I should confess my love to you...",
+            "ChangeBGM", "music/Forest/nandesuto.mp3",
+            "...",
+            "ChangeImageLayer", "Base", "1", "Base",
+            "ChangeImageLayer", "Expression", "1", "Confus",
+            "Speaks", "...Eh?",
+            "ChangeImageLayer", "Base", "1", "BaseFullBodyBlush",
+            "ChangeImageLayer", "Tits", "1", "",
+            "ChangeImageLayer", "ArmsBase", "1", "",
+            "ChangeImageLayer", "ArmsTop", "1", "",
+            "ChangeImageLayer", "Expression", "1", "Flustered",
+            "Speaks", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH!",
+            "Speaks", "W-w-w-why did I just say thaat?! Noooooo!",
+            "Her powerful tail starts smacking the tiny island for all it's worth, as if trying to make everyone forget what just happened. You are quite certain the entire island is shaking.",
+            "...",
+            "ChangeBGM", "music/Relaxing/umi.mp3",
+            "ChangeImageLayer", "Expression", "1", "Shy",
+            "It takes a moment before the large dragoness calms down a little. She is still covering her face and keeps her distance, tail still lashing the sands, but with much less fervor.",
+            "Speaks", "Uuuh... stupid Cetty... Can't I do anything right...?",
+            "ChangeImageLayer", "Base", "1", "BaseBlush",
+            "ChangeImageLayer", "Tits", "1", "Titties",
+            "ChangeImageLayer", "ArmsBase", "1", "ArmsRest",
+            "ChangeImageLayer", "Expression", "1", "Shy",
+            "Finally, she turns back to face you, looking very embarrassed, completely defeated and also apologetic.",
+            "Speaks", "Sorry, {ThePlayerName}... My silly outburst undoubtedly makes it hard for you to respond... So let me try again.",
+            "ChangeBGM", "music/Emotional/Purple Planet Music - Emotional - Spiritual Moment (1_32) 90bpm (L).mp3",
+            "ChangeImageLayer", "Base", "1", "BaseFlush",
+            "ChangeImageLayer", "Expression", "1", "EyesClosed",
+            "She sits her upper body on the altar across from you, looking very stiff. You consider sparing her the nerve-wracking experience and just giving her a response, but seeing how serious she looks about it you decide to keep quiet.",
+            "ChangeImageLayer", "Expression", "1", "SoftSmile",
+            "Speaks", "{ThePlayerName}... I love you.",
+            "ChangeImageLayer", "Expression", "1", "ShySmile",
+            "Speaks", "I was in love with you before we even met... As strange as that sounds.",
+            "ChangeImageLayer", "Expression", "1", "SoftSmile",
+            "Speaks", "That dream I mentioned before... You were there, the Champion of the Goddess, right at Her side...",
+            "ChangeImageLayer", "Expression", "1", "HaughtyEyesClosed",
+            "Speaks", "And knowing nothing about you, I fell in love... At the first sight. Sounds a little shallow to me, honestly.",
+            "ChangeImageLayer", "Expression", "1", "SoftSmile",
+            "Speaks", "Even now, we still don't know that much about each other... But I enjoyed the time we spent together and we are... compatible, at least.",
+            "ChangeImageLayer", "Expression", "1", "ShySmile",
+            "Speaks", "At this point, I would really like to find out... if this is just a foolish crush of silly girl...",
+            "ChangeImageLayer", "Expression", "1", "SoftSmile",
+            "Speaks", "Or if we can become something.",
+            "Menu",
+              "'I love you.'",
+              "Kiss her.",
+              "'I don't feel that way about you.'",
+            "EndLoop"
+            ]
+          },
+          {
+            "NameOfScene": "'I love you.'",
+            "theScene": [
+              "ChangeBGM", "music/Forest/nandesuto.mp3",
+              "Speaks2", "Kyaaaah!",
+              "ChangeImageLayer", "Base", "1", "BaseBlush",
+              "ChangeImageLayer", "Expression", "1", "Happy",
+              "Speaks", "...",
+              "ChangeImageLayer", "Expression", "1", "SoftSmile",
+              "ChangeBGM", "music/Relaxing/umi.mp3",
+              "Speaks", "...I am really, really glad to hear you say that...",
+              "ChangeImageLayer", "Expression", "1", "ShySmile",
+              "Speaks", "But we should move elsewhere, away from those girls... Even though they sounded really glad too.",
+              "She stops for a moment, as if realizing something.",
+              "ChangeImageLayer", "Expression", "1", "Panic",
+              "Speaks", "Sheesh... My big confession was a mess from start to finish...",
+              "ChangeImageLayer", "Base", "1", "BaseFlush",
+              "ChangeImageLayer", "Expression", "1", "SoftSmile",
+              "Speaks", "N-nevermind, let's just escape them. Take my hand, {ThePlayerName}!",
+              "JumpToScene", "TakenByDragon"
+            ]
+          },
+          {
+            "NameOfScene": "Kiss her.",
+            "theScene": [
+              "ChangeImageLayer", "Base", "1", "BaseBlush",
+              "The dragoness seems to catch on your intent and leans closer, shyly meeting your kiss...",
+              "ChangeBGM", "music/Forest/nandesuto.mp3",
+              "...And the moment your lips touch, you hear muffled gasps and excited splashing all around you...",
+              "Cetty seems to ignore the sounds, taking your hands into her own as she kisses you deeper.",
+              "Speaks", "Nn... I'll take that as a 'yes'.♥",
+              "ChangeImageLayer", "Expression", "1", "Happy",
+              "Speaks", "And... let's ignore them, okay...?",
+              "ChangeImageLayer", "Expression", "1", "MildlyAroused",
+              "Speaks", "We should move someplace more private, though...  Take my hand, {ThePlayerName}!",
+              "JumpToScene", "TakenByDragon"
+
+            ]
+          },
+          {
+            "NameOfScene": "'I don't feel that way about you.'",
+            "theScene": [
+                "ChangeProgress", "-70",
+                "ChangeBGM", "music/Emotional/Purple Planet Music - Emotional - Sense Of Loss (2_04) 54bpm.mp3",
+                "ChangeImageLayer", "Base", "1", "Base",
+                "ChangeImageLayer", "Expression", "1", "Wistful",
+                "The dragoness hangs her head slightly at your words, then seems to freeze altogether.",
+                "Finally, she speaks up.",
+                "Speaks", "I-... I see.",
+                "ChangeImageLayer", "Expression", "1", "Shy",
+                "Speaks", "T-that's fair. Then, umm...",
+                "ChangeImageLayer", "Expression", "1", "ShyNonAvert",
+                "Speaks", "L-let's just pretend this conversation never happened...",
+                "DisplayCharacters", "EndLoop",
+                "Cetuspeanna retreats into the water silently, disappearing from view..."
+            ]
+          },
+          {
+            "NameOfScene": "TakenByDragon",
+            "theScene": [
+              "SetChoice", "10", "RomanceStart",
+              "You take your lover's big, soft hand and yelp in surprise when you feel her cool tentacles suddenly wrapping around your limbs.",
+              "Effortlessly picking you up, the slick appendages cradle you lovingly against her chest as you look up to the large dragoness in confusion.",
+              "ChangeImageLayer", "Base", "1", "Base",
+              "ChangeImageLayer", "Expression", "1", "Happy",
+              "Speaks", "Don't worry, I'll make sure you can breathe.",
+              "ChangeImageLayer", "Expression", "1", "SoftSmile",
+              "ChangeBG", "../Mods/Beach/Images/surface.png",
+              "Without further explanation, she leaps powerfully into the air, descending in a graceful arc before settling to fly right above the water's surface. You watch in awe as the ocean's surface moves quickly below you, taking in the aquatic sights from such an unusual perspective.",
+              "The flight continues for a few moments longer, the two of you likely covering great distance given how fast Cetty can apparently fly. When you can barely see the land, Cetty seems to slow down a little, gathering her lengthly tail around herself.",
+              "You feel magic next, as a shimmering shield forms around your restrained figure. Glittering with rainbow hues, the barrier looks similar to a large water bubble, but much thicker.",
+              "Speaks", "We're diving.♥",
+              "She wraps her arms around you and quickly dives beneath the water's surface! Despite your body instinctively clenching at the plunge, you trust your dragoness, and so don't bother trying to hold your breath, simply wondering how exactly breathing underwater will work.",
+              "ChangeBG", "../Mods/Beach/Images/underwater.png",
+              "But as you submerge, you realize that the barrier keeps all the water outside, sticking close to Cetty's arms and tentacles without breaking. Taking an experimental deep breath, you don't notice anything particularly different.",
+              "Speaks", "Don't worry about running out of air or anything, the shield will maintain a healthy, breathable air inside itself.",
+              "No longer concerned with breathing, you relax and take in the wonderful ocean sights revealed to you through the shimmering bubble shield. Endless schools of colorful fish and glittering air bubbles, along with vibrant forests of coral and algae sprawling across the ocean floor, form a truly breathtaking sight.",
+              "Despite the endless beauty stretching out as far as eye can see, your gaze is quickly drawn towards a tall, pale palace standing proudly in the middle of a gigantic coral formation. This is where Cetuspeanna seems to be taking you.",
+              "Speaks", "That's my house over there. I built it myself! With magic.",
+              "ChangeImageLayer", "Expression", "1", "Shy",
+              "Speaks", "And, well... The mermaids helped decorate the inside. That was surprisingly difficult... Um, you'll see why.",
+              "ChangeImageLayer", "Expression", "1", "SoftSmile",
+              "QuestComplete",
+              "JumpToEvent", "Dragon Palace"
             ]
           }
     ]

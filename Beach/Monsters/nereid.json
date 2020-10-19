@@ -12,7 +12,7 @@
     "perks": ["Undeniable Pleasure", "Pacing"],
     "stats": {"lvl": "4",
               "Exp":"30",
-              "max_hp":"220",
+              "max_hp":"180",
               "max_ep":"10",
               "max_sp": "2",
               "Power": "4",
@@ -23,14 +23,14 @@
               "Luck": "4"
     },
     "Fetishes": [],
-    "BodySensitivity": {"Sex": "70",
-              "Ass":"60",
-              "Breasts":"60",
-              "Mouth":"60",
-              "Seduction": "60",
-              "Magic": "75",
-              "Pain": "75",
-              "Holy": "75",
+    "BodySensitivity": {"Sex": "75",
+              "Ass":"70",
+              "Breasts":"70",
+              "Mouth":"70",
+              "Seduction": "70",
+              "Magic": "80",
+              "Pain": "80",
+              "Holy": "80",
               "Unholy": "60"
     },
     "resistancesStatusEffects": {
@@ -155,6 +155,11 @@
                             "lineTrigger":"EndOfRound",
                             "move": "",
                             "theText":["|f|CallCombatEventAndScene|/|NereidCombatEvents|/|EndOfRound|n|"]
+                        },
+                        {
+                            "lineTrigger":"AutoCounter",
+                            "move": "Caress",
+                            "theText":["|f|CallCombatEventAndScene|/|NereidCombatEvents|/|CaressEvent|n|"]
                         },
                         {
                             "lineTrigger":"HitWith",

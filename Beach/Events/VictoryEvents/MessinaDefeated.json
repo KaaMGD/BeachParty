@@ -1,0 +1,64 @@
+{
+    "name": "Messina Defeated",
+    "CardType": "",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [ ""],
+    "Speakers": [
+                  {
+                    "name": "Messina",
+                    "postName": "",
+                    "SpeakerType": "Monster"
+                  }
+
+                ],
+    "EventText": [
+                    {
+                        "NameOfScene": "EventStart",
+                        "theScene": [  "DisplayCharacters", "1", "EndLoop",
+                                      "IfChoice", "1", "RepeatVictory", "Repeat Victory",
+                                      "SetChoice", "1", "RepeatVictory",
+                                      "JumpToScene", "First Victory"
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "First Victory",
+                        "theScene": [
+                                  "ChangeBGM", "music/Loss/reason.mp3",
+                                  "ChangeImageLayer", "Base", "1", "Bikini",
+                                  "ChangeImageLayer", "Expression", "1", "ShyBlush",
+                                      "Messina lays on her back, gasping for air, her body shivering erotically on the verge of a powerful orgasm. Playing with her now could send her all the way to monster capital, but if you were gentle enough...",
+                                      "Menu",
+                                        "Get her off gently.",
+                                        "Let her recover.",
+                                      "EndLoop"
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "Repeat Victory",
+                        "theScene": [ "ChangeBGM", "music/Loss/reason.mp3",
+                        "ChangeImageLayer", "Base", "1", "Bikini",
+                        "ChangeImageLayer", "Expression", "1", "ShyBlush",
+                            "Once again, you are victorious. Messina lays on her back, gasping for air, her body shivering erotically on the verge of a powerful orgasm. You could play with her erotic body again...",
+                            "Menu",
+                              "Get her off gently.",
+                              "Let her recover.",
+                            "EndLoop"
+                                  ]
+                    },
+                    {
+                      "NameOfScene": "Get her off gently.",
+                      "theScene": [
+                        ""
+                      ]
+                    },
+                    {
+                      "NameOfScene": "Let her recover.",
+                      "theScene": [
+                        "You decide not to indulge in Messina's vulnerable body, not wanting to risk it.",
+                                            "DisplayCharacters",
+                                            "EndLoop"
+                      ]
+                    }
+                ]
+}

@@ -12,6 +12,21 @@
                   }
                 ],
     "EventText": [
+        {
+          "NameOfScene": "CaressEvent",
+          "theScene": [
+            "SkipPlayerAttack",
+            "ChangeMonsterArousal", "10",
+            "ChangeImageLayer", "Base", "Blush",
+            "ChangeImageLayer", "Expression", "Calm",
+            "FocusedSpeaks",
+            "SwapLineIf", "Random",
+              "'Hmm...'",
+              "'...♥'",
+              "'Are you holding back?'",
+            "EndLoop"
+          ]
+        },
 					{
 						"NameOfScene": "Electrified",
 						"theScene":["ChangeMonsterArousal",
@@ -134,9 +149,12 @@
 						"NameOfScene": "DisdainCheck",
 						"theScene":[
               "IfPlayerHasStance", "Sex", "DisdainApply",
-            "IfPlayerHasStance", "Anal", "DisdainApply",
-            "JumpToScene", "Stickitin"
-                                  ]
+              "IfPlayerHasStance", "Anal", "DisdainApply",
+              "JumpToRandomScene",
+                    "Stickitin",
+                    "DoNothing",
+                  "EndLoop"
+              ]
 					  },
 					  {
 						"NameOfScene": "RemoveTighten",
@@ -183,25 +201,24 @@
 								"The Nereid crouches down slightly and spreads open her inviting pussy lips with her fingers, trying to entice you into fucking her.",
 
 								"HitPlayerWith", "Encourage",
-						"FocusedSpeaks",
+		          "FocusedSpeaks",
 								"SwapLineIf", "Random",
 									"'Are you really just going to leak on your own?'",
 									"'Im so close to cumming, why dont you just stick it in?'",
 									"'Are you going to cum without even fucking me?'",
 									"'Figures you would cum without even trying...'",
 								"EndLoop",
-									"IfPlayerArousalOverPercentOfMax", "80", "Stickitinfuck",
-									"IfPlayerHasStatusEffectChangeNextStatCheckDifficulty", "Charm", "5",
-									"IfFetishLevelEqualOrGreaterChangeNextStatCheckDifficulty", "Sex", "3", "2",
-									"IfFetishLevelEqualOrGreaterChangeNextStatCheckDifficulty", "Sex", "5", "3",
-									"IfFetishLevelEqualOrGreaterChangeNextStatCheckDifficulty", "Sex", "7", "5",
-									"IfFetishLevelEqualOrGreaterChangeNextStatCheckDifficulty", "Sex", "10", "10",
+    					"IfPlayerArousalOverPercentOfMax", "95", "Stickitinfuck",
 
-					"StatCheck",
-					"Willpower", "5", "Stickitinfailed",
-					"Willpower", "1", "Stickitinresisted",
-					"Fail", "Stickitinfuck"
-
+    					"StatCheck",
+              "ChangeStatCheckDifficulty", "IfPlayerHasStatusEffect", "Charm", "5",
+              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Sex", "30", "2",
+              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Sex", "50", "3",
+              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Sex", "70", "5",
+              "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Sex", "100", "10",
+    					"Willpower", "5", "Stickitinfailed",
+    					"Willpower", "1", "Stickitinresisted",
+    					"Fail", "Stickitinfuck"
                                   ]
 					  },
 					  {

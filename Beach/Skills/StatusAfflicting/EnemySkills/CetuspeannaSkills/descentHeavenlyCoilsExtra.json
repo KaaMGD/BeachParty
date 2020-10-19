@@ -36,6 +36,6 @@
     "statusMiss": "{AttackerName} sends out and misses! This also shouldn't happen so report it to Kaa!",
     "restraintStruggle": "{TargetName} struggles against {AttackerName}'s slippery coils...",
     "restraintStruggleCharmed": "{TargetName} squirms against {AttackerName}'s slippery coils, barely resisting the urge to settle into the restraining embrace of {TargetHisOrHer} dragon lover...",
-    "restraintEscaped": "{TargetName} manages to free himself of the restraining serpent coils!",
+    "restraintEscaped": "|f|CallCombatEventAndScene|/|CetuspeannaExtraCombatEvents|/|BreakFree|n|",
     "restraintEscapedFail": "But {TargetName} remains bound by the slimy serpent coils!"
 }

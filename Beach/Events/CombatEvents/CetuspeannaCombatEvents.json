@@ -57,7 +57,7 @@
               "NameOfScene": "TryToRegainComposure",
               "theScene": [
                           "ChangeImageLayer", "Base", "BaseFlush",
-                          "ChangeImageLayer", "Expression", "ShyNoAvert",
+                          "ChangeImageLayer", "Expression", "ShyNonAvert",
                           "Cetuspeanna grows still, biting her lip and desperately trying to regain control of herself...",
                           "JumpToRandomScene",
                             "CharmStays","CharmStays","CharmStays","CharmStays","CharmStays","CharmStays","CharmStays",
@@ -112,7 +112,7 @@
                 "ChangeImageLayer", "Expression", "EyesClosed",
                   "FocusedSpeaks", "...",
                 "RemoveStatusEffectFromMonster", "Charm",
-                "ChangeImageLayer", "Expression", "ShyNoAvert",
+                "ChangeImageLayer", "Expression", "ShyNonAvert",
                   "FocusedSpeaks", "You cannot sway me.",
                 "JumpToScene", "NormalSkills"
               ]
@@ -121,7 +121,7 @@
               "NameOfScene": "NormalSkills",
               "theScene": [
                 "ChangeImageLayer", "Base", "Base",
-              "ChangeImageLayer", "Expression", "ShyNoAvert",
+              "ChangeImageLayer", "Expression", "ShyNonAvert",
               "Cetuspeanna appears to be in control of herself again!",
 
                 "ClearMonsterSkillList",
@@ -292,6 +292,7 @@
             {
               "NameOfScene": "Electrified",
               "theScene": ["SkipPlayerAttack",
+                "ChangeEnergyQuietly", "-10",
                 "ChangeImageLayer", "Base", "BaseBlush",
                 "ChangeImageLayer", "Expression", "Hurt",
                 "ChangeMonsterArousal", "90",
@@ -820,6 +821,7 @@
             {
               "NameOfScene": "PenetrateCheck",
               "theScene": ["SkipPlayerAttack",
+              "IfMonsterHasStance", "Sex", "DoNothing",
               "IfMonsterHasStance", "Ascended", "AscendedCounter",
               "IfMonsterHasStance", "Descended", "DescendedCounter",
               "IfMonsterHasStance", "Making Out", "StatusPenetrate",
@@ -865,6 +867,7 @@
               "NameOfScene": "AnalPenetrateCheck",
               "theScene": [
                 "SkipPlayerAttack",
+                "IfMonsterHasStance", "Anal", "DoNothing",
                 "IfMonsterHasStance", "Ascended", "AscendedCounter",
                 "IfMonsterHasStance", "Descended", "DescendedCounter",
                 "IfMonsterHasStance", "Making Out", "StatusAnalPenetrate",
@@ -910,6 +913,7 @@
               "NameOfScene": "MakeOutCheck",
               "theScene": [
                 "SkipPlayerAttack",
+                "IfMonsterHasStance", "Making Out", "DoNothing",
                 "IfMonsterHasStance", "Ascended", "AscendedCounter",
                 "IfMonsterHasStance", "Descended", "DescendedCounter",
                 "IfMonsterHasStance", "Sex", "StatusMakeOut",

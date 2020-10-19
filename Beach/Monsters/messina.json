@@ -89,7 +89,7 @@
 									"The scylla smiles lewdly and puts your dick back in her mouth before sucking powerfully, the intense blowjob creating an obscenely erotic expression on her normally calm face.",
 									"You gasp and cum hard, flooding her warm mouth with hot seed, which she swallows greedily, with loud gulping noises and moans.",
 									"After you're done bottoming out into her greedy mouth, she doesnt let go and begins to bob her head again, sending sparks of pleasure through your over-stimulated dick that force your body to shiver with pleasure as your senses get overloaded with intense pleasure.",
-									"She keeps a steady pace but her blowjob never lets up, so in mere moments your dick goes loose again and starts pumping outr hot and sticky juice unto her tongue again, eliciting happy moans and loud gulps from the lewd scylla.",
+									"She keeps a steady pace but her blowjob never lets up, so in mere moments your dick goes loose again and starts pumping out hot and sticky juice onto her tongue again, eliciting happy moans and loud gulps from the lewd scylla.",
 									"She pops off your dick again, out of breath and panting as she speaks in an uncharastically lewd voice.",
 									"Speaks",
 									"I won...♥ so I get to drink {i}everything{/i} you have... haa... haa...♥ Give me more semen..!♥",
@@ -568,11 +568,14 @@
                       ],
   "victoryScenes": [
             {
-                "NameOfScene": "",
+                "NameOfScene": "Messina",
                 "move": "",
                 "stance": "",
-                "includes": [""],
-                "theScene":[""
+                "includes": ["Messina"],
+                "theScene":[
+                            "ClearMonsterEncounter",
+                            "JumpToEvent",
+                            "Messina Defeated"
                           ],
                 "picture":""
             }

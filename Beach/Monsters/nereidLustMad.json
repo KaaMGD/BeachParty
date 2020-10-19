@@ -1,4 +1,4 @@
-{ 
+{
     "name": "Nereid",
     "IDname": "NereidMad",
     "species": "Fish",
@@ -27,10 +27,10 @@
               "Ass":"90",
               "Breasts":"75",
               "Mouth":"75",
-              "Seduction": "75",
-              "Magic": "75",
-              "Pain": "75",
-              "Holy": "75",
+              "Seduction": "80",
+              "Magic": "80",
+              "Pain": "80",
+              "Holy": "80",
               "Unholy": "60"
     },
     "resistancesStatusEffects": {
@@ -53,13 +53,13 @@
                         "dropChance": "5"
                       }
                     ],
-    "lossScenes": [     
+    "lossScenes": [
                     {
                         "NameOfScene": "Amazon Ride",
                         "move": "",
                         "stance": "",
                         "includes": ["Nereid"],
-                        "theScene":[									
+                        "theScene":[
 									"Speaks",
 									"Ahaha!♥ I see you're ready to get fucked for real now!",
 									"The Nereid grabs your ankles, raising your pelvis in the air before roughly slamming her drooling pussy on your stiff shaft.",
@@ -95,7 +95,12 @@
                             "lineTrigger":"EndOfRound",
                             "move": "",
                             "theText":["|f|CallCombatEventAndScene|/|NereidMadCombatEvents|/|EndOfRound|n|"]
-                        },	
+                        },
+                        {
+                            "lineTrigger":"AutoCounter",
+                            "move": "Caress",
+                            "theText":["|f|CallCombatEventAndScene|/|NereidMadCombatEvents|/|CaressEvent|n|"]
+                        },
                         {
                             "lineTrigger":"HitWith",
                             "move": "Spank",
@@ -260,7 +265,7 @@
                             "theText":["|f|ChangeImageLayer|/|Expression|/|Manic|n|'Mm♥... Mwah♥...'",
                                       "",
                                       "|f|ChangeImageLayer|/|Expression|/|Manic|n|'Smooch...♥'"]
-                        },                        
+                        },
                         {
                             "lineTrigger":"HitWith",
                             "move": "Charm",
@@ -340,15 +345,15 @@
                         {
                             "lineTrigger":"OnPlayerOrgasm",
                             "move": "Sex",
-                            "theText":["|f|ChangeImageLayer|/|Expression|/|Manic|n|The relentless fucking leaves you completely overwhelmed, and the aroused Nereid doesn't seem to plan on slowing down. The wild bouncing of her hips against yours picks up pace even more as she feels your cock throb strongly inside her. 'Gonna cum? Gonna cum!? Ahaha go ahead!♥ But don't you dare going soft!♥'. The prospect of being fucked this roughly even as you're orgasming pushes you over the edge, your sore dick spraying a thick load inside the berserk fish woman as she laughs maniacally.", 
-                                        "|f|ChangeImageLayer|/|Expression|/|Manic|n|On the edge of release you moan and struggle desperately, trying to push away the wild fish woman before she fucks you silly. Your attempts are cut short as she laughs gleefully and grabs you wrists, pinning your hands down to the sandy beach. Raising her hips one last time she slams them down with great force, sending droplets of her juice flying around you. You moan weakly and feel like a dam inside you breaks, flooding her hot insides with a huge load of your thick spunk. The fish woman laughs again and resumes rocking her hips, oblivious to your distress as the overwhelming sensations send shivers up your spine.",
+                            "theText":["|f|ChangeImageLayer|/|Expression|/|Manic|n|The relentless fucking leaves you completely overwhelmed, and the aroused Nereid doesn't seem to plan on slowing down. The wild bouncing of her hips against yours picks up pace even more as she feels your cock throb strongly inside her. 'Gonna cum? Gonna cum!? Ahaha go ahead!♥ But don't you dare going soft!♥'. The prospect of being fucked this roughly even as you're orgasming pushes you over the edge, your sore dick spraying a thick load inside the berserk fish woman as she laughs maniacally.",
+                                        "|f|ChangeImageLayer|/|Expression|/|Manic|n|On the edge of release you moan and struggle desperately, trying to push away the wild fish woman before she fucks you silly. Your attempts are cut short as she pins down your hands down to the sandy beach with a laugh. Raising her hips one last time she slams them down with great force, sending droplets of her juice flying around you. You moan weakly and flood her tigt, quivering insides with a huge load of thick spunk. The fish woman laughs again and resumes rocking her hips, oblivious to your distress as the overwhelming sensations send shivers up your spine.",
                                         "|f|ChangeImageLayer|/|Expression|/|Manic|n|Tired, overstimulated and balls-deep inside a tight pussy you helplessly moan as you realize that you can't last any longer. The Nereid appears unconcerned and as your reach your peak, her slippery pussy keeps sliding relentlessly over your length even as you're filling her pussy to the brim.|n|'We aren't done yet!♥'"
                                       ]
                         },
                         {
                             "lineTrigger":"OnPlayerOrgasm",
                             "move": "Anal",
-                            "theText":["|f|ChangeImageLayer|/|Expression|/|Manic|n|The relentless fucking leaves you completely overwhelmed, and the aroused Nereid doesn't seem to plan on slowing down. The wild bouncing of her ass against your crotch picks up pace even more as she feels your cock throb strongly inside her. 'Gonna cum? Gonna cum!? Ahaha go ahead!♥ But don't you dare going soft!♥'. The prospect of being fucked this roughly even as you're orgasming pushes you over the edge, your over-stimulated dick spraying a thick load inside the berserk fish woman as she laughs maniacally.", 
+                            "theText":["|f|ChangeImageLayer|/|Expression|/|Manic|n|The relentless fucking leaves you completely overwhelmed, and the aroused Nereid doesn't seem to plan on slowing down. The wild bouncing of her ass against your crotch picks up pace even more as she feels your cock throb strongly inside her. 'Gonna cum? Gonna cum!? Ahaha go ahead!♥ But don't you dare going soft!♥'. The prospect of being fucked this roughly even as you're orgasming pushes you over the edge, your over-stimulated dick spraying a thick load inside the berserk fish woman as she laughs maniacally.",
                                         "|f|ChangeImageLayer|/|Expression|/|Manic|n|On the edge of release you moan and struggle desperately, trying to push away the wild fish woman before she fucks you silly. Your attempts are cut short as she laughs gleefully and grabs you wrists, pinning your hands down to the sandy beach. Raising her butt one last time she slams them down with great force, burying you deeper into the sand. You moan weakly and feel like a dam inside you breaks, flooding her tight butthole with a huge load of your thick spunk. The fish woman laughs again and resumes rocking her hips, oblivious to your distress as the overwhelming sensations send shivers up your spine.",
                                         "|f|ChangeImageLayer|/|Expression|/|Manic|n|Tired, overstimulated and balls-deep inside a tight ass you helplessly moan as you realize that you can't last any longer. The Nereid appears unconcerned and as your reach your peak, her tight anus keeps sliding relentlessly over your length even as you're filling her colon to the brim.|n|'We aren't done yet!♥'"
                                       ]
@@ -507,7 +512,7 @@
 										"File": "../Mods/Beach/Images/Nereid/Nereid_Body_Manic.png",
 										"setXalign": "0.0",
 										"setYalign": "0.0"
-								}                
+								}
 						  ]
 		},
 				{
@@ -519,7 +524,7 @@
                           "Overlay": "No",
                           "setXalign": "0.0",
                           "setYalign": "0.0",
-                          "Images":[            
+                          "Images":[
                     {
                         "Name": "Manic",
                         "File": "../Mods/Beach/Images/Nereid/Nereid_Expression_Manic.png",

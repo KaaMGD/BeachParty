@@ -52,6 +52,11 @@
                     "name": "Bikini Imp",
                     "postName": " 3",
                     "SpeakerType": "Monster"
+                  },
+                  {
+                    "name": "???",
+                    "postName": "",
+                    "SpeakerType": "?"
                   }
                 ],
     "EventText": [
@@ -74,22 +79,8 @@
                     {
                       "NameOfScene": "RunCat",
                       "theScene": [
-                        "JumpToRandomScene",
-                          "Sunbathing",
-                          "Sunbathing",
-                        "EndLoop"
-                      ]
-                    },
-                    {
-                      "NameOfScene": "ProwlingCurrentlyUnimplementedWillBeOneOfOptionsAtRunCatFeltAreYouReadingThisYouCodeDivingEnthusiastYou",
-                      "theScene": [
-                        "JumpToRandomScene",
-                          "Da-are?",
-                          "Pounce",
-                          "MermaidPlay",
-                          "Polite",
-                          "Polite",
-                        "EndLoop"
+                        "IfTimeIs", "Day", "Sunbathing",
+                        "IfTimeIs", "Night", "Sunbathing"
                       ]
                     },
                     {
@@ -98,11 +89,11 @@
                         "Walking through the resort, you spot a familiar umbrella up ahead.",
                         "JumpToRandomScene",
                           "Spotted",
-                          "Spotted",
+                          "SpottedOil",
                           "SneakOpportunity",
                           "SneakOpportunityTina",
                           "ImpPlay",
-                          "ImpPlay",
+                          "NereidPlay",
                         "EndLoop"
                       ]
                     },
@@ -119,7 +110,7 @@
                       ]
                     },
                     {
-                      "NameOfScene": "SpottedOilNotWritingYetSorry",
+                      "NameOfScene": "SpottedOil",
                       "theScene": ["DisplayCharacters", "1", "EndLoop",
                         "Felicia is sunbathing, but seems to have noticed you as she gives you a beckoning wave with her paw.",
                         "ChangeImageLayer", "Expression", "1", "InvitingSmile",
@@ -562,7 +553,7 @@
                       ]
                     },
                     {
-                      "NameOfScene": "NereidPlayCurrentlyNotWrittenEither:AikoCry:",
+                      "NameOfScene": "NereidPlay",
                       "theScene": ["DisplayCharacters", "1", "5", "EndLoop",
                         "Felicia is sunbathing, but seems to have noticed you as she gives you a beckoning wave with her paw. Surprisingly enough, you also spot a Nereid sitting on the sand, next to Felicia's couch.",
                         "With the usual apathetic, if a more thoughtful expression, the Nereid sighs. It is a long sigh. Her gaze, almost unblinking, is glued to Felicia's expansive bosom.",
@@ -1021,6 +1012,91 @@
                       "theScene": [
                         "You shake your head and excuse yourself quietly. The imp shrugs, but looks grateful for your discreetness at least, and hops back to her friends.",
                         "You walk away wondering how exactly their ingenious plan will unfold, and how hard a spanking they will get."
+                      ]
+                    },
+                    {
+                      "NameOfScene": "Prowling",
+                      "theScene": [
+                        "JumpToRandomScene",
+                          "Da-are?",
+                          "Pounce",
+                          "MermaidPlay",
+                        "EndLoop"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "Da-are?",
+                      "theScene": [
+                        "Leisurely strolling through the resort, you suddenly hear a single soft step right behind yourself.\nBefore you can turn around, a pair of soft paws rests on your face, obscuring your vision...",
+                        "Speaks9", "Who is it?♪",
+                        "Menu",
+                          "Felicia!",
+                          "RequiresChoiceFromEvent", "Sleeping Manticore", "5", "FirstNameBasis",
+                          "Kaia?",
+                          "RequiresMinimumProgressFromEvent", "Commander's Pet", "1",
+                          "Mika...?",
+                          "RequiresItem", "Vandal Note",
+                          "Perpetua.♪",
+                          "The Demon Queen!",
+                        "EndLoop"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "Felicia!",
+                      "theScene": [
+                        "Speaks", "That's right!♪",
+                        "JumpToScene", "Da-areFuck"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "Kaia?",
+                      "theScene": [
+                        "",
+                        "JumpToScene", "Da-areFuck"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "Mika...?",
+                      "theScene": [
+                        "",
+                        "JumpToScene", "Da-areFuck"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "Perpetua.♪",
+                      "theScene": [
+                        "",
+                        "JumpToScene", "Da-areFuck"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "The Demon Queen!",
+                      "theScene": [
+                        "",
+                        "JumpToScene", "Da-areFuck"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "Da-areFuck",
+                      "theScene": [
+                        "Her paws shift lower, wrapping around your torso and you feel her chin resting on your shoulder. After blowing softly into your ear, she purrs a seductive suggestion quietly.",
+                        "Speaks", "Let's fuck.♥",
+                        "Menu",
+                        "aa",
+                        "aa",
+                        "EndLoop"
+                      ]
+                    },
+                    {
+                      "NameOfScene": "Pounce",
+                      "theScene": [
+                        ""
+                      ]
+                    },
+                    {
+                      "NameOfScene": "MermaidPlay",
+                      "theScene": [
+                        ""
                       ]
                     },
                     {
