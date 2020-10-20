@@ -12,7 +12,7 @@
     "perks": ["Unbounded"],
     "stats": {"lvl": "4",
               "Exp":"30",
-              "max_hp":"175",
+              "max_hp":"135",
               "max_ep":"10",
               "max_sp": "1",
               "Power": "13",

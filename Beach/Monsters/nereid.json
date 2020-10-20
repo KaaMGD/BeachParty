@@ -159,7 +159,16 @@
                         {
                             "lineTrigger":"AutoCounter",
                             "move": "Caress",
-                            "theText":["|f|CallCombatEventAndScene|/|NereidCombatEvents|/|CaressEvent|n|"]
+                            "theText":["|f|CallCombatEventAndScene|/|NereidCombatEvents|/|CaressEvent|n|",
+                              "|f|CallCombatEventAndScene|/|NereidCombatEvents|/|CaressEvent|n|",
+                              "|f|CallCombatEventAndScene|/|NereidCombatEvents|/|CaressEvent|n|"]
+                        },
+                        {
+                            "lineTrigger":"HitWith",
+                            "move": "Caress",
+                            "theText":["|f|ChangeImageLayer|/|Expression|/|Calm Blush|n|'...♥'",
+                                        "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n|'Hmm...'",
+                                        "|f|ChangeImageLayer|/|Expression|/|Calm Blush|n|'Are you holding back?'"]
                         },
                         {
                             "lineTrigger":"HitWith",

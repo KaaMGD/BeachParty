@@ -1,0 +1,14 @@
+{
+    "name": "Nereid Toughness",
+    "description": "You're a cold fish and don't feel caresses.",
+
+    "LevelReq": "0",
+    "PerkReq": [ ""],
+    "StatReq": [ ""],
+    "StatReqAmount": [ "0"],
+
+    "PerkType": [ "DamageReduction" ],
+    "EffectPower": [ "25" ],
+
+    "PlayerCanPurchase": "No"
+}

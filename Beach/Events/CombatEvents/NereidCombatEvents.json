@@ -15,22 +15,12 @@
         {
           "NameOfScene": "CaressEvent",
           "theScene": [
-            "SkipPlayerAttack",
-            "ChangeMonsterArousal", "10",
-            "ChangeImageLayer", "Base", "Blush",
-            "ChangeImageLayer", "Expression", "Calm",
-            "FocusedSpeaks",
-            "SwapLineIf", "Random",
-              "'Hmm...'",
-              "'...♥'",
-              "'Are you holding back?'",
-            "EndLoop"
+            "GivePerkToMonster", "Nereid Toughness"
           ]
         },
 					{
 						"NameOfScene": "Electrified",
-						"theScene":["ChangeMonsterArousal",
-								"40",
+						"theScene":["ChangeMonsterArousal", "40",
 								"ChangeImageLayer", "Base", "Blush",
 								"ChangeImageLayer", "Expression", "Hurt",
 								"FocusedSpeaks",
@@ -60,12 +50,20 @@
 					  },
 					  {
 						"NameOfScene": "EndOfRound",
-						"theScene":["IfPlayerArousalOverPercentOfMax", "70", "DisdainCheck",
+						"theScene":[
+            "CallNextSceneJumpThenReturn", "IfMonsterHasPerk", "Nereid Toughness", "RemoveToughness",
+            "IfPlayerArousalOverPercentOfMax", "70", "DisdainCheck",
 
 						"IfMonsterHasStatusEffect", "Sleep", "Snoozer",
 						"IfMonsterHasStatusEffect", "Charm", "CharmLustMad"
                                   ]
 					  },
+            {
+              "NameOfScene": "RemoveToughness",
+              "theScene": [
+                "RemovePerkFromMonster", "Nereid Toughness"
+              ]
+            },
 					  {
 						"NameOfScene": "Snoozer",
 						"theScene":[
@@ -150,10 +148,7 @@
 						"theScene":[
               "IfPlayerHasStance", "Sex", "DisdainApply",
               "IfPlayerHasStance", "Anal", "DisdainApply",
-              "JumpToRandomScene",
-                    "Stickitin",
-                    "DoNothing",
-                  "EndLoop"
+              "JumpToScene", "GiveStickit"
               ]
 					  },
 					  {
@@ -193,7 +188,20 @@
 										"EndLoop"
                                   ]
 					  },
-
+            {
+              "NameOfScene": "GiveStickit",
+              "theScene": [
+                "GiveSkillToMonster", "Crouching Seduction",
+                "GiveSkillToMonster", "Crouching Seduction",
+                "GiveSkillToMonster", "Crouching Seduction",
+                  "GiveSkillToMonster", "Crouching Seduction",
+                  "GiveSkillToMonster", "Crouching Seduction",
+                  "GiveSkillToMonster", "Crouching Seduction",
+                    "GiveSkillToMonster", "Crouching Seduction",
+                    "GiveSkillToMonster", "Crouching Seduction",
+                    "GiveSkillToMonster", "Crouching Seduction"
+              ]
+            },
 					  {
 						"NameOfScene": "Stickitin",
 						"theScene":[ "ChangeImageLayer", "Base", "Base",
