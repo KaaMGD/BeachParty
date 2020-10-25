@@ -13,7 +13,7 @@
     "stats": {"lvl": "5",
               "Exp":"35",
               "max_hp":"280",
-              "max_ep":"10",
+              "max_ep":"25",
               "max_sp": "1",
               "Power": "12",
               "Technique": "1",
@@ -377,7 +377,7 @@
                         },
                         {
                             "lineTrigger":"UsesMove",
-                            "move": "Sluggy Pressure Mating", 
+                            "move": "Sluggy Pressure Mating",
                             "theText":["|f|ChangeImageLayer|/|Expression|/|BiteLip|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'It's okay to fill me up...♥ Let loose and cum.♥'",
 									  "|f|ChangeImageLayer|/|Expression|/|Base|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Fufu, don't hold back and cum whenever you want...♥'",
                                       "|f|ChangeImageLayer|/|Expression|/|Lewd|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Mmh...♥ Be a good boy and let auntie squeeze you dry...♥'"]
@@ -628,7 +628,7 @@
                       "File": "../Mods/Beach/Images/Sea Slug/Slug_Expression_Ahegao.png",
                       "setXalign": "0.0",
                       "setYalign": "0.0"
-                 }       
+                 }
 						  ]
 						 }
 				]

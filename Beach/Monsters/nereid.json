@@ -13,7 +13,7 @@
     "stats": {"lvl": "4",
               "Exp":"30",
               "max_hp":"180",
-              "max_ep":"10",
+              "max_ep":"20",
               "max_sp": "2",
               "Power": "4",
               "Technique": "4",
@@ -38,7 +38,7 @@
               "Charm":"15",
               "Aphrodisiac":"15",
               "Restraints":"0",
-              "Sleep":"15",
+              "Sleep":"-15",
               "Trance": "15",
               "Paralysis": "15"
     },

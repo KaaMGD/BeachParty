@@ -38,7 +38,7 @@
     "stats": {"lvl": "80",
               "Exp":"500",
               "max_hp":"2400",
-              "max_ep":"50",
+              "max_ep":"120",
               "max_sp": "1",
               "Power": "12",
               "Technique": "35",
