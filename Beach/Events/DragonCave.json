@@ -1094,7 +1094,7 @@
                             "RequiresChoice", "9", "",
                           "Naughtier things?",
                             "RequiresChoice", "9", "IdeasDiscussed",
-                            "RequiresStat", "Spirit", "10",
+                            "RequiresStat", "CurrentSpirit", "10",
                           "Gokkun. (10 Spirit)",
                             "RequiresChoice", "9", "IdeasDiscussed",
                           "Tentacle fuck.",

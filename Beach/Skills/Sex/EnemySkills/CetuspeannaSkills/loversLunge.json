@@ -11,7 +11,7 @@
     "fetishTags": [ "Sex", "Kissing"],
     "startsStance": ["Sex", "Making Out"],
     "requiresStance": "Any",
-    "unusableIfStance": [ "Blowjob", "Penetration", "Face Sit", "Titfuck"],
+    "unusableIfStance": [ "Blowjob", "Penetration", "Face Sit", "Titfuck", "Anal"],
     "requiresTargetStance": [ "Any"],
     "unusableIfTarget": [ "Penetration", "Tailjob", "Footjob"],
     "removesStance": "None",

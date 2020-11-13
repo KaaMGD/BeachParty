@@ -40,6 +40,7 @@
             {
               "NameOfScene": "CharmedSkillsExtra",
               "theScene": [
+                "SetChoice", "4", "SkillLocked",
                 "ClearMonsterSkillList",
                          "GiveSkillToMonster",            "Lover's Lunge",
                          "GiveSkillToMonster",            "Lovey-dovey Sea Dragon Sex",

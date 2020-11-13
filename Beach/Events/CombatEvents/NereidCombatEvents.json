@@ -83,8 +83,7 @@
 					  {
 						"NameOfScene": "Lust Mad",
 						"theScene":[
-								"ClearMonsterEncounter",
-								"AddMonsterToEncounter", "NereidMad",
+                "AddMonsterToEncounter", "ChangeForm", "NereidMad",
 								"ApplyStatusEffectToMonster", "Charm",
 								"FocusedSpeaks",
 								"SwapLineIf", "Random",
@@ -97,7 +96,7 @@
 					  {
 						"NameOfScene": "NormalOrgasm",
 						"theScene":[
-                                          "ChangeImageLayer", "Base", "Blush",
+                "ChangeImageLayer", "Base", "Blush",
 								"ChangeImageLayer", "Expression", "Orgasm",
 								"FocusedSpeaks",
 								"SwapLineIf", "Random",
@@ -111,9 +110,8 @@
 					  {
 						"NameOfScene": "LustMadOrgasm",
 						"theScene":[
-								"ClearMonsterEncounter",
-								"AddMonsterToEncounter", "NereidMad",
-								"ChangeImageLayer", "Expression", "Manic_Cum",
+                "AddMonsterToEncounter", "ChangeForm", "NereidMad",
+								"ChangeImageLayer", "Expression", "Manic Orgasm",
 								"FocusedSpeaks",
 									"SwapLineIf", "Random",
 									"'Ahh...♥ OOOH!..♥ Hahah, NOW I am really in the mood.♥♥'",

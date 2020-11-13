@@ -24,7 +24,7 @@
     "recoil": "0",
     "targetType": "single",
     "statusEffect": "Restrain",
-    "statusChance": "100",
+    "statusChance": "999",
     "statusDuration": "0",
     "statusPotency": "20",
     "statusResistedBy": "Power",
