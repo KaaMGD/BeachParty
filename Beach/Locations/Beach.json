@@ -17,34 +17,19 @@
     "Monsters": ["Mermaid", "Bikini Elf", "Bikini Imp", "Nereid", "Sea Slug"],
     "MonsterGroups": [
                   {
-                      "Monsters": ["Bikini Elf"]
+                      "Group": ["Bikini Elf"]
                   },
                   {
-                      "Monsters": ["Bikini Elf"]
+                      "Group": ["Bikini Imp"]
                   },
                   {
-                      "Monsters": ["Bikini Imp"]
+                      "Group": ["Mermaid"]
                   },
                   {
-                      "Monsters": ["Bikini Imp"]
+                      "Group": ["Nereid"]
                   },
                   {
-                      "Monsters": ["Mermaid"]
-                  },
-                  {
-                      "Monsters": ["Mermaid"]
-                  },
-                  {
-                      "Monsters": ["Nereid"]
-                  },
-                  {
-                      "Monsters": ["Nereid"]
-                  },
-                  {
-                      "Monsters": ["Sea Slug"]
-                  },
-                  {
-                      "Monsters": ["Sea Slug"]
+                      "Group": ["Sea Slug"]
                   }
                 ],
     "Events": ["Underwater Cave", "Succubus Lifeguard", "Resort Owner Felicia"],

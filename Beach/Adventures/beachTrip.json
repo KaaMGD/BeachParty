@@ -4,32 +4,23 @@
     "requires": [""],
     "MusicList": [""],
     "Deck": [ "Event", "Succubus Lifeguard",
-              "Monster", "Mermaid", "EndEncounter",
-              "Monster", "Bikini Elf", "EndEncounter",
+              "Monster", "Mermaid", "EndLoop",
+              "Monster", "Bikini Elf", "EndLoop",
               "BreakSpot",
               "Event", "Underwater Cave",
               "BreakSpot",
-              "Monster", "Nereid", "EndEncounter"],
+              "Monster", "Nereid", "EndLoop"],
     "RandomEvents": [""],
     "RandomMonsters": ["Mermaid", "Nereid", "Bikini Elf"],
     "MonsterGroups": [
                   {
-                      "Monsters": ["Mermaid"]
+                      "Group": ["Mermaid"]
                   },
                   {
-                      "Monsters": ["Mermaid"]
+                    "Group": ["Nereid"]
                   },
                   {
-                    "Monsters": ["Nereid"]
-                  },
-                  {
-                    "Monsters": ["Nereid"]
-                  },
-                  {
-                    "Monsters": ["Bikini Elf"]
-                  },
-                  {
-                    "Monsters": ["Bikini Elf"]
+                    "Group": ["Bikini Elf"]
                   }
                 ],
     "Treasure": [

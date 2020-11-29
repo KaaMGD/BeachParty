@@ -15,10 +15,10 @@
     "RandomMonsters": [ "Blue Slime", "Lizard Girl"],
     "MonsterGroups": [
                   {
-                      "Monsters": [ "Blue Slime"]
+                      "Group": [ "Blue Slime"]
                   },
                   {
-                      "Monsters": [ "Lizard Girl"]
+                      "Group": [ "Lizard Girl"]
                   }
                 ],
     "Treasure": [
