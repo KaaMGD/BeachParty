@@ -466,7 +466,7 @@
                                       ]
                         },
                         {
-                            "lineTrigger":"onOrgasm",
+                            "lineTrigger":"OnOrgasm",
                             "move": "",
                             "theText":["|f|CallCombatEventAndScene|/|NereidCombatEvents|/|Orgasm|n|"
                                       ]

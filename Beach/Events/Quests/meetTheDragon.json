@@ -180,7 +180,7 @@
 												"NoRunning",
 												"Cetuspeanna",
 											  "StartCombat",
-                        "GetEventAndIfChoiceIs", "CetuspeannaCombatEvents", "3", "Fainted", "CetuspeannaFainted",
+                        "GetEventAndIfChoice", "CetuspeannaCombatEvents", "3", "Fainted", "CetuspeannaFainted",
 											  "JumpToScene", "CetuspeannaBeaten"
 								  ]
 					},
@@ -269,7 +269,7 @@
                   "NoRunning",
                   "Cetuspeanna",
                   "StartCombat",
-                  "GetEventAndIfChoiceIs", "CetuspeannaCombatEvents", "3", "Fainted", "CetuspeannaFainted",
+                  "GetEventAndIfChoice", "CetuspeannaCombatEvents", "3", "Fainted", "CetuspeannaFainted",
                   "JumpToScene", "CetuspeannaBeaten"
             ]
           },
@@ -666,7 +666,7 @@
                   "NoRunning",
                   "Cetuspeanna",
                   "StartCombat",
-                  "GetEventAndIfChoiceIs", "CetuspeannaCombatEvents", "3", "Fainted", "CetuspeannaFaintedSpar",
+                  "GetEventAndIfChoice", "CetuspeannaCombatEvents", "3", "Fainted", "CetuspeannaFaintedSpar",
                   "JumpToScene", "CetuspeannaBeatenSpar"
             ]
           },
