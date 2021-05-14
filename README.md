@@ -1,5 +1,6 @@
 # BeachParty
 big nsfw mod for a nsfw game monster girl dreams
+requires game version v23.7a or newer
 to install place the "Beach" folder into the game's "Mods" folder
 
 
