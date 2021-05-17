@@ -16,7 +16,7 @@
     "unusableIfTarget": ["Sex", "Titfuck"],
     "removesStance": "Breast Smother",
     "requiresStatusEffect": "Sleep",
-    "requiresStatusPotency": "4",
+    "requiresStatusPotency": "-99",
     "unusableIfStatusEffect": ["Restrain"],
     "power": "250",
     "minRange": "90",
