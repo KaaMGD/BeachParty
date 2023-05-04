@@ -25,7 +25,7 @@
                       "NameOfScene": "EventStart",
                       "theScene": [
                         "DenyInventory",
-                        "ProgressEqualsOrGreater", "1", "RepeatVisits",
+                        "IfProgressEqualsOrGreater", "1", "RepeatVisits",
                         "SetProgress", "1",
 
                         "Cetuspeanna swims within the towering structure, easily slipping through the wide gateways.",

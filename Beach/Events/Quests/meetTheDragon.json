@@ -36,9 +36,9 @@
                         "NameOfScene": "EventStart",
                         "theScene":[
                           "DenyInventory",
-                          "ProgressEqualsOrGreater", "3", "MeetDragon",
-                          "ProgressEqualsOrGreater", "2", "TryAgain",
-                          "ProgressEqualsOrGreater", "1", "HiddenDragon",
+                          "IfProgressEqualsOrGreater", "3", "MeetDragon",
+                          "IfProgressEqualsOrGreater", "2", "TryAgain",
+                          "IfProgressEqualsOrGreater", "1", "HiddenDragon",
                           "SetProgress", "1",
 
                           "ChangeBGM", "music/Relaxing/umi.mp3",
@@ -300,7 +300,7 @@
           {
             "NameOfScene": "CheckRomance2",
             "theScene": [
-              "ProgressEqualsOrGreater", "100", "Confession",
+              "IfProgressEqualsOrGreater", "100", "Confession",
               "JumpToScene", "MeetDragonNoChecks"
             ]
           },

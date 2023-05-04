@@ -52,13 +52,13 @@
                                       "templeBlue.png",
                                       "ChangeBGM", "music/Caverns/Purple Planet Music - Tense - Melancholia (1_24) 96bpm.mp3",
 
-									  "ProgressEquals", "1",
+									  "IfProgressEquals", "1",
 										"Meeting Again",
 
-									  "ProgressEquals", "2",
+									  "IfProgressEquals", "2",
 										"SecondMeetingDeclinedMassage",
 
-									  "ProgressEquals", "3",
+									  "IfProgressEquals", "3",
 										"Repeated Meeting",
 
 									  "Descending into the cavern you find yourself stepping on wet, rocky steps. They seem to form a natural staircase, making the descent easier.",
@@ -532,7 +532,7 @@
 								"The massage goes lower and lower, reaching your lower abdomen and you idly wonder if she's going to do something naughty next. You realize she could do anything she wanted with you at this point, given how relaxed you are right now.",
 								"Her hands go over your crotch and shift lower, meeting with her tentacles at your thighs before leaving your body.",
 								 "ChangeImageLayer", "Expression", "1", "Base",
-								"MODDER NOTE: this should also give a temporary stat buff once Thresh implements them. Sorry for the immersion-breaking interjection, carry on!",
+                "GivePerk", "Messina's Massage",
 								"Speaks",
 								"There... all done... How do you feel?",
 											  "Menu",
@@ -682,7 +682,7 @@
 								"You feel completely rejuvenated and invigorated with newfound energy!",
 								"ChangeEnergyByPercent",
 								"100",
-								"MODDER NOTE: this should also give a temporary stat buff once Thresh implements them. Sorry for the immersion-breaking interjection, carry on!",
+                "GivePerk", "Messina's Massage",
 								"Her hands shift lower and lower, reaching your lower abdomen and you idly wonder if she's going to do something about your erection next.",
 								 "ChangeImageLayer", "Expression", "1", "Embarrassed",
 								"She stops her hands at your crotch and silently looks up at you for confirmation.",
@@ -733,7 +733,7 @@
 												"At the same time, you feel completely rejuvenated and invigorated with newfound energy!",
 												"ChangeEnergyByPercent",
 												"100",
-												"MODDER NOTE: this should also give a temporary stat buff once Thresh implements them. Sorry for the immersion-breaking interjection, carry on!",
+                        "GivePerk", "Messina's Massage",
 												"ChangeArousalQuietly",
 												"70",
 											    "ChangeImageLayer", "Expression", "1", "Naughty",
@@ -820,7 +820,7 @@
 								"At the same time, you feel completely rejuvenated and invigorated with newfound energy!",
 								"ChangeEnergyByPercent",
 								"100",
-								"MODDER NOTE: this should also give a temporary stat buff once Thresh implements them. Sorry for the immersion-breaking interjection, carry on!",
+                "GivePerk", "Messina's Massage",
 								"With the tension in your muscles gone completely, her tentacles stop working and rest on your body. All except one, that keeps methodically pumping your stiff prick.",
 								"Speaks",
 								"Almost done...♥ Now let's make you spurt again...♥",
@@ -957,7 +957,7 @@
 							{
 								"NameOfScene": "MassageWrapup",
 								"theScene":[
-											"ProgressEquals",
+											"IfProgressEquals",
 											"3",
 											"RepeatMassageWrapup",
 											  "ChangeImageLayer", "Expression", "1", "Embarrassed",

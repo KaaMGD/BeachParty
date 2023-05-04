@@ -1,0 +1,14 @@
+{
+    "name": "Messina's Massage",
+    "description": "After your relaxing massage from Messina your muscles are less stiff and you have more energy. Increases your technique by 2, and your energy by 10. |perkDuration|",
+
+    "LevelReq": "0",
+    "PerkReq": [""],
+    "StatReq": [""],
+    "StatReqAmount": ["0"],
+
+    "PerkType": ["Technique", "GainEnergy", "TimeDuration", "EndMessage"],
+    "EffectPower": ["2", "10", "6", "The effects of Messina's skillful massage have worn off."],
+
+    "PlayerCanPurchase": "No"
+}

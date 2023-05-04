@@ -240,8 +240,8 @@
 						"NameOfScene": "Arousara",
 						"theScene":[
               "SkipPlayerAttack",
-              "ProgressEquals", "1", "SecondArousara",
-              "ProgressEquals", "2", "FinalArousara",
+              "IfProgressEquals", "1", "SecondArousara",
+              "IfProgressEquals", "2", "FinalArousara",
               "SetProgress", "1",
               "ChangeImageLayer", "Base", "Base",
               "ChangeImageLayer", "Expression", "Solemn",

@@ -20,8 +20,8 @@
                     {
             "NameOfScene": "EventStart",
             "theScene":[
-							"ProgressEquals", "1", "RepeatFirst",
-							"ProgressEquals", "2", "RepeatRepeat",
+							"IfProgressEquals", "1", "RepeatFirst",
+							"IfProgressEquals", "2", "RepeatRepeat",
               "SetProgress", "1",
 							"Leaving the city you follow the road beside a couple farmsteads and arrive fairly quickly at a sandy beach. At the roadside, right on the edge of the beach, stands a lone booth and a flimsy signboard gate. The sign reads {Pink}'Sexy Hookup Resort'{ColorEnd}.",
 							"DisplayCharacters", "1", "EndLoop",
