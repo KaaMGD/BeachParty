@@ -1,0 +1,18 @@
+{
+    "name": "Beach Party",
+    "description": "Adds the {b}Beach Resort{/b} location with original characters, art, and bikini variants of base game generics.\nThe location is unlocked from the start, to the very right of the town.",
+    "testedFor": 25.2,
+    "version": 4.6,
+    "tags" : [
+        "+1 Location",
+        "+7 Characters",
+        "+2 Boss Fights",
+        "Original Art"
+    ],
+    "credits": "{b}Music{/b}\nVarious PerituneMaterials by {a=https://peritune.com/}Peritune{/a}\nIn The Teror by {a=https://d-symphony.com/}Dragonic Symphony{/a}\n{b}Testers{/b}\nValentin Cognito\nFeltcutemightcleanlater",
+    "authors": [
+        "Kaa"
+    ],
+    "urlLabel": "Wiki Page",
+    "url": "https://monstergirldreams.miraheze.org/wiki/Mod:Beach_Party"
+}
