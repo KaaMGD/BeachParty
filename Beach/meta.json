@@ -1,7 +1,7 @@
 {
     "name": "Beach Party",
     "description": "Adds the {b}Beach Resort{/b} location with original characters, art, and bikini variants of base game generics.\nThe location is unlocked from the start, to the very right of the town.",
-    "testedFor": 25.2,
+    "testedFor": {"major": 25, "minor": 4, "patch": 1},
     "version": 4.6,
     "tags" : [
         "+1 Location",
@@ -9,7 +9,14 @@
         "+2 Boss Fights",
         "Original Art"
     ],
-    "credits": "{b}Music{/b}\nVarious PerituneMaterials by {a=https://peritune.com/}Peritune{/a}\nIn The Teror by {a=https://d-symphony.com/}Dragonic Symphony{/a}\n{b}Testers{/b}\nValentin Cognito\nFeltcutemightcleanlater",
+    "credits": [
+        "{b}Music{/b}",
+        "Various PerituneMaterials by {a=https://peritune.com/}Peritune{/a}",
+        "In The Teror by {a=https://d-symphony.com/}Dragonic Symphony{/a}",
+        "{b}Testers{/b}",
+        "Valentin Cognito",
+        "Feltcutemightcleanlater"
+    ],
     "authors": [
         "Kaa"
     ],
