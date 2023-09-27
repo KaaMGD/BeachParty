@@ -104,7 +104,7 @@
                         "ChangeImageLayer", "Expression", "1", "InvitingSmile",
                         "ChangeImageLayer", "GlassesLayer", "1", "",
                         "As you come closer, she sits up, takes off her sunglasses and gives you a soft smile.",
-                        "Speaks", "Hey there, {ThePlayerName}.",
+                        "Speaks", "Hey there, [ThePlayerName].",
                         "JumpToScene", "GeneralInteraction"
                       ]
                     },
@@ -114,7 +114,7 @@
                         "Felicia is sunbathing, but seems to have noticed you as she gives you a beckoning wave with her paw.",
                         "ChangeImageLayer", "Expression", "1", "InvitingSmile",
                         "As you come closer, you notice a bottle of suntan oil in her paw that she shakes demonstratively.",
-                        "Speaks", "Hey there, {ThePlayerName}. Could you rub this on me?",
+                        "Speaks", "Hey there, [ThePlayerName]. Could you rub this on me?",
 
                         "Cue oil scene with a lot of 'rubbing' :ShizuErotic:",
 
@@ -140,7 +140,7 @@
                       "ChangeImageLayer", "Expression", "1", "InvitingSmile",
                       "ChangeImageLayer", "GlassesLayer", "1", "",
                       "She removes her sunglasses and gives you a soft smile.",
-                      "Speaks", "Oh, hey there, {ThePlayerName}. Do you need something?",
+                      "Speaks", "Oh, hey there, [ThePlayerName]. Do you need something?",
                       "JumpToScene", "GeneralInteraction"
                       ]
                     },
@@ -209,7 +209,7 @@
                         "SetChoice", "2", "PetBefore",
                         "ChangeImageLayer", "GlassesLayer", "1", "",
                         "ChangeImageLayer", "Expression", "1", "Smile",
-                        "Speaks", "So, {ThePlayerName}. Want to do something? Or keep it at some friendly petting for today?",
+                        "Speaks", "So, [ThePlayerName]. Want to do something? Or keep it at some friendly petting for today?",
                         "JumpToScene", "GeneralInteraction"
                       ]
                     },
@@ -230,7 +230,7 @@
                         "SetChoice", "2", "PetBefore",
                         "ChangeImageLayer", "GlassesLayer", "1", "",
                         "ChangeImageLayer", "Expression", "1", "Smile",
-                        "Speaks", "So, {ThePlayerName}. Want to do something? Or keep it at some friendly petting for today?",
+                        "Speaks", "So, [ThePlayerName]. Want to do something? Or keep it at some friendly petting for today?",
                         "JumpToScene", "GeneralInteraction"
                       ]
                     },
@@ -488,7 +488,7 @@
                         "ChangeImageLayer", "Expression", "1", "Smug",
                         "ChangeImageLayer", "GlassesLayer", "1", "GlassesNose",
                         "She snickers and removes her sunglasses, eyeing you over with a grin.",
-                        "Speaks", "Oh, hey there, {ThePlayerName}. Do you need something?",
+                        "Speaks", "Oh, hey there, [ThePlayerName]. Do you need something?",
                         "JumpToScene", "GeneralInteraction"
                       ]
                     },
@@ -525,7 +525,7 @@
                         "ChangeImageLayer", "Expression", "1", "InvitingSmile",
                         "ChangeImageLayer", "GlassesLayer", "1", "GlassesNose",
                         "Felicia opens her eyes and pulls off her sunglasses, greeting you with a soft smile.",
-                        "Speaks", "Oh, hey there, {ThePlayerName}. Do you need something?",
+                        "Speaks", "Oh, hey there, [ThePlayerName]. Do you need something?",
                         "JumpToScene", "GeneralInteraction"
                       ]
                     },
@@ -534,7 +534,7 @@
                       "theScene": ["You sneak around Felicia, making your way to Tina's hiding spot. She notices your approach and blushes, fidgeting in place.",
                         "ChangeImageLayer", "Base", "2", "Flush",
                         "ChangeImageLayer", "Expression", "2", "Awkward",
-                        "Speaks2", "Oh, hey there, {ThePlayerName}... Fancy meeting you here, huh? Ahaha...",
+                        "Speaks2", "Oh, hey there, [ThePlayerName]... Fancy meeting you here, huh? Ahaha...",
                         "You ask why she is peeking on Felicia.",
                         "Speaks2", "Huh? Haha... well... I'm just wondering if she likes it here... And how she spends her day... At what time she stops sleeping... Not like I'm trying to avoid her or anything!",
                         "You shoot a glance to Felicia, who lays sprawled over her couch lazily, and say that she seems to be enjoying herself.",
@@ -580,7 +580,7 @@
                         "ChangeImageLayer", "Expression", "2", "CalmBlush",
                         "Speaks4", "Yeah. Can I?",
                         "ChangeImageLayer", "Expression", "1", "Inviting",
-                        "Speaks", "I don't mind. But we don't know if he does. Or if he is even in the mood. Are you in the mood, {ThePlayerName}?",
+                        "Speaks", "I don't mind. But we don't know if he does. Or if he is even in the mood. Are you in the mood, [ThePlayerName]?",
                         "Menu",
                           "'Let's fuck, but I want privacy.'",
                           "'She can watch.'",
@@ -753,7 +753,7 @@
                         "The next slap sends the imp flying off your face, screaming and orgasming wildly. She doesn't even seem to try and get up after she falls.",
                         "With the two imps thoroughly spanked, laying beside her and panting heavily, Felicia's predatory gaze turns to you.",
                         "ChangeImageLayer", "Expression", "1", "Predatory",
-                        "Speaks", "Your turn now, {ThePlayerName}.",
+                        "Speaks", "Your turn now, [ThePlayerName].",
                         "The imp who got punished first perks up instantly, looking at you with interest.",
                         "ChangeImageLayer", "Expression", "2", "Cheerful",
                         "Speaks7", "Are you going to spank him too? I'll help!",
@@ -765,7 +765,7 @@
                         "ChangeImageLayer", "Expression", "2", "Cheerful",
                         "ChangeImageLayer", "Expression", "3", "Dominant",
                         "You gulp down as the cat woman pulls you unto her lap, the imps cheerfully pulling off your speedo as Felicia rests her paw on your buttocks.",
-                        "Speaks", "You didn't think you'd get away with this, did you now {ThePlayerName}?",
+                        "Speaks", "You didn't think you'd get away with this, did you now [ThePlayerName]?",
                         "Menu",
                           "Struggle. (Power)",
                           "Accept your fate.",
@@ -802,7 +802,7 @@
                         "ChangeImageLayer", "Expression", "2", "Dominant",
                         "ChangeImageLayer", "Expression", "3", "Dominant",
                         "Your attempts are overpowered by Felicia's unflinching arms with ease, and you can only go limp and resign yourself to what's about to happen. The imps cackle like mad, obviously happy with the situation now that the attention shifted from them.",
-                        "Speaks", "Oh no, no... You're not getting away {ThePlayerName}.♥",
+                        "Speaks", "Oh no, no... You're not getting away [ThePlayerName].♥",
                         "JumpToScene", "Accept your fate."
                       ]
                     },
@@ -1535,7 +1535,7 @@
                           "Speaks", "I shouldn't eat all this...",
                           "ChangeImageLayer", "Expression", "Apologetic",
                           "She grabs her beach towel and wipes off all the sticky splooge, looking at you apologetically.",
-                          "Speaks", "Sorry {ThePlayerName}, I am on a diet...",
+                          "Speaks", "Sorry [ThePlayerName], I am on a diet...",
                           "ChangeImageLayer", "BikiniLayer", "1", "Bikini",
                           "She takes a moment to pull her flimsy bikini back on, and looks up to you again, noticing that you're staring at her tits again.",
                           "ChangeImageLayer", "Expression", "Smug",

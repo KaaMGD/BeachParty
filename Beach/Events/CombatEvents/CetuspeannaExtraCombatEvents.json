@@ -122,16 +122,16 @@
             {
               "NameOfScene": "EverlastingAttackApply",
               "theScene": [
-                "Cetuspeanna surges up from the water, faster than {ThePlayerName} can see! A single touch of her hand feels like a thousand strokes at once, almost bringing him to his knees on the spot!",
+                "Cetuspeanna surges up from the water, faster than [ThePlayerName] can see! A single touch of her hand feels like a thousand strokes at once, almost bringing him to his knees on the spot!",
                 "GivePerkQuietly", "Ethereal Hands",
-                "Ethereal hands loom endlessly around {TargetName}'s crotch, occasionally stroking and caressing {TargetHisOrHer} manhood!"
+                "Ethereal hands loom endlessly around [TargetName]'s crotch, occasionally stroking and caressing [TargetHisOrHer] manhood!"
               ]
             },
             {
               "NameOfScene": "EverlastingAttack",
               "theScene": [
                 "HitPlayerWith", "Foaming Hand Strokes",
-                "The ethereal hands keep stroking and caressing your sweetly aching dick...{DamageToPlayer}",
+                "The ethereal hands keep stroking and caressing your sweetly aching dick...[DamageToPlayer]",
                 "IfPlayerOrgasm", "EverlastingCoom"
               ]
             },
@@ -148,7 +148,7 @@
             {
               "NameOfScene": "GentlePrayerExtra",
               "theScene": [
-                "Cetuspeanna concentrates deeply, a beatific look on her graceful features, and channels soothing magic through {AttackerHisOrHer} body, cleansing arousal.",
+                "Cetuspeanna concentrates deeply, a beatific look on her graceful features, and channels soothing magic through [AttackerHisOrHer] body, cleansing arousal.",
                 "ChangeMonsterArousal", "-600",
                 "SwapLineIf", "Random",
                 "|f|ChangeImageLayer|/|ArmsBase|/|ArmsPrayBase|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsPrayTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|EyesClosed|n||f|ChangeImageLayer|/|Base|/|Base|n|'...'",
@@ -189,9 +189,9 @@
                 "HitPlayerWith", "Caress",
 								"FocusedSpeaksSkill",
 								"SwapLineIf", "Random",
-					          "'Mm...♥ Can't get enough of you...♥'{DamageToPlayer}",
-                    "'Let's stay like this...♥'{DamageToPlayer}",
-                    "'...{ThePlayerName}.♥'{DamageToPlayer}",
+					          "'Mm...♥ Can't get enough of you...♥'[DamageToPlayer]",
+                    "'Let's stay like this...♥'[DamageToPlayer]",
+                    "'...[ThePlayerName].♥'[DamageToPlayer]",
 								"EndLoop"
               ]
             },
@@ -216,9 +216,9 @@
                 "HitMonsterWith", "Caress",
 								"FocusedSpeaksSkill",
 								"SwapLineIf", "Random",
-								          "'Haa...♥ Mmh, touch me more darling...♥'{DamageToEnemy}",
-                          "'S-so gentle...♥ Hurry...♥ Don't tease me, darling...♥'{DamageToEnemy}",
-                          "'Too gentle...♥ Touch me more, please...!♥'{DamageToEnemy}",
+								          "'Haa...♥ Mmh, touch me more darling...♥'[DamageToEnemy]",
+                          "'S-so gentle...♥ Hurry...♥ Don't tease me, darling...♥'[DamageToEnemy]",
+                          "'Too gentle...♥ Touch me more, please...!♥'[DamageToEnemy]",
 								"EndLoop"
               ]
             },
@@ -233,10 +233,10 @@
                 "HitMonsterWith", "Caress",
 								"FocusedSpeaksSkill",
 								"SwapLineIf", "Random",
-								          "'Haa...♥ {ThePlayerName}...♥'{DamageToEnemy}",
-          								"'Ahh...♥ This much won't be enough...♥'{DamageToEnemy}",
-                          "'Ooh...♥ I love it when you are so...♥'{DamageToEnemy}",
-                          "'You're so hard to resist...♥ But I won't go easy on you...!♥'{DamageToEnemy}",
+								          "'Haa...♥ [ThePlayerName]...♥'[DamageToEnemy]",
+          								"'Ahh...♥ This much won't be enough...♥'[DamageToEnemy]",
+                          "'Ooh...♥ I love it when you are so...♥'[DamageToEnemy]",
+                          "'You're so hard to resist...♥ But I won't go easy on you...!♥'[DamageToEnemy]",
 								"EndLoop"
               ]
             },
@@ -260,9 +260,9 @@
                 "HitMonsterWith", "Finger",
 								"FocusedSpeaksSkill",
 								"SwapLineIf", "Random",
-								          "'Haa...♥ Mmh, touch me more darling...♥'{DamageToEnemy}",
-                          "'Kuh!♥ Hurry...♥ Don't tease me, darling...♥'{DamageToEnemy}",
-                          "'No, you meanie...♥ Give me your thing, please...!♥'{DamageToEnemy}",
+								          "'Haa...♥ Mmh, touch me more darling...♥'[DamageToEnemy]",
+                          "'Kuh!♥ Hurry...♥ Don't tease me, darling...♥'[DamageToEnemy]",
+                          "'No, you meanie...♥ Give me your thing, please...!♥'[DamageToEnemy]",
 								"EndLoop"
               ]
             },
@@ -277,10 +277,10 @@
                 "HitMonsterWith", "Finger",
 								"FocusedSpeaksSkill",
 								"SwapLineIf", "Random",
-								          "'Haa...♥ {ThePlayerName}...♥'{DamageToEnemy}",
-          								"'Ahh...♥ I love your touch.♥'{DamageToEnemy}",
-                          "'Ooh...♥ I love how your small hands feel in me...♥'{DamageToEnemy}",
-                          "'Ahn!♥ {ThePlayerName}...♥'{DamageToEnemy}",
+								          "'Haa...♥ [ThePlayerName]...♥'[DamageToEnemy]",
+          								"'Ahh...♥ I love your touch.♥'[DamageToEnemy]",
+                          "'Ooh...♥ I love how your small hands feel in me...♥'[DamageToEnemy]",
+                          "'Ahn!♥ [ThePlayerName]...♥'[DamageToEnemy]",
 								"EndLoop"
               ]
             },
@@ -304,9 +304,9 @@
                   "HitMonsterWith", "Dildo",
   								"FocusedSpeaksSkill",
   								"SwapLineIf", "Random",
-  								          "'Haa...♥ Mmh, push it deeper, darling...♥'{DamageToEnemy}",
-                            "'Kuh!♥ Hurry...♥ Don't tease me, darling...♥'{DamageToEnemy}",
-                            "'No, you meanie...♥ Give me the real thing, please...!♥'{DamageToEnemy}",
+  								          "'Haa...♥ Mmh, push it deeper, darling...♥'[DamageToEnemy]",
+                            "'Kuh!♥ Hurry...♥ Don't tease me, darling...♥'[DamageToEnemy]",
+                            "'No, you meanie...♥ Give me the real thing, please...!♥'[DamageToEnemy]",
   								"EndLoop"
               ]
             },
@@ -321,11 +321,11 @@
                 "HitMonsterWith", "Dildo",
 								"FocusedSpeaksSkill",
 								"SwapLineIf", "Random",
-								          "'Haa...♥ {ThePlayerName}.♥'{DamageToEnemy}",
-                          "'Ahn!♥ {ThePlayerName}...♥'{DamageToEnemy}",
-                          "'I-I want the real thing in me.♥'{DamageToEnemy}",
-          								"'Mmhf...♥ Wouldn't you rather...?♥'{DamageToEnemy}",
-                          "'Come on...♥ Let's have sex instead.♥'{DamageToEnemy}",
+								          "'Haa...♥ [ThePlayerName].♥'[DamageToEnemy]",
+                          "'Ahn!♥ [ThePlayerName]...♥'[DamageToEnemy]",
+                          "'I-I want the real thing in me.♥'[DamageToEnemy]",
+          								"'Mmhf...♥ Wouldn't you rather...?♥'[DamageToEnemy]",
+                          "'Come on...♥ Let's have sex instead.♥'[DamageToEnemy]",
 								"EndLoop"
               ]
             },
@@ -350,9 +350,9 @@
                 "HitMonsterWith", "Spank",
                 "FocusedSpeaksSkill",
                 "SwapLineIf", "Random",
-                          "'Haa...♥ Yes, yes, spank me darling...!♥'{DamageToEnemy}",
-                          "'Kya!♥ More...♥ Spank me more, darling...♥'{DamageToEnemy}",
-                          "'Ah...!♥ Hit me again...!♥'{DamageToEnemy}",
+                          "'Haa...♥ Yes, yes, spank me darling...!♥'[DamageToEnemy]",
+                          "'Kya!♥ More...♥ Spank me more, darling...♥'[DamageToEnemy]",
+                          "'Ah...!♥ Hit me again...!♥'[DamageToEnemy]",
                 "EndLoop"
               ]
             },
@@ -367,10 +367,10 @@
                 "HitMonsterWith", "Spank",
 								"FocusedSpeaksSkill",
 								"SwapLineIf", "Random",
-								          "'Kya!♥ Mmh, {ThePlayerName}, you meanie.♥'{DamageToEnemy}",
-                          "'{ThePlayerName}!♥ W-why did you spank me...?♥'{DamageToEnemy}",
-          								"'Spanking is...♥ nice...?♥'{DamageToEnemy}",
-                          "'I should spank you back.♥'{DamageToEnemy}",
+								          "'Kya!♥ Mmh, [ThePlayerName], you meanie.♥'[DamageToEnemy]",
+                          "'[ThePlayerName]!♥ W-why did you spank me...?♥'[DamageToEnemy]",
+          								"'Spanking is...♥ nice...?♥'[DamageToEnemy]",
+                          "'I should spank you back.♥'[DamageToEnemy]",
 								"EndLoop"
               ]
             },
@@ -395,9 +395,9 @@
                 "HitMonsterWith", "Pinch Nipples",
                 "FocusedSpeaksSkill",
                 "SwapLineIf", "Random",
-                          "'Haa...♥ Ah, squeeze them harder darling...!♥'{DamageToEnemy}",
-                          "'Kya!♥ More...♥ Pull on them harder, darling...♥'{DamageToEnemy}",
-                          "'Ah...!♥ Squeeze them again...!♥'{DamageToEnemy}",
+                          "'Haa...♥ Ah, squeeze them harder darling...!♥'[DamageToEnemy]",
+                          "'Kya!♥ More...♥ Pull on them harder, darling...♥'[DamageToEnemy]",
+                          "'Ah...!♥ Squeeze them again...!♥'[DamageToEnemy]",
                 "EndLoop"
               ]
             },
@@ -412,9 +412,9 @@
                 "HitMonsterWith", "Pinch Nipples",
 								"FocusedSpeaksSkill",
 								"SwapLineIf", "Random",
-								          "'Kya!♥ {ThePlayerName} you meanie...♥'{DamageToEnemy}",
-                          "'Ooh!♥ I-I'm no good with pain...♥'{DamageToEnemy}",
-          								"'Ahh...♥ If you pinch them that hard, I'll...♥'{DamageToEnemy}",
+								          "'Kya!♥ [ThePlayerName] you meanie...♥'[DamageToEnemy]",
+                          "'Ooh!♥ I-I'm no good with pain...♥'[DamageToEnemy]",
+          								"'Ahh...♥ If you pinch them that hard, I'll...♥'[DamageToEnemy]",
 								"EndLoop"
               ]
             },
@@ -427,7 +427,7 @@
                   "The magical bindings you released fizzle out weakly before even touching Cetuspeanna.",
                   "FocusedSpeaks",
   								"SwapLineIf", "Random",
-  								          "'That won't work, {ThePlayerName}.♥'",
+  								          "'That won't work, [ThePlayerName].♥'",
                             "'Magic won't do you any good.♪'",
                             "'Heehee.♥'",
   								"EndLoop"
@@ -442,7 +442,7 @@
                 "The sleeping spell you release fizzles out weakly before even touching Cetuspeanna.",
                 "FocusedSpeaks",
                 "SwapLineIf", "Random",
-                          "'That won't work, {ThePlayerName}.♥'",
+                          "'That won't work, [ThePlayerName].♥'",
                           "'Magic won't do you any good.♪'",
                           "'Heehee.♥'",
                 "EndLoop"
@@ -469,9 +469,9 @@
                 "HitMonsterWith", "Holy Headpat",
                 "FocusedSpeaksSkill",
                 "SwapLineIf", "Random",
-                          "'Awawawa...!♥'{DamageToEnemy}",
-                          "She is fumbling and making cute noises. It is all she manages to do.{DamageToEnemy}",
-                          "Face flushed a deep purple, her eyelashes flutter desperately and she looks like she may faint...{DamageToEnemy}",
+                          "'Awawawa...!♥'[DamageToEnemy]",
+                          "She is fumbling and making cute noises. It is all she manages to do.[DamageToEnemy]",
+                          "Face flushed a deep purple, her eyelashes flutter desperately and she looks like she may faint...[DamageToEnemy]",
                 "EndLoop",
                 "ChangeMonsterArousal", "100",
                 "The move looks surprisingly effective... Cetuspeanna takes additional 100 damage!"
@@ -488,9 +488,9 @@
                 "HitMonsterWith", "Holy Headpat",
 								"FocusedSpeaksSkill",
 								"SwapLineIf", "Random",
-								          "'{ThePlayerName}!♥ D-don't pat me...'{DamageToEnemy}",
-                          "'Oh!♥ Um, this is quite strange, isn't it...?'{DamageToEnemy}",
-          								"'W-whyyy...?♥'{DamageToEnemy}",
+								          "'[ThePlayerName]!♥ D-don't pat me...'[DamageToEnemy]",
+                          "'Oh!♥ Um, this is quite strange, isn't it...?'[DamageToEnemy]",
+          								"'W-whyyy...?♥'[DamageToEnemy]",
 								"EndLoop"
               ]
             },
@@ -515,9 +515,9 @@
                 "HitMonsterWith", "Breast Caress",
                 "FocusedSpeaksSkill",
                 "SwapLineIf", "Random",
-                          "'Touch them more, darling...♥'{DamageToEnemy}",
-                          "'D-do you like them?♥'{DamageToEnemy}",
-                          "'You can be rougher with them, darling.♥'{DamageToEnemy}",
+                          "'Touch them more, darling...♥'[DamageToEnemy]",
+                          "'D-do you like them?♥'[DamageToEnemy]",
+                          "'You can be rougher with them, darling.♥'[DamageToEnemy]",
                 "EndLoop"
               ]
             },
@@ -532,11 +532,11 @@
                 "HitMonsterWith", "Breast Caress",
 								"FocusedSpeaksSkill",
 								"SwapLineIf", "Random",
-				          "'Haa...♥ {ThePlayerName}...♥'{DamageToEnemy}",
-  								"'Ahh...♥ I love your touch.♥'{DamageToEnemy}",
-                  "'Ooh...♥ I love how your small hands feel on my chest.♥'{DamageToEnemy}",
-                  "'Ahn!♥ {ThePlayerName}...♥'{DamageToEnemy}",
-                  "'Fufu...♥ You're just groping me now.♥'{DamageToEnemy}",
+				          "'Haa...♥ [ThePlayerName]...♥'[DamageToEnemy]",
+  								"'Ahh...♥ I love your touch.♥'[DamageToEnemy]",
+                  "'Ooh...♥ I love how your small hands feel on my chest.♥'[DamageToEnemy]",
+                  "'Ahn!♥ [ThePlayerName]...♥'[DamageToEnemy]",
+                  "'Fufu...♥ You're just groping me now.♥'[DamageToEnemy]",
 								"EndLoop"
               ]
             },
@@ -561,10 +561,10 @@
                 "HitMonsterWith", "Breast Massage",
                 "FocusedSpeaksSkill",
                 "SwapLineIf", "Random",
-                          "'Ahh♥, knead them more darling...♥'{DamageToEnemy}",
-                          "'D-do you like them?♥'{DamageToEnemy}",
-                          "'You can be rougher with them, darling.♥'{DamageToEnemy}",
-                          "'I love your touch, darling!♥'{DamageToEnemy}",
+                          "'Ahh♥, knead them more darling...♥'[DamageToEnemy]",
+                          "'D-do you like them?♥'[DamageToEnemy]",
+                          "'You can be rougher with them, darling.♥'[DamageToEnemy]",
+                          "'I love your touch, darling!♥'[DamageToEnemy]",
                 "EndLoop"
               ]
             },
@@ -579,11 +579,11 @@
                 "HitMonsterWith", "Breast Massage",
 								"FocusedSpeaksSkill",
 								"SwapLineIf", "Random",
-				          "'Haa...♥ {ThePlayerName}...♥'{DamageToEnemy}",
-  								"'Ahh...♥ I love your touch.♥'{DamageToEnemy}",
-                  "'Ooh...♥ I love how your small hands feel on my chest.♥'{DamageToEnemy}",
-                  "'Ahn!♥ {ThePlayerName}...♥'{DamageToEnemy}",
-                  "'Fufu...♥ You're just groping me now.♥'{DamageToEnemy}",
+				          "'Haa...♥ [ThePlayerName]...♥'[DamageToEnemy]",
+  								"'Ahh...♥ I love your touch.♥'[DamageToEnemy]",
+                  "'Ooh...♥ I love how your small hands feel on my chest.♥'[DamageToEnemy]",
+                  "'Ahn!♥ [ThePlayerName]...♥'[DamageToEnemy]",
+                  "'Fufu...♥ You're just groping me now.♥'[DamageToEnemy]",
 								"EndLoop"
               ]
             },
@@ -608,9 +608,9 @@
               "HitMonsterWith", "Suckle",
               "FocusedSpeaksSkill",
               "SwapLineIf", "Random",
-                        "'Ahh♥, suck them more darling...♥'{DamageToEnemy}",
-                        "'D-do you like my nipples?♥'{DamageToEnemy}",
-                        "'You can suck them harder, darling.♥'{DamageToEnemy}",
+                        "'Ahh♥, suck them more darling...♥'[DamageToEnemy]",
+                        "'D-do you like my nipples?♥'[DamageToEnemy]",
+                        "'You can suck them harder, darling.♥'[DamageToEnemy]",
               "EndLoop"
               ]
             },
@@ -625,11 +625,11 @@
                 "HitMonsterWith", "Suckle",
 								"FocusedSpeaksSkill",
 								"SwapLineIf", "Random",
-                  "'Fufu...♥ Oh {ThePlayerName}, you're so cute when you do that.♥'{DamageToEnemy}",
-                  "'Mmm...♥ You can suck on them harder.♥'{DamageToEnemy}",
-                  "'Ooh...♥ I love how your small mouth feels on my nipples.♥'{DamageToEnemy}",
-                  "'Ahn!♥ {ThePlayerName}...♥'{DamageToEnemy}",
-                  "'Fufu...♥ So cute.♥'{DamageToEnemy}",
+                  "'Fufu...♥ Oh [ThePlayerName], you're so cute when you do that.♥'[DamageToEnemy]",
+                  "'Mmm...♥ You can suck on them harder.♥'[DamageToEnemy]",
+                  "'Ooh...♥ I love how your small mouth feels on my nipples.♥'[DamageToEnemy]",
+                  "'Ahn!♥ [ThePlayerName]...♥'[DamageToEnemy]",
+                  "'Fufu...♥ So cute.♥'[DamageToEnemy]",
 								"EndLoop"
               ]
             },
@@ -654,9 +654,9 @@
               "HitMonsterWith", "Grope Ass",
               "FocusedSpeaksSkill",
               "SwapLineIf", "Random",
-                        "'Ahh♥, grope it more darling...♥'{DamageToEnemy}",
-                        "'D-do you like my butt?♥'{DamageToEnemy}",
-                        "'You can grope it more, darling.♥'{DamageToEnemy}",
+                        "'Ahh♥, grope it more darling...♥'[DamageToEnemy]",
+                        "'D-do you like my butt?♥'[DamageToEnemy]",
+                        "'You can grope it more, darling.♥'[DamageToEnemy]",
               "EndLoop"
               ]
             },
@@ -671,10 +671,10 @@
                 "HitMonsterWith", "Grope Ass",
 								"FocusedSpeaksSkill",
 								"SwapLineIf", "Random",
-                  "'Kya!♥ Why would you touch me there?♥'{DamageToEnemy}",
-                  "'Ooh!♥ Squeeze it more.♥'{DamageToEnemy}",
-                  "'Ahh...♥ My butt is pretty sensitive.♥'{DamageToEnemy}",
-                  "'I love your small hands.♥'{DamageToEnemy}",
+                  "'Kya!♥ Why would you touch me there?♥'[DamageToEnemy]",
+                  "'Ooh!♥ Squeeze it more.♥'[DamageToEnemy]",
+                  "'Ahh...♥ My butt is pretty sensitive.♥'[DamageToEnemy]",
+                  "'I love your small hands.♥'[DamageToEnemy]",
 								"EndLoop"
               ]
             },
@@ -699,9 +699,9 @@
               "ApplyStance", "Sex",
               "FocusedSpeaksSkill",
               "SwapLineIf", "Random",
-                        "'Ahh♥, we can get married later... For now, just stir me up!♥'{DamageToEnemy}",
-                        "'M-make me yours...♥'{DamageToEnemy}",
-                        "'You can do it as hard as you want, darling.♥'{DamageToEnemy}",
+                        "'Ahh♥, we can get married later... For now, just stir me up!♥'[DamageToEnemy]",
+                        "'M-make me yours...♥'[DamageToEnemy]",
+                        "'You can do it as hard as you want, darling.♥'[DamageToEnemy]",
               "EndLoop"
               ]
             },
@@ -717,9 +717,9 @@
                 "ApplyStance", "Sex",
 								"FocusedSpeaksSkill",
 								"SwapLineIf", "Random",
-                  "'Mmm!♥ I love it when you're so assertive, {ThePlayerName}.♥'{DamageToEnemy}",
-                  "'Ooh!♥ Fufu, this might get a little wild.♥'{DamageToEnemy}",
-                  "'Ahh...♥ Finally...♥'{DamageToEnemy}",
+                  "'Mmm!♥ I love it when you're so assertive, [ThePlayerName].♥'[DamageToEnemy]",
+                  "'Ooh!♥ Fufu, this might get a little wild.♥'[DamageToEnemy]",
+                  "'Ahh...♥ Finally...♥'[DamageToEnemy]",
 								"EndLoop"
               ]
             },
@@ -744,9 +744,9 @@
                 "ApplyStance", "Anal",
                 "FocusedSpeaksSkill",
                 "SwapLineIf", "Random",
-                          "'Ahh♥, if it's anal... We can do that before marriage...♥'{DamageToEnemy}",
-                          "'M-make me yours...♥'{DamageToEnemy}",
-                          "'I offer all of myself to you, darling.♥'{DamageToEnemy}",
+                          "'Ahh♥, if it's anal... We can do that before marriage...♥'[DamageToEnemy]",
+                          "'M-make me yours...♥'[DamageToEnemy]",
+                          "'I offer all of myself to you, darling.♥'[DamageToEnemy]",
                 "EndLoop"
               ]
             },
@@ -762,10 +762,10 @@
                 "ApplyStance", "Anal",
 								"FocusedSpeaksSkill",
 								"SwapLineIf", "Random",
-                  "'Kya!♥ {ThePlayerName}... anal is embarrassing you know?♥'{DamageToEnemy}",
-                  "'Ooh!♥ I-if you fuck me thereee... I won't be able to hold back anymore.♥'{DamageToEnemy}",
-                  "'Ahh...♥ Now you've done it, {ThePlayerName}.♥'{DamageToEnemy}",
-                  "'Mmhf...♥ A-anal sex...♥ I'll have to make you marry me...♥'{DamageToEnemy}",
+                  "'Kya!♥ [ThePlayerName]... anal is embarrassing you know?♥'[DamageToEnemy]",
+                  "'Ooh!♥ I-if you fuck me thereee... I won't be able to hold back anymore.♥'[DamageToEnemy]",
+                  "'Ahh...♥ Now you've done it, [ThePlayerName].♥'[DamageToEnemy]",
+                  "'Mmhf...♥ A-anal sex...♥ I'll have to make you marry me...♥'[DamageToEnemy]",
 								"EndLoop"
               ]
             },
@@ -791,9 +791,9 @@
                 "ApplyStance", "Making Out",
                 "FocusedSpeaksSkill",
                 "SwapLineIf", "Random",
-                          "'Ahh♥, Kiss me... Taste me, darling!♥'{DamageToEnemy}",
-                          "'Hold me closer, my love...♥'{DamageToEnemy}",
-                          "'I love you so much...♥'{DamageToEnemy}",
+                          "'Ahh♥, Kiss me... Taste me, darling!♥'[DamageToEnemy]",
+                          "'Hold me closer, my love...♥'[DamageToEnemy]",
+                          "'I love you so much...♥'[DamageToEnemy]",
                 "EndLoop"
               ]
             },
@@ -809,9 +809,9 @@
                 "ApplyStance", "Making Out",
 								"FocusedSpeaksSkill",
 								"SwapLineIf", "Random",
-                  "'K-k-kissing...!!! Kiss me more, {ThePlayerName}!♥'{DamageToEnemy}",
-                  "'Mwah...♥ Kiss meee... Kiss me more, {ThePlayerName}...♥'{DamageToEnemy}",
-                  "'Chu...♥ Love you...♥'{DamageToEnemy}",
+                  "'K-k-kissing...!!! Kiss me more, [ThePlayerName]!♥'[DamageToEnemy]",
+                  "'Mwah...♥ Kiss meee... Kiss me more, [ThePlayerName]...♥'[DamageToEnemy]",
+                  "'Chu...♥ Love you...♥'[DamageToEnemy]",
 								"EndLoop"
               ]
             },
@@ -835,9 +835,9 @@
                 "HitMonsterWith", "Kiss",
                 "FocusedSpeaksSkill",
                 "SwapLineIf", "Random",
-                          "'Ahh♥, Kiss me... Taste me, darling!♥'{DamageToEnemy}",
-                          "'Kiss me deeper, my love...♥'{DamageToEnemy}",
-                          "'I love you so much...♥'{DamageToEnemy}",
+                          "'Ahh♥, Kiss me... Taste me, darling!♥'[DamageToEnemy]",
+                          "'Kiss me deeper, my love...♥'[DamageToEnemy]",
+                          "'I love you so much...♥'[DamageToEnemy]",
                 "EndLoop"
               ]
             },
@@ -852,9 +852,9 @@
                 "HitMonsterWith", "Kiss",
 								"FocusedSpeaksSkill",
 								"SwapLineIf", "Random",
-                  "'K-k-kissing...!!! Kiss me more, {ThePlayerName}!♥'{DamageToEnemy}",
-                  "'Mwah...♥ Kiss meee... Kiss me more, {ThePlayerName}...♥'{DamageToEnemy}",
-                  "'Chu...♥ Love you...♥'{DamageToEnemy}",
+                  "'K-k-kissing...!!! Kiss me more, [ThePlayerName]!♥'[DamageToEnemy]",
+                  "'Mwah...♥ Kiss meee... Kiss me more, [ThePlayerName]...♥'[DamageToEnemy]",
+                  "'Chu...♥ Love you...♥'[DamageToEnemy]",
 								"EndLoop"
               ]
             },
@@ -878,9 +878,9 @@
               "HitMonsterWith", "Ear Tease",
               "FocusedSpeaksSkill",
               "SwapLineIf", "Random",
-                        "'Ahh♥, tease me... Tease me, darling!♥'{DamageToEnemy}",
-                        "Her ear tentacles wrap around your fingers affectionately.{DamageToEnemy}",
-                        "'I am falling for you all over again...♥'{DamageToEnemy}",
+                        "'Ahh♥, tease me... Tease me, darling!♥'[DamageToEnemy]",
+                        "Her ear tentacles wrap around your fingers affectionately.[DamageToEnemy]",
+                        "'I am falling for you all over again...♥'[DamageToEnemy]",
               "EndLoop"
               ]
             },
@@ -895,9 +895,9 @@
                 "HitMonsterWith", "Ear Tease",
                 "FocusedSpeaksSkill",
                 "SwapLineIf", "Random",
-                          "'Oh, {ThePlayerName}...♥ Naughty, naughty...♥'{DamageToEnemy}",
-                          "Her ear tentacles wrap around your fingers affectionately. Cetuspeanna blushes and looks at you affectionately.{DamageToEnemy}",
-                          "'O-ohh...♥'{DamageToEnemy}",
+                          "'Oh, [ThePlayerName]...♥ Naughty, naughty...♥'[DamageToEnemy]",
+                          "Her ear tentacles wrap around your fingers affectionately. Cetuspeanna blushes and looks at you affectionately.[DamageToEnemy]",
+                          "'O-ohh...♥'[DamageToEnemy]",
                 "EndLoop"
               ]
             },
@@ -909,7 +909,7 @@
                 "FocusedSpeaksSkill",
 								"SwapLineIf", "Random",
                   "'Haa...♥ haa...♥♥'",
-                  "'Oh {ThePlayerName}...♥ I'm almost there.♥'",
+                  "'Oh [ThePlayerName]...♥ I'm almost there.♥'",
                   "'You've done well... I should do my best for you too...♥'",
 								"EndLoop"
               ]
@@ -928,8 +928,8 @@
                 "FocusedSpeaksSkill",
                 "SwapLineIf", "Random",
                   "As you lie restrained in Cetuspeanna's slick coils, you see her tailpussy looming menacingly over your erection! 'It may be over with this.♥' The dark lubricant already drooling down on your crotch, this may be your last chance to break out...",
-                  "As you lie restrained in Cetuspeanna's slick coils, you see her tailpussy looming menacingly over your erection! 'Playtime's over, {ThePlayerName}.♥' The dark lubricant already drooling down on your crotch, this may be your last chance to break out...",
-                  "As you lie restrained in Cetuspeanna's slick coils, you see her tailpussy looming menacingly over your erection! 'Ready, {ThePlayerName}?♥' The dark lubricant already drooling down on your crotch, this may be your last chance to break out...",
+                  "As you lie restrained in Cetuspeanna's slick coils, you see her tailpussy looming menacingly over your erection! 'Playtime's over, [ThePlayerName].♥' The dark lubricant already drooling down on your crotch, this may be your last chance to break out...",
+                  "As you lie restrained in Cetuspeanna's slick coils, you see her tailpussy looming menacingly over your erection! 'Ready, [ThePlayerName]?♥' The dark lubricant already drooling down on your crotch, this may be your last chance to break out...",
                 "EndLoop",
                 "SetPostName", "",
                 "Menu",
@@ -978,7 +978,7 @@
                 "Her tailpussy descends slowly, covering your crotch in copious amounts of the strange black liquid that makes you weak in the knees and everywhere else, your entire lower body feeling like it's only purpose is to let loose...",
                 "ApplyStance", "Tail Fuck",
                 "HitPlayerWith", "Stinging Hellmaw: Obscene Draining",
-                "Your cock throbs powerfully, the immense pleasure of the insertion alone threatening to overwhelm you on the spot...{DamageToPlayer}",
+                "Your cock throbs powerfully, the immense pleasure of the insertion alone threatening to overwhelm you on the spot...[DamageToPlayer]",
                 "IfPlayerOrgasm", "InsertionOrgasm"
               ]
             },
@@ -1005,7 +1005,7 @@
                 "As you lie wrapped up in Cetuspeanna's comfortably tight coils, she seems to grow quiet, not making her next move...",
                 "ChangeImageLayer", "Base", "BaseBlush",
                 "ChangeImageLayer", "Expression", "ShySmile",
-                "FocusedSpeaks", "{ThePlayerName}... As a combat tactic, may I... eat your butt? Please?",
+                "FocusedSpeaks", "[ThePlayerName]... As a combat tactic, may I... eat your butt? Please?",
                 "Menu",
                   "Please no.",
                   "You may...",
@@ -1052,7 +1052,7 @@
                 "FocusedSpeaksSkill",
                 "SwapLineIf", "Random",
                   "'Your assh is quivering... shoo cute.♥♥' It becomes increasingly more difficult to resist...",
-                  "'Nnh...♥ Mwah...♥ {ThePlayerName}'s butt...♥' It becomes increasingly more difficult to resist...",
+                  "'Nnh...♥ Mwah...♥ [ThePlayerName]'s butt...♥' It becomes increasingly more difficult to resist...",
                   "'It'sh shoo hot inside...♥ Gonna cuum shoon?♥' It becomes increasingly more difficult to resist...",
                 "EndLoop",
                 "SetPostName", ""

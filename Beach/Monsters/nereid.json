@@ -481,7 +481,7 @@
                         {
                             "lineTrigger":"StanceStruggle",
                             "move": "Sex",
-                            "theText":["{ThePlayerName} tries to pull out of the {AttackerName}'s slick pussy..."]
+                            "theText":["[ThePlayerName] tries to pull out of the [AttackerName]'s slick pussy..."]
                         },
                         {
                             "lineTrigger":"StanceStruggleFail",
@@ -515,7 +515,7 @@
                         {
                             "lineTrigger":"StanceStruggle",
                             "move": "Anal",
-                            "theText":["{ThePlayerName} tries to pull out of the {AttackerName}'s tight ass..."]
+                            "theText":["[ThePlayerName] tries to pull out of the [AttackerName]'s tight ass..."]
                         },
                         {
                             "lineTrigger":"StanceStruggleFail",
@@ -548,12 +548,12 @@
                         {
                             "lineTrigger":"StanceStruggle",
                             "move": "Making Out",
-                            "theText":["{ThePlayerName} tries to break the deep kiss with the Nereid..."]
+                            "theText":["[ThePlayerName] tries to break the deep kiss with the Nereid..."]
                         },
                         {
                             "lineTrigger":"StanceStruggleFail",
                             "move": "Making Out",
-                            "theText":["|f|ChangeImageLayer|/|Expression|/|Calm|n|But she keeps a tight hold on {ThePlayerName}, and he stays locked in a deep, suffocating kiss!",
+                            "theText":["|f|ChangeImageLayer|/|Expression|/|Calm|n|But she keeps a tight hold on [ThePlayerName], and he stays locked in a deep, suffocating kiss!",
                                         "|f|ChangeImageLayer|/|Expression|/|Calm|n|But as you start to push her away she wraps an arm around the back of your head, deepening the kiss while she gazes calmly into your eyes."]
                         },
                         {

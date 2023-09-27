@@ -156,7 +156,7 @@
       {
         "lineTrigger":"HitWith",
         "move": "Whip",
-        "theText":["|f|ChangeImageLayer|/|Expression|/|Pout|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Mmh...! Do something else, {ThePlayerName}...'",
+        "theText":["|f|ChangeImageLayer|/|Expression|/|Pout|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Mmh...! Do something else, [ThePlayerName]...'",
                     "|f|ChangeImageLayer|/|Expression|/|Shy|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Kya...!♥'",
                     "|f|ChangeImageLayer|/|Expression|/|Aroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'...♥'"]
       },
@@ -194,7 +194,7 @@
         "move": "Demon Layer",
         "theText":["|f|ChangeImageLayer|/|Expression|/|MildlyAroused|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'Mmh...' She flinches visibly from the strike, but remains largely unaffected.",
                     "|f|ChangeImageLayer|/|Expression|/|MildlyAroused|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'Holy weapons... You really must be sent by the Goddess...'",
-                    "|f|ChangeImageLayer|/|Expression|/|MildlyAroused|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'That won't work, {ThePlayerName}.'"]
+                    "|f|ChangeImageLayer|/|Expression|/|MildlyAroused|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'That won't work, [ThePlayerName].'"]
       },
       {
         "lineTrigger":"AutoCounter",
@@ -241,7 +241,7 @@
       {
         "lineTrigger":"HitWith",
         "move": "Charm",
-        "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Happy|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'{TPN}-{TPN}-{ThePlayerName}!♥'",
+        "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Happy|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'[TPN]-[TPN]-[ThePlayerName]!♥'",
                     "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Charmed|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Love you...♥♥'",
                     "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|ShyNonAvert|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Mmh...♥ S-still not used to hearing such nice things...♥'"]
       },
@@ -265,7 +265,7 @@
       {
         "lineTrigger":"HitWith",
         "move": "Seduce",
-        "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Happy|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'{TPN}-{TPN}-{ThePlayerName}!♥'",
+        "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Happy|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'[TPN]-[TPN]-[ThePlayerName]!♥'",
                     "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Charmed|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Love you...♥♥'",
                     "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|ShyNonAvert|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Mmh...♥ S-still not used to hearing such nice things...♥'"]
       },
@@ -296,23 +296,23 @@
       {
         "lineTrigger":"UsesMove",
         "move": "Dreamy Water Bubbles",
-        "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsMagicBase|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsMagicTop|n||f|ChangeImageLayer|/|Magic|/|MagicOrb|n||f|ChangeImageLayer|/|Expression|/|SoftSmile|n||f|ChangeImageLayer|/|Base|/|Base|n|'Lookie here, {ThePlayerName}.'",
+        "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsMagicBase|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsMagicTop|n||f|ChangeImageLayer|/|Magic|/|MagicOrb|n||f|ChangeImageLayer|/|Expression|/|SoftSmile|n||f|ChangeImageLayer|/|Base|/|Base|n|'Lookie here, [ThePlayerName].'",
                    "|f|ChangeImageLayer|/|ArmsBase|/|ArmsMagicBase|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsMagicTop|n||f|ChangeImageLayer|/|Magic|/|MagicOrb|n||f|ChangeImageLayer|/|Expression|/|SoftSmile|n||f|ChangeImageLayer|/|Base|/|Base|n|'Come closer and look... Look at Cetty's magic...'",
                    "|f|ChangeImageLayer|/|ArmsBase|/|ArmsMagicBase|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsMagicTop|n||f|ChangeImageLayer|/|Magic|/|MagicOrb|n||f|ChangeImageLayer|/|Expression|/|SoftSmile|n||f|ChangeImageLayer|/|Base|/|Base|n|'Look at the pretty magic...'"]
       },
       {
         "lineTrigger":"UsesMove",
         "move": "Divine Splash: Moonlight Sparkles",
-        "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsMagicBase|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsMagicTop|n||f|ChangeImageLayer|/|Magic|/|MagicOrb|n||f|ChangeImageLayer|/|Expression|/|SoftSmile|n||f|ChangeImageLayer|/|Base|/|Base|n|'Look here, {ThePlayerName}... What do you see?'",
+        "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsMagicBase|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsMagicTop|n||f|ChangeImageLayer|/|Magic|/|MagicOrb|n||f|ChangeImageLayer|/|Expression|/|SoftSmile|n||f|ChangeImageLayer|/|Base|/|Base|n|'Look here, [ThePlayerName]... What do you see?'",
                    "|f|ChangeImageLayer|/|ArmsBase|/|ArmsMagicBase|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsMagicTop|n||f|ChangeImageLayer|/|Magic|/|MagicOrb|n||f|ChangeImageLayer|/|Expression|/|SoftSmile|n||f|ChangeImageLayer|/|Base|/|Base|n|'Do you like my magic?'",
                    "|f|ChangeImageLayer|/|ArmsBase|/|ArmsMagicBase|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsMagicTop|n||f|ChangeImageLayer|/|Magic|/|MagicOrb|n||f|ChangeImageLayer|/|Expression|/|SoftSmile|n||f|ChangeImageLayer|/|Base|/|Base|n|'Look as the the droplets fall...♥'"]
       },
       {
         "lineTrigger":"UsesMove",
         "move": "Crescent Arc Pose",
-        "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Haughty|n||f|ChangeImageLayer|/|Base|/|Base|n|'Prepare yourself, {ThePlayerName}.'",
+        "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Haughty|n||f|ChangeImageLayer|/|Base|/|Base|n|'Prepare yourself, [ThePlayerName].'",
                    "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|HaughtyEyesClosed|n||f|ChangeImageLayer|/|Base|/|Base|n|'I'm going all out.♥'",
-                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|HaughtyEyesClosed|n||f|ChangeImageLayer|/|Base|/|Base|n|'Can you handle this, {ThePlayerName}?'"]
+                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|HaughtyEyesClosed|n||f|ChangeImageLayer|/|Base|/|Base|n|'Can you handle this, [ThePlayerName]?'"]
       },
       {
         "lineTrigger":"UsesMove",
@@ -351,7 +351,7 @@
         "lineTrigger":"UsesMove",
         "move": "Stinging Hellmaw: Obscene Draining",
         "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|MildlyAroused|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'I think it's my victory.♥'",
-                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|MildlyAroused|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'Gonna drink you dry, {ThePlayerName}.♥'",
+                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|MildlyAroused|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'Gonna drink you dry, [ThePlayerName].♥'",
                    "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|MildlyAroused|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'Don't try to fight it... Because you can't.♥'"]
       },
       {
@@ -418,13 +418,13 @@
         "move": "Ascending Blessing: Endlessly Abundant Bubbles",
         "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Tiny|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'I know you like my breasts.♥'",
                    "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Tiny|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'Cum for your Cetty.♥'",
-                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Tiny|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'Fufu, you're so stiff, {ThePlayerName}.♥'"]
+                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Tiny|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|'Fufu, you're so stiff, [ThePlayerName].♥'"]
       },
       {
         "lineTrigger":"UsesMove",
         "move": "Serpentine Squeeze",
         "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|HappyLewd|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|Cetuspeanna is panting happily, face flushed a deep purple.",
-                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Helpless|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Harderrr.♥ {TPN}-{TPN}-{TPN}-{ThePlayerName}.♥♥'",
+                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Helpless|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Harderrr.♥ [TPN]-[TPN]-[TPN]-[ThePlayerName].♥♥'",
                    "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|HappyLewd|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Love you...♥'"]
       },
       {
@@ -432,28 +432,28 @@
         "move": "Unhinged Maw Kiss",
         "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Licc|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'It's so nice to go all out...♥'",
                    "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|BigSucc|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'M-miine, you're mine!♥'",
-                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Licc|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'{ThePlayerName}... {ThePlayerName}!!♥'"]
+                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Licc|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'[ThePlayerName]... [ThePlayerName]!!♥'"]
       },
       {
         "lineTrigger":"UsesMove",
         "move": "Lover's Lunge",
         "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|HappyLewd|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Mmmmph...!♥'",
-                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|HappyLewd|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'{ThePlayerName}!♥'",
-                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|HappyLewd|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'{ThePlayerName}... {ThePlayerName}!!♥'"]
+                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|HappyLewd|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'[ThePlayerName]!♥'",
+                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|HappyLewd|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'[ThePlayerName]... [ThePlayerName]!!♥'"]
       },
       {
         "lineTrigger":"UsesMove",
         "move": "Lovey-dovey Sea Dragon Sex",
         "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|HappyLewd|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Never want to part...♥'",
-                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|HappyLewd|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Mmmph!♥ Love you, love you {ThePlayerName}!♥'",
-                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|HappyLewd|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'All mine...♥ {ThePlayerName}!!♥'"]
+                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|HappyLewd|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Mmmph!♥ Love you, love you [ThePlayerName]!♥'",
+                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|HappyLewd|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'All mine...♥ [ThePlayerName]!!♥'"]
       },
       {
         "lineTrigger":"UsesMove",
         "move": "Honeymoon Kiss",
         "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Licc|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Mmh.♥ Mwah...♥'",
                    "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Licc|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Kisshing while having shex is shoooo good!♥♥'",
-                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Licc|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Mwah... {ThePlayerName}...♥'"]
+                   "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|Licc|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Mwah... [ThePlayerName]...♥'"]
       },
 
 
@@ -505,7 +505,7 @@
           "lineTrigger":"OnPlayerOrgasm",
           "move": "Breast Smother",
           "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|MildlyAroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|Smothered in her soft bosom and teased by the tentacles you fail to hold back a powerful orgasm, splattering your dragoness with a thick load of hot cum. 'There, there...♥ Keep cumming for Cetty.♥' You oblige and do let loose, thrusting your hips into the air weakly as lances of ivory cum shoot out of your stiff dick, eager to please your darling dragon.",
-                      "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|MildlyAroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|Having difficulty to breathe and stuck on the verge of orgasm you cease your struggles, hoping that cumming will bring a brief respite. Suddenly her tentacles stop moving completely, denying you release and leaving your cock throbbing with desperate desire. Patting your head she giggles playfully. 'Can you cum for Cetty, {ThePlayerName}?♥' Granting the simple request you spurt strongly into the air, with no stimulation at all, showering your lover with white, sticky proof of your adoration."
+                      "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|MildlyAroused|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|Having difficulty to breathe and stuck on the verge of orgasm you cease your struggles, hoping that cumming will bring a brief respite. Suddenly her tentacles stop moving completely, denying you release and leaving your cock throbbing with desperate desire. Patting your head she giggles playfully. 'Can you cum for Cetty, [ThePlayerName]?♥' Granting the simple request you spurt strongly into the air, with no stimulation at all, showering your lover with white, sticky proof of your adoration."
                     ]
       },
       {
@@ -518,7 +518,7 @@
       {
           "lineTrigger":"OnPlayerOrgasm",
           "move": "Ascending Blessing: Everlasting Stroke",
-          "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|SoftSmile|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|With the magical spirit hands forming all around your crotch, you are brought over the edge, cumming uncontrollably through the incorporeal hands as they descend on your dick. 'Fufu, {ThePlayerName}.♥ It only just started.♥'"
+          "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|SoftSmile|n||f|ChangeImageLayer|/|Base|/|BaseFlush|n|With the magical spirit hands forming all around your crotch, you are brought over the edge, cumming uncontrollably through the incorporeal hands as they descend on your dick. 'Fufu, [ThePlayerName].♥ It only just started.♥'"
                     ]
       },
       {
@@ -538,7 +538,7 @@
       {
           "lineTrigger":"OnOrgasm",
           "move": "",
-          "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|HappyLewd|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'{ThePlayerName}!♥ {THEPLAYERNAME}!!♥ G-gonna... aah!♥",
+          "theText":["|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|HappyLewd|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'[ThePlayerName]!♥ [THEPLAYERNAME]!!♥ G-gonna... aah!♥",
                     "|f|ChangeImageLayer|/|ArmsBase|/|ArmsRest|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsEmptyTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|HappyLewd|n||f|ChangeImageLayer|/|Base|/|BaseBlush|n|'Waaa...♥ C-cumming!♥'"
                     ]
       },
@@ -550,7 +550,7 @@
       {
           "lineTrigger":"StanceStruggle",
           "move": "Sex",
-          "theText":["{ThePlayerName} tries to pull out from the dragoness' tight pussy..."]
+          "theText":["[ThePlayerName] tries to pull out from the dragoness' tight pussy..."]
       },
       {
           "lineTrigger":"StanceStruggleFail",
@@ -585,7 +585,7 @@
       {
           "lineTrigger":"StanceStruggle",
           "move": "Anal",
-          "theText":["{ThePlayerName} tries to pull out of the {AttackerName}'s tight ass..."]
+          "theText":["[ThePlayerName] tries to pull out of the [AttackerName]'s tight ass..."]
       },
       {
           "lineTrigger":"StanceStruggleFail",
@@ -613,7 +613,7 @@
       {
           "lineTrigger":"StanceStruggle",
           "move": "Making Out",
-          "theText":["{ThePlayerName} tries to pull away from Cetuspeanna's desperately affectionate kisses..."]
+          "theText":["[ThePlayerName] tries to pull away from Cetuspeanna's desperately affectionate kisses..."]
       },
       {
           "lineTrigger":"StanceStruggleFail",
@@ -645,7 +645,7 @@
       {
           "lineTrigger":"StanceStruggle",
           "move": "Tail Fuck",
-          "theText":["{ThePlayerName} tries to pull away from Cetuspeanna's dangerously pleasurable pussy..."]
+          "theText":["[ThePlayerName] tries to pull away from Cetuspeanna's dangerously pleasurable pussy..."]
       },
       {
           "lineTrigger":"StanceStruggleFail",

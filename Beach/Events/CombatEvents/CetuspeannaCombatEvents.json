@@ -202,16 +202,16 @@
             {
               "NameOfScene": "EverlastingAttackApply",
               "theScene": [
-                "Cetuspeanna surges up from the water, faster than {ThePlayerName} can see! A single touch of her hand feels like a thousand strokes at once, almost bringing him to his knees on the spot!",
+                "Cetuspeanna surges up from the water, faster than [ThePlayerName] can see! A single touch of her hand feels like a thousand strokes at once, almost bringing him to his knees on the spot!",
                 "GivePerkQuietly", "Ethereal Hands",
-                "Ethereal hands loom endlessly around {TargetName}'s crotch, occasionally stroking and caressing {TargetHisOrHer} manhood!"
+                "Ethereal hands loom endlessly around [TargetName]'s crotch, occasionally stroking and caressing [TargetHisOrHer] manhood!"
               ]
             },
             {
               "NameOfScene": "EverlastingAttack",
               "theScene": [
                 "HitPlayerWith", "Foaming Hand Strokes",
-                "The ethereal hands keep stroking and caressing your sweetly aching dick...{DamageToPlayer}",
+                "The ethereal hands keep stroking and caressing your sweetly aching dick...[DamageToPlayer]",
                 "IfPlayerOrgasm", "EverlastingCoom"
               ]
             },
@@ -228,7 +228,7 @@
             {
               "NameOfScene": "GentlePrayer",
               "theScene": [
-                "Cetuspeanna concentrates deeply, a beatific look on her graceful features, and channels soothing magic through {AttackerHisOrHer} body, cleansing arousal.",
+                "Cetuspeanna concentrates deeply, a beatific look on her graceful features, and channels soothing magic through [AttackerHisOrHer] body, cleansing arousal.",
                 "ChangeMonsterArousal", "-250",
                 "SwapLineIf", "Random",
                 "|f|ChangeImageLayer|/|ArmsBase|/|ArmsPrayBase|n||f|ChangeImageLayer|/|ArmsTop|/|ArmsPrayTop|n||f|ChangeImageLayer|/|Magic|/|MagicNone|n||f|ChangeImageLayer|/|Expression|/|EyesClosed|n||f|ChangeImageLayer|/|Base|/|Base|n|'...'",
@@ -246,11 +246,11 @@
               "ChangeImageLayer", "Base", "Base",
               "ChangeImageLayer", "Expression", "Solemn",
               "HitMonsterWith", "Arouse",
-              "Your wide-range spell hits her large body in several spots.{DamageToEnemy}",
+              "Your wide-range spell hits her large body in several spots.[DamageToEnemy]",
               "HitMonsterWith", "Arouse",
-              "Despite repeatedly passing through her body, the magic is not having much of an effect.{DamageToEnemy}",
+              "Despite repeatedly passing through her body, the magic is not having much of an effect.[DamageToEnemy]",
               "HitMonsterWith", "Arouse",
-              "The spell fizzles out weakly, having accomplished nothing. The dragon's body is too resistant to magic.{DamageToEnemy}"
+              "The spell fizzles out weakly, having accomplished nothing. The dragon's body is too resistant to magic.[DamageToEnemy]"
               ]
 					  },
             {
@@ -260,12 +260,12 @@
                 "ChangeImageLayer", "Base", "BaseFlush",
                 "ChangeImageLayer", "Expression", "MildlyAroused",
                 "HitMonsterWith", "Arouse",
-                "Your wide-range spell slams into her large body in several spots again. Second time around, Cetuspeanna seems more affected.{DamageToEnemy}",
+                "Your wide-range spell slams into her large body in several spots again. Second time around, Cetuspeanna seems more affected.[DamageToEnemy]",
                 "HitMonsterWith", "Arouse",
-                "Repeatedly passing through her body the magic's effects are not entirely apparent, but it does manage to make her moan quietly.{DamageToEnemy}",
+                "Repeatedly passing through her body the magic's effects are not entirely apparent, but it does manage to make her moan quietly.[DamageToEnemy]",
                 "ChangeImageLayer", "Expression", "Aroused",
                 "HitMonsterWith", "Arouse",
-                "The spell fizzles out with a flash, having a mysterious effect on the dragon's body...{DamageToEnemy}"
+                "The spell fizzles out with a flash, having a mysterious effect on the dragon's body...[DamageToEnemy]"
               ]
             },
             {
@@ -348,9 +348,9 @@
                 "HitMonsterWith", "Caress",
 								"FocusedSpeaks",
 								"SwapLineIf", "Random",
-								          "'Haa...♥ Mmh, touch me more darling...♥'{DamageToEnemy}",
-                          "'S-so gentle...♥ Hurry...♥ Don't tease me, darling...♥'{DamageToEnemy}",
-                          "'Too gentle...♥ Touch me more, please...!♥'{DamageToEnemy}",
+								          "'Haa...♥ Mmh, touch me more darling...♥'[DamageToEnemy]",
+                          "'S-so gentle...♥ Hurry...♥ Don't tease me, darling...♥'[DamageToEnemy]",
+                          "'Too gentle...♥ Touch me more, please...!♥'[DamageToEnemy]",
 								"EndLoop"
               ]
             },
@@ -365,11 +365,11 @@
                 "HitMonsterWith", "Caress",
 								"FocusedSpeaks",
 								"SwapLineIf", "Random",
-								          "'Haa...♥ You're gentle, but I-, I h-have to get away...♥'{DamageToEnemy}",
-          								"'Ahh...♥ Even this much is...♥'{DamageToEnemy}",
-          								"'Mmhf...♥ Touching a goddess is...♥'{DamageToEnemy}",
-                          "'Ooh!♥ W-why are you so...♥'{DamageToEnemy}",
-                          "'Even from this I-...♥ Have to escape...!♥'{DamageToEnemy}",
+								          "'Haa...♥ You're gentle, but I-, I h-have to get away...♥'[DamageToEnemy]",
+          								"'Ahh...♥ Even this much is...♥'[DamageToEnemy]",
+          								"'Mmhf...♥ Touching a goddess is...♥'[DamageToEnemy]",
+                          "'Ooh!♥ W-why are you so...♥'[DamageToEnemy]",
+                          "'Even from this I-...♥ Have to escape...!♥'[DamageToEnemy]",
 								"EndLoop"
               ]
             },
@@ -393,9 +393,9 @@
                 "HitMonsterWith", "Finger",
 								"FocusedSpeaks",
 								"SwapLineIf", "Random",
-								          "'Haa...♥ Mmh, touch me more darling...♥'{DamageToEnemy}",
-                          "'Kuh!♥ Hurry...♥ Don't tease me, darling...♥'{DamageToEnemy}",
-                          "'No, you meanie...♥ Give me your thing, please...!♥'{DamageToEnemy}",
+								          "'Haa...♥ Mmh, touch me more darling...♥'[DamageToEnemy]",
+                          "'Kuh!♥ Hurry...♥ Don't tease me, darling...♥'[DamageToEnemy]",
+                          "'No, you meanie...♥ Give me your thing, please...!♥'[DamageToEnemy]",
 								"EndLoop"
               ]
             },
@@ -410,11 +410,11 @@
                 "HitMonsterWith", "Finger",
 								"FocusedSpeaks",
 								"SwapLineIf", "Random",
-								          "'Haa...♥ Mmh, h-have to get away...♥'{DamageToEnemy}",
-          								"'Ahh...♥ I may be in trouble...♥'{DamageToEnemy}",
-          								"'Mmhf...♥ Touching a goddess is...♥'{DamageToEnemy}",
-                          "'Ooh!♥ S-spare me...♥'{DamageToEnemy}",
-                          "'I have to...♥ Have to escape...!♥'{DamageToEnemy}",
+								          "'Haa...♥ Mmh, h-have to get away...♥'[DamageToEnemy]",
+          								"'Ahh...♥ I may be in trouble...♥'[DamageToEnemy]",
+          								"'Mmhf...♥ Touching a goddess is...♥'[DamageToEnemy]",
+                          "'Ooh!♥ S-spare me...♥'[DamageToEnemy]",
+                          "'I have to...♥ Have to escape...!♥'[DamageToEnemy]",
 								"EndLoop"
               ]
             },
@@ -439,9 +439,9 @@
                   "HitMonsterWith", "Dildo",
   								"FocusedSpeaks",
   								"SwapLineIf", "Random",
-  								          "'Haa...♥ Mmh, push it deeper, darling...♥'{DamageToEnemy}",
-                            "'Kuh!♥ Hurry...♥ Don't tease me, darling...♥'{DamageToEnemy}",
-                            "'No, you meanie...♥ Give me the real thing, please...!♥'{DamageToEnemy}",
+  								          "'Haa...♥ Mmh, push it deeper, darling...♥'[DamageToEnemy]",
+                            "'Kuh!♥ Hurry...♥ Don't tease me, darling...♥'[DamageToEnemy]",
+                            "'No, you meanie...♥ Give me the real thing, please...!♥'[DamageToEnemy]",
   								"EndLoop"
               ]
             },
@@ -456,11 +456,11 @@
                 "HitMonsterWith", "Dildo",
 								"FocusedSpeaks",
 								"SwapLineIf", "Random",
-                          "'Ooh!♥ S-spare me...♥'{DamageToEnemy}",
-                          "'D-don't push that thing in me...♥'{DamageToEnemy}",
-          								"'Ahh...♥ I may be in trouble...♥'{DamageToEnemy}",
-          								"'Mmhf...♥ Using that on a goddess is...♥'{DamageToEnemy}",
-                          "'I have to...♥ Have to escape...!♥'{DamageToEnemy}",
+                          "'Ooh!♥ S-spare me...♥'[DamageToEnemy]",
+                          "'D-don't push that thing in me...♥'[DamageToEnemy]",
+          								"'Ahh...♥ I may be in trouble...♥'[DamageToEnemy]",
+          								"'Mmhf...♥ Using that on a goddess is...♥'[DamageToEnemy]",
+                          "'I have to...♥ Have to escape...!♥'[DamageToEnemy]",
 								"EndLoop"
               ]
             },
@@ -485,9 +485,9 @@
                 "HitMonsterWith", "Spank",
                 "FocusedSpeaks",
                 "SwapLineIf", "Random",
-                          "'Haa...♥ Yes, yes, spank me darling...!♥'{DamageToEnemy}",
-                          "'Kya!♥ More...♥ Spank me more, darling...♥'{DamageToEnemy}",
-                          "'Ah...!♥ Hit me again...!♥'{DamageToEnemy}",
+                          "'Haa...♥ Yes, yes, spank me darling...!♥'[DamageToEnemy]",
+                          "'Kya!♥ More...♥ Spank me more, darling...♥'[DamageToEnemy]",
+                          "'Ah...!♥ Hit me again...!♥'[DamageToEnemy]",
                 "EndLoop"
               ]
             },
@@ -502,11 +502,11 @@
                 "HitMonsterWith", "Spank",
 								"FocusedSpeaks",
 								"SwapLineIf", "Random",
-								          "'Kya!♥ Mmh, h-have to get away...♥'{DamageToEnemy}",
-                          "'Ooh!♥ D-don't spank me...♥'{DamageToEnemy}",
-          								"'Ahh...♥ I may be in trouble...♥'{DamageToEnemy}",
-          								"'Mmhf...♥ Spanking a goddess is...♥'{DamageToEnemy}",
-                          "'I have to...♥ Have to escape...!♥'{DamageToEnemy}",
+								          "'Kya!♥ Mmh, h-have to get away...♥'[DamageToEnemy]",
+                          "'Ooh!♥ D-don't spank me...♥'[DamageToEnemy]",
+          								"'Ahh...♥ I may be in trouble...♥'[DamageToEnemy]",
+          								"'Mmhf...♥ Spanking a goddess is...♥'[DamageToEnemy]",
+                          "'I have to...♥ Have to escape...!♥'[DamageToEnemy]",
 								"EndLoop"
               ]
             },
@@ -531,9 +531,9 @@
                 "HitMonsterWith", "Pinch Nipples",
                 "FocusedSpeaks",
                 "SwapLineIf", "Random",
-                          "'Haa...♥ Ah, squeeze them harder darling...!♥'{DamageToEnemy}",
-                          "'Kya!♥ More...♥ Pull on them harder, darling...♥'{DamageToEnemy}",
-                          "'Ah...!♥ Squeeze them again...!♥'{DamageToEnemy}",
+                          "'Haa...♥ Ah, squeeze them harder darling...!♥'[DamageToEnemy]",
+                          "'Kya!♥ More...♥ Pull on them harder, darling...♥'[DamageToEnemy]",
+                          "'Ah...!♥ Squeeze them again...!♥'[DamageToEnemy]",
                 "EndLoop"
               ]
             },
@@ -548,11 +548,11 @@
                 "HitMonsterWith", "Pinch Nipples",
 								"FocusedSpeaks",
 								"SwapLineIf", "Random",
-								          "'Kya!♥ Mmh, h-have to get away...♥'{DamageToEnemy}",
-                          "'Ooh!♥ S-spare them...♥'{DamageToEnemy}",
-          								"'Ahh...♥ If you pinch them that hard, I'll...♥'{DamageToEnemy}",
-          								"'Mmhf...♥ Pinching a goddess is forbidden!♥'{DamageToEnemy}",
-                          "'I have to...♥ Have to escape...!♥'{DamageToEnemy}",
+								          "'Kya!♥ Mmh, h-have to get away...♥'[DamageToEnemy]",
+                          "'Ooh!♥ S-spare them...♥'[DamageToEnemy]",
+          								"'Ahh...♥ If you pinch them that hard, I'll...♥'[DamageToEnemy]",
+          								"'Mmhf...♥ Pinching a goddess is forbidden!♥'[DamageToEnemy]",
+                          "'I have to...♥ Have to escape...!♥'[DamageToEnemy]",
 								"EndLoop"
               ]
             },
@@ -609,9 +609,9 @@
                 "HitMonsterWith", "Holy Headpat",
                 "FocusedSpeaks",
                 "SwapLineIf", "Random",
-                          "'Awawawa...!♥'{DamageToEnemy}",
-                          "She is fumbling and making cute noises. It is all she manages to do.{DamageToEnemy}",
-                          "Face flushed a deep purple, her eyelashes flutter desperately and she looks like she may faint...{DamageToEnemy}",
+                          "'Awawawa...!♥'[DamageToEnemy]",
+                          "She is fumbling and making cute noises. It is all she manages to do.[DamageToEnemy]",
+                          "Face flushed a deep purple, her eyelashes flutter desperately and she looks like she may faint...[DamageToEnemy]",
                 "EndLoop",
                 "ChangeMonsterArousal", "100",
                 "The move looks surprisingly effective... Cetuspeanna takes additional 100 damage!"
@@ -628,10 +628,10 @@
                 "HitMonsterWith", "Holy Headpat",
 								"FocusedSpeaks",
 								"SwapLineIf", "Random",
-								          "'Kuh!♥ How insolent...'{DamageToEnemy}",
-                          "'Oh!♥ Um, this is not proper...'{DamageToEnemy}",
-          								"'W-whyyy...♥'{DamageToEnemy}",
-          								"'Ahh...♥ Headpatting a goddess is strictly forbidden!'{DamageToEnemy}",
+								          "'Kuh!♥ How insolent...'[DamageToEnemy]",
+                          "'Oh!♥ Um, this is not proper...'[DamageToEnemy]",
+          								"'W-whyyy...♥'[DamageToEnemy]",
+          								"'Ahh...♥ Headpatting a goddess is strictly forbidden!'[DamageToEnemy]",
 								"EndLoop"
               ]
             },
@@ -656,9 +656,9 @@
                 "HitMonsterWith", "Breast Caress",
                 "FocusedSpeaks",
                 "SwapLineIf", "Random",
-                          "'Touch them more, darling...♥'{DamageToEnemy}",
-                          "'D-do you like them?♥'{DamageToEnemy}",
-                          "'You can be rougher with them, darling.♥'{DamageToEnemy}",
+                          "'Touch them more, darling...♥'[DamageToEnemy]",
+                          "'D-do you like them?♥'[DamageToEnemy]",
+                          "'You can be rougher with them, darling.♥'[DamageToEnemy]",
                 "EndLoop"
               ]
             },
@@ -673,11 +673,11 @@
                 "HitMonsterWith", "Breast Caress",
 								"FocusedSpeaks",
 								"SwapLineIf", "Random",
-                  "'Kya!♥ Mmh, h-have to get away...♥'{DamageToEnemy}",
-                  "'Ooh!♥ S-spare them...♥'{DamageToEnemy}",
-                  "'Ahh...♥ M-my bosom may be in trouble...♥'{DamageToEnemy}",
-                  "'Mmhf...♥ Groping a goddess is forbidden!♥'{DamageToEnemy}",
-                  "'I have to...♥ Have to escape...!♥'{DamageToEnemy}",
+                  "'Kya!♥ Mmh, h-have to get away...♥'[DamageToEnemy]",
+                  "'Ooh!♥ S-spare them...♥'[DamageToEnemy]",
+                  "'Ahh...♥ M-my bosom may be in trouble...♥'[DamageToEnemy]",
+                  "'Mmhf...♥ Groping a goddess is forbidden!♥'[DamageToEnemy]",
+                  "'I have to...♥ Have to escape...!♥'[DamageToEnemy]",
 								"EndLoop"
               ]
             },
@@ -702,10 +702,10 @@
                 "HitMonsterWith", "Breast Massage",
                 "FocusedSpeaks",
                 "SwapLineIf", "Random",
-                          "'Ahh♥, knead them more darling...♥'{DamageToEnemy}",
-                          "'D-do you like them?♥'{DamageToEnemy}",
-                          "'You can be rougher with them, darling.♥'{DamageToEnemy}",
-                          "'I love your touch, darling!♥'{DamageToEnemy}",
+                          "'Ahh♥, knead them more darling...♥'[DamageToEnemy]",
+                          "'D-do you like them?♥'[DamageToEnemy]",
+                          "'You can be rougher with them, darling.♥'[DamageToEnemy]",
+                          "'I love your touch, darling!♥'[DamageToEnemy]",
                 "EndLoop"
               ]
             },
@@ -720,11 +720,11 @@
                 "HitMonsterWith", "Breast Massage",
 								"FocusedSpeaks",
 								"SwapLineIf", "Random",
-                  "'Kya!♥ Mmh, h-have to get away...♥'{DamageToEnemy}",
-                  "'Ooh!♥ S-spare them...♥'{DamageToEnemy}",
-                  "'Ahh...♥ My bosom may be in trouble...♥'{DamageToEnemy}",
-                  "'Mmhf...♥ Groping a goddess is forbidden!♥'{DamageToEnemy}",
-                  "'I have to...♥ Have to escape...!♥'{DamageToEnemy}",
+                  "'Kya!♥ Mmh, h-have to get away...♥'[DamageToEnemy]",
+                  "'Ooh!♥ S-spare them...♥'[DamageToEnemy]",
+                  "'Ahh...♥ My bosom may be in trouble...♥'[DamageToEnemy]",
+                  "'Mmhf...♥ Groping a goddess is forbidden!♥'[DamageToEnemy]",
+                  "'I have to...♥ Have to escape...!♥'[DamageToEnemy]",
 								"EndLoop"
               ]
             },
@@ -748,9 +748,9 @@
               "HitMonsterWith", "Suckle",
               "FocusedSpeaks",
               "SwapLineIf", "Random",
-                        "'Ahh♥, suck them more darling...♥'{DamageToEnemy}",
-                        "'D-do you like my nipples?♥'{DamageToEnemy}",
-                        "'You can suck them harder, darling.♥'{DamageToEnemy}",
+                        "'Ahh♥, suck them more darling...♥'[DamageToEnemy]",
+                        "'D-do you like my nipples?♥'[DamageToEnemy]",
+                        "'You can suck them harder, darling.♥'[DamageToEnemy]",
               "EndLoop"
               ]
             },
@@ -765,11 +765,11 @@
                 "HitMonsterWith", "Suckle",
 								"FocusedSpeaks",
 								"SwapLineIf", "Random",
-                  "'Kya!♥ Mmh, h-have to get away...♥'{DamageToEnemy}",
-                  "'Ooh!♥ D-don't suck on them...♥'{DamageToEnemy}",
-                  "'Ahh...♥ I may be in trouble...♥'{DamageToEnemy}",
-                  "'Mmhf...♥ Suckling a goddess is forbidden!♥'{DamageToEnemy}",
-                  "'I have to...♥ Have to escape...!♥'{DamageToEnemy}",
+                  "'Kya!♥ Mmh, h-have to get away...♥'[DamageToEnemy]",
+                  "'Ooh!♥ D-don't suck on them...♥'[DamageToEnemy]",
+                  "'Ahh...♥ I may be in trouble...♥'[DamageToEnemy]",
+                  "'Mmhf...♥ Suckling a goddess is forbidden!♥'[DamageToEnemy]",
+                  "'I have to...♥ Have to escape...!♥'[DamageToEnemy]",
 								"EndLoop"
               ]
             },
@@ -793,9 +793,9 @@
               "HitMonsterWith", "Grope Ass",
               "FocusedSpeaks",
               "SwapLineIf", "Random",
-                        "'Ahh♥, grope it more darling...♥'{DamageToEnemy}",
-                        "'D-do you like my butt?♥'{DamageToEnemy}",
-                        "'You can grope it more, darling.♥'{DamageToEnemy}",
+                        "'Ahh♥, grope it more darling...♥'[DamageToEnemy]",
+                        "'D-do you like my butt?♥'[DamageToEnemy]",
+                        "'You can grope it more, darling.♥'[DamageToEnemy]",
               "EndLoop"
               ]
             },
@@ -810,11 +810,11 @@
                 "HitMonsterWith", "Grope Ass",
 								"FocusedSpeaks",
 								"SwapLineIf", "Random",
-                  "'Kya!♥ D-don't touch me there...♥'{DamageToEnemy}",
-                  "'Ooh!♥ D-don't squeeze it...♥'{DamageToEnemy}",
-                  "'Ahh...♥ My butt is in trouble...♥'{DamageToEnemy}",
-                  "'Mmhf...♥ Groping a goddess is forbidden!♥'{DamageToEnemy}",
-                  "'I have to...♥ Have to escape your hands...!♥'{DamageToEnemy}",
+                  "'Kya!♥ D-don't touch me there...♥'[DamageToEnemy]",
+                  "'Ooh!♥ D-don't squeeze it...♥'[DamageToEnemy]",
+                  "'Ahh...♥ My butt is in trouble...♥'[DamageToEnemy]",
+                  "'Mmhf...♥ Groping a goddess is forbidden!♥'[DamageToEnemy]",
+                  "'I have to...♥ Have to escape your hands...!♥'[DamageToEnemy]",
 								"EndLoop"
               ]
             },
@@ -838,9 +838,9 @@
               "ApplyStance", "Sex",
               "FocusedSpeaks",
               "SwapLineIf", "Random",
-                        "'Ahh♥, we can get married later... For now, just stir me up!♥'{DamageToEnemy}",
-                        "'M-make me yours...♥'{DamageToEnemy}",
-                        "'You can do it as hard as you want, darling.♥'{DamageToEnemy}",
+                        "'Ahh♥, we can get married later... For now, just stir me up!♥'[DamageToEnemy]",
+                        "'M-make me yours...♥'[DamageToEnemy]",
+                        "'You can do it as hard as you want, darling.♥'[DamageToEnemy]",
               "EndLoop"
               ]
             },
@@ -856,10 +856,10 @@
                 "ApplyStance", "Sex",
 								"FocusedSpeaks",
 								"SwapLineIf", "Random",
-                  "'Kya!♥ S-stop, we need to be married first...♥'{DamageToEnemy}",
-                  "'Ooh!♥ D-don't fuck meee... Please, I won't be able to hold back anymore...♥'{DamageToEnemy}",
-                  "'Ahh...♥ Now you've done it...♥'{DamageToEnemy}",
-                  "'Mmhf...♥ Intercourse with a goddess is forbidden! We must stop this right now! We must!♥'{DamageToEnemy}",
+                  "'Kya!♥ S-stop, we need to be married first...♥'[DamageToEnemy]",
+                  "'Ooh!♥ D-don't fuck meee... Please, I won't be able to hold back anymore...♥'[DamageToEnemy]",
+                  "'Ahh...♥ Now you've done it...♥'[DamageToEnemy]",
+                  "'Mmhf...♥ Intercourse with a goddess is forbidden! We must stop this right now! We must!♥'[DamageToEnemy]",
 								"EndLoop"
               ]
             },
@@ -884,9 +884,9 @@
                 "ApplyStance", "Anal",
                 "FocusedSpeaks",
                 "SwapLineIf", "Random",
-                          "'Ahh♥, if it's anal... We can do that before marriage...♥'{DamageToEnemy}",
-                          "'M-make me yours...♥'{DamageToEnemy}",
-                          "'I offer all of myself to you, darling.♥'{DamageToEnemy}",
+                          "'Ahh♥, if it's anal... We can do that before marriage...♥'[DamageToEnemy]",
+                          "'M-make me yours...♥'[DamageToEnemy]",
+                          "'I offer all of myself to you, darling.♥'[DamageToEnemy]",
                 "EndLoop"
               ]
             },
@@ -902,10 +902,10 @@
                 "ApplyStance", "Anal",
 								"FocusedSpeaks",
 								"SwapLineIf", "Random",
-                  "'Kya!♥ S-stop, anal is...♥'{DamageToEnemy}",
-                  "'Ooh!♥ D-don't fuck me thereee... Please, I won't be able to hold back anymore...♥'{DamageToEnemy}",
-                  "'Ahh...♥ Now you've done it...♥'{DamageToEnemy}",
-                  "'Mmhf...♥ Anal sex with a goddess! Stop, divine punishment will surely befall you!♥'{DamageToEnemy}",
+                  "'Kya!♥ S-stop, anal is...♥'[DamageToEnemy]",
+                  "'Ooh!♥ D-don't fuck me thereee... Please, I won't be able to hold back anymore...♥'[DamageToEnemy]",
+                  "'Ahh...♥ Now you've done it...♥'[DamageToEnemy]",
+                  "'Mmhf...♥ Anal sex with a goddess! Stop, divine punishment will surely befall you!♥'[DamageToEnemy]",
 								"EndLoop"
               ]
             },
@@ -931,9 +931,9 @@
                 "ApplyStance", "Making Out",
                 "FocusedSpeaks",
                 "SwapLineIf", "Random",
-                          "'Ahh♥, Kiss me... Taste me, darling!♥'{DamageToEnemy}",
-                          "'Hold me closer, my love...♥'{DamageToEnemy}",
-                          "'I love you so much...♥'{DamageToEnemy}",
+                          "'Ahh♥, Kiss me... Taste me, darling!♥'[DamageToEnemy]",
+                          "'Hold me closer, my love...♥'[DamageToEnemy]",
+                          "'I love you so much...♥'[DamageToEnemy]",
                 "EndLoop"
               ]
             },
@@ -949,10 +949,10 @@
                 "ApplyStance", "Making Out",
 								"FocusedSpeaks",
 								"SwapLineIf", "Random",
-                  "'K-k-kissing...!!! Mmph!♥'{DamageToEnemy}",
-                  "'Mwah...♥ D-don't kiss meee... Please, I won't be able to hold back anymore...♥'{DamageToEnemy}",
-                  "'Chu...♥ Now you've done it...♥'{DamageToEnemy}",
-                  "'Mmhf...♥ K-k-kissing a goddess! Stop, divine punishment will surely befall you!♥'{DamageToEnemy}",
+                  "'K-k-kissing...!!! Mmph!♥'[DamageToEnemy]",
+                  "'Mwah...♥ D-don't kiss meee... Please, I won't be able to hold back anymore...♥'[DamageToEnemy]",
+                  "'Chu...♥ Now you've done it...♥'[DamageToEnemy]",
+                  "'Mmhf...♥ K-k-kissing a goddess! Stop, divine punishment will surely befall you!♥'[DamageToEnemy]",
 								"EndLoop"
               ]
             },
@@ -977,9 +977,9 @@
                 "HitMonsterWith", "Kiss",
                 "FocusedSpeaks",
                 "SwapLineIf", "Random",
-                          "'Ahh♥, Kiss me... Taste me, darling!♥'{DamageToEnemy}",
-                          "'Kiss me deeper, my love...♥'{DamageToEnemy}",
-                          "'I love you so much...♥'{DamageToEnemy}",
+                          "'Ahh♥, Kiss me... Taste me, darling!♥'[DamageToEnemy]",
+                          "'Kiss me deeper, my love...♥'[DamageToEnemy]",
+                          "'I love you so much...♥'[DamageToEnemy]",
                 "EndLoop"
               ]
             },
@@ -994,10 +994,10 @@
                 "HitMonsterWith", "Kiss",
 								"FocusedSpeaks",
 								"SwapLineIf", "Random",
-                  "'K-k-kissing...!!! Mmph!♥'{DamageToEnemy}",
-                  "'Mwah...♥ D-don't kiss meee... Please, I won't be able to hold back anymore...♥'{DamageToEnemy}",
-                  "'Chu...♥ Now you've done it...♥'{DamageToEnemy}",
-                  "'Mmhf...♥ K-k-kissing a goddess! No more, divine punishment will surely befall us!♥'{DamageToEnemy}",
+                  "'K-k-kissing...!!! Mmph!♥'[DamageToEnemy]",
+                  "'Mwah...♥ D-don't kiss meee... Please, I won't be able to hold back anymore...♥'[DamageToEnemy]",
+                  "'Chu...♥ Now you've done it...♥'[DamageToEnemy]",
+                  "'Mmhf...♥ K-k-kissing a goddess! No more, divine punishment will surely befall us!♥'[DamageToEnemy]",
 								"EndLoop"
               ]
             },
@@ -1021,9 +1021,9 @@
               "HitMonsterWith", "Ear Tease",
               "FocusedSpeaks",
               "SwapLineIf", "Random",
-                        "'Ahh♥, tease me... Tease me, darling!♥'{DamageToEnemy}",
-                        "Her ear tentacles wrap around your fingers affectionately.{DamageToEnemy}",
-                        "'I am falling for you all over again...♥'{DamageToEnemy}",
+                        "'Ahh♥, tease me... Tease me, darling!♥'[DamageToEnemy]",
+                        "Her ear tentacles wrap around your fingers affectionately.[DamageToEnemy]",
+                        "'I am falling for you all over again...♥'[DamageToEnemy]",
               "EndLoop"
               ]
             },
@@ -1038,9 +1038,9 @@
                 "HitMonsterWith", "Ear Tease",
                 "FocusedSpeaks",
                 "SwapLineIf", "Random",
-                          "'Kuh♥, d-don't touch me there, noo!♥'{DamageToEnemy}",
-                          "Her ear tentacles wrap around your fingers affectionately. Cetuspeanna blushes and looks down in embarrassment.{DamageToEnemy}",
-                          "'D-dont... Nooo...♥'{DamageToEnemy}",
+                          "'Kuh♥, d-don't touch me there, noo!♥'[DamageToEnemy]",
+                          "Her ear tentacles wrap around your fingers affectionately. Cetuspeanna blushes and looks down in embarrassment.[DamageToEnemy]",
+                          "'D-dont... Nooo...♥'[DamageToEnemy]",
                 "EndLoop"
               ]
             },
@@ -1097,7 +1097,7 @@
                 "FocusOnMonster", "4", "ChangeImageLayer", "Base", "Smol2",
                 "FocusOnMonster", "4", "ChangeImageLayer", "Expression", "",
                 "HitPlayerWith", "Mermaid's Choir",
-                "They start singing in unison, their holy choir hailing the Dragon Goddess Cetuspeanna! You feel yourself getting completely taken in by her divine beauty!{DamageToPlayer}",
+                "They start singing in unison, their holy choir hailing the Dragon Goddess Cetuspeanna! You feel yourself getting completely taken in by her divine beauty![DamageToPlayer]",
                 "ApplyStatusEffect", "Mermaid's Choir",
                 "FocusOnMonster", "2", "RemoveMonster",
                 "FocusOnMonster", "2", "RemoveMonster",
@@ -1132,7 +1132,7 @@
                 "Cetuspeanna moans softly, welcoming their worshipful touch. She returns their gentle affections, caressing and petting the Nereids in turn. The fishgirls who receive her attention look absolutely elated, redoubling their worshipful efforts.",
                 "FocusOnMonster", "1", "ChangeMonsterArousal", "-500",
                 "HitPlayerWith", "Captive Audience",
-                "Healed and calmed by her beloved flock, Cetuspeanna looks completely refreshed! You also feel somewhat aroused by the sexy display!{DamageToPlayer}",
+                "Healed and calmed by her beloved flock, Cetuspeanna looks completely refreshed! You also feel somewhat aroused by the sexy display![DamageToPlayer]",
                 "FocusOnMonster", "2", "RemoveMonster",
                 "FocusOnMonster", "2", "RemoveMonster",
                 "FocusOnMonster", "2", "RemoveMonster",

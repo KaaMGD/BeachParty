@@ -494,7 +494,7 @@
       {
           "lineTrigger":"StanceStruggle",
           "move": "Sex",
-          "theText":["{ThePlayerName} tries to pull out from the dragoness' divine pussy..."]
+          "theText":["[ThePlayerName] tries to pull out from the dragoness' divine pussy..."]
       },
       {
           "lineTrigger":"StanceStruggleFail",
@@ -529,7 +529,7 @@
       {
           "lineTrigger":"StanceStruggle",
           "move": "Anal",
-          "theText":["{ThePlayerName} tries to pull out of the {AttackerName}'s tight ass..."]
+          "theText":["[ThePlayerName] tries to pull out of the [AttackerName]'s tight ass..."]
       },
       {
           "lineTrigger":"StanceStruggleFail",
@@ -557,7 +557,7 @@
       {
           "lineTrigger":"StanceStruggle",
           "move": "Making Out",
-          "theText":["{ThePlayerName} tries to pull away from Cetuspeanna's desperately affectionate kisses..."]
+          "theText":["[ThePlayerName] tries to pull away from Cetuspeanna's desperately affectionate kisses..."]
       },
       {
           "lineTrigger":"StanceStruggleFail",

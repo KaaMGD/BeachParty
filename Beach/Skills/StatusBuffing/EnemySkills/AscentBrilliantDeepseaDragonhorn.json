@@ -33,7 +33,7 @@
     "descrip": "",
     "outcome": "",
     "miss": "",
-    "statusOutcome": "{AttackerName} surges upwards from the water, holding up a sinister-looking dragon horn! Dark energies fill the dragoness' body, granting {AttackerHisOrHer} unnatural power and vigor!",
+    "statusOutcome": "[AttackerName] surges upwards from the water, holding up a sinister-looking dragon horn! Dark energies fill the dragoness' body, granting [AttackerHisOrHer] unnatural power and vigor!",
     "statusMiss": "",
     "restraintStruggle": "",
     "restraintStruggleCharmed": "",

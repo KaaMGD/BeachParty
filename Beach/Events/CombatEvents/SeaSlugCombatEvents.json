@@ -123,9 +123,9 @@
 								"HitMonsterWith", "Suckle",
 						"FocusedSpeaks",
 								"SwapLineIf", "Random",
-								"'Umm, hey... There's nothing to suck on there...♥'{DamageToEnemy}",
-                                "'There's nothing to suck on, silly...♥'{DamageToEnemy}",
-                                "'Aww, you're so silly..!♥'{DamageToEnemy}",
+								"'Umm, hey... There's nothing to suck on there...♥'[DamageToEnemy]",
+                                "'There's nothing to suck on, silly...♥'[DamageToEnemy]",
+                                "'Aww, you're so silly..!♥'[DamageToEnemy]",
 								"EndLoop"
                                   ]
 					  },
@@ -138,9 +138,9 @@
 								"HitMonsterWith", "Pinch Nipples",
 						"FocusedSpeaks",
 								"SwapLineIf", "Random",
-								"'Owww... D-dont pinch them..♥'{DamageToEnemy}",
-                                "'W-whyyy...♥ I don't even have nipples..!♥'{DamageToEnemy}",
-                                "'N-nooo, don't squeeze..!♥'{DamageToEnemy}",
+								"'Owww... D-dont pinch them..♥'[DamageToEnemy]",
+                                "'W-whyyy...♥ I don't even have nipples..!♥'[DamageToEnemy]",
+                                "'N-nooo, don't squeeze..!♥'[DamageToEnemy]",
 								"EndLoop"
                                   ]
 					  },
@@ -173,7 +173,7 @@
                                           "ChangeImageLayer", "Base", "BaseBlush",
 								"ChangeImageLayer", "Expression", "Lewd", 
 						"HitPlayerWith", "Slippery Breast Stroke",
-						"The slug bounces her massive tits up and down, effortlessly sliding the wonderfully soft orbs over you length!{DamageToPlayer}",
+						"The slug bounces her massive tits up and down, effortlessly sliding the wonderfully soft orbs over you length![DamageToPlayer]",
 						
 						"JumpToRandomScene",
 						"StrokeFollowUp",
@@ -187,9 +187,9 @@
 						"theScene":[
 						"HitPlayerWith", "Slippery Breast Stroke",
 								"SwapLineIf", "Random",
-								"The slimy breasts just keep dragging up and down around your dick, the excess mucus making them unstoppable!{DamageToPlayer}",
-								"Her heavy tits just keep mashing against your crotch, the abundant slime making the movements excessively easy and pleasurable!{DamageToPlayer}",
-								"Unceasingly, her slippery tits keep rubbing your pleasantly aching cock, the repeated movements feeling like they may never ever stop!{DamageToPlayer}",
+								"The slimy breasts just keep dragging up and down around your dick, the excess mucus making them unstoppable![DamageToPlayer]",
+								"Her heavy tits just keep mashing against your crotch, the abundant slime making the movements excessively easy and pleasurable![DamageToPlayer]",
+								"Unceasingly, her slippery tits keep rubbing your pleasantly aching cock, the repeated movements feeling like they may never ever stop![DamageToPlayer]",
 								"EndLoop",
 						"JumpToRandomScene",
 						"StrokeFollowUp",

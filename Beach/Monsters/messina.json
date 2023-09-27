@@ -437,12 +437,12 @@
                         {
                             "lineTrigger":"StanceStruggle",
                             "move": "Sex",
-                            "theText":["{ThePlayerName} tries to pull out from the scylla's wildly squirming pussy..."]
+                            "theText":["[ThePlayerName] tries to pull out from the scylla's wildly squirming pussy..."]
                         },
                         {
                             "lineTrigger":"StanceStruggleFail",
                             "move": "Sex",
-                            "theText":["But she shudders and drops her hips back on {ThePlayerName}, pushing {TargetHisOrHer} shaft back inside her!",
+                            "theText":["But she shudders and drops her hips back on [ThePlayerName], pushing [TargetHisOrHer] shaft back inside her!",
                                         "But as you get away, Messina shoots you a needy glance, making you thrust wildly back into her!",
                                         "But you shiver as her slimy cilia tease you wildly and lose the strength to pull out!"]
                         },
@@ -472,7 +472,7 @@
                         {
                             "lineTrigger":"StanceStruggle",
                             "move": "Thighjob",
-                            "theText":["{ThePlayerName} tries to pull away from the {AttackerName}'s plump thighs..."]
+                            "theText":["[ThePlayerName] tries to pull away from the [AttackerName]'s plump thighs..."]
                         },
                         {
                             "lineTrigger":"StanceStruggleFail",
@@ -503,12 +503,12 @@
                         {
                             "lineTrigger":"StanceStruggle",
                             "move": "Making Out",
-                            "theText":["{ThePlayerName} tries to pull away from the scylla's timid kisses..."]
+                            "theText":["[ThePlayerName] tries to pull away from the scylla's timid kisses..."]
                         },
                         {
                             "lineTrigger":"StanceStruggleFail",
                             "move": "Making Out",
-                            "theText":["But she wraps her arms around {ThePlayerName}'s neck, keeping {TargetHimOrHer} in a quiet, but passionate make out session!",
+                            "theText":["But she wraps her arms around [ThePlayerName]'s neck, keeping [TargetHimOrHer] in a quiet, but passionate make out session!",
                                         "But as you pull away and gasp for air, Messina smooches you again, almost bumping your foreheads in process!",
                                         "But as you start to pull away, Messina whines quietly and you decide to keep kissing her."]
                         },
@@ -536,7 +536,7 @@
                         {
                             "lineTrigger":"StanceStruggle",
                             "move": "Titfuck",
-                            "theText":["{ThePlayerName} tries to push {AttackerName}'s heavy tits away from {TargetHisOrHer} rigid shaft..."]
+                            "theText":["[ThePlayerName] tries to push [AttackerName]'s heavy tits away from [TargetHisOrHer] rigid shaft..."]
                         },
                         {
                             "lineTrigger":"StanceStruggleFail",
