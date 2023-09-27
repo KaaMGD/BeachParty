@@ -31,7 +31,7 @@
     "statusText": "",
     "descrip": "Fuck! Just don't get carried away.",
     "outcome": "|f|CallCombatEventAndScene|/|SeaSlugCombatEvents|/|MammothSmothering|n|",
-    "miss": "{AttackerName} rises into the air, intent on smashing into you from above but misses completely!",
+    "miss": "[AttackerName] rises into the air, intent on smashing into you from above but misses completely!",
     "statusOutcome": "IgnoreAttack",
     "statusMiss": "",
     "restraintStruggle": "",

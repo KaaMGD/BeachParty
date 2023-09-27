@@ -33,7 +33,7 @@
     "descrip": "",
     "outcome": "",
     "miss": "",
-    "statusOutcome": "{AttackerName} surges upwards from the water, holding up a brilliantly-glistening dragon scale! Radiant energies fill the surrounding air and a protective shield forms around {AttackerName}, granting {AttackerHisOrHer} divine protection!",
+    "statusOutcome": "[AttackerName] surges upwards from the water, holding up a brilliantly-glistening dragon scale! Radiant energies fill the surrounding air and a protective shield forms around [AttackerName], granting [AttackerHisOrHer] divine protection!",
     "statusMiss": "",
     "restraintStruggle": "",
     "restraintStruggleCharmed": "",

@@ -451,12 +451,12 @@
                         {
                             "lineTrigger":"StanceStruggle",
                             "move": "Sex",
-                            "theText":["{ThePlayerName} tries to pull out from the slug's receptive, soft pussy..."]
+                            "theText":["[ThePlayerName] tries to pull out from the slug's receptive, soft pussy..."]
                         },
                         {
                             "lineTrigger":"StanceStruggleFail",
                             "move": "Sex",
-                            "theText":["But she keeps her arms tightly wrapped around {ThePlayerName}, keeping {TargetHisOrHer} shaft trapped snugly in her!",
+                            "theText":["But she keeps her arms tightly wrapped around [ThePlayerName], keeping [TargetHisOrHer] shaft trapped snugly in her!",
                                         "But as you rest your hand on her to push away you slip, collapsing back into her soft, jiggling body!",
                                         "But her mucus leaves your muscles weak, and you can't find the strength to pull out!"]
                         },
@@ -486,7 +486,7 @@
                         {
                             "lineTrigger":"StanceStruggle",
                             "move": "Titfuck",
-                            "theText":["{ThePlayerName} tries to pull out of the {AttackerName}'s massive tits..."]
+                            "theText":["[ThePlayerName] tries to pull out of the [AttackerName]'s massive tits..."]
                         },
                         {
                             "lineTrigger":"StanceStruggleFail",

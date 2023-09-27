@@ -197,7 +197,7 @@
 										"N-noo!",
 										"HitPlayerWith", "Tentacle In Mouth",
 										"ApplyStance", "Tentacle In Mouth",
-										"Messina panics and stuffs her tentacle in {ThePlayerName}'s mouth!",
+										"Messina panics and stuffs her tentacle in [ThePlayerName]'s mouth!",
 										"ChangeImageLayer", "Expression", "WorryBlush", 										
 										"Speaks",
 										"Ah, umm... I am sorry..!",

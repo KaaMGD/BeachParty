@@ -32,10 +32,10 @@
     "descrip": "",
     "outcome": "",
     "miss": "",
-    "statusOutcome": "{AttackerName} descends in a flash, coiling and wrapping her serpentine body around {TargetName}!",
-    "statusMiss": "{AttackerName} sends out and misses! This also shouldn't happen so report it to Kaa!",
-    "restraintStruggle": "{TargetName} struggles against {AttackerName}'s slippery coils...",
-    "restraintStruggleCharmed": "{TargetName} squirms against {AttackerName}'s slippery coils, barely resisting the urge to settle into the restraining embrace of {TargetHisOrHer} dragon goddess...",
-    "restraintEscaped": "{TargetName} manages to free himself of the restraining serpent coils!",
-    "restraintEscapedFail": "But {TargetName} remains bound by the slimy serpent coils!"
+    "statusOutcome": "[AttackerName] descends in a flash, coiling and wrapping her serpentine body around [TargetName]!",
+    "statusMiss": "[AttackerName] sends out and misses! This also shouldn't happen so report it to Kaa!",
+    "restraintStruggle": "[TargetName] struggles against [AttackerName]'s slippery coils...",
+    "restraintStruggleCharmed": "[TargetName] squirms against [AttackerName]'s slippery coils, barely resisting the urge to settle into the restraining embrace of [TargetHisOrHer] dragon goddess...",
+    "restraintEscaped": "[TargetName] manages to free himself of the restraining serpent coils!",
+    "restraintEscapedFail": "But [TargetName] remains bound by the slimy serpent coils!"
 }

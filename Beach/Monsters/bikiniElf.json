@@ -685,7 +685,7 @@
                         {
                             "lineTrigger":"StanceStruggle",
                             "move": "Sex",
-                            "theText":["{ThePlayerName} tries to pull out of the {AttackerName}'s tight pussy..."]
+                            "theText":["[ThePlayerName] tries to pull out of the [AttackerName]'s tight pussy..."]
                         },
                         {
                             "lineTrigger":"StanceStruggleFail",
@@ -723,7 +723,7 @@
                         {
                             "lineTrigger":"StanceStruggle",
                             "move": "Anal",
-                            "theText":["{ThePlayerName} tries to pull out of the {AttackerName}'s tight ass..."]
+                            "theText":["[ThePlayerName] tries to pull out of the [AttackerName]'s tight ass..."]
                         },
                         {
                             "lineTrigger":"StanceStruggleFail",
@@ -758,7 +758,7 @@
                         {
                             "lineTrigger":"StanceStruggle",
                             "move": "Blowjob",
-                            "theText":["{ThePlayerName} tries to push the {AttackerName}'s mouth away from {TargetHisOrHer} rigid shaft..."]
+                            "theText":["[ThePlayerName] tries to push the [AttackerName]'s mouth away from [TargetHisOrHer] rigid shaft..."]
                         },
                         {
                             "lineTrigger":"StanceStruggleFail",
@@ -792,7 +792,7 @@
                         {
                             "lineTrigger":"StanceStruggle",
                             "move": "Titfuck",
-                            "theText":["{ThePlayerName} tries to free {TargetHisOrHer} rigid shaft from {AttackerName}'s tight swimsuit cleavage..."]
+                            "theText":["[ThePlayerName] tries to free [TargetHisOrHer] rigid shaft from [AttackerName]'s tight swimsuit cleavage..."]
                         },
                         {
                             "lineTrigger":"StanceStruggleFail",
@@ -826,12 +826,12 @@
                         {
                             "lineTrigger":"StanceStruggle",
                             "move": "Making Out",
-                            "theText":["{ThePlayerName} tries to break the deep kiss with the elf..."]
+                            "theText":["[ThePlayerName] tries to break the deep kiss with the elf..."]
                         },
                         {
                             "lineTrigger":"StanceStruggleFail",
                             "move": "Making Out",
-                            "theText":["|f|ChangeImageFor|/|Lustful|n|But she keeps a tight hold on {ThePlayerName}, and he stays locked in a deep, loving kiss!",
+                            "theText":["|f|ChangeImageFor|/|Lustful|n|But she keeps a tight hold on [ThePlayerName], and he stays locked in a deep, loving kiss!",
                                         "|f|ChangeImageFor|/|Lustful|n|But as you start to push her away she wraps an arm around the back of your head, deepening the kiss while she gazes lustfully into your eyes."]
                         },
                         {

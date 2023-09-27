@@ -595,12 +595,12 @@
                         {
                             "lineTrigger":"StanceStruggle",
                             "move": "Sex",
-                            "theText":["{ThePlayerName} tries to pull out from the mermaid's slimy pussy..."]
+                            "theText":["[ThePlayerName] tries to pull out from the mermaid's slimy pussy..."]
                         },
                         {
                             "lineTrigger":"StanceStruggleFail",
                             "move": "Sex",
-                            "theText":["But she forces her hips back on {ThePlayerName}, pushing {TargetHisOrHer} shaft back inside her!",
+                            "theText":["But she forces her hips back on [ThePlayerName], pushing [TargetHisOrHer] shaft back inside her!",
                                         "But as you get away, the mermaid hums and your heart skips a beat, making you needily thrust back into her!",
                                         "But you shiver as her slippery vaginal canal squeezes you tightly and lose the strength to pull out!"]
                         },
@@ -630,7 +630,7 @@
                         {
                             "lineTrigger":"StanceStruggle",
                             "move": "Anal",
-                            "theText":["{ThePlayerName} tries to pull out of the {AttackerName}'s tight ass..."]
+                            "theText":["[ThePlayerName] tries to pull out of the [AttackerName]'s tight ass..."]
                         },
                         {
                             "lineTrigger":"StanceStruggleFail",
@@ -661,12 +661,12 @@
                         {
                             "lineTrigger":"StanceStruggle",
                             "move": "Making Out",
-                            "theText":["{ThePlayerName} tries to pull away from the mermaid's suffocating kiss..."]
+                            "theText":["[ThePlayerName] tries to pull away from the mermaid's suffocating kiss..."]
                         },
                         {
                             "lineTrigger":"StanceStruggleFail",
                             "move": "Making Out",
-                            "theText":["But she keeps her arms on {ThePlayerName}'s shoulders, keeping {TargetHimOrHer} in a sloppy, saliva-soaked make out session!",
+                            "theText":["But she keeps her arms on [ThePlayerName]'s shoulders, keeping [TargetHimOrHer] in a sloppy, saliva-soaked make out session!",
                                         "But as you pull away and gasp for air, the mermaid forces her kiss back on you!",
                                         "But as you start to pull away, the mermaid hums, making your heart skip a beat and allowing her to keep kissing you."]
                         },
@@ -694,7 +694,7 @@
                         {
                             "lineTrigger":"StanceStruggle",
                             "move": "Blowjob",
-                            "theText":["{ThePlayerName} tries to push {AttackerName}'s drooling mouth away from {TargetHisOrHer} rigid shaft..."]
+                            "theText":["[ThePlayerName] tries to push [AttackerName]'s drooling mouth away from [TargetHisOrHer] rigid shaft..."]
                         },
                         {
                             "lineTrigger":"StanceStruggleFail",

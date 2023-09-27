@@ -34,8 +34,8 @@
     "miss": "",
     "statusOutcome": " ",
     "statusMiss": " ",
-    "restraintStruggle": "{TargetName} struggles against {AttackerName}'s massive body pressing over {TargetHimOrHer}, all while {AttackerHeOrShe} continues to thrust {AttackerHimOrHer} wide hips against {TargetHimOrHer} softly...",
-    "restraintStruggleCharmed": "{TargetName} struggles against {AttackerName}'s massive body pressing over {TargetHimOrHer}, all while {AttackerHeOrShe} continues to thrust {AttackerHimOrHer} wide hips against {TargetHimOrHer} softly...",
+    "restraintStruggle": "[TargetName] struggles against [AttackerName]'s massive body pressing over [TargetHimOrHer], all while [AttackerHeOrShe] continues to thrust [AttackerHimOrHer] wide hips against [TargetHimOrHer] softly...",
+    "restraintStruggleCharmed": "[TargetName] struggles against [AttackerName]'s massive body pressing over [TargetHimOrHer], all while [AttackerHeOrShe] continues to thrust [AttackerHimOrHer] wide hips against [TargetHimOrHer] softly...",
     "restraintEscaped": "|f|CallCombatEventAndScene|/|SeaSlugCombatEvents|/|BreakFree|n|",
-    "restraintEscapedFail": "But {TargetName} can't push off the slimy, sticky and heavy Sea Slug!"
+    "restraintEscapedFail": "But [TargetName] can't push off the slimy, sticky and heavy Sea Slug!"
 }

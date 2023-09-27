@@ -58,7 +58,7 @@
         											  "ChangeBG", "../Mods/Beach/Images/beach.png",
                                 "Emerging from the dark palce and into the sunlight Messina visibly deflates and stops for a moment. Clenching her fists she sets her gaze on the town and speaks up, not turning to face you.",
         											  "ChangeImageLayer", "Expression", "1", "Sad",
-                                "Speaks", "Okay... {ThePlayerName}. I think I have to... do this on my own.",
+                                "Speaks", "Okay... [ThePlayerName]. I think I have to... do this on my own.",
         											  "ChangeImageLayer", "Expression", "1", "Base",
                                 "Speaks", "But come visit soon... My salon will be right behind the inn...",
         											  "ChangeImageLayer", "Expression", "1", "NaughtyBlush",

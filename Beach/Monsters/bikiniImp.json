@@ -563,15 +563,15 @@
                         {
                             "lineTrigger": "StanceStruggle",
                             "move": "Sex",
-                            "theText": [ "{ThePlayerName} tries to pull out of {AttackerName}'s tight pussy..."]
+                            "theText": [ "[ThePlayerName] tries to pull out of [AttackerName]'s tight pussy..."]
                         },
                         {
                             "lineTrigger": "StanceStruggleFail",
                             "move": "Sex",
-                            "theText": [ "But {AttackerName} refuses to be dislodged from your cock and continues to ride your shaft!",
-                                        "But with surprising force, {AttackerName} slams her hips back into yours!",
+                            "theText": [ "But [AttackerName] refuses to be dislodged from your cock and continues to ride your shaft!",
+                                        "But with surprising force, [AttackerName] slams her hips back into yours!",
                                         "But as you grab her hips to pull out, she firmly grabs your balls making you lose your momentum, keeping your cock snug inside of her!",
-                                        "But {AttackerName} briefly sensitizes your body with magic, making you shudder and moan as she stops your escape attempt in its tracks!"]
+                                        "But [AttackerName] briefly sensitizes your body with magic, making you shudder and moan as she stops your escape attempt in its tracks!"]
                         },
                         {
                             "lineTrigger": "StanceStruggleComment",
@@ -592,15 +592,15 @@
                         {
                             "lineTrigger": "StanceStruggle",
                             "move": "Anal",
-                            "theText": [ "{ThePlayerName} tries to pull out of {AttackerName}'s tight ass..."]
+                            "theText": [ "[ThePlayerName] tries to pull out of [AttackerName]'s tight ass..."]
                         },
                         {
                             "lineTrigger": "StanceStruggleFail",
                             "move": "Anal",
-                            "theText": [ "But {AttackerName} refuses to be dislodged from your cock and continues to ride your shaft!",
-                                        "But with surprising force, {AttackerName} slams her hips back into yours!",
+                            "theText": [ "But [AttackerName] refuses to be dislodged from your cock and continues to ride your shaft!",
+                                        "But with surprising force, [AttackerName] slams her hips back into yours!",
                                         "But as you grab her hips to pull out, she firmly grabs your balls making you lose your momentum. Keeping you snug inside of her!",
-                                        "But {AttackerName} briefly sensitizes your body with magic, making you shudder and moan as she stops your escape attempt in its tracks!"]
+                                        "But [AttackerName] briefly sensitizes your body with magic, making you shudder and moan as she stops your escape attempt in its tracks!"]
                         },
                         {
                             "lineTrigger": "StanceStruggleComment",
@@ -622,7 +622,7 @@
                         {
                             "lineTrigger": "StanceStruggle",
                             "move": "Face Sit",
-                            "theText": [ "{ThePlayerName} tries to push {AttackerName}'s round ass off {TargetHisOrHer} face..."]
+                            "theText": [ "[ThePlayerName] tries to push [AttackerName]'s round ass off [TargetHisOrHer] face..."]
                         },
                         {
                             "lineTrigger": "StanceStruggleFail",
@@ -642,8 +642,8 @@
                         {
                             "lineTrigger": "StanceStruggleFree",
                             "move": "Face Sit",
-                            "theText": [ "And manage to push {AttackerName}'s shapely rear away!",
-                                      "And as you free yourself from {AttackerName}'s firm behind, you gasp for some air!"]
+                            "theText": [ "And manage to push [AttackerName]'s shapely rear away!",
+                                      "And as you free yourself from [AttackerName]'s firm behind, you gasp for some air!"]
                         },
                         {
                             "lineTrigger": "StanceStruggleFreeComment",
@@ -656,7 +656,7 @@
                         {
                             "lineTrigger": "StanceStruggle",
                             "move": "Blowjob",
-                            "theText": [ "{ThePlayerName} tries to push {AttackerName}'s mouth away from {TargetHisOrHer} rigid shaft..."]
+                            "theText": [ "[ThePlayerName] tries to push [AttackerName]'s mouth away from [TargetHisOrHer] rigid shaft..."]
                         },
                         {
                             "lineTrigger": "StanceStruggleFail",
@@ -685,12 +685,12 @@
                         {
                             "lineTrigger": "StanceStruggle",
                             "move": "Making Out",
-                            "theText": [ "{ThePlayerName} tries to break the deep kiss with {AttackerName}..."]
+                            "theText": [ "[ThePlayerName] tries to break the deep kiss with [AttackerName]..."]
                         },
                         {
                             "lineTrigger": "StanceStruggleFail",
                             "move": "Making Out",
-                            "theText": [ "But she keeps a tight hold on {ThePlayerName}, and he stays locked in a deep kiss!",
+                            "theText": [ "But she keeps a tight hold on [ThePlayerName], and he stays locked in a deep kiss!",
                                         "But as you start to push her away she wraps an arm around the back of your head, deepening the kiss while she gazes lustfully into your eyes."]
                         },
                         {
@@ -702,7 +702,7 @@
                         {
                             "lineTrigger": "StanceStruggleFree",
                             "move": "Making Out",
-                            "theText": [ "And free your mouth from {AttackerName}'s soft lips!"]
+                            "theText": [ "And free your mouth from [AttackerName]'s soft lips!"]
                         },
                         {
                             "lineTrigger": "StanceStruggleFreeComment",
