@@ -1,8 +1,8 @@
 {
     "name": "Beach Party",
     "description": "Adds the {b}Beach Resort{/b} location with original characters, art, and bikini variants of base game generics.\nThe location is unlocked from the start, to the very right of the town.",
-    "testedFor": {"major": 25, "minor": 4, "patch": 1},
-    "version": 4.6,
+    "testedFor": {"major": 25, "minor": 6, "patch": 0},
+    "version": 4.7,
     "tags" : [
         "+1 Location",
         "+7 Characters",
